@@ -1,0 +1,12 @@
+name: "UNEXCOM: Directorate 17"
+version: "0.1"
+author: "Brother^2, efrenespartano + IDT"
+description: "1958. As the KGB's Directorate 17, unravel a fascist conspiracy in Europe and its alien puppeteers. Prequel to UNEXCOM Bureau 11."
+id: Directorate_17
+isMaster: true
+master: xcom1
+loadResources:
+  - UFO
+reservedSpace: 3
+requiredExtendedVersion: "7.6"
+resourceConfig: transparency.rul
