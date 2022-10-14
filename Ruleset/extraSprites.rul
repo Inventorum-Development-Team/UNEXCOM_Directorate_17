@@ -1,0 +1,274 @@
+extraSprites:
+  - type: BIGOBS.PCK
+    files:
+      200: Resources/Items/Weapons/Makarov/Unloaded_Big.png
+      208: Resources/Items/Weapons/Makarov/Loaded_8_Big.png
+      216: Resources/Items/Weapons/Makarov/Mag_8_Big.png
+      248: Resources/Items/Weapons/AK-47/Unloaded_Big.png
+      256: Resources/Items/Weapons/AK-47/Loaded_30_Big.png
+      264: Resources/Items/Weapons/AK-47/Mag_30_Big.png
+      272: Resources/Items/Weapons/Welrod/Unloaded_Big.png
+      280: Resources/Items/Weapons/Welrod/Loaded_15_Big.png
+      288: Resources/Items/Weapons/Welrod/Mag_15_Big.png
+      296: Resources/Items/Weapons/DeLisle/Unloaded_Big.png
+      304: Resources/Items/Weapons/DeLisle/Loaded_7_Big.png
+      312: Resources/Items/Weapons/DeLisle/Mag_7_Big.png
+      500: Resources/Armors/Officer_Coat/Corpse/Coat_Big.png
+      501: Resources/Armors/Agent_Coat/Corpse/bigob_coat_corpse.png
+      1500: Resources/Units/Enemies/Gladio/BIGOBS/bigOb_Gladio_corpse.png
+      1501: Resources/Units/Enemies/Thin Man/BIGOBS/bigOb_ThinMan_corpse.png
+      1502: Resources/Units/Enemies/Cryptids/BIGOBS/bigob_MONGORN_CORPSE.png
+      1503: Resources/Units/Enemies/Cryptids/BIGOBS/bigob_WEREOWL_CORPSE.png
+      1504: Resources/Units/Enemies/Cryptids/BIGOBS/bigob_WEREWOLF_CORPSE.png
+      1900: Resources/Items/Misc/Medical_Bag/Gadget_Big.png
+      2000: Resources/UI/Blanks/Null_Void_3x3.png
+      2001: Resources/UI/Blanks/Null_Void_2x1.png
+      2002: Resources/UI/Blanks/Null_Void_4x2.png
+      2003: Resources/UI/Blanks/Null_Void_1x2.png
+      2004: Resources/UI/Blanks/Null_Void_1x1.png
+      2005: Resources/UI/Blanks/Null_Void_2x3.png
+      2006: Resources/UI/Blanks/Null_Void_Belt.png
+      2007: Resources/UI/Blanks/Null_Void_transparent_3x3.png
+  - type: FLOOROB.PCK
+    files:
+      200: Resources/Items/Weapons/Makarov/Unloaded_Floor.png
+      208: Resources/Items/Weapons/Makarov/Loaded_8_Floor.png
+      216: Resources/Items/Weapons/Makarov/Mag_8_Floor.png
+      248: Resources/Items/Weapons/AK-47/Unloaded_Floor.png
+      256: Resources/Items/Weapons/AK-47/Loaded_30_Floor.png
+      264: Resources/Items/Weapons/AK-47/Mag_30_Floor.png
+      272: Resources/Items/Weapons/Welrod/Unloaded_Floor.png
+      280: Resources/Items/Weapons/Welrod/Loaded_15_Floor.png
+      288: Resources/Items/Weapons/Welrod/Mag_15_Floor.png
+      296: Resources/Items/Weapons/DeLisle/Unloaded_Floor.png
+      304: Resources/Items/Weapons/DeLisle/Loaded_7_Floor.png
+      312: Resources/Items/Weapons/DeLisle/Mag_7_Floor.png
+      500: Resources/Armors/Officer_Coat/Corpse/Coat_Floor.png
+      501: Resources/Armors/Agent_Coat/Corpse/floorob_coat_corpse.png
+      1500: Resources/Units/Enemies/Gladio/FLOOROBS/floorOb_Gladio_corpse.png
+      1501: Resources/Units/Enemies/Thin Man/FLOOROBS/floorOb_ThinMan_corpse.png
+      1502: Resources/Units/Enemies/Cryptids/FLOOROBS/floorob_MONGORN_CORPSE.png
+      1503: Resources/Units/Enemies/Cryptids/FLOOROBS/floorob_WEREOWL_CORPSE.png
+      1504: Resources/Units/Enemies/Cryptids/FLOOROBS/floorob_WEREWOLF_CORPSE.png
+      1900: Resources/Items/Misc/Medical_Bag/Gadget_Floor.png
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      200: Resources/Items/Weapons/Makarov/Unloaded_Hand.png
+      208: Resources/Items/Weapons/Makarov/Loaded_8_Hand.png
+      216: Resources/Items/Weapons/Makarov/Mag_8_Hand.png
+      248: Resources/Items/Weapons/AK-47/Unloaded_Hand.png
+      256: Resources/Items/Weapons/AK-47/Loaded_30_Hand.png
+      264: Resources/Items/Weapons/AK-47/Mag_30_Hand.png
+      272: Resources/Items/Weapons/Welrod/Unloaded_Hand.png
+      280: Resources/Items/Weapons/Welrod/Loaded_15_Hand.png
+      288: Resources/Items/Weapons/Welrod/Mag_15_Hand.png
+      296: Resources/Items/Weapons/DeLisle/Unloaded_Hand.png
+      304: Resources/Items/Weapons/DeLisle/Loaded_7_Hand.png
+      312: Resources/Items/Weapons/DeLisle/Mag_7_Hand.png
+      1900: Resources/Items/Misc/Medical_Bag/Gadget_Hand.png
+
+  - type: BASEBITS.PCK
+    files:
+      133: Resources/Craft/Van/Base.png
+      800: Resources/Soldiers/RankSprites/Rank0_Lieutenant.png
+      801: Resources/Soldiers/RankSprites/Rank1_Captain.png
+      802: Resources/Soldiers/RankSprites/Rank2_Major.png
+      803: Resources/Soldiers/RankSprites/Rank3_Lt_Colonel.png
+      804: Resources/Soldiers/RankSprites/Rank4_Colonel.png
+  - type: INTICON.PCK
+    files:
+      100: Resources/Craft/Van/Minimized.png
+      111: Resources/Craft/Van/Dogfight.png
+  - type: SMOKE.PCK
+    files:
+      # KGB Rank Sprites
+      800: Resources/Soldiers/RankSprites/Rank0_Lieutenant.png
+      801: Resources/Soldiers/RankSprites/Rank1_Captain.png
+      802: Resources/Soldiers/RankSprites/Rank2_Major.png
+      803: Resources/Soldiers/RankSprites/Rank3_Lt_Colonel.png
+      804: Resources/Soldiers/RankSprites/Rank4_Colonel.png
+  - type: Flag0
+    singleImage: true
+    files:
+      0: Resources/Soldiers/Flags/USSR.png
+
+  - type: OFFICER_COAT.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Officer_Coat/Coat.png
+  - type: AGENT_COAT.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/Agent_Coat/CoatSpritesheet.png
+
+  - type: MAN_KGBF0.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Officer_Coat/Inventory/MAN_F0.png
+  - type: MAN_KGBF1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Officer_Coat/Inventory/MAN_F1.png
+  - type: MAN_KGBF2.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Officer_Coat/Inventory/MAN_F2.png
+  - type: MAN_KGBF3.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Officer_Coat/Inventory/MAN_F3.png
+  - type: MAN_KGBM0.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Officer_Coat/Inventory/MAN_M0.png
+  - type: MAN_KGBM1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Officer_Coat/Inventory/MAN_M1.png
+  - type: MAN_KGBM2.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Officer_Coat/Inventory/MAN_M2.png
+  - type: MAN_KGBM3.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Officer_Coat/Inventory/MAN_M3.png
+  - type: MAN_KGBALTF0.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Agent_Coat/Inventory/MAN_F0.png
+  - type: MAN_KGBALTF1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Agent_Coat/Inventory/MAN_F1.png
+  - type: MAN_KGBALTF2.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Agent_Coat/Inventory/MAN_F2.png
+  - type: MAN_KGBALTF3.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Agent_Coat/Inventory/MAN_F3.png
+  - type: MAN_KGBALTM0.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Agent_Coat/Inventory/MAN_M0.png
+  - type: MAN_KGBALTM1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Agent_Coat/Inventory/MAN_M1.png
+  - type: MAN_KGBALTM2.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Agent_Coat/Inventory/MAN_M2.png
+  - type: MAN_KGBALTM3.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/Agent_Coat/Inventory/MAN_M3.png
+
+# Gladio
+  - type: GLADIO_OPERATIVE.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Units/Enemies/Gladio/GladioOperativeSuitSpritesheet.png
+  - type: inventory_GLADIO_OPREATIVE_M
+    singleImage: true
+    files:
+      0: Resources/Units/Enemies/Gladio/Inventory/GLADIO_MALE_OPERATIVE_INV.png
+  - type: inventory_GLADIO_OPREATIVE_F
+    singleImage: true
+    files:
+      0: Resources/Units/Enemies/Gladio/Inventory/GLADIO_FEMALE_OPERATIVE_INV.png
+# Thin Man
+  - type: THIN_MAN.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Units/Enemies/Thin Man/ThinManSpritesheet.png
+  - type: inventory_THIN_MAN
+    singleImage: true
+    files:
+      0: Resources/Units/Enemies/Thin Man/Inventory/THIN_MAN_INV.png
+# Cryptids
+  - type: MONGORN.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Units/Enemies/Cryptids/MONGORN.png
+  - type: inventory_MONGORN
+    singleImage: true
+    files:
+      0: Resources/Units/Enemies/Cryptids/Inventory/inventory_MONGORN.png
+  - type: WEREOWL.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Units/Enemies/Cryptids/WEREOWL.png
+  - type: inventory_WEREOWL
+    singleImage: true
+    files:
+      0: Resources/Units/Enemies/Cryptids/Inventory/inventory_WEREOWL.png
+  - type: WEREWOLF.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Units/Enemies/Cryptids/WEREWOLF.png
+  - type: inventory_WEREWOLF
+    singleImage: true
+    files:
+      0: Resources/Units/Enemies/Cryptids/Inventory/inventory_WEREWOLF.png
+
+# UI Indicators
+  - type: BigBurnIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/burning.png
+  - type: BigStunIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Zzz.png
+  - type: BigWoundIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Bleed.png
+  - type: BigShockIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Shock.png
+  - type: FloorBurnIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/burning.png
+  - type: FloorStunIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Zzz.png
+  - type: FloorWoundIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Bleed.png
+  - type: FloorShockIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Shock.png

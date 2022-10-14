@@ -1,0 +1,59 @@
+facilities:
+  - type: STR_ACCESS_LIFT
+    radarRange: 700
+    radarChance: 100
+  - type: STR_LIVING_QUARTERS
+    personnel: 25
+    buildTime: 8
+  - type: STR_GENERAL_STORES
+    storage: 25
+    buildTime: 5
+    aliens: 2
+  - type: STR_HANGAR
+    buildTime: 10
+  - type: STR_MISSILE_DEFENSES
+    requires:
+      - STR_COMMANDER_PLUS
+    defense: 9999
+    hitRatio: 100
+    fireSound: 5
+    hitSound: 10
+  - type: STR_LABORATORY
+    requires:
+      - STR_COMMANDER_PLUS
+  - type: STR_WORKSHOP
+    requires:
+      - STR_COMMANDER_PLUS
+  - type: STR_SMALL_RADAR_SYSTEM
+    requires:
+      - STR_COMMANDER_PLUS
+    radarRange: 0
+  - type: STR_LARGE_RADAR_SYSTEM
+    requires:
+      - STR_COMMANDER_PLUS
+    radarRange: 0
+  - type: STR_ALIEN_CONTAINMENT
+    requires:
+      - STR_COMMANDER_PLUS
+  - type: STR_LASER_DEFENSES
+    requires:
+      - STR_COMMANDER_PLUS
+  - type: STR_PLASMA_DEFENSES
+    requires:
+      - STR_COMMANDER_PLUS
+  - type: STR_FUSION_BALL_DEFENSES
+    requires:
+      - STR_COMMANDER_PLUS
+  - type: STR_GRAV_SHIELD
+    requires:
+      - STR_COMMANDER_PLUS
+  - type: STR_MIND_SHIELD
+    requires:
+      - STR_COMMANDER_PLUS
+  - type: STR_PSIONIC_LABORATORY
+    requires:
+      - STR_COMMANDER_PLUS
+  - type: STR_HYPER_WAVE_DECODER
+    requires:
+      - STR_COMMANDER_PLUS
+    radarRange: 0

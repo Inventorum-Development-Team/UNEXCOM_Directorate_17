@@ -1,0 +1,41 @@
+crafts:
+  - delete: STR_SKYRANGER
+  - delete: STR_INTERCEPTOR
+  - delete: STR_LIGHTNING
+  - delete: STR_AVENGER
+  - type: STR_VAN
+    sprite: 100
+    fuelMax: 9999
+    damageMax: 10
+    speedMax: 15
+    accel: 1
+    soldiers: 6
+    vehicles: 0
+    costBuy: 15000
+    costRent: 2500
+    costSell: 0
+    maxItems: 80
+    refuelRate: 9999
+    repairRate: 4
+    transferTime: 48
+    score: 5
+    radarRange: 0
+    keepCraftAfterFailedMission: true
+    battlescapeTerrainData:
+      name: VAN
+      mapDataSets:
+        - BLANKS
+        - VAN
+      mapBlocks:
+        - name: VAN
+          width: 10
+          length: 10
+    craftInventoryTile: [5, 3, 0]
+    deployment:
+      - [6, 7, 0, 3]
+      - [3, 7, 0, 5]
+      - [6, 6, 0, 2]
+      - [3, 6, 0, 6]
+      - [5, 3, 0, 0]
+      - [4, 3, 0, 0]
+    listOrder: 100

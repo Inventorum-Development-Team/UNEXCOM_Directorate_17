@@ -1,0 +1,632 @@
+items:
+  - delete: STR_TANK_CANNON
+  - delete: STR_HWP_CANNON_SHELLS
+  - delete: STR_TANK_ROCKET_LAUNCHER
+  - delete: STR_HWP_ROCKETS
+  - delete: STR_TANK_LASER_CANNON
+  - delete: STR_HOVERTANK_PLASMA
+  - delete: STR_HOVERTANK_LAUNCHER
+  - delete: STR_PERSONAL_ARMOR_UC
+  - delete: STR_POWER_SUIT_UC
+  - delete: STR_FLYING_SUIT_UC
+  - delete: STR_PISTOL
+  - delete: STR_PISTOL_CLIP
+  - delete: STR_RIFLE
+  - delete: STR_RIFLE_CLIP
+  - delete: STR_HEAVY_CANNON
+  - delete: STR_HC_AP_AMMO
+  - delete: STR_HC_I_AMMO
+  - delete: STR_HC_HE_AMMO
+  - delete: STR_AUTO_CANNON
+  - delete: STR_AC_AP_AMMO
+  - delete: STR_AC_I_AMMO
+  - delete: STR_AC_HE_AMMO
+  - delete: STR_ROCKET_LAUNCHER
+  - delete: STR_SMALL_ROCKET
+  - delete: STR_LARGE_ROCKET
+  - delete: STR_INCENDIARY_ROCKET
+  - delete: STR_GRENADE
+  - delete: STR_SMOKE_GRENADE
+  - delete: STR_PROXIMITY_GRENADE
+  - delete: STR_HIGH_EXPLOSIVE
+  - delete: STR_ELECTRO_FLARE
+  - delete: STR_MOTION_SCANNER
+  - delete: STR_STUN_ROD
+  - delete: STR_PSI_AMP
+  - delete: STR_MEDI_KIT
+  - delete: STR_LASER_PISTOL
+  - delete: STR_LASER_RIFLE
+  - delete: STR_HEAVY_LASER
+  - delete: STR_PLASMA_PISTOL
+  - delete: STR_PLASMA_PISTOL_CLIP
+  - delete: STR_PLASMA_RIFLE
+  - delete: STR_PLASMA_RIFLE_CLIP
+  - delete: STR_HEAVY_PLASMA
+  - delete: STR_HEAVY_PLASMA_CLIP
+  - delete: STR_SMALL_LAUNCHER
+  - delete: STR_STUN_BOMB
+  - delete: STR_BLASTER_LAUNCHER
+  - delete: STR_BLASTER_BOMB
+  - delete: STR_ALIEN_GRENADE
+  - delete: STR_MIND_PROBE
+  - delete: STR_STINGRAY_LAUNCHER
+  - delete: STR_STINGRAY_MISSILES
+  - delete: STR_AVALANCHE_LAUNCHER
+  - delete: STR_AVALANCHE_MISSILES
+  - delete: STR_CANNON
+  - delete: STR_CANNON_ROUNDS_X50
+
+# Psionic LOS Required
+  - type: ALIEN_PSI_WEAPON
+    LOSRequired: true
+
+# Makarov
+  - type: STR_MAKAROV
+    categories: [STR_FIREARMS, STR_PISTOLS, STR_SEMI_CONCEALED]
+    size: 0.1
+    costBuy: 900
+    costSell: 800
+    weight: 5
+    bigSprite: 200
+    floorSprite: 200
+    handSprite: 200
+    bulletSprite: 1
+    fireSound: 200
+    reloadSound: 201
+    compatibleAmmo:
+      - STR_MAKAROV_MAG
+    confSnap:
+      shots: 1
+      name: STR_HIP_FIRE
+    snapRange: 2
+    accuracySnap: 80
+    tuSnap: 10
+    confAuto:
+      shots: 2
+      name: STR_DOUBLE_TAP
+    autoRange: 7
+    accuracyAuto: 45
+    tuAuto: 15
+    accuracyCloseQuarters: 150
+    tuLoad: 10
+    dropoff: 4
+    kneelBonus: 115
+    costThrow:
+      energy: 8
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    armor: 35
+    listOrder: 200
+  - type: STR_MAKAROV_MAG
+    categories: [STR_AMMUNITION, STR_PISTOLS, STR_SEMI_CONCEALED]
+    size: 0.1
+    costBuy: 150
+    costSell: 100
+    weight: 1
+    bigSprite: 216
+    floorSprite: 216
+    handSprite: 216
+    hitAnimation: -1
+    bulletSpeed: 30
+    power: 26
+    damageType: 1
+    damageAlter:
+      RandomType: 2
+      ToTile: 0.1
+    clipSize: 8
+    battleType: 2
+    armor: 10
+    listOrder: 201
+
+# AK-47
+  - type: STR_AK_47
+    categories: [STR_FIREARMS, STR_RIFLES, STR_MACHINE_GUNS]
+    size: 0.2
+    costBuy: 3000
+    costSell: 2780
+    weight: 15
+    bigSprite: 248
+    floorSprite: 248
+    handSprite: 248
+    bulletSprite: 1
+    fireSound: 204
+    reloadSound: 205
+    compatibleAmmo:
+      - STR_AK_47_MAG
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+    aimedRange: 18
+    accuracyAimed: 110
+    tuAimed: 65
+    confSnap:
+      shots: 1
+      name: STR_HIP_FIRE
+    snapRange: 2
+    accuracySnap: 60
+    tuSnap: 15
+    confAuto:
+      shots: 5
+      name: STR_FULL_AUTO_5
+    autoRange: 6
+    accuracyAuto: 20
+    tuAuto: 40
+    tuLoad: 20
+    dropoff: 2
+    kneelBonus: 150
+    costThrow:
+      energy: 15
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    twoHanded: true
+    meleeType: 7
+    meleePower: 20
+    meleeBonus:
+      strength: 1.2
+      melee: 0.3
+    accuracyMelee: 100
+    meleeMultiplier:
+      flatHundred: 0.5
+      melee: 0.75
+    costMelee:
+      time: 3
+      energy: 6
+    flatMelee:
+      time: true
+    listOrder: 202
+  - type: STR_AK_47_MAG
+    categories: [STR_AMMUNITION, STR_RIFLES, STR_MACHINE_GUNS]
+    size: 0.1
+    costBuy: 500
+    costSell: 420
+    weight: 3
+    bigSprite: 264
+    floorSprite: 264
+    handSprite: 264
+    bulletSpeed: 30
+    hitAnimation: -1
+    power: 50
+    damageAlter:
+      ToStun: 0.15
+      ToTile: 0.1
+    damageType: 1
+    clipSize: 30
+    battleType: 2
+    armor: 20
+    listOrder: 203
+
+# Welrod
+  - type: STR_WELROD
+    categories: [STR_FIREARMS, STR_PISTOLS, STR_GLADIO, STR_SEMI_CONCEALED, STR_CONCEALED]
+    size: 0.1
+    costSell: 940
+    weight: 6
+    bigSprite: 272
+    floorSprite: 272
+    handSprite: 272
+    bulletSprite: 1
+    fireSound: 206
+    reloadSound: 207
+    compatibleAmmo:
+      - STR_WELROD_MAG
+    confSnap:
+      shots: 1
+      name: STR_HIP_FIRE
+    snapRange: 2
+    accuracySnap: 65
+    tuSnap: 20
+    accuracyCloseQuarters: 150
+    tuLoad: 20
+    dropoff: 4
+    kneelBonus: 115
+    costThrow:
+      energy: 8
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    armor: 35
+    listOrder: 204
+  - type: STR_WELROD_MAG
+    categories: [STR_AMMUNITION, STR_PISTOLS, STR_GLADIO, STR_SEMI_CONCEALED, STR_CONCEALED]
+    size: 0.1
+    costSell: 150
+    weight: 1
+    bigSprite: 288
+    floorSprite: 288
+    handSprite: 288
+    hitAnimation: -1
+    bulletSpeed: 30
+    power: 28
+    damageType: 1
+    damageAlter:
+      ToWound: 0.3
+      RandomWound: false
+      ToTile: 0.1
+    clipSize: 10
+    battleType: 2
+    armor: 10
+    listOrder: 205
+
+# DeLisle
+  - type: STR_DELISLE
+    categories: [STR_FIREARMS, STR_CARBINES, STR_SNIPERS, STR_GLADIO, STR_SEMI_CONCEALED]
+    size: 0.2
+    costSell: 3400
+    weight: 15
+    bigSprite: 296
+    floorSprite: 296
+    handSprite: 296
+    bulletSprite: 1
+    fireSound: 208
+    reloadSound: 209
+    compatibleAmmo:
+      - STR_DELISLE_MAG
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+    aimRange: 30
+    accuracyAimed: 140
+    tuAimed: 75
+    confSnap:
+      shots: 1
+      name: STR_HIP_FIRE
+      ammoSlot: 0
+      arcing: false
+    snapRange: 2
+    accuracySnap: 65
+    tuSnap: 30
+    accuracyCloseQuarters: 50
+    tuLoad: 20
+    maxRange: 60
+    kneelBonus: 200
+    costThrow:
+      energy: 12
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    twoHanded: true
+    listOrder: 208
+  - type: STR_DELISLE_MAG
+    categories: [STR_AMMUNITION, STR_CARBINES, STR_SNIPERS, STR_GLADIO, STR_SEMI_CONCEALED]
+    size: 0.1
+    costSell: 150
+    weight: 1
+    bigSprite: 312
+    floorSprite: 312
+    handSprite: 312
+    hitAnimation: -1
+    bulletSpeed: 1
+    power: 40
+    damageAlter:
+      RandomType: 2
+      ToTile: 0.1
+    damageType: 1
+    clipSize: 7
+    battleType: 2
+    armor: 10
+    listOrder: 209
+
+# Medical Bag
+  - type: STR_MEDICAL_BAG
+    categories: [STR_MEDICAL, STR_SEMI_CONCEALED_STR_CONCEALED]
+    size: 0.2
+    costBuy: 1800
+    costSell: 1500
+    weight: 24
+    bigSprite: 1900
+    floorSprite: 1900
+    handSprite: 1900
+    painKiller: 6
+    heal: 6
+    stimulant: 6
+    woundRecovery: 3
+    healthRecovery: 5
+    costUse:
+      time: 30
+      energy: -3
+    invWidth: 2
+    invHeight: 2
+    armor: 20
+    battleType: 6
+    flatRate: true
+    listOrder: 400
+
+# KGB Officer Corpse
+  - type: STR_CORPSE_KGB
+    name: STR_CORPSE
+    weight: 60
+    bigSprite: 500
+    floorSprite: 500
+    invWidth: 2
+    invHeight: 3
+    armor: 50
+    recover: false
+    battleType: 11
+  - type: STR_CORPSE_KGBALT
+    name: STR_CORPSE
+    weight: 60
+    bigSprite: 501
+    floorSprite: 501
+    invWidth: 2
+    invHeight: 3
+    armor: 50
+    recover: false
+    battleType: 11
+
+# Gladio
+  - type: STR_GLADIO_OPERATIVE_CORPSE
+    name: STR_CORPSE
+    size: 0.4
+    costSell: -1000
+    weight: 60
+    bigSprite: 1500
+    floorSprite: 1500
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 10
+    battleType: 11
+    armor: 40
+    listOrder: 1500
+  - type: STR_GLADIO_OPERATIVE_M
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 20000
+    listOrder: 1500
+  - type: STR_GLADIO_OPERATIVE_M
+    size: 0.0
+    recover: true
+    recoveryPoints: 20
+    liveAlien: true
+    costSell: 20000
+    listOrder: 1500
+# Thin Man
+  - type: STR_THIN_MAN_CORPSE
+    size: 0.4
+    costSell: 50000
+    weight: 60
+    bigSprite: 1501
+    floorSprite: 1501
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 15
+    battleType: 11
+    armor: 40
+    listOrder: 1501
+  - type: STR_THIN_MAN
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 75000
+    listOrder: 1501
+# Cryptids
+  - type: STR_CHUCHUNYA_CORPSE
+    size: 0.4
+    costSell: 35000
+    weight: 60
+    bigSprite: 1502
+    floorSprite: 1502
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 10
+    battleType: 11
+    armor: 40
+    listOrder: 1502
+  - type: STR_CHUCHUNYA
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+    listOrder: 1502
+  - type: CHUCHUNYA_WEAPON
+    weight: 1
+    meleeSound: 48
+    clipSize: -1
+    power: 60
+    damageAlter:
+      ToStun: 0.5
+    damageType: 7
+    accuracyMelee: 80
+    costMelee:
+      time: 30
+      energy: 15
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    recover: false
+  - type: STR_ALKONOST_CORPSE
+    size: 0.4
+    costSell: 35000
+    weight: 60
+    bigSprite: 1503
+    floorSprite: 1503
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 10
+    battleType: 11
+    armor: 40
+    listOrder: 1503
+  - type: STR_ALKONOST
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+    listOrder: 1503
+  - type: ALKONOST_WEAPON
+    weight: 1
+    meleeSound: 48
+    clipSize: -1
+    power: 5
+    damageType: 7
+    accuracyMelee: 80
+    costMelee:
+      time: 3
+      energy: 6
+    damageAlter:
+      ArmorEffectiveness: 0.0
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    recover: false
+  - type: STR_WAWKALAK_CORPSE
+    size: 0.4
+    costSell: 35000
+    weight: 60
+    bigSprite: 1504
+    floorSprite: 1504
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 10
+    battleType: 11
+    armor: 40
+    listOrder: 1504
+  - type: STR_WAWKALAK
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+    listOrder: 1504
+  - type: WAWKALAK_WEAPON
+    weight: 1
+    meleeSound: 48
+    clipSize: -1
+    power: 50
+    damageType: 7
+    accuracyMelee: 100
+    damageAlter:
+      ToWound: 0.4
+      RandomWound: false
+    costMelee:
+      time: 40
+      energy: 10
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    recover: false
+
+# Inventory Blanks
+  - type: INV_NULL_HAND_L
+    weight: 0
+    bigSprite: 2007
+    invWidth: 2
+    invHeight: 3
+    fixedWeapon: true
+    defaultInventorySlot: STR_LEFT_HAND
+    recover: false
+  - type: INV_NULL_HAND_R
+    weight: 0
+    bigSprite: 2007
+    invWidth: 2
+    invHeight: 3
+    fixedWeapon: true
+    defaultInventorySlot: STR_RIGHT_HAND
+    recover: false
+  - type: INV_NULL_2X1_LEFT_LEG
+    weight: 0
+    bigSprite: 2001
+    invWidth: 2
+    invHeight: 1
+    fixedWeapon: true
+    defaultInventorySlot: STR_LEFT_LEG
+    recover: false
+  - type: INV_NULL_2X1_RIGHT_LEG
+    weight: 0
+    bigSprite: 2001
+    invWidth: 2
+    invHeight: 1
+    fixedWeapon: true
+    defaultInventorySlot: STR_RIGHT_LEG
+    recover: false
+  - type: INV_NULL_2X1_LEFT_SHOULDER
+    weight: 0
+    bigSprite: 2001
+    invWidth: 2
+    invHeight: 1
+    fixedWeapon: true
+    defaultInventorySlot: STR_LEFT_SHOULDER
+    recover: false
+  - type: INV_NULL_2X1_RIGHT_SHOULDER
+    weight: 0
+    bigSprite: 2001
+    invWidth: 2
+    invHeight: 1
+    fixedWeapon: true
+    defaultInventorySlot: STR_RIGHT_SHOULDER
+    recover: false
+  - type: INV_NULL_1X1_LEFT_HAND
+    weight: 0
+    bigSprite: 2004
+    invWidth: 1
+    invHeight: 1
+    fixedWeapon: true
+    defaultInventorySlot: STR_LEFT_HAND
+    recover: false
+  - type: INV_NULL_3X3_BACK_PACK
+    weight: 0
+    bigSprite: 2000
+    invWidth: 3
+    invHeight: 3
+    fixedWeapon: true
+    defaultInventorySlot: STR_BACK_PACK
+    recover: false
+  - type: INV_NULL_4X2_BELT
+    weight: 0
+    bigSprite: 2002
+    invWidth: 4
+    invHeight: 2
+    fixedWeapon: true
+    defaultInventorySlot: STR_BELT
+    recover: false
+  - type: INV_NULL_1X2_QD_SLOT
+    weight: 0
+    bigSprite: 2003
+    invWidth: 1
+    invHeight: 2
+    fixedWeapon: true
+    defaultInventorySlot: STR_QD_SLOT
+    recover: false
+  - type: INV_NULL_1X1_QD_SLOT
+    weight: 0
+    bigSprite: 2004
+    invWidth: 1
+    invHeight: 1
+    fixedWeapon: true
+    defaultInventorySlot: STR_QD_SLOT
+    recover: false
+  - type: INV_NULL_1X1_RIGHT_SHOULDER
+    weight: 0
+    bigSprite: 2004
+    invWidth: 1
+    invHeight: 1
+    fixedWeapon: true
+    defaultInventorySlot: STR_RIGHT_SHOULDER
+    recover: false
+  - type: INV_NULL_1X1_LEFT_SHOULDER
+    weight: 0
+    bigSprite: 2004
+    invWidth: 1
+    invHeight: 1
+    fixedWeapon: true
+    defaultInventorySlot: STR_LEFT_SHOULDER
+    recover: false
+  - type: INV_NULL_1X1_RIGHT_LEG
+    weight: 0
+    bigSprite: 2004
+    invWidth: 1
+    invHeight: 1
+    fixedWeapon: true
+    defaultInventorySlot: STR_RIGHT_LEG
+    recover: false
+  - type: INV_NULL_1X1_LEFT_LEG
+    weight: 0
+    bigSprite: 2004
+    invWidth: 1
+    invHeight: 1
+    fixedWeapon: true
+    defaultInventorySlot: STR_LEFT_LEG
+    recover: false

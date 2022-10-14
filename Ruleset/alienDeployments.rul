@@ -1,0 +1,78 @@
+alienDeployments:
+  - delete: STR_HARVESTER
+  - delete: STR_ABDUCTOR
+  - delete: STR_TERROR_SHIP
+  - delete: STR_BATTLESHIP
+  - delete: STR_SUPPLY_SHIP
+  - delete: STR_TERROR_MISSION
+  - delete: STR_ALIEN_BASE_ASSAULT
+  - delete: STR_MARS_CYDONIA_LANDING
+  - delete: STR_MARS_THE_FINAL_ASSAULT
+  - delete: STR_BASE_DEFENSE
+  - type: STR_BASE_DEFENSE
+    data:
+      - alienRank: 0
+        lowQty: 0
+        highQty: 0
+        dQty: 1
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 0
+        highQty: 0
+        dQty: 1
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 0
+        highQty: 0
+        dQty: 1
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 0
+        highQty: 0
+        dQty: 1
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 0
+        highQty: 0
+        dQty: 1
+        itemSets:
+          -
+            []
+      - alienRank: 5
+        lowQty: 0
+        highQty: 0
+        dQty: 3
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 0
+        highQty: 0
+        dQty: 1
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 0
+        highQty: 0
+        dQty: 1
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    terrains:
+      - XBASE
+    briefing:
+      palette: 0
+      background: BACK01.SCR
+      music: GMENBASE
+    height: 4

@@ -1,0 +1,29 @@
+itemCategories:
+  - type: STR_FIREARMS
+    listOrder: 1
+  - type: STR_AMMUNITION
+    listOrder: 2
+  - type: STR_PISTOLS
+    listOrder: 3
+  - type: STR_CARBINES
+    listOrder: 4
+  - type: STR_RIFLES
+    listOrder: 5
+  - type: STR_MACHINE_GUNS
+    listOrder: 6
+  - type: STR_SNIPERS
+    listOrder: 7
+  - type: STR_EXPLOSIVES
+    listOrder: 8
+  - type: STR_MEDICAL
+    listOrder: 9
+  - type: STR_SEMI_CONCEALED
+    listOrder: 10
+  - type: STR_CONCEALED
+    listOrder: 11
+  - type: STR_GLADIO
+    listOrder: 12
+  - type: STR_ALIEN
+    listOrder: 13
+  - type: STR_CIA
+    listOrder: 14

@@ -1,0 +1,247 @@
+armors:
+  - delete: STR_NONE_UC
+  - type: STR_OFFICER_COAT_UC
+    spriteSheet: OFFICER_COAT.PCK
+    spriteInv: MAN_KGB
+    storeItem: STR_NONE
+    corpseBattle:
+      - STR_CORPSE_KGB
+    loftempsSet: [ 3 ]
+    visibilityAtDay: 20
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 8
+    underArmor: 6
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163]
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166]
+    stats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 20
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    units:
+      - STR_KGB_OFFICER
+    builtInWeapons:
+      - INV_NULL_3X3_BACK_PACK
+      - INV_NULL_2X1_RIGHT_SHOULDER
+      - INV_NULL_2X1_LEFT_SHOULDER
+      - INV_NULL_2X1_RIGHT_LEG
+      - INV_NULL_2X1_LEFT_LEG
+  - type: STR_AGENT_COAT_UC
+    spriteSheet: AGENT_COAT.PCK
+    spriteInv: MAN_KGBALT
+    storeItem: STR_NONE
+    corpseBattle:
+      - STR_CORPSE_KGBALT
+    loftempsSet: [ 3 ]
+    visibilityAtDay: 20
+    frontArmor: 8
+    sideArmor: 6
+    rearArmor: 6
+    underArmor: 4
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163]
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166]
+    stats:
+      tu: 0
+      stamina: -10
+      health: 0
+      bravery: 20
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    units:
+      - STR_KGB_OFFICER
+    builtInWeapons:
+      - INV_NULL_3X3_BACK_PACK
+      - INV_NULL_2X1_RIGHT_SHOULDER
+      - INV_NULL_2X1_LEFT_SHOULDER
+      - INV_NULL_2X1_RIGHT_LEG
+      - INV_NULL_2X1_LEFT_LEG
+      - INV_NULL_4X2_BELT
+
+# Gladio
+  - type: GLADIO_OPERATIVE_M
+    spriteSheet: GLADIO_OPERATIVE.PCK
+    spriteInv: inventory_GLADIO_OPREATIVE_M
+    forcedTorso: 1
+    corpseBattle:
+      - STR_GLADIO_OPERATIVE_CORPSE
+    frontArmor: 8
+    sideArmor: 6
+    rearArmor: 6
+    underArmor: 4
+    visibilityAtDay: 18
+    visibilityAtDark: 7
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 2 ]
+  - type: GLADIO_OPERATIVE_F
+    spriteSheet: GLADIO_OPERATIVE.PCK
+    spriteInv: inventory_GLADIO_OPREATIVE_F
+    forcedTorso: 2
+    corpseBattle:
+      - STR_GLADIO_OPERATIVE_CORPSE
+    frontArmor: 8
+    sideArmor: 6
+    rearArmor: 6
+    underArmor: 4
+    visibilityAtDay: 18
+    visibilityAtDark: 7
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 2 ]
+
+# Thin Man
+  - type: THIN_MAN_ARMOR
+    spriteSheet: THIN_MAN.PCK
+    spriteInv: inventory_THIN_MAN
+    corpseBattle:
+      - STR_THIN_MAN_CORPSE
+    frontArmor: 4
+    sideArmor: 3
+    rearArmor: 2
+    underArmor: 2
+    visibilityAtDark: 20
+    psiVision: 2
+    specialWeapon: ALIEN_PSI_WEAPON
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 2 ]
+
+# Cryptids
+  - type: CHUCHUNYA_ARMOR
+    spriteSheet: MONGORN.PCK
+    spriteInv: inventory_MONGORN
+    corpseBattle:
+      - STR_CHUCHUNYA_CORPSE
+    drawingRoutine: 4
+    frontArmor: 14
+    sideArmor: 14
+    rearArmor: 14
+    underArmor: 14
+    visibilityAtDark: 20
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    livingWeapon: true
+    loftempsSet: [ 3 ]
+  - type: ALKONOST_ARMOR
+    spriteSheet: WEREOWL.PCK
+    spriteInv: inventory_WEREOWL
+    corpseBattle:
+      - STR_ALKONOST_CORPSE
+    drawingRoutine: 10
+    frontArmor: 12
+    sideArmor: 12
+    rearArmor: 12
+    underArmor: 12
+    visibilityAtDark: 20
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    livingWeapon: true
+    loftempsSet: [ 3 ]
+  - type: WAWKALAK_ARMOR
+    spriteSheet: WEREWOLF.PCK
+    spriteInv: inventory_WEREWOLF
+    corpseBattle:
+      - STR_WAWKALAK_CORPSE
+    drawingRoutine: 10
+    frontArmor: 18
+    sideArmor: 18
+    rearArmor: 18
+    underArmor: 18
+    visibilityAtDark: 20
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    livingWeapon: true
+    loftempsSet: [ 3 ]

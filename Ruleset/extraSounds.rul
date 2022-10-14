@@ -1,0 +1,11 @@
+extraSounds:
+  - type: BATTLE.CAT
+    files:
+      200: Resources/Items/Weapons/Makarov/fire.wav
+      201: Resources/Items/Weapons/Makarov/reload.wav
+      204: Resources/Items/Weapons/AK-47/fire.wav
+      205: Resources/Items/Weapons/AK-47/reload.wav
+      206: Resources/Items/Weapons/Welrod/fire.wav
+      207: Resources/Items/Weapons/Welrod/reload.wav
+      208: Resources/Items/Weapons/DeLisle/fire.wav
+      209: Resources/Items/Weapons/DeLisle/reload.wav
