@@ -1,7 +1,5 @@
 # UNEXCOM_Directorate_17
-1958. As the KGB's Directorate 17, unravel a fascist conspiracy in Europe and its alien puppeteers. 
-
-Prequel to UNEXCOM Bureau 11.
+1958. As the KGB's Directorate 17, unravel a fascist conspiracy in Europe and its alien puppeteers. Prequel to UNEXCOM Bureau 11.
 
 # Credits
 Brother^2: lead modder and lead ruleset designer
