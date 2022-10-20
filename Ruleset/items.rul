@@ -137,7 +137,7 @@ items:
     confAimed:
       shots: 1
       name: STR_STEADY_SHOT
-    aimedRange: 18
+    aimRange: 18
     accuracyAimed: 110
     tuAimed: 65
     confSnap:
