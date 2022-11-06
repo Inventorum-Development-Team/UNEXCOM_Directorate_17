@@ -78,13 +78,13 @@ items:
     confSnap:
       shots: 1
       name: STR_HIP_FIRE
-    snapRange: 2
+    snapRange: 7
     accuracySnap: 80
     tuSnap: 10
     confAuto:
       shots: 2
       name: STR_DOUBLE_TAP
-    autoRange: 7
+    autoRange: 9
     accuracyAuto: 45
     tuAuto: 15
     accuracyCloseQuarters: 150
@@ -125,7 +125,7 @@ items:
     size: 0.1
     costBuy: 1100
     costSell: 950
-    weight: 7
+    weight: 8
     bigSprite: 224
     floorSprite: 224
     handSprite: 224
@@ -137,7 +137,7 @@ items:
     confSnap:
       shots: 1
       name: STR_HIP_FIRE
-    snapRange: 4
+    snapRange: 7
     accuracySnap: 70
     tuSnap: 20
     accuracyCloseQuarters: 150
@@ -190,20 +190,20 @@ items:
     confAimed:
       shots: 1
       name: STR_STEADY_SHOT
-    aimRange: 18
+    aimRange: 20
     accuracyAimed: 110
     tuAimed: 65
     confSnap:
       shots: 1
       name: STR_HIP_FIRE
-    snapRange: 2
+    snapRange: 5
     accuracySnap: 60
     tuSnap: 15
     confAuto:
       shots: 5
       name: STR_FULL_AUTO_5
-    autoRange: 6
-    accuracyAuto: 20
+    autoRange: 10
+    accuracyAuto: 30
     tuAuto: 40
     tuLoad: 10
     dropoff: 2
@@ -593,10 +593,10 @@ items:
     bulletSpeed: 1
     hitSound: 0
     hitAnimation: 0
-    power: 150
+    power: 200
     damageAlter:
       RandomType: 7
-      ToTile: 1.33
+      ToTile: 0.5
     damageType: 3
     blastRadius: 6
     clipSize: 1
@@ -615,7 +615,6 @@ items:
     bigSprite: 416
     floorSprite: 416
     handSprite: 416
-    bulletSprite: 8
     fireSound: 218
     reloadSound: 219
     compatibleAmmo:
@@ -625,13 +624,13 @@ items:
       name: STR_DEADEYE
     aimRange: 30
     accuracyAimed: 200
-    tuAimed: 65
+    tuAimed: 85
     confSnap:
       shots: 1
       name: STR_STEADY_SHOT
     snapRange: 10
-    accuracySnap: 120
-    tuSnap: 30
+    accuracySnap: 140
+    tuSnap: 65
     tuLoad: 10
     dropoff: 1
     kneelBonus: 150
@@ -652,20 +651,24 @@ items:
     floorSprite: 432
     handSprite: 432
     bulletSpeed: 1
-    hitAnimation: 46
-    power: 200
+    bulletSprite: 10
+    hitAnimation: -1
+    power: 180
     damageAlter:
       RandomType: 7
       ArmorEffectiveness: 0.0
     damageType: 1
     clipSize: 10
     battleType: 2
+    vaporColorSurface: 0
+    vaporDensitySurface: 3
+    vaporProbabilitySurface: 80
     armor: 999
     listOrder: 219
 
 # Medical Bag
   - type: STR_MEDICAL_BAG
-    categories: [STR_MEDICAL, STR_SEMI_CONCEALED_STR_CONCEALED]
+    categories: [STR_MEDICAL, STR_SEMI_CONCEALED, STR_CONCEALED]
     size: 0.2
     costBuy: 1800
     costSell: 1500
