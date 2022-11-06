@@ -146,6 +146,14 @@ ufopaedia:
   - id: STR_MAKAROV_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
+  - id: STR_TOKAREV
+    type_id: 4
+    section: STR_EQUIPMENT
+    text: STR_TOKAREV_UFOPEDIA
+    listOrder: 201
+  - id: STR_TOKAREV_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
   - id: STR_AK_47
     type_id: 4
     section: STR_EQUIPMENT
@@ -172,6 +180,56 @@ ufopaedia:
       - STR_DELISLE
     listOrder: 204
   - id: STR_DELISLE_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_PPSH
+    type_id: 4
+    section: STR_EQUIPMENT
+    text: STR_PPSH_UFOPEDIA
+    requires:
+      - STR_PPSH
+    listOrder: 205
+  - id: STR_PPSH_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_PTRD
+    type_id: 4
+    section: STR_EQUIPMENT
+    text: STR_PTRD_UFOPEDIA
+    requires:
+      - STR_PTRD
+    listOrder: 206
+  - id: STR_PTRD_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_RPD
+    type_id: 4
+    section: STR_EQUIPMENT
+    text: STR_RPD_UFOPEDIA
+    requires:
+      - STR_RPD
+    listOrder: 207
+  - id: STR_RPD_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_RPG
+    type_id: 4
+    section: STR_EQUIPMENT
+    text: STR_RPG_UFOPEDIA
+    requires:
+      - STR_RPG
+    listOrder: 208
+  - id: STR_RPG_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_MAGNETESCHETTO
+    type_id: 4
+    section: STR_EQUIPMENT
+    text: STR_MAGNETESCHETTO_UFOPEDIA
+    requires:
+      - STR_MAGNETESCHETTO
+    listOrder: 209
+  - id: STR_MAGNETESCHETTO_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
 

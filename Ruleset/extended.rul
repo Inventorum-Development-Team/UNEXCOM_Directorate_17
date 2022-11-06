@@ -66,6 +66,12 @@ items:
   - type: STR_MAKAROV_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
+  - type: STR_TOKAREV # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+  - type: STR_TOKAREV_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
   - type: STR_AK_47 # ignoreDuplicate
     tags:
       AmmoReSprite: 1
@@ -82,6 +88,36 @@ items:
     tags:
       AmmoReSprite: 1
   - type: STR_DELISLE_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_PPSH # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+  - type: STR_PPSH_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_PTRD # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+  - type: STR_PTRD_CLIP # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_RPD # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+  - type: STR_RPD_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_RPG # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+  - type: STR_RPG_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_MAGNETESCHETTO # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+  - type: STR_MAGNETESCHETTO_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
 

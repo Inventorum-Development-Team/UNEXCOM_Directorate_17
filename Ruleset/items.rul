@@ -88,7 +88,7 @@ items:
     accuracyAuto: 45
     tuAuto: 15
     accuracyCloseQuarters: 150
-    tuLoad: 10
+    tuLoad: 5
     dropoff: 4
     kneelBonus: 115
     costThrow:
@@ -118,6 +118,59 @@ items:
     battleType: 2
     armor: 10
     listOrder: 201
+
+# Tokarev
+  - type: STR_TOKAREV
+    categories: [STR_FIREARMS, STR_PISTOLS, STR_SEMI_CONCEALED, STR_CONCEALED]
+    size: 0.1
+    costBuy: 1100
+    costSell: 950
+    weight: 7
+    bigSprite: 224
+    floorSprite: 224
+    handSprite: 224
+    bulletSprite: 1
+    fireSound: 202
+    reloadSound: 203
+    compatibleAmmo:
+      - STR_TOKAREV_MAG
+    confSnap:
+      shots: 1
+      name: STR_HIP_FIRE
+    snapRange: 4
+    accuracySnap: 70
+    tuSnap: 20
+    accuracyCloseQuarters: 150
+    tuLoad: 5
+    dropoff: 4
+    kneelBonus: 115
+    costThrow:
+      energy: 8
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    armor: 35
+    listOrder: 202
+  - type: STR_TOKAREV_MAG
+    categories: [STR_AMMUNITION, STR_PISTOLS, STR_SEMI_CONCEALED, STR_CONCEALED]
+    size: 0.1
+    costBuy: 100
+    costSell: 50
+    weight: 1
+    bigSprite: 240
+    floorSprite: 240
+    handSprite: 240
+    hitAnimation: -1
+    bulletSpeed: 30
+    power: 23
+    damageType: 1
+    damageAlter:
+      RandomType: 2
+      ToTile: 0.1
+    clipSize: 8
+    battleType: 2
+    armor: 10
+    listOrder: 203
 
 # AK-47
   - type: STR_AK_47
@@ -152,7 +205,7 @@ items:
     autoRange: 6
     accuracyAuto: 20
     tuAuto: 40
-    tuLoad: 20
+    tuLoad: 10
     dropoff: 2
     kneelBonus: 150
     costThrow:
@@ -175,7 +228,7 @@ items:
       energy: 6
     flatMelee:
       time: true
-    listOrder: 202
+    listOrder: 204
   - type: STR_AK_47_MAG
     categories: [STR_AMMUNITION, STR_RIFLES, STR_MACHINE_GUNS]
     size: 0.1
@@ -195,7 +248,7 @@ items:
     clipSize: 30
     battleType: 2
     armor: 20
-    listOrder: 203
+    listOrder: 205
 
 # Welrod
   - type: STR_WELROD
@@ -218,7 +271,7 @@ items:
     accuracySnap: 65
     tuSnap: 20
     accuracyCloseQuarters: 150
-    tuLoad: 20
+    tuLoad: 5
     dropoff: 4
     kneelBonus: 115
     costThrow:
@@ -227,7 +280,7 @@ items:
     invWidth: 1
     invHeight: 2
     armor: 35
-    listOrder: 204
+    listOrder: 206
   - type: STR_WELROD_MAG
     categories: [STR_AMMUNITION, STR_PISTOLS, STR_GLADIO, STR_SEMI_CONCEALED, STR_CONCEALED]
     size: 0.1
@@ -247,7 +300,7 @@ items:
     clipSize: 10
     battleType: 2
     armor: 10
-    listOrder: 205
+    listOrder: 207
 
 # DeLisle
   - type: STR_DELISLE
@@ -307,6 +360,308 @@ items:
     battleType: 2
     armor: 10
     listOrder: 209
+
+# PPSh-41
+  - type: STR_PPSH
+    categories: [STR_FIREARMS, STR_MACHINE_GUNS]
+    requiresBuy:
+      - STR_PPSH
+    size: 0.2
+    costBuy: 2500
+    costSell: 2180
+    weight: 12
+    bigSprite: 320
+    floorSprite: 320
+    handSprite: 320
+    bulletSprite: 1
+    fireSound: 210
+    reloadSound: 211
+    compatibleAmmo:
+      - STR_PPSH_MAG
+    confSnap:
+      shots: 2
+      name: STR_DOUBLE_TAP
+    snapRange: 5
+    accuracySnap: 85
+    tuSnap: 15
+    confAuto:
+      shots: 15
+      name: STR_FULL_AUTO_15
+    autoRange: 10
+    accuracyAuto: 20
+    tuAuto: 80
+    tuLoad: 10
+    dropoff: 4
+    kneelBonus: 150
+    costThrow:
+      energy: 15
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    sprayWaypoints: 2
+    twoHanded: true
+    listOrder: 210
+  - type: STR_PPSH_MAG
+    categories: [STR_AMMUNITION, STR_MACHINE_GUNS]
+    size: 0.2
+    requiresBuy:
+      - STR_PPSH
+    costBuy: 700
+    costSell: 620
+    weight: 8
+    bigSprite: 336
+    floorSprite: 336
+    handSprite: 336
+    bulletSpeed: 30
+    hitAnimation: -1
+    power: 23
+    damageType: 1
+    damageAlter:
+      RandomType: 2
+    damageType: 1
+    clipSize: 71
+    battleType: 2
+    invWidth: 2
+    invHeight: 2
+    armor: 20
+    listOrder: 211
+
+# PTRD-41
+  - type: STR_PTRD
+    categories: [STR_FIREARMS, STR_RIFLES, STR_SNIPERS]
+    requiresBuy:
+      - STR_PTRD
+    size: 0.2
+    costBuy: 8000
+    costSell: 6840
+    weight: 38
+    bigSprite: 344
+    floorSprite: 344
+    handSprite: 344
+    bulletSprite: 4
+    fireSound: 212
+    reloadSound: 213
+    compatibleAmmo:
+      - STR_PTRD_CLIP
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+    aimRange: 30
+    minRange: 10
+    accuracyAimed: 70
+    tuAimed: 90
+    tuLoad: 20
+    dropoff: 1
+    kneelBonus: 200
+    costThrow:
+      energy: 20
+    battleType: 1
+    invWidth: 2
+    invHeight: 3
+    twoHanded: true
+    blockBothHands: true
+    listOrder: 212
+  - type: STR_PTRD_CLIP
+    categories: [STR_AMMUNITION, STR_RIFLES, STR_SNIPERS]
+    size: 0.2
+    requiresBuy:
+      - STR_PTRD
+    costBuy: 400
+    costSell: 380
+    weight: 4
+    bigSprite: 360
+    floorSprite: 360
+    handSprite: 360
+    bulletSpeed: 1
+    hitAnimation: -1
+    power: 150
+    damageType: 1
+    damageAlter:
+      RandomType: 6
+      ArmorEffectiveness: 0.5
+    damageType: 1
+    clipSize: 5
+    battleType: 2
+    invWidth: 1
+    invHeight: 2
+    armor: 20
+    listOrder: 213
+
+# RPD
+  - type: STR_RPD
+    categories: [STR_FIREARMS, STR_RIFLES, STR_MACHINE_GUNS]
+    size: 0.2
+    requiresBuy:
+      - STR_RPD
+    costBuy: 5000
+    costSell: 4680
+    weight: 26
+    bigSprite: 368
+    floorSprite: 368
+    handSprite: 368
+    bulletSprite: 1
+    fireSound: 214
+    reloadSound: 215
+    compatibleAmmo:
+      - STR_RPD_MAG
+    confAuto:
+      shots: 10
+      name: STR_FULL_AUTO_10
+    autoRange: 5
+    accuracyAuto: 35
+    tuAuto: 80
+    tuLoad: 20
+    dropoff: 1
+    kneelBonus: 200
+    costThrow:
+      energy: 15
+    battleType: 1
+    invWidth: 2
+    invHeight: 3
+    twoHanded: true
+    sprayWaypoints: 2
+    listOrder: 214
+  - type: STR_RPD_MAG
+    categories: [STR_AMMUNITION, STR_RIFLES, STR_MACHINE_GUNS]
+    size: 0.1
+    requiresBuy:
+      - STR_RPD
+    costBuy: 800
+    costSell: 720
+    weight: 10
+    bigSprite: 384
+    floorSprite: 384
+    handSprite: 384
+    bulletSpeed: 30
+    hitAnimation: -1
+    power: 50
+    damageAlter:
+      ToStun: 0.2
+      ToTile: 0.1
+    damageType: 1
+    clipSize: 100
+    battleType: 2
+    invWidth: 2
+    invHeight: 2
+    armor: 20
+    listOrder: 215
+
+# RPG-2
+  - type: STR_RPG
+    categories: [STR_FIREARMS, STR_EXPLOSIVES]
+    requiresBuy:
+      - STR_RPG
+    size: 0.2
+    costBuy: 5000
+    costSell: 4860
+    weight: 18
+    bigSprite: 392
+    floorSprite: 392
+    handSprite: 392
+    bulletSprite: 0
+    fireSound: 216
+    reloadSound: 217
+    compatibleAmmo:
+      - STR_RPG_MAG
+    confAimed:
+      shots: 1
+      name: STR_DANGER_CLOSE
+    aimRange: 1
+    accuracyAimed: 130
+    tuAimed: 60
+    tuLoad: 15
+    dropoff: 1
+    kneelBonus: 150
+    costThrow:
+      energy: 15
+    battleType: 1
+    invWidth: 2
+    invHeight: 3
+    twoHanded: true
+    listOrder: 216
+  - type: STR_RPG_MAG
+    categories: [STR_AMMUNITION, STR_EXPLOSIVES]
+    size: 0.2
+    requiresBuy:
+      - STR_RPG
+    costBuy: 900
+    costSell: 840
+    weight: 6
+    bigSprite: 408
+    floorSprite: 408
+    handSprite: 408
+    bulletSpeed: 1
+    hitSound: 0
+    hitAnimation: 0
+    power: 150
+    damageAlter:
+      RandomType: 7
+      ToTile: 1.33
+    damageType: 3
+    blastRadius: 6
+    clipSize: 1
+    battleType: 2
+    invWidth: 1
+    invHeight: 2
+    armor: 20
+    listOrder: 217
+
+# Magneteschetto
+  - type: STR_MAGNETESCHETTO
+    categories: [STR_FIREARMS, STR_RIFLES, STR_SNIPERS, STR_GLADIO, STR_ALIEN]
+    size: 0.2
+    costSell: 136400
+    weight: 22
+    bigSprite: 416
+    floorSprite: 416
+    handSprite: 416
+    bulletSprite: 8
+    fireSound: 218
+    reloadSound: 219
+    compatibleAmmo:
+      - STR_MAGNETESCHETTO_MAG
+    confAimed:
+      shots: 1
+      name: STR_DEADEYE
+    aimRange: 30
+    accuracyAimed: 200
+    tuAimed: 65
+    confSnap:
+      shots: 1
+      name: STR_STEADY_SHOT
+    snapRange: 10
+    accuracySnap: 120
+    tuSnap: 30
+    tuLoad: 10
+    dropoff: 1
+    kneelBonus: 150
+    costThrow:
+      energy: 15
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    twoHanded: true
+    armor: 999
+    listOrder: 218
+  - type: STR_MAGNETESCHETTO_MAG
+    categories: [STR_AMMUNITION, STR_RIFLES, STR_SNIPERS, STR_GLADIO, STR_ALIEN]
+    size: 0.2
+    costSell: 14000
+    weight: 6
+    bigSprite: 432
+    floorSprite: 432
+    handSprite: 432
+    bulletSpeed: 1
+    hitAnimation: 46
+    power: 200
+    damageAlter:
+      RandomType: 7
+      ArmorEffectiveness: 0.0
+    damageType: 1
+    clipSize: 10
+    battleType: 2
+    armor: 999
+    listOrder: 219
 
 # Medical Bag
   - type: STR_MEDICAL_BAG

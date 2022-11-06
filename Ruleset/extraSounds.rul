@@ -3,9 +3,21 @@ extraSounds:
     files:
       200: Resources/Items/Weapons/Makarov/fire.wav
       201: Resources/Items/Weapons/Makarov/reload.wav
+      202: Resources/Items/Weapons/TT33_Suppressed/fire.wav
+      203: Resources/Items/Weapons/TT33_Suppressed/reload.wav
       204: Resources/Items/Weapons/AK-47/fire.wav
       205: Resources/Items/Weapons/AK-47/reload.wav
       206: Resources/Items/Weapons/Welrod/fire.wav
       207: Resources/Items/Weapons/Welrod/reload.wav
       208: Resources/Items/Weapons/DeLisle/fire.wav
       209: Resources/Items/Weapons/DeLisle/reload.wav
+      210: Resources/Items/Weapons/PPSh-41/fire.wav
+      211: Resources/Items/Weapons/PPSh-41/reload.wav
+      212: Resources/Items/Weapons/PTRD-41/fire.wav
+      213: Resources/Items/Weapons/PTRD-41/reload.wav
+      214: Resources/Items/Weapons/RPD/fire.wav
+      215: Resources/Items/Weapons/RPD/reload.wav
+      216: Resources/Items/Weapons/RPG-2/fire.wav
+      217: Resources/Items/Weapons/RPG-2/reload.wav
+      218: Resources/Items/Weapons/Magnestoschetto/fire.wav
+      219: Resources/Items/Weapons/Magnestoschetto/reload.wav

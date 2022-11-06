@@ -16,3 +16,25 @@ research:
     cost: 50
     points: 10
     needItem: true
+
+  - name: STR_PPSH
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_PTRD
+    cost: 50
+    points: 10
+    needItem: true
+
+  - name: STR_RPD
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_RPG
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_MAGNETESCHETTO
+    cost: 250
+    points: 100
+    needItem: true

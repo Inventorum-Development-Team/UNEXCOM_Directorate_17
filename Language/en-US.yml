@@ -49,9 +49,9 @@ en-US:
   STR_HANGAR_UFOPEDIA: "Each hangar can accommodate one craft. Each craft stationed at a base must have a free hangar assigned to it which cannot be used by other craft."
 
   STR_KGB_OFFICER: "KGB Officer"
-  STR_LIEUTENANT: "Lieutenant"
-  STR_CAPTAIN: "Captain"
-  STR_MAJOR: "Major"
+  STR_LIEUTENANT: "Junior Officer"
+  STR_CAPTAIN: "Senior Officer"
+  STR_MAJOR: "Captain"
   STR_LT_COLONEL: "Podpolkovnik"
   STR_COLONEL: "Polkovnik"
  
@@ -81,16 +81,24 @@ en-US:
   STR_HIP_FIRE: "Hip Fire"
   STR_DOUBLE_TAP: "Double Tap"
   STR_FULL_AUTO_5: "Full Auto (5x)"
+  STR_FULL_AUTO_10: "Full Auto (10x)"
+  STR_FULL_AUTO_15: "Full Auto (15x)"
+  STR_DANGER_CLOSE: "Danger Close!"
+  STR_DEADEYE: "Deadeye"
 
   STR_DAMAGE_ARMOR_PIERCING: "BALLISTIC"
 
   STR_MAKAROV: "PM"
   STR_MAKAROV_MAG: "9x18mm Mag (8x)"
-  STR_MAKAROV_UFOPEDIA: "The Pistolet Makarova, known commonly as the PM or just the Makarov, is the standard service pistol issued to the Soviet Army and Militsiya forces. The Makarov is a {ALT}9x18mm{ALT} semi-automatic and a great example of a dependable, modern sidearm. {NEWLINE}> Semi-Concealable"
+  STR_MAKAROV_UFOPEDIA: "The Pistolet Makarova, known commonly as the PM or just the Makarov, is the standard service pistol issued to the Soviet Army and Militsiya forces. The PM is a {ALT}9x18mm{ALT} semi-automatic and a great example of a dependable, modern sidearm. {NEWLINE}> Semi-Concealable"
+
+  STR_TOKAREV: "TT-33B"
+  STR_TOKAREV_MAG: "7.62x25mm Mag (8x)"
+  STR_TOKAREV_UFOPEDIA: "The TT-33, or Tula Tokarev 1933, is a great, if outdated semi-automatic chambered in {ALT}7.62x25mm{ALT}. The Besshumnyy variant has been equipped with a heavy suppressor, but requires the action to be manually cycled, limiting rate of fire. {NEWLINE}> Concealable"
 
   STR_AK_47: "AK-47"
   STR_AK_47_MAG: "7.62x39mm Mag (30x)"
-  STR_AK_47_UFOPEDIA: "The Avtomat Kalashnikova, abbreviated as the AK-47, is the mainstay of our armed forces and has seen widespread export to our allies. This {ALT}7.62x39mm{ALT} assault rifle is world renowned for being a robust and very reliable rifle. The affixed bayonet's effectiveness scales with the user's {ALT}Strength{ALT} and {ALT}Melee Accuracy{ALT}."
+  STR_AK_47_UFOPEDIA: "The Avtomat Kalashnikova 1947, abbreviated as the AK-47, is the mainstay of our armed forces and has seen widespread export to our allies. This {ALT}7.62x39mm{ALT} assault rifle is world renowned for being a robust and very reliable rifle. The affixed bayonet's effectiveness scales with the user's {ALT}Strength{ALT} and {ALT}Melee Accuracy{ALT}."
 
   STR_WELROD: "Welrod"
   STR_WELROD_MAG: "9x19mm Mag (10x)"
@@ -99,7 +107,27 @@ en-US:
   STR_DELISLE: "DeLisle"
   STR_DELISLE_MAG: ".45 ACP Mag (7x)"
   STR_DELISLE_UFOPEDIA: "The DeLisle is an integrally-suppressed carbine that fires sub-sonic {ALT}.45 ACP{ALT} rounds. It saw action in the Western Front of World War II, as it was utilized by British Commandoes on clandestine missions. Gladio cells stockpile these firearms, likely supplied by British intelligence, for use in anti-Soviet operations. {NEWLINE}> Semi-Concealable"
-  
+
+  STR_PPSH: "PPSh-41"
+  STR_PPSH_MAG: "7.62x25mm Drum (71x)"
+  STR_PPSH_UFOPEDIA: "The Pistolet Pulemyot Shpagina 1941, shortened to PPSh-41, is a sub machine gun chambered in {ALT}7.62x25mm{ALT} with a cyclical fire rate of 1250 RPM. It was mass-produced during the Great Patriotic War and was standard issue on the march from Moscow to Berlin, proving to be extremely lethal in close quarters."
+
+  STR_PTRD: "PTRS-41"
+  STR_PTRD_CLIP: "14.5x114mm Clip (5x)"
+  STR_PTRD_UFOPEDIA: "The PTRS-41, shortened from Protivotankovoye Ruzhyo Simonova 1941, is a semi-auto anti-tank rifle that fires {ALT}14.5x114mm{ALT} rounds. The rifle was commissioned during the Great Patriotic War and is battle tested against Panzer armor. PTRS-41 is equipped with a deployable bipod that greatly increases {ALT}Accuracy{ALT} while {ALT}Kneeling{ALT}. {NEWLINE}> Not At All Concealable"
+
+  STR_RPD: "RPD"
+  STR_RPD_MAG: "7.62x39mm Drum (100x)"
+  STR_RPD_UFOPEDIA: "The RPD, abbreviated from Ruchnoy Pulemyot Degtyaryova, is a light machine gun chambered in {ALT}7.62x39mm{ALT} from 100-rd drum magazines. It is only capable of fully automatic fire, and is designed for a high rate of suppressive fire instead of accurate shots. The RPD is equipped with a deployable bipod that greatly increases {ALT}Accuracy{ALT} while {ALT}Kneeling{ALT}."
+
+  STR_RPG: "RPG-2"
+  STR_RPG_MAG: "PG-2 HEAT Shell (1x)"
+  STR_RPG_UFOPEDIA: "The RPG-2, shortened down from Ruchnoy Protivotankovy Granatomyot, is a portable anti-tank launcher. This shoulder-fired, recoilless gun fires an armor-piercing, rocket-propelled {ALT}PG-2 Shell{ALT}. It is a great improvement in destructive power over the RPG-1, utilizing design features from the American Bazooka and German Panzerfaust."
+
+  STR_MAGNETESCHETTO: "Magneteschetto"
+  STR_MAGNETESCHETTO_MAG: "Atomic Battery (10x)"
+  STR_MAGNETESCHETTO_UFOPEDIA: "The Magneteschetto was commissioned by Gabinetto RS/33 and constructed in secret by Beretta engineers in 1942. Fortunately, it never exited the prototype stages before the Nazi occupation of Italy. It uses electromagnets instead of chemical propulsion to fire ferromagnetic tungsten alloy balls at ludicrous speeds. The magnets and the mounted infrared scope are powered by an external {ALT}Atomic Battery{ALT} which can power 10 shots."
+
   STR_MEDICAL_BAG: "Medical Bag"
   STR_MEDICAL_BAG_UFOPEDIA: "First aid bag with various medical items as well as a crude surgery kit. Utilized by paramedics on the field, it may be unweildy but it can save a man's life."
 

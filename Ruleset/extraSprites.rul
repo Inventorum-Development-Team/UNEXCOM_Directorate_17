@@ -4,6 +4,9 @@ extraSprites:
       200: Resources/Items/Weapons/Makarov/Unloaded_Big.png
       208: Resources/Items/Weapons/Makarov/Loaded_8_Big.png
       216: Resources/Items/Weapons/Makarov/Mag_8_Big.png
+      224: Resources/Items/Weapons/TT33_Suppressed/Unloaded_Big.png
+      232: Resources/Items/Weapons/TT33_Suppressed/Loaded_8_Big.png
+      240: Resources/Items/Weapons/TT33_Suppressed/Mag_8_Big.png
       248: Resources/Items/Weapons/AK-47/Unloaded_Big.png
       256: Resources/Items/Weapons/AK-47/Loaded_30_Big.png
       264: Resources/Items/Weapons/AK-47/Mag_30_Big.png
@@ -13,6 +16,21 @@ extraSprites:
       296: Resources/Items/Weapons/DeLisle/Unloaded_Big.png
       304: Resources/Items/Weapons/DeLisle/Loaded_7_Big.png
       312: Resources/Items/Weapons/DeLisle/Mag_7_Big.png
+      320: Resources/Items/Weapons/PPSh-41/Unloaded_Big.png
+      328: Resources/Items/Weapons/PPSh-41/Loaded_71_Big.png
+      336: Resources/Items/Weapons/PPSh-41/Mag_71_Big.png
+      344: Resources/Items/Weapons/PTRD-41/Unloaded_Big.png
+      352: Resources/Items/Weapons/PTRD-41/Loaded_5_Big.png
+      360: Resources/Items/Weapons/PTRD-41/Mag_5_Big.png
+      368: Resources/Items/Weapons/RPD/Unloaded_Big.png
+      376: Resources/Items/Weapons/RPD/Loaded_100_Big.png
+      384: Resources/Items/Weapons/RPD/Mag_100_Big.png
+      392: Resources/Items/Weapons/RPG-2/Unloaded_Big.png
+      400: Resources/Items/Weapons/RPG-2/Loaded_1_Big.png
+      408: Resources/Items/Weapons/RPG-2/Mag_1_Big.png
+      416: Resources/Items/Weapons/Magnestoschetto/Unloaded_Big.png
+      424: Resources/Items/Weapons/Magnestoschetto/Loaded_10_Big.png
+      432: Resources/Items/Weapons/Magnestoschetto/Mag_10_Big.png
       500: Resources/Armors/Officer_Coat/Corpse/Coat_Big.png
       501: Resources/Armors/Agent_Coat/Corpse/bigob_coat_corpse.png
       1500: Resources/Units/Enemies/Gladio/BIGOBS/bigOb_Gladio_corpse.png
@@ -34,6 +52,9 @@ extraSprites:
       200: Resources/Items/Weapons/Makarov/Unloaded_Floor.png
       208: Resources/Items/Weapons/Makarov/Loaded_8_Floor.png
       216: Resources/Items/Weapons/Makarov/Mag_8_Floor.png
+      224: Resources/Items/Weapons/TT33_Suppressed/Unloaded_Floor.png
+      232: Resources/Items/Weapons/TT33_Suppressed/Loaded_8_Floor.png
+      240: Resources/Items/Weapons/TT33_Suppressed/Mag_8_Floor.png
       248: Resources/Items/Weapons/AK-47/Unloaded_Floor.png
       256: Resources/Items/Weapons/AK-47/Loaded_30_Floor.png
       264: Resources/Items/Weapons/AK-47/Mag_30_Floor.png
@@ -43,6 +64,21 @@ extraSprites:
       296: Resources/Items/Weapons/DeLisle/Unloaded_Floor.png
       304: Resources/Items/Weapons/DeLisle/Loaded_7_Floor.png
       312: Resources/Items/Weapons/DeLisle/Mag_7_Floor.png
+      320: Resources/Items/Weapons/PPSh-41/Unloaded_Floor.png
+      328: Resources/Items/Weapons/PPSh-41/Loaded_71_Floor.png
+      336: Resources/Items/Weapons/PPSh-41/Mag_71_Floor.png
+      344: Resources/Items/Weapons/PTRD-41/Unloaded_Floor.png
+      352: Resources/Items/Weapons/PTRD-41/Loaded_5_Floor.png
+      360: Resources/Items/Weapons/PTRD-41/Mag_5_Floor.png
+      368: Resources/Items/Weapons/RPD/Unloaded_Floor.png
+      376: Resources/Items/Weapons/RPD/Loaded_100_Floor.png
+      384: Resources/Items/Weapons/RPD/Mag_100_Floor.png
+      392: Resources/Items/Weapons/RPG-2/Unloaded_Floor.png
+      400: Resources/Items/Weapons/RPG-2/Loaded_1_Floor.png
+      408: Resources/Items/Weapons/RPG-2/Mag_1_Floor.png
+      416: Resources/Items/Weapons/Magnestoschetto/Unloaded_Floor.png
+      424: Resources/Items/Weapons/Magnestoschetto/Loaded_10_Floor.png
+      432: Resources/Items/Weapons/Magnestoschetto/Mag_10_Floor.png
       500: Resources/Armors/Officer_Coat/Corpse/Coat_Floor.png
       501: Resources/Armors/Agent_Coat/Corpse/floorob_coat_corpse.png
       1500: Resources/Units/Enemies/Gladio/FLOOROBS/floorOb_Gladio_corpse.png
@@ -60,6 +96,9 @@ extraSprites:
       200: Resources/Items/Weapons/Makarov/Unloaded_Hand.png
       208: Resources/Items/Weapons/Makarov/Loaded_8_Hand.png
       216: Resources/Items/Weapons/Makarov/Mag_8_Hand.png
+      224: Resources/Items/Weapons/TT33_Suppressed/Unloaded_Hand.png
+      232: Resources/Items/Weapons/TT33_Suppressed/Loaded_8_Hand.png
+      240: Resources/Items/Weapons/TT33_Suppressed/Mag_8_Hand.png
       248: Resources/Items/Weapons/AK-47/Unloaded_Hand.png
       256: Resources/Items/Weapons/AK-47/Loaded_30_Hand.png
       264: Resources/Items/Weapons/AK-47/Mag_30_Hand.png
@@ -69,6 +108,21 @@ extraSprites:
       296: Resources/Items/Weapons/DeLisle/Unloaded_Hand.png
       304: Resources/Items/Weapons/DeLisle/Loaded_7_Hand.png
       312: Resources/Items/Weapons/DeLisle/Mag_7_Hand.png
+      320: Resources/Items/Weapons/PPSh-41/Unloaded_Hand.png
+      328: Resources/Items/Weapons/PPSh-41/Loaded_71_Hand.png
+      336: Resources/Items/Weapons/PPSh-41/Mag_71_Hand.png
+      344: Resources/Items/Weapons/PTRD-41/Unloaded_Hand.png
+      352: Resources/Items/Weapons/PTRD-41/Loaded_5_Hand.png
+      360: Resources/Items/Weapons/PTRD-41/Mag_5_Hand.png
+      368: Resources/Items/Weapons/RPD/Unloaded_Hand.png
+      376: Resources/Items/Weapons/RPD/Loaded_100_Hand.png
+      384: Resources/Items/Weapons/RPD/Mag_100_Hand.png
+      392: Resources/Items/Weapons/RPG-2/Unloaded_Hand.png
+      400: Resources/Items/Weapons/RPG-2/Loaded_1_Hand.png
+      408: Resources/Items/Weapons/RPG-2/Mag_1_Hand.png
+      416: Resources/Items/Weapons/Magnestoschetto/Unloaded_Hand.png
+      424: Resources/Items/Weapons/Magnestoschetto/Loaded_10_Hand.png
+      432: Resources/Items/Weapons/Magnestoschetto/Mag_10_Hand.png
       1900: Resources/Items/Misc/Medical_Bag/Gadget_Hand.png
 
   - type: BASEBITS.PCK
