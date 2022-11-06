@@ -408,7 +408,7 @@ items:
       - STR_PPSH
     costBuy: 700
     costSell: 620
-    weight: 8
+    weight: 6
     bigSprite: 336
     floorSprite: 336
     handSprite: 336
@@ -528,7 +528,7 @@ items:
       - STR_RPD
     costBuy: 800
     costSell: 720
-    weight: 10
+    weight: 8
     bigSprite: 384
     floorSprite: 384
     handSprite: 384
