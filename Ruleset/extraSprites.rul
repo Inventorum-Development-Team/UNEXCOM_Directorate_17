@@ -31,8 +31,8 @@ extraSprites:
       416: Resources/Items/Weapons/Magnestoschetto/Unloaded_Big.png
       424: Resources/Items/Weapons/Magnestoschetto/Loaded_10_Big.png
       432: Resources/Items/Weapons/Magnestoschetto/Mag_10_Big.png
-      500: Resources/Armors/Officer_Coat/Corpse/Coat_Big.png
-      501: Resources/Armors/Agent_Coat/Corpse/bigob_coat_corpse.png
+      1000: Resources/Armors/Officer_Coat/Corpse/Coat_Big.png
+      1001: Resources/Armors/Agent_Coat/Corpse/bigob_coat_corpse.png
       1500: Resources/Units/Enemies/Gladio/BIGOBS/bigOb_Gladio_corpse.png
       1501: Resources/Units/Enemies/Thin Man/BIGOBS/bigOb_ThinMan_corpse.png
       1502: Resources/Units/Enemies/Cryptids/BIGOBS/bigob_MONGORN_CORPSE.png
@@ -79,8 +79,8 @@ extraSprites:
       416: Resources/Items/Weapons/Magnestoschetto/Unloaded_Floor.png
       424: Resources/Items/Weapons/Magnestoschetto/Loaded_10_Floor.png
       432: Resources/Items/Weapons/Magnestoschetto/Mag_10_Floor.png
-      500: Resources/Armors/Officer_Coat/Corpse/Coat_Floor.png
-      501: Resources/Armors/Agent_Coat/Corpse/floorob_coat_corpse.png
+      1000: Resources/Armors/Officer_Coat/Corpse/Coat_Floor.png
+      1001: Resources/Armors/Agent_Coat/Corpse/floorob_coat_corpse.png
       1500: Resources/Units/Enemies/Gladio/FLOOROBS/floorOb_Gladio_corpse.png
       1501: Resources/Units/Enemies/Thin Man/FLOOROBS/floorOb_ThinMan_corpse.png
       1502: Resources/Units/Enemies/Cryptids/FLOOROBS/floorob_MONGORN_CORPSE.png
