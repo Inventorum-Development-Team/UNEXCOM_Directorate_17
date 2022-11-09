@@ -145,3 +145,15 @@ en-US:
   STR_ALKONOST_CORPSE: "Alkonost Corpse"
   STR_WAWKALAK: "Wawkalak"
   STR_WAWKALAK_CORPSE: "Wawkalak Corpse"
+  
+  STR_GREAT_PATRIOTIC_WAR_WEAPONS: "Great Patriotic War Weapons"
+  STR_GREAT_PATRIOTIC_WAR_WEAPONS_UFOPEDIA: "Some of the creatures sighted near disappeared people and slaughtered forest animals are said to be giant and abnormally strong. A militsiya unit who went to investigate a loss of communication with a remote rural settlement found themselves surrounded by 'large animals, walking like a man, but with the face of a wolf'. The officers said they ran out of handgun ammo before even one of the monsters was killed. This has motivated us to ask for authorization to use heavier weaponry, like those used in the Great Patriotic War. The Army has send us some surplus equipment."
+  
+  STR_CRYPTID_ACTIVITY_RESEARCH: "Cryptid Activity"
+  STR_CRYPTID_ACTIVITY_RESEARCH_UFOPEDIA: "Our local folklore is full of mystical creatures with uncanny abilities or physical characteristics. It is not uncommon to hear the elders telling stories of giant fur-covered monsters wandering the forests or half-woman, half-bird creatures stalking the night. Until recently, those were merely stories. But something has changed. The militsiya has informed of unusual encounters with 'strange animals' and the missing persons reported in the wilderness is rising at an alarming pace. The Committee has tasked us to locate, identify, research and utterly, stop what or who is behind this unusual activity.": "Our local folklore is full of mystical creatures with uncanny abilities or physical characteristics. It is not uncommon to hear the elders telling stories of giant fur-covered monsters wandering the forests or half-woman, half-bird creatures stalking the night. Until recently, those were merely stories. But something has changed. The militsiya has informed of unusual encounters with 'strange animals' and the missing persons reported in the wilderness is rising at an alarming pace. The Committee has tasked us to locate, identify, research and utterly, stop what or who is behind this unusual activity."
+  STR_CRYPTID_SIGHTING_DEPLOYMENT: "Cryptid Sighting"
+  STR_CRYPTID_SIGHTING_ALERT: "Strange lifeforms reported"
+  STR_CRYPTID_SIGHTING_MARKER_NAME: "Cryptid Activity"
+  STR_CRYPTID_SIGHTING_DEPLOYMENT_DESCRIPTION: "Comrade Commissar, we have got information about the sighting of unidentified life forms in a distant location, deep inside the Motherland. The KGB has sent us to locate, identify and, if needed, eradicate the vermin before it poses a threat to the local population."
+  STR_CRYPTID_ATTACK_DEPLOYMENT: "Cryptid Attack"
+  STR_CRYPTID_ATTACK_DEPLOYMENT_DESCRIPTION: "Tovarich, our local field agents have reported about a possible attack on a distant village by unknown lifeforms. We need to engage the monsters before they overrun and kill the villagers. We believe this is likely a planned attack by the creatures, as there are previous reports of their presence around the area."
