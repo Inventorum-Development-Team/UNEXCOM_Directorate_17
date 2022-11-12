@@ -1,7 +1,7 @@
 facilities:
   - type: STR_ACCESS_LIFT
     radarRange: 700
-    radarChance: 100
+    radarChance: 50
   - type: STR_LIVING_QUARTERS
     buildCost: 150000
     personnel: 25
@@ -17,6 +17,8 @@ facilities:
   - type: STR_MISSILE_DEFENSES
     requires:
       - STR_COMMANDER_PLUS
+    radarRange: 1100
+    radarChance: 100
     defense: 9999
     hitRatio: 100
     fireSound: 5
