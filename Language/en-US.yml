@@ -114,11 +114,11 @@ en-US:
 
   STR_PTRD: "PTRS-41"
   STR_PTRD_CLIP: "14.5x114mm Clip (5x)"
-  STR_PTRD_UFOPEDIA: "The PTRS-41, shortened from Protivotankovoye Ruzhyo Simonova 1941, is a semi-auto anti-tank rifle that fires {ALT}14.5x114mm{ALT} rounds. The rifle was commissioned during the Great Patriotic War and is battle tested against Panzer armor. PTRS-41 is equipped with a deployable bipod that greatly increases {ALT}Accuracy{ALT} while {ALT}Kneeling{ALT}. {NEWLINE}> Not At All Concealable"
+  STR_PTRD_UFOPEDIA: "The PTRS-41, shortened from Protivotankovoye Ruzhyo Simonova 1941, is a semi-auto anti-tank rifle that fires {ALT}14.5x114mm{ALT} rounds. The rifle was commissioned during the Great Patriotic War and is battle tested against Panzer armor. The PTRS-41 is equipped with a deployable bipod that greatly increases {ALT}Accuracy{ALT} while {ALT}Kneeling{ALT}. {NEWLINE}> Not At All Concealable"
 
   STR_RPD: "RPD"
   STR_RPD_MAG: "7.62x39mm Drum (100x)"
-  STR_RPD_UFOPEDIA: "The RPD, abbreviated from Ruchnoy Pulemyot Degtyaryova, is a light machine gun chambered in {ALT}7.62x39mm{ALT} from 100-rd drum magazines. It is only capable of fully automatic fire, and is designed for a high rate of suppressive fire instead of accurate shots. The RPD is equipped with a deployable bipod that greatly increases {ALT}Accuracy{ALT} while {ALT}Kneeling{ALT}."
+  STR_RPD_UFOPEDIA: "The RPD, abbreviated from Ruchnoy Pulemyot Degtyaryova, is a light machine gun chambered in {ALT}7.62x39mm{ALT} from 100-rd drum magazines. It is only capable of fully automatic fire, as it is designed for suppressive fire over accuracy. The RPD is equipped with a deployable bipod that greatly increases {ALT}Accuracy{ALT} while {ALT}Kneeling{ALT}."
 
   STR_RPG: "RPG-2"
   STR_RPG_MAG: "PG-2 HEAT Shell (1x)"
