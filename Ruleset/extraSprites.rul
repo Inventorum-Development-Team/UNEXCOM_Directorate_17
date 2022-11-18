@@ -409,3 +409,104 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/UI/Shock.png
+
+# Backgrounds
+  - type: BACK01.SCR #Main
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/BACK01.PNG
+  - type: BACK02.SCR #Soldier
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/BACK02.PNG
+  - type: BACK04.SCR #Base Defense/Equipment Selection
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/BACK04.PNG
+  - type: BACK05.SCR #Research
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/BACK05.PNG
+  - type: BACK12.SCR #Launch Interceptor
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/BACK12.PNG
+  - type: BACK13.SCR #Sell And Purchase 
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/BACK13.PNG
+  - type: BACK14.SCR #Equip Craft
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/BACK14.PNG
+  - type: BACK15.SCR #Land At Crash/Landing Site
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/BACK15.PNG
+  - type: BACK16.SCR #Mission Briefing
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/BACK16.PNG
+  - type: BACK17.SCR #Manufacture
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/BACK17.PNG
+  - type: ABDUCTION_BACKGROUND #Manufacture
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/ABDUCTION_BACKGROUND.PNG
+  - type: COUNTER_INTELLIGENCE_BACKGROUND #Manufacture
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/COUNTER_INTELLIGENCE_BACKGROUND.PNG
+
+
+### Turn Hidden movement background
+  - type: TACTICBACK00.SCR #In-mission Hidden movement background
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/TACTICBACK00.PNG
+  - type: TACTICBACK01.SCR #In-mission Hidden movement background
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/TACTICBACK01.PNG
+  - type: TACTICBACK02.SCR #In-mission Hidden movement background
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/TACTICBACK02.PNG
+  - type: TACTICBACK03.SCR #In-mission Hidden movement background
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/TACTICBACK03.PNG
