@@ -1,0 +1,6 @@
+ufos:
+  - delete: STR_HARVESTER
+  - delete: STR_ABDUCTOR
+  - delete: STR_TERROR_SHIP
+  - delete: STR_BATTLESHIP
+  - delete: STR_SUPPLY_SHIP

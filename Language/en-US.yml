@@ -56,6 +56,7 @@ en-US:
   STR_COLONEL: "Polkovnik"
  
   STR_EQUIPMENT: "EQUIPMENT"
+  STR_ALIEN_ARTIFACTS: "ARTIFACTS"
 
   STR_FIREARMS: "Firearms"
   STR_AMMUNITION: "Ammunition"
@@ -69,6 +70,7 @@ en-US:
   STR_SEMI_CONCEALED: "Semi-Concealed"
   STR_CONCEALED: "Concealed"
   STR_GLADIO: "Gladio"
+  STR_KOROBOV: "Prototype"
   STR_ALIEN: "Alien"
   STR_CIA: "CIA"
 
@@ -114,22 +116,44 @@ en-US:
 
   STR_PTRD: "PTRS-41"
   STR_PTRD_CLIP: "14.5x114mm Clip (5x)"
-  STR_PTRD_UFOPEDIA: "The PTRS-41, shortened from Protivotankovoye Ruzhyo Simonova 1941, is a semi-auto anti-tank rifle that fires {ALT}14.5x114mm{ALT} rounds. The rifle was commissioned during the Great Patriotic War and is battle tested against Panzer armor. The PTRS-41 is equipped with a deployable bipod that greatly increases {ALT}Accuracy{ALT} while {ALT}Kneeling{ALT}. {NEWLINE}> Not At All Concealable"
+  STR_PTRD_UFOPEDIA: "The PTRS-41, shortened from Protivotankovoye Ruzhyo Simonova 1941, is a semi-auto anti-tank rifle that fires {ALT}14.5x114mm{ALT} rounds. The rifle was commissioned during the Great Patriotic War and is battle tested against Panzer armor. PTRS-41 is equipped with a deployable bipod that greatly increases {ALT}Accuracy{ALT} while {ALT}Kneeling{ALT}. {NEWLINE}> Not At All Concealable"
 
   STR_RPD: "RPD"
   STR_RPD_MAG: "7.62x39mm Drum (100x)"
-  STR_RPD_UFOPEDIA: "The RPD, abbreviated from Ruchnoy Pulemyot Degtyaryova, is a light machine gun chambered in {ALT}7.62x39mm{ALT} from 100-rd drum magazines. It is only capable of fully automatic fire, as it is designed for suppressive fire over accuracy. The RPD is equipped with a deployable bipod that greatly increases {ALT}Accuracy{ALT} while {ALT}Kneeling{ALT}."
+  STR_RPD_UFOPEDIA: "The RPD, abbreviated from Ruchnoy Pulemyot Degtyaryova, is a light machine gun chambered in {ALT}7.62x39mm{ALT} from 100-rd drum magazines. It is only capable of fully automatic fire, and is designed for a high rate of suppressive fire instead of accurate shots. The RPD is equipped with a deployable bipod that greatly increases {ALT}Accuracy{ALT} while {ALT}Kneeling{ALT}."
 
   STR_RPG: "RPG-2"
   STR_RPG_MAG: "PG-2 HEAT Shell (1x)"
-  STR_RPG_UFOPEDIA: "The RPG-2, shortened down from Ruchnoy Protivotankovy Granatomyot, is a portable anti-tank launcher. This shoulder-fired launcher fires a rocket-propelled {ALT}PG-2 Shell{ALT}. It is a great improvement in destructive power over the RPG-1, utilizing design features from the American Bazooka and German Panzerfaust."
+  STR_RPG_UFOPEDIA: "The RPG-2, shortened down from Ruchnoy Protivotankovy Granatomyot, is a portable anti-tank launcher. This shoulder-fired, recoilless gun fires an armor-piercing, rocket-propelled {ALT}PG-2 Shell{ALT}. It is a great improvement in destructive power over the RPG-1, utilizing design features from the American Bazooka and German Panzerfaust."
+
+  STR_TKB_408: "TKB-408"
+  STR_TKB_408_UFOPEDIA: "The Tula Korobov 408, shortened to TKB-408, is one of German A. Korobov's experimental prototypes of innovative, if unorthodox design. While it was ultimately rejected in favor of the AK-47 in 1946, the bullpup design was ahead of its time. It fulfills the same tactical role, a select-fire rifle chambered in {ALT}7.62x39mm{ALT}, but is superior in many ways."
 
   STR_MAGNETESCHETTO: "Magneteschetto"
   STR_MAGNETESCHETTO_MAG: "Atomic Battery (10x)"
   STR_MAGNETESCHETTO_UFOPEDIA: "The Magneteschetto was commissioned by Gabinetto RS/33 and constructed in secret by Beretta engineers in 1942. Fortunately, it never exited the prototype stages before the Nazi occupation of Italy. It uses electromagnets instead of chemical propulsion to fire ferromagnetic tungsten alloy balls at ludicrous speeds. The magnets and the mounted infrared scope are powered by an external {ALT}Atomic Battery{ALT} which can power 10 shots."
 
+  STR_ALIEN_LASER_PISTOL: "Alien Ray Pistol"
+  STR_ALIEN_LASER_PISTOL_BATTERY: "Ray Pistol Battery (20x)"
+  STR_ALIEN_LASER_PISTOL_UFOPEDIA: "The Alien Ray Pistol appears to be analogous to a pistol, as it can be comfortably fired from one hand. Its high power demands are supplied by the {ALT}Ray Pistol Battery{ALT}. The alien ray weapon emits optical radiation and focuses it, through a crystal of unknown molecular composition, into a powerful beam capable of cutting through almost anything. {NEWLINE}> Semi-Concealable"
+
+  STR_ALIEN_LASER_RIFLE: "Alien Ray Rifle"
+  STR_ALIEN_LASER_RIFLE_BATTERY: "Ray Rifle Battery (10x)"
+  STR_ALIEN_LASER_RIFLE_UFOPEDIA: "The Alien Ray Rifle's ergonomics most closely resemble that of a rifle, and has been designated as such (despite not possessing a rifled barrel). It is powered externally by a replaceable {ALT}Ray Rifle Battery{ALT}. The alien ray weapon emits optical radiation and focuses it, through a crystal of unknown molecular composition, into a powerful beam capable of cutting through almost anything."
+
+  STR_ALIEN_HEAVY_LASER: "Alien Ray Cannon"
+  STR_ALIEN_HEAVY_LASER_BATTERY: "Ray Cannon Battery (5x)"
+  STR_ALIEN_HEAVY_LASER_UFOPEDIA: "The Alien Ray Cannon is an especially powerful, if cumbersome, weapon. It draws from an external {ALT}Ray Cannon Battery{ALT}. The alien ray weapon emits optical radiation and focuses it, through a crystal of unknown molecular composition, into a powerful beam capable of cutting through almost anything. The Alien Ray Cannon's {ALT}Accuracy{ALT} is greatly improved when {ALT}Kneeling{ALT}."
+
+  STR_ALIEN_SIEGE_LAUNCHER: "Alien Siege Launcher"
+  STR_ALIEN_SIEGE_LAUNCHER_SHELL: "Siege Bomb (1x)"
+  STR_ALIEN_SIEGE_LAUNCHER_UFOPEDIA: "The Alien Siege Launcher is essentially a man-portable launcher armed with a nuclear capable of completely atomizing anything within its blast radius. It is a very peculiar design, utilizing the most advanced technology we have yet observed, launching a self-propelled {ALT}Siege Bomb{ALT} capable of mid-flight course correction to hone in on its target, designated by the Siege Launcher's operator."
+
   STR_MEDICAL_BAG: "Medical Bag"
-  STR_MEDICAL_BAG_UFOPEDIA: "First aid bag with various medical items as well as a crude surgery kit. Utilized by paramedics on the field, it may be unweildy but it can save a man's life."
+  STR_MEDICAL_BAG_UFOPEDIA: "First aid bag with various medical items as well as a crude surgery kit. Utilized by paramedics on the field, it may be unweildy but it can save a man's life. {NEWLINE}> Concealable"
+
+  STR_RGD_5: "RGD-5 Grenade"
+  STR_RGD_5_UFOPEDIA: "The Ruchnaya Granata Distantsionnaya 5, shortened to RGD-5, is an anti-personnel fragmentation grenade that was accepted into service in 1954. It is extremely inexpensive to manufacture. {NEWLINE}> Semi-Concealable"
 
   STR_OPERATION_GLADIO: "Operation Gladio"
   STR_GLADIO_OPERATIVE_M: "Gladio Operative"
@@ -145,15 +169,3 @@ en-US:
   STR_ALKONOST_CORPSE: "Alkonost Corpse"
   STR_WAWKALAK: "Wawkalak"
   STR_WAWKALAK_CORPSE: "Wawkalak Corpse"
-  
-  STR_GREAT_PATRIOTIC_WAR_WEAPONS: "Great Patriotic War Weapons"
-  STR_GREAT_PATRIOTIC_WAR_WEAPONS_UFOPEDIA: "Some of the creatures sighted near disappeared people and slaughtered forest animals are said to be giant and abnormally strong. A militsiya unit who went to investigate a loss of communication with a remote rural settlement found themselves surrounded by 'large animals, walking like a man, but with the face of a wolf'. The officers said they ran out of handgun ammo before even one of the monsters was killed. This has motivated us to ask for authorization to use heavier weaponry, like those used in the Great Patriotic War. The Army has send us some surplus equipment."
-  
-  STR_CRYPTID_ACTIVITY_RESEARCH: "Cryptid Activity"
-  STR_CRYPTID_ACTIVITY_RESEARCH_UFOPEDIA: "Our local folklore is full of mystical creatures with uncanny abilities or physical characteristics. It is not uncommon to hear the elders telling stories of giant fur-covered monsters wandering the forests or half-woman, half-bird creatures stalking the night. Until recently, those were merely stories. But something has changed. The militsiya has informed of unusual encounters with 'strange animals' and the missing persons reported in the wilderness is rising at an alarming pace. The Committee has tasked us to locate, identify, research and utterly, stop what or who is behind this unusual activity."
-  STR_CRYPTID_SIGHTING_DEPLOYMENT: "Cryptid Sighting"
-  STR_CRYPTID_SIGHTING_ALERT: "Strange lifeforms reported"
-  STR_CRYPTID_SIGHTING_MARKER_NAME: "Cryptid Activity"
-  STR_CRYPTID_SIGHTING_DEPLOYMENT_DESCRIPTION: "Comrade Commissar, we have got information about the sighting of unidentified life forms in a distant location, deep inside the Motherland. The KGB has sent us to locate, identify and, if needed, eradicate the vermin before it poses a threat to the local population."
-  STR_CRYPTID_ATTACK_DEPLOYMENT: "Cryptid Attack"
-  STR_CRYPTID_ATTACK_DEPLOYMENT_DESCRIPTION: "Tovarich, our local field agents have reported about a possible attack on a distant village by unknown lifeforms. We need to engage the monsters before they overrun and kill the villagers. We believe this is likely a planned attack by the creatures, as there are previous reports of their presence around the area."
