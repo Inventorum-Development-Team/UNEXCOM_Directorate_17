@@ -23,7 +23,9 @@ itemCategories:
     listOrder: 11
   - type: STR_GLADIO
     listOrder: 12
-  - type: STR_ALIEN
+  - type: STR_KOROBOV
     listOrder: 13
-  - type: STR_CIA
+  - type: STR_ALIEN
     listOrder: 14
+  - type: STR_CIA
+    listOrder: 15

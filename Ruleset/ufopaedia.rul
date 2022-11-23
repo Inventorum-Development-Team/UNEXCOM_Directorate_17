@@ -222,14 +222,62 @@ ufopaedia:
   - id: STR_RPG_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_MAGNETESCHETTO
+  - id: STR_TKB_408
     type_id: 4
     section: STR_EQUIPMENT
+    text: STR_TKB_408_UFOPEDIA
+    requires:
+      - STR_TKB_408
+    listOrder: 209
+
+  - id: STR_MAGNETESCHETTO
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
     text: STR_MAGNETESCHETTO_UFOPEDIA
     requires:
       - STR_MAGNETESCHETTO
-    listOrder: 209
+    listOrder: 300
   - id: STR_MAGNETESCHETTO_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_ALIEN_LASER_PISTOL
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    text: STR_ALIEN_LASER_PISTOL_UFOPEDIA
+    requires:
+      - STR_ALIEN_LASER_PISTOL
+    listOrder: 301
+  - id: STR_ALIEN_LASER_PISTOL_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_ALIEN_LASER_RIFLE
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    text: STR_ALIEN_LASER_RIFLE_UFOPEDIA
+    requires:
+      - STR_ALIEN_LASER_RIFLE
+    listOrder: 302
+  - id: STR_ALIEN_LASER_RIFLE_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_ALIEN_HEAVY_LASER
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    text: STR_ALIEN_HEAVY_LASER_UFOPEDIA
+    requires:
+      - STR_ALIEN_HEAVY_LASER
+    listOrder: 303
+  - id: STR_ALIEN_HEAVY_LASER_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_ALIEN_SIEGE_LAUNCHER
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    text: STR_ALIEN_SIEGE_LAUNCHER_UFOPEDIA
+    requires:
+      - STR_ALIEN_SIEGE_LAUNCHER
+    listOrder: 304
+  - id: STR_ALIEN_SIEGE_LAUNCHER_SHELL
     type_id: 4
     section: STR_NOT_AVAILABLE
 
@@ -237,4 +285,9 @@ ufopaedia:
     type_id: 4
     section: STR_EQUIPMENT
     text: STR_MEDICAL_BAG_UFOPEDIA
+    listOrder: 400
+  - id: STR_RGD_5
+    type_id: 4
+    section: STR_EQUIPMENT
+    text: STR_RGD_5_UFOPEDIA
     listOrder: 401

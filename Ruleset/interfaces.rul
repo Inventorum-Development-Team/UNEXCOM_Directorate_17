@@ -1,4 +1,4 @@
-﻿interfaces:
+interfaces:
   - type: inventory
     elements: #color is the color index of the PAL_BATTLESCAPE palette
       - id: textName

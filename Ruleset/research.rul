@@ -34,7 +34,34 @@ research:
     cost: 50
     points: 10
     needItem: true
+  - name: STR_RGD_5
+    cost: 50
+    points: 10
+    needItem: true
+
   - name: STR_MAGNETESCHETTO
     cost: 250
     points: 100
+    needItem: true
+
+  - name: STR_ALIEN_LASER_PISTOL
+    cost: 150
+    points: 20
+    needItem: true
+  - name: STR_ALIEN_LASER_RIFLE
+    cost: 150
+    points: 20
+    needItem: true
+  - name: STR_ALIEN_HEAVY_LASER
+    cost: 150
+    points: 20
+    needItem: true
+  - name: STR_ALIEN_SIEGE_LAUNCHER
+    cost: 150
+    points: 20
+    needItem: true
+
+  - name: STR_TKB_408
+    cost: 50
+    points: 10
     needItem: true

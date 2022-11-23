@@ -113,7 +113,6 @@ items:
     damageType: 1
     damageAlter:
       RandomType: 2
-      ToTile: 0.5
     clipSize: 8
     battleType: 2
     armor: 10
@@ -166,7 +165,6 @@ items:
     damageType: 1
     damageAlter:
       RandomType: 2
-      ToTile: 0.5
     clipSize: 8
     battleType: 2
     armor: 10
@@ -243,7 +241,7 @@ items:
     power: 50
     damageAlter:
       ToStun: 0.15
-      ToTile: 0.15
+      ToTile: 0.2
     damageType: 1
     clipSize: 30
     battleType: 2
@@ -296,7 +294,6 @@ items:
     damageAlter:
       ToWound: 0.3
       RandomWound: false
-      ToTile: 0.5
     clipSize: 10
     battleType: 2
     armor: 10
@@ -354,7 +351,6 @@ items:
     power: 40
     damageAlter:
       RandomType: 2
-      ToTile: 0.5
     damageType: 1
     clipSize: 7
     battleType: 2
@@ -418,7 +414,6 @@ items:
     damageType: 1
     damageAlter:
       RandomType: 2
-      ToTile: 0.5
     damageType: 1
     clipSize: 71
     battleType: 2
@@ -480,7 +475,6 @@ items:
     damageAlter:
       RandomType: 6
       ArmorEffectiveness: 0.5
-      ToTile: 1.5
     damageType: 1
     clipSize: 5
     battleType: 2
@@ -539,7 +533,7 @@ items:
     power: 50
     damageAlter:
       ToStun: 0.2
-      ToTile: 0.15
+      ToTile: 0.33
     damageType: 1
     clipSize: 100
     battleType: 2
@@ -643,7 +637,7 @@ items:
     invHeight: 3
     twoHanded: true
     armor: 999
-    listOrder: 218
+    listOrder: 300
   - type: STR_MAGNETESCHETTO_MAG
     categories: [STR_AMMUNITION, STR_RIFLES, STR_SNIPERS, STR_GLADIO, STR_ALIEN]
     size: 0.2
@@ -653,8 +647,8 @@ items:
     floorSprite: 432
     handSprite: 432
     bulletSpeed: 1
-    bulletSprite: 10
-    hitAnimation: -1
+    bulletSprite: 31
+    hitAnimation: 110
     power: 180
     damageAlter:
       RandomType: 7
@@ -666,7 +660,263 @@ items:
     vaporDensitySurface: 3
     vaporProbabilitySurface: 80
     armor: 999
-    listOrder: 219
+    listOrder: 301
+
+# Alien Ray Pistol
+  - type: STR_ALIEN_LASER_PISTOL
+    categories: [STR_WEAPONS, STR_PISTOLS, STR_ALIEN, STR_SEMI_CONCEALED]
+    size: 0.1
+    costSell: 21000
+    weight: 4
+    bigSprite: 440
+    floorSprite: 440
+    handSprite: 440
+    bulletSprite: 32
+    bulletSpeed: 1
+    fireSound: 11
+    compatibleAmmo:
+      - STR_ALIEN_LASER_PISTOL_BATTERY
+    confAimed:
+      shots: 1
+      name: STR_HIP_FIRE
+    snapRange: 60
+    accuracySnap: 95
+    tuSnap: 15
+    powerRangeThreshold: 5
+    powerRangeReduction: 3
+    tuLoad: 5
+    dropoff: 1
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    recoveryPoints: 3
+    kneelBonus: 115
+    armor: 45
+    listOrder: 302
+  - type: STR_ALIEN_LASER_PISTOL_BATTERY
+    categories: [STR_AMMUNITION, STR_PISTOLS, STR_ALIEN, STR_SEMI_CONCEALED]
+    size: 0.1
+    costSell: 3510
+    weight: 3
+    bigSprite: 456
+    floorSprite: 456
+    handSprite: 456
+    hitSound: 19
+    hitAnimation: 120
+    power: 70
+    damageType: 4
+    damageAlter:
+      toTile: 3.0
+      RandomType: 2
+      ArmorEffectiveness: 0.5
+    clipSize: 20
+    battleType: 2
+    recoveryPoints: 1
+    listOrder: 303
+
+# Alien Ray Rifle
+  - type: STR_ALIEN_LASER_RIFLE
+    categories: [STR_WEAPONS, STR_RIFLES, STR_ALIEN]
+    size: 0.2
+    costSell: 31600
+    weight: 9
+    bigSprite: 464
+    floorSprite: 464
+    handSprite: 464
+    bulletSprite: 29
+    bulletSpeed: 1
+    fireSound: 11
+    compatibleAmmo:
+      - STR_ALIEN_LASER_RIFLE_BATTERY
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+    aimRange: 60
+    accuracyAimed: 140
+    tuAimed: 60
+    confSnap:
+      shots: 1
+      name: STR_HIP_FIRE
+    snapRange: 10
+    accuracySnap: 80
+    tuSnap: 20
+    powerRangeThreshold: 6
+    powerRangeReduction: 2
+    tuLoad: 10
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    recoveryPoints: 4
+    kneelBonus: 150
+    armor: 50
+    listOrder: 304
+  - type: STR_ALIEN_LASER_RIFLE_BATTERY
+    categories: [STR_AMMUNITION, STR_RIFLES, STR_ALIEN]
+    size: 0.1
+    costSell: 4575
+    weight: 4
+    bigSprite: 480
+    floorSprite: 480
+    handSprite: 480
+    hitSound: 19
+    hitAnimation: 120
+    power: 110
+    damageType: 4
+    damageAlter:
+      toTile: 3.0
+      RandomType: 2
+      ArmorEffectiveness: 0.5
+    clipSize: 10
+    battleType: 2
+    recoveryPoints: 1
+    listOrder: 305
+
+# Alien Ray Cannon
+  - type: STR_ALIEN_HEAVY_LASER
+    categories: [STR_WEAPONS, STR_SNIPERS, STR_ALIEN]
+    size: 0.2
+    costSell: 43500
+    weight: 18
+    bigSprite: 488
+    floorSprite: 488
+    handSprite: 488
+    bulletSprite: 29
+    bulletSpeed: 1
+    fireSound: 11
+    compatibleAmmo:
+      - STR_ALIEN_HEAVY_LASER_BATTERY
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+    aimRange: 60
+    accuracyAimed: 75
+    tuAimed: 80
+    powerRangeThreshold: 7
+    powerRangeReduction: 2
+    tuLoad: 20
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    kneelBonus: 200
+    armor: 50
+    listOrder: 306
+  - type: STR_ALIEN_HEAVY_LASER_BATTERY
+    categories: [STR_AMMUNITION, STR_SNIPERS, STR_ALIEN]
+    size: 0.3
+    costSell: 7200
+    weight: 5
+    bigSprite: 504
+    floorSprite: 504
+    handSprite: 504
+    hitSound: 19
+    hitAnimation: 120
+    power: 200
+    damageType: 4
+    damageAlter:
+      ToTile: 3.0
+      RandomType: 2
+      ArmorEffectiveness: 0.50
+    clipSize: 5
+    battleType: 2
+    recoveryPoints: 1
+    listOrder: 307
+
+# Alien Blaster Launcher
+  - type: STR_ALIEN_SIEGE_LAUNCHER
+    categories: [STR_WEAPONS, STR_EXPLOSIVES, STR_ALIEN]
+    size: 0.3
+    costSell: 253400
+    weight: 24
+    bigSprite: 512
+    floorSprite: 512
+    handSprite: 512
+    bulletSprite: 4
+    fireSound: 53
+    compatibleAmmo:
+      - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+    accuracyAimed: 120
+    tuAimed: 65
+    tuLoad: 15
+    battleType: 1
+    twoHanded: true
+    blockBothHands: true
+    waypoints: 2
+    invWidth: 1
+    invHeight: 3
+    recoveryPoints: 5
+    armor: 40
+    listOrder: 308
+  - type: STR_ALIEN_SIEGE_LAUNCHER_SHELL
+    categories: [STR_AMMUNITION, STR_EXPLOSIVES, STR_ALIEN]
+    size: 0.2
+    costSell: 14530
+    weight: 6
+    bigSprite: 528
+    floorSprite: 528
+    handSprite: 528
+    hitSound: 0
+    hitAnimation: 0
+    power: 300
+    damageType: 3
+    damageAlter:
+      RandomType: 7
+      ToTile: 0.5
+    clipSize: 1
+    battleType: 2
+    invWidth: 1
+    invHeight: 1
+    recoveryPoints: 1
+    blastRadius: 10
+    listOrder: 309
+
+# TKB-408
+  - type: STR_TKB_408
+    categories: [STR_FIREARMS, STR_RIFLES, STR_MACHINE_GUNS, STR_KOROBOV]
+    size: 0.2
+    requiresBuy:
+      - STR_TKB_408
+    costBuy: 8000
+    costSell: 6870
+    weight: 13
+    bigSprite: 536
+    floorSprite: 536
+    handSprite: 536
+    bulletSprite: 1
+    fireSound: 220
+    reloadSound: 221
+    compatibleAmmo:
+      - STR_AK_47_MAG
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+    aimRange: 30
+    accuracyAimed: 120
+    tuAimed: 60
+    confSnap:
+      shots: 1
+      name: STR_HIP_FIRE
+    snapRange: 10
+    accuracySnap: 65
+    tuSnap: 15
+    confAuto:
+      shots: 5
+      name: STR_FULL_AUTO_5
+    autoRange: 15
+    accuracyAuto: 30
+    tuAuto: 40
+    tuLoad: 10
+    dropoff: 2
+    kneelBonus: 150
+    costThrow:
+      energy: 15
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    twoHanded: true
+    listOrder: 204
 
 # Medical Bag
   - type: STR_MEDICAL_BAG
@@ -692,6 +942,29 @@ items:
     battleType: 6
     flatRate: true
     listOrder: 400
+
+# RGD-5 Grenade
+  - type: STR_RGD_5
+    categories: [STR_WEAPONS, STR_EXPLOSIVES, STR_SEMI_CONCEALED]
+    size: 0.1
+    requiresBuy:
+      - STR_RGD_5
+    costBuy: 10
+    costSell: 5
+    weight: 2
+    fuseType: 1
+    bigSprite: 19
+    floorSprite: 19
+    power: 80
+    damageAlter:
+      RandomType: 7
+      ToTile: 0.4
+    tuThrow: 20
+    tuPrime: 15
+    damageType: 3
+    battleType: 4
+    blastRadius: 4
+    listOrder: 401
 
 # KGB Officer Corpse
   - type: STR_CORPSE_KGB

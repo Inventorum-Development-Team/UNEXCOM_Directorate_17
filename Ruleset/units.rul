@@ -94,6 +94,18 @@ units:
     sniper: 1
     intelligence: 8
     aggression: 1
+    builtInWeaponSets:
+     -
+       - STR_ALIEN_LASER_PISTOL
+       - STR_ALIEN_LASER_PISTOL_BATTERY
+     -
+       - STR_ALIEN_LASER_PISTOL
+       - STR_ALIEN_LASER_PISTOL_BATTERY
+     -
+       - STR_ALIEN_LASER_PISTOL
+       - STR_ALIEN_LASER_PISTOL_BATTERY
+       - STR_ALIEN_LASER_PISTOL_BATTERY
+
 # Cryptids
   - type: STR_CHUCHUNYA
     race: STR_CRYPTID

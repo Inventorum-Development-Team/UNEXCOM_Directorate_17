@@ -120,6 +120,36 @@ items:
   - type: STR_MAGNETESCHETTO_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
+  - type: STR_ALIEN_LASER_PISTOL # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+  - type: STR_ALIEN_LASER_PISTOL_BATTERY # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_ALIEN_LASER_RIFLE # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+  - type: STR_ALIEN_LASER_RIFLE_BATTERY # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_HEAVY_ALIEN_LASER # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+  - type: STR_HEAVY_ALIEN_LASER_BATTERY # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_ALIEN_SIEGE_LAUNCHER # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+  - type: STR_ALIEN_SIEGE_LAUNCHER_SHELL # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_TKB_408 # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+  - type: STR_TKB_408_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
 
 extended:
   tags:

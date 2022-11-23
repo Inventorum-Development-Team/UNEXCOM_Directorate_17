@@ -31,6 +31,20 @@ extraSprites:
       416: Resources/Items/Weapons/Magnestoschetto/Unloaded_Big.png
       424: Resources/Items/Weapons/Magnestoschetto/Loaded_10_Big.png
       432: Resources/Items/Weapons/Magnestoschetto/Mag_10_Big.png
+      440: Resources/Items/Weapons/Alien Laser Pistol/Unloaded_Big.png
+      448: Resources/Items/Weapons/Alien Laser Pistol/Loaded_15_Big.png
+      456: Resources/Items/Weapons/Alien Laser Pistol/Mag_15_Big.png
+      464: Resources/Items/Weapons/Alien Laser Rifle/Unloaded_Big.png
+      472: Resources/Items/Weapons/Alien Laser Rifle/Loaded_20_Big.png
+      480: Resources/Items/Weapons/Alien Laser Rifle/Mag_20_Big.png
+      488: Resources/Items/Weapons/Alien Heavy Laser/Unloaded_Big.png
+      496: Resources/Items/Weapons/Alien Heavy Laser/Loaded_10_Big.png
+      504: Resources/Items/Weapons/Alien Heavy Laser/Mag_10_Big.png
+      512: Resources/Items/Weapons/Alien Siege Launcher/Unloaded_Big.png
+      520: Resources/Items/Weapons/Alien Siege Launcher/Loaded_1_Big.png
+      528: Resources/Items/Weapons/Alien Siege Launcher/Mag_1_Big.png
+      536: Resources/Items/Weapons/TKB-408/Unloaded_Big.png
+      544: Resources/Items/Weapons/TKB-408/Loaded_30_Big.png
       1000: Resources/Armors/Officer_Coat/Corpse/Coat_Big.png
       1001: Resources/Armors/Agent_Coat/Corpse/bigob_coat_corpse.png
       1500: Resources/Units/Enemies/Gladio/BIGOBS/bigOb_Gladio_corpse.png
@@ -79,6 +93,20 @@ extraSprites:
       416: Resources/Items/Weapons/Magnestoschetto/Unloaded_Floor.png
       424: Resources/Items/Weapons/Magnestoschetto/Loaded_10_Floor.png
       432: Resources/Items/Weapons/Magnestoschetto/Mag_10_Floor.png
+      440: Resources/Items/Weapons/Alien Laser Pistol/Unloaded_Floor.png
+      448: Resources/Items/Weapons/Alien Laser Pistol/Loaded_15_Floor.png
+      456: Resources/Items/Weapons/Alien Laser Pistol/Mag_15_Floor.png
+      464: Resources/Items/Weapons/Alien Laser Rifle/Unloaded_Floor.png
+      472: Resources/Items/Weapons/Alien Laser Rifle/Loaded_20_Floor.png
+      480: Resources/Items/Weapons/Alien Laser Rifle/Mag_20_Floor.png
+      488: Resources/Items/Weapons/Alien Heavy Laser/Unloaded_Floor.png
+      496: Resources/Items/Weapons/Alien Heavy Laser/Loaded_10_Floor.png
+      504: Resources/Items/Weapons/Alien Heavy Laser/Mag_10_Floor.png
+      512: Resources/Items/Weapons/Alien Siege Launcher/Unloaded_Floor.png
+      520: Resources/Items/Weapons/Alien Siege Launcher/Loaded_1_Floor.png
+      528: Resources/Items/Weapons/Alien Siege Launcher/Mag_1_Floor.png
+      536: Resources/Items/Weapons/TKB-408/Unloaded_Floor.png
+      544: Resources/Items/Weapons/TKB-408/Loaded_30_Floor.png
       1000: Resources/Armors/Officer_Coat/Corpse/Coat_Floor.png
       1001: Resources/Armors/Agent_Coat/Corpse/floorob_coat_corpse.png
       1500: Resources/Units/Enemies/Gladio/FLOOROBS/floorOb_Gladio_corpse.png
@@ -123,7 +151,42 @@ extraSprites:
       416: Resources/Items/Weapons/Magnestoschetto/Unloaded_Hand.png
       424: Resources/Items/Weapons/Magnestoschetto/Loaded_10_Hand.png
       432: Resources/Items/Weapons/Magnestoschetto/Mag_10_Hand.png
+      440: Resources/Items/Weapons/Alien Laser Pistol/Unloaded_Hand.png
+      448: Resources/Items/Weapons/Alien Laser Pistol/Loaded_15_Hand.png
+      456: Resources/Items/Weapons/Alien Laser Pistol/Mag_15_Hand.png
+      464: Resources/Items/Weapons/Alien Laser Rifle/Unloaded_Hand.png
+      472: Resources/Items/Weapons/Alien Laser Rifle/Loaded_20_Hand.png
+      480: Resources/Items/Weapons/Alien Laser Rifle/Mag_20_Hand.png
+      488: Resources/Items/Weapons/Alien Heavy Laser/Unloaded_Hand.png
+      496: Resources/Items/Weapons/Alien Heavy Laser/Loaded_10_Hand.png
+      504: Resources/Items/Weapons/Alien Heavy Laser/Mag_10_Hand.png
+      512: Resources/Items/Weapons/Alien Siege Launcher/Unloaded_Hand.png
+      520: Resources/Items/Weapons/Alien Siege Launcher/Loaded_1_Hand.png
+      528: Resources/Items/Weapons/Alien Siege Launcher/Mag_1_Hand.png
+      536: Resources/Items/Weapons/TKB-408/Unloaded_Hand.png
+      544: Resources/Items/Weapons/TKB-408/Loaded_30_Hand.png
       1900: Resources/Items/Misc/Medical_Bag/Gadget_Hand.png
+
+  - type: SMOKE.PCK
+    height: 80
+    width: 160
+    subX: 32
+    subY: 40
+    files:
+      100: Resources/Items/HitAnimations/HumanElectric_Hit.png
+      110: Resources/Items/HitAnimations/Railgun_Hit.png
+      120: Resources/Items/HitAnimations/RedLaser_Hit.png
+      130: Resources/Items/HitAnimations/CameraFlash_Hit.png
+  - type: Projectiles
+    height: 3
+    width: 105
+    subX: 3
+    subY: 3
+    files:
+      1015: Resources/Items/BulletSprites/WideYellowLaser_Bullet.png
+      1050: Resources/Items/BulletSprites/HumanElectric_Bullet.png
+      1085: Resources/Items/BulletSprites/Railgun_Bullet.png
+      1120: Resources/Items/BulletSprites/WideRedLaser_Bullet.png # 32
 
   - type: BASEBITS.PCK
     files:
@@ -327,7 +390,6 @@ extraSprites:
     files:
       0: Resources/UI/Shock.png
 
-# UI
   - type: WpnActive
     width: 36
     height: 52
@@ -410,7 +472,6 @@ extraSprites:
     files:
       0: Resources/UI/Shock.png
 
-# Backgrounds
   - type: BACK01.SCR #Main
     singleImage: true
     width: 320
@@ -471,6 +532,7 @@ extraSprites:
     height: 200
     files:
       0: Resources/Misc/Backgrounds/BACK17.PNG
+
   - type: ABDUCTION_BACKGROUND #Manufacture
     singleImage: true
     width: 320
@@ -483,7 +545,6 @@ extraSprites:
     height: 200
     files:
       0: Resources/Misc/Backgrounds/COUNTER_INTELLIGENCE_BACKGROUND.PNG
-
 
 ### Turn Hidden movement background
   - type: TACTICBACK00.SCR #In-mission Hidden movement background
