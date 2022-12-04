@@ -127,7 +127,7 @@ en-US:
   STR_RPG_UFOPEDIA: "The RPG-2, shortened down from Ruchnoy Protivotankovy Granatomyot, is a portable anti-tank launcher. This shoulder-fired, recoilless gun fires an armor-piercing, rocket-propelled {ALT}PG-2 Shell{ALT}. It is a great improvement in destructive power over the RPG-1, utilizing design features from the American Bazooka and German Panzerfaust."
 
   STR_TKB_408: "TKB-408"
-  STR_TKB_408_UFOPEDIA: "The Tula Korobov 408, shortened to TKB-408, is one of German A. Korobov's experimental prototypes of innovative, if unorthodox design. While it was ultimately rejected in favor of the AK-47 in 1946, the bullpup design was ahead of its time. It fulfills the same tactical role, a select-fire rifle chambered in {ALT}7.62x39mm{ALT}, but is superior in many ways."
+  STR_TKB_408_UFOPEDIA: "The Tula Korobov 408, shortened to TKB-408, is one of German A. Korobov's experimental prototypes of innovative, if unorthodox design. While it was ultimately rejected in 1946 for cost and reliability concerns, the bullpup design was ahead of its time. It fulfills the same tactical role as the AK-47, an automatic infantry rifle chambered in {ALT}7.62x39mm{ALT}, but is lighter and more accurate."
 
   STR_MAGNETESCHETTO: "Magneteschetto"
   STR_MAGNETESCHETTO_MAG: "Atomic Battery (10x)"
