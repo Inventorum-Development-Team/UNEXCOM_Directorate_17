@@ -18,5 +18,5 @@
   - type: STR_RUSSIA
     fundingBase: 2000
     fundingCap: 100000
-    labelLon: 70
-    labelLat: -65
+    labelLon: 60
+    labelLat: -60
