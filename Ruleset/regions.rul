@@ -1,9 +1,31 @@
 regions:
   - type: STR_SIBERIA
     cost: 100000
+    missionZones:
+      -
+        - [82.75, 82.75, -55, -55, -1, STR_NOVOSIBIRSK]
+        - [73.325, 73.325, -55, -55, -1, STR_OMSK]
   - type: STR_SOUTH_EAST_ASIA
     cost: 150000
   - type: STR_EUROPE
     cost: 150000
+    missionZones:
+      -
+        - [13.375, 13.375, -52.5, -52.5, -2, STR_BERLIN]
+        - [19.125, 19.125, -47.5, -47.5, -2, STR_BUDAPEST]
+        - [359.875, 359.875, -51.5, -51.5, -7, STR_LONDON]
+        - [356.25, 356.25, -40.375, -40.375, -2, STR_MADRID]
+        - [37.625, 37.625, -55.75, -55.75, -2, STR_MOSCOW]
+        - [12.5, 12.5, -41.875, -41.875, -2, STR_ROME]
+        - [2.375, 2.375, -48.75, -48.75, -2, STR_PARIS]
+        - [49.36, 49.36, -57.27, -57.27, -1, STR_KAZAN]
+        - [30.06, 30.06, -49.834, -49.834, -2, STR_KIEV]
+        - [34.79, 34.79, -69, -69, -7, STR_MURMANSK]
+        - [33.67, 33.67, -44.72, -44.72, -1, STR_SEVASTOPOL]
+        - [21.08, 21.08, -53.103, -53.103, -3, STR_WARSAW]
+        - [46, 46, -48, -48, -3, STR_VOLGOGRAD]
+        - [30.3, 30.3, -59.95, -59.95, -3, STR_ST_PETERSBURG]
+  - type: STR_CENTRAL_ASIA
+    cost: 100000
   - type: STR_NORTH_AMERICA
     cost: 200000

@@ -36,7 +36,7 @@ en-US:
   STR_ALIENS_DEFEATED: "Operation Successful"
   STR_NO_ALIEN_CONTAINMENT_FOR_TRANSFER: "NO CONTAINMENT FOR TRANSFER!{SMALLLINE}We have no facility to house these captives. They have been terminated."
 
-  STR_RUSSIA: "C.C.C.P."
+  STR_RUSSIA: "U.S.S.R."
 
   STR_VAN: "VAN"
 
@@ -127,7 +127,7 @@ en-US:
   STR_RPG_UFOPEDIA: "The RPG-2, shortened down from Ruchnoy Protivotankovy Granatomyot, is a portable anti-tank launcher. This shoulder-fired, recoilless gun fires an armor-piercing, rocket-propelled {ALT}PG-2 Shell{ALT}. It is a great improvement in destructive power over the RPG-1, utilizing design features from the American Bazooka and German Panzerfaust."
 
   STR_TKB_408: "TKB-408"
-  STR_TKB_408_UFOPEDIA: "The Tula Korobov 408, shortened to TKB-408, is one of German A. Korobov's experimental prototypes of innovative, if unorthodox design. While it was ultimately rejected in 1946 for cost and reliability concerns, the bullpup design was ahead of its time. It fulfills the same tactical role as the AK-47, an automatic infantry rifle chambered in {ALT}7.62x39mm{ALT}, but is lighter and more accurate."
+  STR_TKB_408_UFOPEDIA: "The Tula Korobov 408, shortened to TKB-408, is one of German A. Korobov's experimental prototypes of innovative, if unorthodox design. While it was ultimately rejected in 1946 for cost and reliability concerns, the bullpup design was ahead of its time. It fulfills the same tactical role as the AK-47, a full auto-capable infantry rifle chambered in {ALT}7.62x39mm{ALT}, but lighter and more accurate."
 
   STR_MAGNETESCHETTO: "Magneteschetto"
   STR_MAGNETESCHETTO_MAG: "Atomic Battery (10x)"
@@ -169,3 +169,12 @@ en-US:
   STR_ALKONOST_CORPSE: "Alkonost Corpse"
   STR_WAWKALAK: "Wawkalak"
   STR_WAWKALAK_CORPSE: "Wawkalak Corpse"
+
+  STR_KAZAN: "Kazan"
+  STR_KIEV: "Kiev"
+  STR_MURMANSK: "Murmansk"
+  STR_SEVASTOPOL: "Sevastapol"
+  STR_WARSAW: "Warsaw"
+  STR_VOLGOGRAD: "Staingrad"
+  STR_ST_PETERSBURG: "Leningrad"
+  STR_OMSK: "Omsk"
