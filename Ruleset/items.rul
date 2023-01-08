@@ -136,8 +136,8 @@ items:
     confSnap:
       shots: 1
       name: STR_HIP_FIRE
-    snapRange: 7
-    accuracySnap: 70
+    snapRange: 11
+    accuracySnap: 75
     tuSnap: 20
     accuracyCloseQuarters: 150
     tuLoad: 5
