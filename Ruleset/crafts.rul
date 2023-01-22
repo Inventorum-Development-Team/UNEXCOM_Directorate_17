@@ -7,7 +7,7 @@ crafts:
     sprite: 100
     fuelMax: 9999
     damageMax: 10
-    speedMax: 15
+    speedMax: 25
     accel: 1
     soldiers: 6
     vehicles: 0

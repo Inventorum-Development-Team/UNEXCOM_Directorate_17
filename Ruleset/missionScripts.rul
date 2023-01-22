@@ -40,3 +40,54 @@ missionScripts:
   - delete: veteranRetaliation
   - delete: geniusRetaliation
   - delete: superhumanRetaliation
+
+  - type: cryptidHuntWawkalak
+    missionWeights:
+      0:
+        STR_WAWKALAK_HUNT_SPAWN: 100
+    regionWeights:
+      0:
+        STR_SIBERIA: 100
+    executionOdds: 100
+    startDelay: 1440
+    useTable: false
+    firstMonth: 0
+    lastMonth: 0
+  - type: cryptidHuntChuchunya
+    missionWeights:
+      0:
+        STR_CHUCHUNYA_HUNT_SPAWN: 100
+    regionWeights:
+      0:
+        STR_SIBERIA: 100
+    executionOdds: 100
+    startDelay: 1440
+    useTable: false
+    firstMonth: 1
+    lastMonth: 1
+  - type: cryptidHuntAlkonost
+    missionWeights:
+      0:
+        STR_ALKONOST_HUNT_SPAWN: 100
+    regionWeights:
+      0:
+        STR_SIBERIA: 100
+    executionOdds: 100
+    startDelay: 1440
+    useTable: false
+    firstMonth: 2
+    lastMonth: 2
+  - type: cryptidHuntRandom
+    missionWeights:
+      0:
+        STR_WAWKALAK_HUNT_SPAWN: 50
+        STR_CHUCHUNYA_HUNT_SPAWN: 50
+        STR_ALKONOST_HUNT_SPAWN: 30
+    regionWeights:
+      0:
+        STR_SIBERIA: 100
+    executionOdds: 80
+    startDelay: 1440
+    useTable: false
+    firstMonth: 3
+    lastMonth: 8

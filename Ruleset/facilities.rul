@@ -1,7 +1,8 @@
 facilities:
   - type: STR_ACCESS_LIFT
     radarRange: 700
-    radarChance: 50
+    radarChance: 100
+    sightRange: 700
   - type: STR_LIVING_QUARTERS
     buildCost: 150000
     personnel: 25
@@ -18,6 +19,7 @@ facilities:
     requires:
       - STR_COMMANDER_PLUS
     radarRange: 1100
+    sightRange: 1100
     radarChance: 100
     defense: 9999
     hitRatio: 100

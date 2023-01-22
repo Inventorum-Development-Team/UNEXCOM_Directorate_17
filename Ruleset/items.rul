@@ -189,13 +189,13 @@ items:
       shots: 1
       name: STR_STEADY_SHOT
     aimRange: 20
-    accuracyAimed: 110
+    accuracyAimed: 120
     tuAimed: 65
     confSnap:
       shots: 1
       name: STR_HIP_FIRE
     snapRange: 5
-    accuracySnap: 60
+    accuracySnap: 50
     tuSnap: 15
     confAuto:
       shots: 5
@@ -377,15 +377,15 @@ items:
     confSnap:
       shots: 2
       name: STR_DOUBLE_TAP
-    snapRange: 3
+    snapRange: 5
     accuracySnap: 85
     tuSnap: 15
     confAuto:
       shots: 15
       name: STR_FULL_AUTO_15
     autoRange: 20
-    accuracyAuto: 20
-    tuAuto: 80
+    accuracyAuto: 40
+    tuAuto: 70
     tuLoad: 10
     dropoff: 4
     kneelBonus: 150
@@ -442,10 +442,10 @@ items:
     confAimed:
       shots: 1
       name: STR_STEADY_SHOT
-    aimRange: 30
-    minRange: 10
-    accuracyAimed: 70
-    tuAimed: 90
+    aimRange: 60
+    minRange: 5
+    accuracyAimed: 75
+    tuAimed: 80
     tuLoad: 20
     dropoff: 1
     kneelBonus: 200
@@ -893,7 +893,7 @@ items:
       shots: 1
       name: STR_STEADY_SHOT
     aimRange: 30
-    accuracyAimed: 120
+    accuracyAimed: 130
     tuAimed: 60
     confSnap:
       shots: 1

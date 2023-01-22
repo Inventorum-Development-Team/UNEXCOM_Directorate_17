@@ -1,4 +1,7 @@
 alienDeployments:
+  - delete: STR_SMALL_SCOUT
+  - delete: STR_MEDIUM_SCOUT
+  - delete: STR_LARGE_SCOUT
   - delete: STR_HARVESTER
   - delete: STR_ABDUCTOR
   - delete: STR_TERROR_SHIP
@@ -28,42 +31,42 @@ alienDeployments:
       - alienRank: 2
         lowQty: 0
         highQty: 0
-        dQty: 1
+        dQty: 3
         itemSets:
           -
             []
       - alienRank: 3
         lowQty: 0
         highQty: 0
-        dQty: 1
+        dQty: 3
         itemSets:
           -
             []
       - alienRank: 4
         lowQty: 0
         highQty: 0
-        dQty: 1
+        dQty: 3
         itemSets:
           -
             []
       - alienRank: 5
         lowQty: 0
         highQty: 0
-        dQty: 3
+        dQty: 10
         itemSets:
           -
             []
       - alienRank: 6
         lowQty: 0
         highQty: 0
-        dQty: 1
+        dQty: 2
         itemSets:
           -
             []
       - alienRank: 7
         lowQty: 0
         highQty: 0
-        dQty: 1
+        dQty: 2
         itemSets:
           -
             []
@@ -76,3 +79,79 @@ alienDeployments:
       background: BACK01.SCR
       music: GMENBASE
     height: 4
+
+  - type: STR_CRYPTID_HUNT_MOUNT
+    data:
+      - alienRank: 5
+        customUnitType: STR_CHUCHUNYA
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 4
+    alert: STR_CRYPTID_SIGHTED
+    terrains:
+      - MOUNT
+    briefing:
+      palette: 2
+      alertBackground: BACK03.SCR
+      showTarget: false
+    objectiveType: 3
+    markerName: STR_CRYPTID_HUNT
+    markerIcon: 7
+    alienBase: true
+  - type: STR_CRYPTID_HUNT_FOREST
+    data:
+      - alienRank: 5
+        customUnitType: STR_ALKONOST
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 4
+    alert: STR_CRYPTID_SIGHTED
+    terrains:
+      - FOREST
+    briefing:
+      palette: 2
+      alertBackground: BACK03.SCR
+      showTarget: false
+    objectiveType: 3
+    markerName: STR_CRYPTID_HUNT
+    markerIcon: 7
+    alienBase: true
+  - type: STR_CRYPTID_HUNT_POLAR
+    data:
+      - alienRank: 5
+        customUnitType: STR_WAWKALAK
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 4
+    alert: STR_CRYPTID_SIGHTED
+    terrains:
+      - POLAR
+    briefing:
+      palette: 2
+      alertBackground: BACK03.SCR
+      showTarget: false
+    objectiveType: 3
+    markerName: STR_CRYPTID_HUNT
+    markerIcon: 7
+    alienBase: true

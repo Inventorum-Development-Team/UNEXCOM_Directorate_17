@@ -1,2 +1,45 @@
 alienMissions:
   - delete: STR_ALIEN_RETALIATION
+
+  - type: STR_CHUCHUNYA_HUNT_SPAWN
+    points: 100
+    objective: 2
+    siteType: STR_CRYPTID_HUNT_MOUNT
+    spawnZone: 4
+    raceWeights:
+      0:
+        STR_CRYPTID: 100
+    waves:
+      - ufo: dummy 
+        count: 1
+        trajectory: P7
+        timer: 0
+        objective: true
+  - type: STR_ALKONOST_HUNT_SPAWN
+    points: 100
+    objective: 2
+    siteType: STR_CRYPTID_HUNT_FOREST
+    spawnZone: 4
+    raceWeights:
+      0:
+        STR_CRYPTID: 100
+    waves:
+      - ufo: dummy 
+        count: 1
+        trajectory: P7
+        timer: 0
+        objective: true
+  - type: STR_WAWKALAK_HUNT_SPAWN
+    points: 100
+    objective: 2
+    siteType: STR_CRYPTID_HUNT_POLAR
+    spawnZone: 4
+    raceWeights:
+      0:
+        STR_CRYPTID: 100
+    waves:
+      - ufo: dummy 
+        count: 1
+        trajectory: P7
+        timer: 0
+        objective: true

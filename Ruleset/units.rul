@@ -5,7 +5,7 @@ units:
     stats:
       tu: 55
       stamina: 50
-      health: 60
+      health: 50
       bravery: 30
       reactions: 55
       firing: 50
@@ -23,24 +23,12 @@ units:
     intelligence: 6
     aggression: 3
     spotter: 2
-    builtInWeaponSets:
-     -
-       - STR_WELROD
-       - STR_WELROD_MAG
-     -
-       - STR_WELROD
-       - STR_WELROD_MAG
-       - STR_WELROD_MAG
-     -
-       - STR_DELISLE
-       - STR_DELISLE_MAG
-       - STR_DELISLE_MAG
   - type: STR_GLADIO_OPERATIVE_F
     race: STR_OPERATION_GLADIO
     stats:
       tu: 55
       stamina: 50
-      health: 60
+      health: 50
       bravery: 30
       reactions: 55
       firing: 50
@@ -58,18 +46,6 @@ units:
     intelligence: 6
     aggression: 3
     spotter: 2
-    builtInWeaponSets:
-     -
-       - STR_WELROD
-       - STR_WELROD_MAG
-     -
-       - STR_WELROD
-       - STR_WELROD_MAG
-       - STR_WELROD_MAG
-     -
-       - STR_DELISLE
-       - STR_DELISLE_MAG
-       - STR_DELISLE_MAG
 # Thin Man
   - type: STR_THIN_MAN
     race: STR_HYBRID
@@ -77,7 +53,7 @@ units:
     stats:
       tu: 60
       stamina: 50
-      health: 40
+      health: 30
       bravery: 80
       reactions: 70
       firing: 60
@@ -94,17 +70,6 @@ units:
     sniper: 1
     intelligence: 8
     aggression: 1
-    builtInWeaponSets:
-     -
-       - STR_ALIEN_LASER_PISTOL
-       - STR_ALIEN_LASER_PISTOL_BATTERY
-     -
-       - STR_ALIEN_LASER_PISTOL
-       - STR_ALIEN_LASER_PISTOL_BATTERY
-     -
-       - STR_ALIEN_LASER_PISTOL
-       - STR_ALIEN_LASER_PISTOL_BATTERY
-       - STR_ALIEN_LASER_PISTOL_BATTERY
 
 # Cryptids
   - type: STR_CHUCHUNYA
@@ -112,8 +77,8 @@ units:
     rank: STR_LIVE_SOLDIER
     stats:
       tu: 80
-      stamina: 80
-      health: 180
+      stamina: 100
+      health: 120
       bravery: 60
       reactions: 30
       firing: 30
@@ -138,8 +103,8 @@ units:
     rank: STR_LIVE_SOLDIER
     stats:
       tu: 120
-      stamina: 100
-      health: 160
+      stamina: 200
+      health: 100
       bravery: 60
       reactions: 30
       firing: 30
@@ -166,7 +131,7 @@ units:
     stats:
       tu: 100
       stamina: 120
-      health: 200
+      health: 150
       bravery: 60
       reactions: 30
       firing: 30
