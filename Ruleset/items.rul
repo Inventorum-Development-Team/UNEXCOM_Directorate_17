@@ -201,7 +201,7 @@ items:
       shots: 5
       name: STR_FULL_AUTO_5
     autoRange: 10
-    accuracyAuto: 30
+    accuracyAuto: 35
     tuAuto: 40
     tuLoad: 10
     dropoff: 2
@@ -213,7 +213,7 @@ items:
     invHeight: 3
     twoHanded: true
     meleeType: 7
-    meleePower: 20
+    meleePower: 10
     meleeBonus:
       strength: 1.2
       melee: 0.3
@@ -222,7 +222,7 @@ items:
       flatHundred: 0.5
       melee: 0.75
     costMelee:
-      time: 3
+      time: 8
       energy: 6
     flatMelee:
       time: true
@@ -317,7 +317,7 @@ items:
       shots: 1
       name: STR_STEADY_SHOT
     aimRange: 30
-    accuracyAimed: 140
+    accuracyAimed: 180
     tuAimed: 75
     confSnap:
       shots: 1
@@ -361,7 +361,7 @@ items:
   - type: STR_PPSH
     categories: [STR_FIREARMS, STR_MACHINE_GUNS]
     requiresBuy:
-      - STR_PPSH
+      - STR_GREAT_PATRIOTIC_WAR_SURPLUS
     size: 0.2
     costBuy: 2500
     costSell: 2180
@@ -378,14 +378,14 @@ items:
       shots: 2
       name: STR_DOUBLE_TAP
     snapRange: 5
-    accuracySnap: 85
+    accuracySnap: 80
     tuSnap: 15
     confAuto:
       shots: 15
       name: STR_FULL_AUTO_15
     autoRange: 20
-    accuracyAuto: 40
-    tuAuto: 70
+    accuracyAuto: 35
+    tuAuto: 85
     tuLoad: 10
     dropoff: 4
     kneelBonus: 150
@@ -401,7 +401,7 @@ items:
     categories: [STR_AMMUNITION, STR_MACHINE_GUNS]
     size: 0.2
     requiresBuy:
-      - STR_PPSH
+      - STR_GREAT_PATRIOTIC_WAR_SURPLUS
     costBuy: 700
     costSell: 620
     weight: 6
@@ -426,7 +426,7 @@ items:
   - type: STR_PTRD
     categories: [STR_FIREARMS, STR_RIFLES, STR_SNIPERS]
     requiresBuy:
-      - STR_PTRD
+      - STR_GREAT_PATRIOTIC_WAR_SURPLUS
     size: 0.2
     costBuy: 8000
     costSell: 6840
@@ -445,7 +445,7 @@ items:
     aimRange: 60
     minRange: 5
     accuracyAimed: 75
-    tuAimed: 80
+    tuAimed: 90
     tuLoad: 20
     dropoff: 1
     kneelBonus: 200
@@ -461,7 +461,7 @@ items:
     categories: [STR_AMMUNITION, STR_RIFLES, STR_SNIPERS]
     size: 0.2
     requiresBuy:
-      - STR_PTRD
+      - STR_GREAT_PATRIOTIC_WAR_SURPLUS
     costBuy: 400
     costSell: 380
     weight: 4
@@ -987,6 +987,15 @@ items:
     armor: 50
     recover: false
     battleType: 11
+  - type: STR_CORPSE_KGBALT_DUMMY
+    name: STR_CORPSE
+    weight: 60
+    bigSprite: 1001
+    floorSprite: 1001
+    invWidth: 2
+    invHeight: 3
+    armor: 50
+    recover: false
 
 # Gladio
   - type: STR_GLADIO_OPERATIVE_CORPSE

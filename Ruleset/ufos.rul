@@ -4,3 +4,87 @@ ufos:
   - delete: STR_TERROR_SHIP
   - delete: STR_BATTLESHIP
   - delete: STR_SUPPLY_SHIP
+  
+  - type: STR_OPERATION_OMEN_UFO
+    battlescapeTerrainData:
+      name: OPERATION_OMEN_UFO
+      mapDataSets:
+        - BLANKS
+        - IDT_OFFICE
+        - SOVIET_FLAG
+        - URBAN
+        - CADILLAC_BLUE
+        - XBASE1
+      mapBlocks:
+        - name: KGBLAB
+          width: 10
+          length: 10
+          items:
+            STR_CORPSE_KGBALT_DUMMY:
+              - [3, 2, 0]
+              - [4, 2, 1]
+              - [1, 7, 1]
+              - [6, 3, 1]
+  
+  - type: STR_GLADIO_STOCKPILE_UFO
+    battlescapeTerrainData:
+      name: GLADIO_STOCKPILE
+      mapDataSets:
+        - BLANKS
+        - IDT_OFFICE
+        - SOVIET_FLAG
+        - URBAN
+        - CADILLAC_BLUE
+        - XBASE1
+      mapBlocks:
+        - name: STOCKPILE
+          width: 10
+          length: 10
+          items:
+            STR_WELROD:
+              - [2, 2, 1]
+              - [2, 2, 1]
+              - [3, 4, 1]
+              - [4, 2, 1]
+              - [4, 2, 1]
+            STR_WELROD_MAG:
+              - [2, 2, 1]
+              - [2, 2, 1]
+              - [2, 2, 1]
+              - [2, 2, 1]
+              - [2, 2, 1]
+              - [2, 2, 1]
+              - [3, 4, 1]
+              - [3, 4, 1]
+              - [3, 4, 1]
+              - [4, 2, 1]
+              - [4, 2, 1]
+              - [4, 2, 1]
+              - [4, 2, 1]
+              - [4, 2, 1]
+              - [4, 2, 1]
+            STR_DELISLE:
+              - [1, 1, 1]
+              - [3, 2, 1]
+              - [2, 4, 1]
+              - [5, 2, 1]
+            STR_DELISLE_MAG:
+              - [1, 1, 1]
+              - [1, 1, 1]
+              - [1, 1, 1]
+              - [3, 2, 1]
+              - [3, 2, 1]
+              - [3, 2, 1]
+              - [3, 2, 1]
+              - [3, 2, 1]
+              - [3, 2, 1]
+              - [2, 4, 1]
+              - [2, 4, 1]
+              - [2, 4, 1]
+              - [2, 4, 1]
+              - [5, 2, 1]
+              - [5, 2, 1]
+              - [5, 2, 1]
+              - [5, 2, 1]
+              - [5, 2, 1]
+              - [5, 2, 1]

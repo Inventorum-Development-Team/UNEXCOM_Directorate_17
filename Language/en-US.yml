@@ -57,6 +57,7 @@ en-US:
  
   STR_EQUIPMENT: "EQUIPMENT"
   STR_ALIEN_ARTIFACTS: "ARTIFACTS"
+  STR_REPORTS: "REPORTS"
 
   STR_FIREARMS: "Firearms"
   STR_AMMUNITION: "Ammunition"
@@ -110,6 +111,8 @@ en-US:
   STR_DELISLE_MAG: ".45 ACP Mag (7x)"
   STR_DELISLE_UFOPEDIA: "The DeLisle is an integrally-suppressed carbine that fires sub-sonic {ALT}.45 ACP{ALT} rounds. It saw action in the Western Front of World War II, as it was utilized by British Commandoes on clandestine missions. Gladio cells stockpile these firearms, likely supplied by British intelligence, for use in anti-Soviet operations. {NEWLINE}> Semi-Concealable"
 
+  STR_GREAT_PATRIOTIC_WAR_SURPLUS: "Great Patriotic War Surplus"
+ 
   STR_PPSH: "PPSh-41"
   STR_PPSH_MAG: "7.62x25mm Drum (71x)"
   STR_PPSH_UFOPEDIA: "The Pistolet Pulemyot Shpagina 1941, shortened to PPSh-41, is a sub machine gun chambered in {ALT}7.62x25mm{ALT} with a cyclical fire rate of 1250 RPM. It was mass-produced during the Great Patriotic War and was standard issue on the march from Moscow to Berlin, proving to be extremely lethal in close quarters."
@@ -170,11 +173,48 @@ en-US:
   STR_WAWKALAK: "Wawkalak"
   STR_WAWKALAK_CORPSE: "Wawkalak Corpse"
 
+  STR_CHUCHUNYA_ANALYSIS: "Chuchunya Analysis"
+  STR_CHUCHUNYA_ANALYSIS_UFOPEDIA: "Placeholder"
+  STR_WAWKALAK_ANALYSIS: "Wawkalak Analysis"
+  STR_WAWKALAK_ANALYSIS_UFOPEDIA: "Placeholder"
+  STR_ALKONOST_ANALYSIS: "Alkonost Analysis"
+  STR_ALKONOST_ANALYSIS_UFOPEDIA: "Placeholder"
+  STR_CRYPTID_MIGRATION_PATTERNS: "Cryptid Migration Patterns"
+  STR_CRYPTID_MIGRATION_PATTERNS_UFOPEDIA: "Placeholder"
+
   STR_KAZAN: "Kazan"
   STR_KIEV: "Kiev"
   STR_MURMANSK: "Murmansk"
   STR_SEVASTOPOL: "Sevastapol"
-  STR_WARSAW: "Warsaw"
   STR_VOLGOGRAD: "Staingrad"
   STR_ST_PETERSBURG: "Leningrad"
   STR_OMSK: "Omsk"
+  STR_WARSAW: "Warsaw"
+
+  STR_MILAN: "Milan"
+  STR_VENICE: "Venice"
+  STR_VIENNA: "Vienna"
+  STR_BONN: "Bonn"
+
+  STR_BASE_DEFENSE: "HIDEOUT DEFENSE"
+  STR_BASE_UC_: "HIDEOUT> {0}"
+  STR_BASE_DEFENSE_BRIEFING: "Comrade Commissar! Our clandestine hideout's location has been compromised. Enemy forces have been deployed to destroy it. We must hold this location, all D17 officers are ready to repel the attack. If you click on the 'abort mission' icon you will concede defeat and lose the hideout."
+
+  STR_ALIEN_BASE_STILL_INTACT: "Investigation Site remains uncleared"
+  STR_ALIEN_BASE_DESTROYED: "Investigation Site cleared"
+  STR_CRYPTID_HUNT_MOUNT: "Chuchunya Hunt"
+  STR_CRYPTID_HUNT_FOREST: "Alkonost Hunt"
+  STR_CRYPTID_HUNT_POLAR: "Wawkalak Hunt"
+  STR_CRYPTID_SIGHTED: "CRYPTID SIGHTED!"
+  STR_CRYPTID_HUNT_: "CRYPTID HUNT-{0}"
+  STR_CRYPTID_HUNT_MOUNT_BRIEFING: "Comrade Commissar, one of our hideouts has collected several reports of aggressive white ape-like creatures roaming this remote mountainous region. We should send some officers to the area in order to investigate if these reports have any validity. To abort the mission return all D17 Officers to the transport vehicle and click on the 'Abort Mission' icon."
+  STR_CRYPTID_HUNT_FOREST_BRIEFING: "Comrade Commissar, one of our hideouts has collected several reports of aggressive feathered humanoids roaming this remote forested region. We should send some officers to the area in order to investigate if these reports have any validity. To abort the mission return all D17 Officers to the transport vehicle and click on the 'Abort Mission' icon."
+  STR_CRYPTID_HUNT_POLAR_BRIEFING: "Comrade Commissar, one of our hideouts has collected several reports of aggressive creatures which resemble wolves roaming this remote polar region. We should send some officers to the area in order to investigate if these reports have any validity. To abort the mission return all D17 Officers to the transport vehicle and click on the 'Abort Mission' icon."
+  
+  STR_OPERATION_OMEN_ALERT: "EMERGENCY ALERT"
+  STR_OPERATION_OMEN_MARKER: "Emergency Alert"
+  STR_OPERATION_OMEN_DEPLOYMENT: "Operation OMEN"
+  STR_OPERATION_OMEN_DESCRIPTION: "Comrade Commissar, the Committee has recieved an emergency alert from a clandestine KGB station in Hungary, reporting an attack by unknown forces. Its very existence is classified, so the fact that it has been discovered at all is disturbing. We should deploy a squad to identify and neutralize the perpetrators. To abort the mission return all D17 Officers to the transport vehicle and click on the 'Abort Mission' icon."
+
+  STR_GLADIO_STOCKPILE: "Gladio Stockpile"
+  STR_GLADIO_STOCKPILE_DESCRIPTION: "Placeholder {NEWLINE}> Semi-Concealed Equipment Only!"

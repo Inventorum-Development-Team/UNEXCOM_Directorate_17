@@ -102,6 +102,7 @@ alienDeployments:
       alertBackground: BACK03.SCR
       showTarget: false
     objectiveType: 3
+    alertDescription: STR_CRYPTID_HUNT_MOUNT_BRIEFING
     markerName: STR_CRYPTID_HUNT
     markerIcon: 7
     alienBase: true
@@ -127,6 +128,7 @@ alienDeployments:
       alertBackground: BACK03.SCR
       showTarget: false
     objectiveType: 3
+    alertDescription: STR_CRYPTID_HUNT_FOREST_BRIEFING
     markerName: STR_CRYPTID_HUNT
     markerIcon: 7
     alienBase: true
@@ -152,6 +154,138 @@ alienDeployments:
       alertBackground: BACK03.SCR
       showTarget: false
     objectiveType: 3
+    alertDescription: STR_CRYPTID_HUNT_POLAR_BRIEFING
     markerName: STR_CRYPTID_HUNT
     markerIcon: 7
     alienBase: true
+
+  - type: STR_OPERATION_OMEN_DEPLOYMENT
+    customUfo: STR_OPERATION_OMEN_UFO
+    height: 10
+    width: 50
+    length: 50
+    duration: [999, 999]
+    data: 
+      - alienRank: 6
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_DELISLE
+            - STR_DELISLE_MAG
+      - alienRank: 5
+        lowQty: 2
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 75
+        itemSets:
+          -
+            - STR_WELROD
+            - STR_WELROD_MAG
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_DELISLE
+            - STR_DELISLE_MAG
+      - alienRank: 3
+        lowQty: 0
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_DELISLE
+            - STR_DELISLE_MAG
+      - alienRank: 2
+        lowQty: 0
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_DELISLE
+            - STR_DELISLE_MAG
+    terrains:
+      - URBAN_UFO
+    briefing:
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+      showCraft: true
+      desc: STR_OPERATION_OMEN_DESCRIPTION
+      palette: 2
+    markerName: STR_OPERATION_OMEN_MARKER
+    alert: STR_OPERATION_OMEN_ALERT
+    alertBackground: BACK13.SCR
+    alertDescription: STR_OPERATION_OMEN_DESCRIPTION
+    unlockedResearch: STR_OPERATION_OMEN_RESEARCH
+
+  - type: STR_GLADIO_STOCKPILE
+    startingCondition: STR_SEMI_CONCEALED
+    customUfo: STR_GLADIO_STOCKPILE_UFO
+    height: 10
+    width: 30
+    length: 30
+    duration: [999, 999]
+    civilians: 3
+    data: 
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 3
+        percentageOutsideUfo: 75
+        itemSets:
+          -
+            - STR_WELROD
+            - STR_WELROD_MAG
+            - STR_WELROD_MAG
+      - alienRank: 4
+        lowQty: 0
+        highQty: 1
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_DELISLE
+            - STR_DELISLE_MAG
+            - STR_DELISLE_MAG
+      - alienRank: 3
+        lowQty: 0
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_DELISLE
+            - STR_DELISLE_MAG
+            - STR_DELISLE_MAG
+      - alienRank: 2
+        lowQty: 0
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_DELISLE
+            - STR_DELISLE_MAG
+            - STR_DELISLE_MAG
+    terrains:
+      - URBAN_UFO
+    briefing:
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+      showCraft: true
+      desc: STR_GLADIO_STOCKPILE_DESCRIPTION
+      palette: 2
+    markerName: STR_GLADIO_STOCKPILE_MARKER
+    alert: STR_GLADIO_STOCKPILE_ALERT
+    alertBackground: BACK13.SCR
+    alertDescription: STR_GLADIO_STOCKPILE_DESCRIPTION
+//    unlockedResearch: STR_GLADIO_STOCKPILE

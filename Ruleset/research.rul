@@ -9,59 +9,139 @@ research:
   - delete: STR_MEDI_KIT
 
   - name: STR_WELROD
-    cost: 50
+    cost: 10
     points: 10
     needItem: true
   - name: STR_DELISLE
-    cost: 50
+    cost: 10
     points: 10
     needItem: true
-
   - name: STR_PPSH
-    cost: 50
+    cost: 10
     points: 10
     needItem: true
   - name: STR_PTRD
-    cost: 50
+    cost: 10
     points: 10
     needItem: true
-
   - name: STR_RPD
-    cost: 50
+    cost: 10
     points: 10
     needItem: true
   - name: STR_RPG
-    cost: 50
+    cost: 10
     points: 10
     needItem: true
   - name: STR_RGD_5
-    cost: 50
+    cost: 10
     points: 10
     needItem: true
-
   - name: STR_MAGNETESCHETTO
-    cost: 250
+    cost: 150
     points: 100
     needItem: true
-
   - name: STR_ALIEN_LASER_PISTOL
-    cost: 150
+    cost: 100
     points: 20
     needItem: true
   - name: STR_ALIEN_LASER_RIFLE
-    cost: 150
+    cost: 100
     points: 20
     needItem: true
   - name: STR_ALIEN_HEAVY_LASER
-    cost: 150
+    cost: 100
     points: 20
     needItem: true
   - name: STR_ALIEN_SIEGE_LAUNCHER
-    cost: 150
+    cost: 100
     points: 20
     needItem: true
-
   - name: STR_TKB_408
+    cost: 10
+    points: 10
+    needItem: true
+
+  - name: STR_GREAT_PATRIOTIC_WAR_SURPLUS_PREQ
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_CHUCHUNYA
+      - STR_CHUCHUNYA_CORPSE
+      - STR_WAWKALAK
+      - STR_WAWKALAK_CORPSE
+      - STR_ALKONOST
+      - STR_ALKONOST_CORPSE
+  - name: STR_CHUCHUNYA_ANALYSIS
+    cost: 0
+    points: 0
+    needItem: true
+  - name: STR_CHUCHUNYA
     cost: 50
     points: 10
+    lookup: STR_CHUCHUNYA_ANALYSIS
+    unlocks:
+      - STR_GREAT_PATRIOTIC_WAR_SURPLUS_PREQ
+    needItem: true
+  - name: STR_CHUCHUNYA_CORPSE
+    cost: 50
+    points: 10
+    lookup: STR_CHUCHUNYA_ANALYSIS
+    unlocks:
+      - STR_GREAT_PATRIOTIC_WAR_SURPLUS_PREQ
+    needItem: true
+  - name: STR_WAWKALAK_ANALYSIS
+    cost: 0
+    points: 0
+    needItem: true
+  - name: STR_WAWKALAK
+    cost: 50
+    points: 10
+    lookup: STR_WAWKALAK_ANALYSIS
+    unlocks:
+      - STR_GREAT_PATRIOTIC_WAR_SURPLUS_PREQ
+    needItem: true
+  - name: STR_WAWKALAK_CORPSE
+    cost: 50
+    points: 10
+    lookup: STR_WAWKALAK_ANALYSIS
+    unlocks:
+      - STR_GREAT_PATRIOTIC_WAR_SURPLUS_PREQ
+    needItem: true
+  - name: STR_ALKONOST_ANALYSIS
+    cost: 0
+    points: 0
+    needItem: true
+  - name: STR_ALKONOST
+    cost: 50
+    points: 10
+    lookup: STR_ALKONOST_ANALYSIS
+    unlocks:
+      - STR_GREAT_PATRIOTIC_WAR_SURPLUS_PREQ
+    needItem: true
+  - name: STR_ALKONOST_CORPSE
+    cost: 50
+    points: 10
+    lookup: STR_ALKONOST_ANALYSIS
+    unlocks:
+      - STR_GREAT_PATRIOTIC_WAR_SURPLUS_PREQ
+    needItem: true
+  - name: STR_GREAT_PATRIOTIC_WAR_SURPLUS
+    cost: 100
+    points: 20
+    dependencies:
+      - STR_GREAT_PATRIOTIC_WAR_SURPLUS_PREQ
+    unlocks:
+      - STR_PPSH
+      - STR_PTRD
+  - name: STR_CRYPTID_MIGRATION_PATTERNS
+    cost: 200
+    points: 50
+    dependencies:
+      - STR_CHUCHUNYA_ANALYSIS
+      - STR_WAWKALAK_ANALYSIS
+      - STR_ALKONOST_ANALYSIS
+
+  - name: STR_OPERATION_OMEN_RESEARCH
+    cost: 0
+    points: 0
     needItem: true

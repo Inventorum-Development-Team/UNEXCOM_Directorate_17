@@ -1,0 +1,18 @@
+startingConditions:
+  - type: STR_SEMI_CONCEALED
+    defaultArmor:
+      STR_KGB_OFFICER:
+        STR_AGENT_COAT_UC: 100
+    allowedArmors:
+      - STR_AGENT_COAT_UC
+    allowedItemCategories:
+      - STR_CONCEALED
+      - STR_SEMI_CONCEALED
+  - type: STR_CONCEALED
+    defaultArmor:
+      STR_KGB_OFFICER:
+        STR_AGENT_COAT_UC: 100
+    allowedArmors:
+      - STR_AGENT_COAT_UC
+    allowedItemCategories:
+      - STR_CONCEALED

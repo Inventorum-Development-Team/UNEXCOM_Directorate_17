@@ -187,7 +187,7 @@ ufopaedia:
     section: STR_EQUIPMENT
     text: STR_PPSH_UFOPEDIA
     requires:
-      - STR_PPSH
+      - STR_GREAT_PATRIOTIC_WAR_SURPLUS
     listOrder: 205
   - id: STR_PPSH_MAG
     type_id: 4
@@ -197,7 +197,7 @@ ufopaedia:
     section: STR_EQUIPMENT
     text: STR_PTRD_UFOPEDIA
     requires:
-      - STR_PTRD
+      - STR_GREAT_PATRIOTIC_WAR_SURPLUS
     listOrder: 206
   - id: STR_PTRD_CLIP
     type_id: 4
@@ -229,7 +229,6 @@ ufopaedia:
     requires:
       - STR_TKB_408
     listOrder: 209
-
   - id: STR_MAGNETESCHETTO
     type_id: 4
     section: STR_ALIEN_ARTIFACTS
@@ -280,7 +279,6 @@ ufopaedia:
   - id: STR_ALIEN_SIEGE_LAUNCHER_SHELL
     type_id: 4
     section: STR_NOT_AVAILABLE
-
   - id: STR_MEDICAL_BAG
     type_id: 4
     section: STR_EQUIPMENT
@@ -289,5 +287,36 @@ ufopaedia:
   - id: STR_RGD_5
     type_id: 4
     section: STR_EQUIPMENT
+    requires:
+      - STR_RGD_5
     text: STR_RGD_5_UFOPEDIA
     listOrder: 401
+
+  - id: STR_CHUCHUNYA_ANALYSIS
+    type_id: 8
+    section: STR_REPORTS
+    requires:
+      - STR_CHUCHUNYA_ANALYSIS
+    text: STR_CHUCHUNYA_ANALYSIS_UFOPEDIA
+    listOrder: 500
+  - id: STR_WAWKALAK_ANALYSIS
+    type_id: 8
+    section: STR_REPORTS
+    requires:
+      - STR_WAWKALAK_ANALYSIS
+    text: STR_WAWKALAK_ANALYSIS_UFOPEDIA
+    listOrder: 501
+  - id: STR_ALKONOST_ANALYSIS
+    type_id: 8
+    section: STR_REPORTS
+    requires:
+      - STR_ALKONOST_ANALYSIS
+    text: STR_ALKONOST_ANALYSIS_UFOPEDIA
+    listOrder: 502
+  - id: STR_CRYPTID_MIGRATION_PATTERNS
+    type_id: 8
+    section: STR_REPORTS
+    requires:
+      - STR_CRYPTID_MIGRATION_PATTERNS
+    text: STR_CRYPTID_MIGRATION_PATTERNS_UFOPEDIA
+    listOrder: 503

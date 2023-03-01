@@ -1,4 +1,12 @@
 regions:
+## Mission Regions Start
+  - type: REGION_OPRERATION_OMEN
+    missionZones:
+      -
+        - [19.125, 19.125, -47.5, -47.5, -2, STR_BUDAPEST]
+
+## Mission Regions End
+
   - type: STR_SIBERIA
     cost: 100000
     missionZones:
@@ -55,7 +63,10 @@ regions:
         - [359.875, 359.875, -51.5, -51.5, -7, STR_LONDON]
         - [356.25, 356.25, -40.375, -40.375, -2, STR_MADRID]
         - [12.5, 12.5, -41.875, -41.875, -2, STR_ROME]
+        - [9.125, 9.125, -45, -45, -105, STR_MILAN]
         - [2.375, 2.375, -48.75, -48.75, -2, STR_PARIS]
+        - [12.45, 12.45, -45.59, -45.59, -105, STR_VENICE]
+        - [16.375, 16.375, -48.25, -48.25, -105, STR_VIENNA]
         - [6.85, 6.85, -50.5, -50.5, -2, STR_BONN]
   - type: STR_CENTRAL_ASIA
     cost: 100000

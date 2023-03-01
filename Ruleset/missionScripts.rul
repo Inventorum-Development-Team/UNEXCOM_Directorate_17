@@ -91,3 +91,18 @@ missionScripts:
     useTable: false
     firstMonth: 3
     lastMonth: 8
+
+  - type: spawnOperationOmen
+    varName: spawnOperationOmen
+    missionWeights:
+      0:
+        STR_OPERATION_OMEN_MISSION: 100
+    regionWeights:
+      0:
+        REGION_OPRERATION_OMEN: 100
+    executionOdds: 100
+    startDelay: 10080
+    randomDelay: 30240
+    useTable: false
+    lastMonth: 0
+    maxRuns: 1
