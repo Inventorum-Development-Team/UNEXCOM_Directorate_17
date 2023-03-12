@@ -284,6 +284,7 @@ alienDeployments:
       showCraft: true
       desc: STR_GLADIO_STOCKPILE_DESCRIPTION
       palette: 2
+    markerIcon: 7
     markerName: STR_GLADIO_STOCKPILE_MARKER
     alert: STR_GLADIO_STOCKPILE_ALERT
     alertBackground: BACK13.SCR

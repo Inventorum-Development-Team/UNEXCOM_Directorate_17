@@ -174,13 +174,16 @@ en-US:
   STR_WAWKALAK_CORPSE: "Wawkalak Corpse"
 
   STR_CHUCHUNYA_ANALYSIS: "Chuchunya Analysis"
-  STR_CHUCHUNYA_ANALYSIS_UFOPEDIA: "Placeholder"
+  STR_CHUCHUNYA_ANALYSIS_UFOPEDIA: "Although invasive to the Russian wilderness, at first glance the subject appears merely be a mountain gorilla. Upon further examination, the brain of the creature is abnormally large, suggesting a high level of intelligence. It also lacks any sex organs, meaning it thankfully cannot reproduce naturally, but also brings up more questions as to thier origins. We believe this creature to be artificial in nature, the product of some bizarre alien science. Judging by the pattern of sightings, they appear to make long migrations in a straight path from a specific point. Perhaps we can utilize this information..."
   STR_WAWKALAK_ANALYSIS: "Wawkalak Analysis"
-  STR_WAWKALAK_ANALYSIS_UFOPEDIA: "Placeholder"
+  STR_WAWKALAK_ANALYSIS_UFOPEDIA: "This perverse creature appears to be a cross-breed of a wolf and a human being, perhaps bringing credibility to old legends of monsters such as the Werewolf. There is no rational scientific origin of this apex preadator known to modern biology. It also lacks any sex organs, meaning it thankfully cannot reproduce naturally, but also brings up more questions as to thier origins. We believe this creature to be artificial in nature, the product of some bizarre alien science. Judging by the pattern of sightings, they appear to make long migrations in a straight path from a specific point. Perhaps we can utilize this information..."
   STR_ALKONOST_ANALYSIS: "Alkonost Analysis"
-  STR_ALKONOST_ANALYSIS_UFOPEDIA: "Placeholder"
+  STR_ALKONOST_ANALYSIS_UFOPEDIA: "From what we can gather, this creature is an unnatural hybrid of a human and an avian species, most likely an owl. While it is unable to take flight due to its weight, the Alkonost is still extremely agile and extremely lethal. It also lacks any sex organs, meaning it thankfully cannot reproduce naturally, but also brings up more questions as to thier origins. We believe this creature to be artificial in nature, the product of some bizarre alien science. Judging by the pattern of sightings, they appear to make long migrations in a straight path from a specific point. Perhaps we can utilize this information..."
   STR_CRYPTID_MIGRATION_PATTERNS: "Cryptid Migration Patterns"
   STR_CRYPTID_MIGRATION_PATTERNS_UFOPEDIA: "Placeholder"
+
+  STR_OPERATION_GLADIO_BRIEFING: "Operation Gladio Briefing"
+  STR_OPERATION_GLADIO_BRIEFING_UFOPEDIA: "Our officers managed to recover the Station Chief of the Budapest safehouse, codenamed Orlan, who briefed us about the identity of the attackers. This 'Operation Gladio' is a paramilitary organization created to support insurgency efforts in the theoretical contingency of a Soviet-occupied Western Europe. This 'stay-behind' group, structured after the French and Polish partisans (an unfortunate comparison), has several clandestine 'sleeper' agents and secret stockpiles of weaponry provided to them by thier Western backers. While the organization is designed to support NATO, it is entirely independent of thier command structure. We cannot jump to conclusions too hastily; it is entirely possible Gladio's actions in Budapest weren't officially sanctioned. Though when it comes to deniable operations, the line becomes blurry."
 
   STR_KAZAN: "Kazan"
   STR_KIEV: "Kiev"
@@ -216,5 +219,6 @@ en-US:
   STR_OPERATION_OMEN_DEPLOYMENT: "Operation OMEN"
   STR_OPERATION_OMEN_DESCRIPTION: "Comrade Commissar, the Committee has recieved an emergency alert from a clandestine KGB station in Hungary, reporting an attack by unknown forces. Its very existence is classified, so the fact that it has been discovered at all is disturbing. We should deploy a squad to identify and neutralize the perpetrators. To abort the mission return all D17 Officers to the transport vehicle and click on the 'Abort Mission' icon."
 
+  STR_GLADIO_STOCKPILE_MARKER_: "GLADIO STOCKPILE-{0}"
   STR_GLADIO_STOCKPILE: "Gladio Stockpile"
-  STR_GLADIO_STOCKPILE_DESCRIPTION: "Placeholder {NEWLINE}> Semi-Concealed Equipment Only!"
+  STR_GLADIO_STOCKPILE_DESCRIPTION: "Comrade Commissar, our research into this 'Operation Gladio' organization has borne fruit; our Hideout just uncovered a secret location where Gladio is stockpiling weapons provided to them by thier Western backers. Since this operation will take place within enemy territory, our arsenal will be limited to concealable equipment. To abort the mission return all D17 Officers to the transport vehicle and click on the 'Abort Mission' icon. {NEWLINE}> Semi-Concealed Equipment Only!"

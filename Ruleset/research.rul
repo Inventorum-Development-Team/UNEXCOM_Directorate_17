@@ -145,3 +145,8 @@ research:
     cost: 0
     points: 0
     needItem: true
+  - name: STR_OPERATION_GLADIO_BRIEFING
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_OPERATION_OMEN_RESEARCH
