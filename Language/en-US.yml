@@ -173,6 +173,9 @@ en-US:
   STR_WAWKALAK: "Wawkalak"
   STR_WAWKALAK_CORPSE: "Wawkalak Corpse"
 
+  STR_HIDEOUTS: "Message From The Committee"
+  STR_HIDEOUTS_DESCRIPTION: "From: Chairman Ivan Serov {NEWLINE}To: Directorate Chief {NEWLINE}Comrade Commissar, congratulations on your new assignment as the Chief of Directorate 17. Your group will be tasked with investigating pheomena relating to the extraterrestrial visitors and other anomalous activity. You should begin expanding your reach immediately by building Hideouts, which will allow you to monitor activity in the local area. We wish you good luck, and expect that you will live up to your predecessor."
+
   STR_CHUCHUNYA_ANALYSIS: "Chuchunya Analysis"
   STR_CHUCHUNYA_ANALYSIS_UFOPEDIA: "Although invasive to the Russian wilderness, at first glance the subject appears merely be a mountain gorilla. Upon further examination, the brain of the creature is abnormally large, suggesting a high level of intelligence. It also lacks any sex organs, meaning it thankfully cannot reproduce naturally, but also brings up more questions as to thier origins. We believe this creature to be artificial in nature, the product of some bizarre alien science. Judging by the pattern of sightings, they appear to make long migrations in a straight path from a specific point. Perhaps we can utilize this information..."
   STR_WAWKALAK_ANALYSIS: "Wawkalak Analysis"
