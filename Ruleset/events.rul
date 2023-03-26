@@ -1,0 +1,6 @@
+events:
+  - name: STR_HIDEOUTS
+    description: STR_HIDEOUTS_DESCRIPTION
+    background: BACK13.SCR
+    points: 100
+    timer: 10

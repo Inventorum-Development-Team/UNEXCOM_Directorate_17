@@ -1,0 +1,7 @@
+eventScripts:
+  - type: STR_HIDEOUTS_SCRIPT
+    eventWeights:
+      0:
+        STR_HIDEOUTS: 100
+    lastMonth: 0
+    executionOdds: 100
