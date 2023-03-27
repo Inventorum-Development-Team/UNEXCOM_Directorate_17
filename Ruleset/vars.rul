@@ -10,3 +10,4 @@ initialFunding: 2600
 ai:
   useDelayPsionic: 2
 maxViewDistance: 30
+difficultyDemigod: true

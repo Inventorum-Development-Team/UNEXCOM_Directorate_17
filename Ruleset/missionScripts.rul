@@ -96,7 +96,7 @@ missionScripts:
     varName: spawnOperationOmen
     missionWeights:
       0:
-        STR_OPERATION_OMEN_MISSION: 100
+        STR_OPERATION_OMEN_SPAWN: 100
     regionWeights:
       0:
         REGION_OPRERATION_OMEN: 100
@@ -121,3 +121,20 @@ missionScripts:
     useTable: false
     firstMonth: 1
     lastMonth: 2
+
+  - type: spawnOperationHunter
+    varName: spawnOperationHunter
+    missionWeights:
+      0:
+        STR_OPERATION_HUNTER_SPAWN: 100
+    regionWeights:
+      0:
+        REGION_OPRERATION_HUNTER: 100
+    researchTriggers:
+      STR_HUNTER_PREQ: true
+    executionOdds: 100
+    startDelay: 10080
+    randomDelay: 30240
+    useTable: false
+    firstMonth: 2
+    maxRuns: 1

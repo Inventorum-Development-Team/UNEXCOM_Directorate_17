@@ -150,3 +150,8 @@ research:
     points: 10
     dependencies:
       - STR_OPERATION_OMEN_RESEARCH
+
+  - name: STR_HUNTER_PREQ
+    cost: 0
+    points: 0
+    needItem: true

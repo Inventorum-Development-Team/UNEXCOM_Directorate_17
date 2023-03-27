@@ -78,13 +78,13 @@ items:
     confSnap:
       shots: 1
       name: STR_HIP_FIRE
-    snapRange: 7
+    snapRange: 5
     accuracySnap: 80
     tuSnap: 10
     confAuto:
       shots: 2
       name: STR_DOUBLE_TAP
-    autoRange: 9
+    autoRange: 8
     accuracyAuto: 45
     tuAuto: 15
     accuracyCloseQuarters: 150
@@ -1150,6 +1150,27 @@ items:
     invWidth: 2
     invHeight: 3
     recover: false
+# Haunebu
+  - type: STR_SCIENTIST_CORPSE
+    name: STR_CORPSE
+    size: 0.4
+    costSell: -1000
+    weight: 60
+    bigSprite: 1505
+    floorSprite: 1505
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 15
+    battleType: 11
+    armor: 40
+    listOrder: 1500
+  - type: STR_SCIENTIST
+    size: 0.0
+    recover: true
+    recoveryPoints: 30
+    liveAlien: true
+    costSell: 40000
+    listOrder: 1500
 
 # Inventory Blanks
   - type: INV_NULL_HAND_L

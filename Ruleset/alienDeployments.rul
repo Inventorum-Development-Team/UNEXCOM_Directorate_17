@@ -289,4 +289,69 @@ alienDeployments:
     alert: STR_GLADIO_STOCKPILE_ALERT
     alertBackground: BACK13.SCR
     alertDescription: STR_GLADIO_STOCKPILE_DESCRIPTION
-//    unlockedResearch: STR_GLADIO_STOCKPILE
+    unlockedResearch: STR_HUNTER_PREQ
+
+  - type: STR_OPERATION_HUNTER_DEPLOYMENT
+    startingCondition: STR_SEMI_CONCEALED
+    height: 10
+    width: 60
+    length: 60
+    duration: [999, 999]
+    data:
+      - alienRank: 0
+        customUnitType: STR_SCIENTIST
+        lowQty: 3
+        highQty: 3
+        dQty: 0
+        itemSets:
+          -
+            []
+    reinforcements:
+      - type: gladio_ambush
+        turns: [3, 6, 9]
+        maxRuns: 3
+        mapBlockFilterType: 2
+        spawnBlocks: [EDGES]
+        useSpawnNodes: false
+        spawnZLevels: [0]
+        minDistanceFromXcomUnits: 10
+        maxDistanceFromBorders: 1
+        data:
+          - alienRank: 1
+            customUnitType: STR_GLADIO_OPERATIVE_M
+            lowQty: 1
+            highQty: 1
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+              -
+                - STR_WELROD
+                - STR_WELROD_MAG
+                - STR_WELROD_MAG
+          - alienRank: 2
+            customUnitType: STR_GLADIO_OPERATIVE_F
+            lowQty: 2
+            highQty: 2
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+              -
+                - STR_WELROD
+                - STR_WELROD_MAG
+                - STR_WELROD_MAG
+    terrains:
+      - URBAN
+    briefing:
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+      showCraft: true
+      desc: STR_OPERATION_HUNTER_DESCRIPTION
+      palette: 2
+    markerName: STR_OPERATION_HUNTER_MARKER
+    alert: STR_OPERATION_HUNTER_ALERT
+    alertBackground: BACK13.SCR
+    alertDescription: STR_OPERATION_HUNTER_DESCRIPTION
+//    unlockedResearch: STR_OPERATION_HUNTER_RESEARCH

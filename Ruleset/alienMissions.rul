@@ -44,7 +44,7 @@ alienMissions:
         timer: 0
         objective: true
 
-  - type: STR_OPERATION_OMEN_MISSION
+  - type: STR_OPERATION_OMEN_SPAWN
     objective: 3
     siteType: STR_OPERATION_OMEN_DEPLOYMENT
     spawnZone: 0
@@ -52,7 +52,7 @@ alienMissions:
       0:
           STR_OPERATION_GLADIO: 100
     waves:
-      - ufo: STR_PROVING_GROUNDS_DEPLOYMENT
+      - ufo: REGION_OPRERATION_OMEN
         count: 1
         trajectory: STATIC_TRAJECTORY
         timer: 0
@@ -69,5 +69,18 @@ alienMissions:
       - ufo: dummy 
         count: 1
         trajectory: P7
+        timer: 0
+        objective: true
+  - type: STR_OPERATION_HUNTER_SPAWN
+    objective: 3
+    siteType: STR_OPERATION_HUNTER_DEPLOYMENT
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_OPERATION_GLADIO: 100
+    waves:
+      - ufo: REGION_OPRERATION_HUNTER
+        count: 1
+        trajectory: STATIC_TRAJECTORY
         timer: 0
         objective: true

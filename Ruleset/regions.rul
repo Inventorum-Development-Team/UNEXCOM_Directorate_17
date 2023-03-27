@@ -4,6 +4,10 @@ regions:
     missionZones:
       -
         - [19.125, 19.125, -47.5, -47.5, -2, STR_BUDAPEST]
+  - type: REGION_OPRERATION_HUNTER
+    missionZones:
+      -
+        - [13.375, 13.375, -52.5, -52.5, -2, STR_BERLIN]
 
 ## Mission Regions End
 

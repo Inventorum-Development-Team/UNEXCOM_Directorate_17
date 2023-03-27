@@ -245,3 +245,29 @@ armors:
       - 1.0
     livingWeapon: true
     loftempsSet: [ 3 ]
+
+# Haunebu
+  - type: SCIENTIST_ARMOR
+    spriteSheet: SCIENTIST.PCK
+    spriteInv: inventory_SCIENTIST
+    corpseBattle:
+      - STR_SCIENTIST_CORPSE
+    frontArmor: 1
+    sideArmor: 1
+    rearArmor: 1
+    underArmor: 1
+    visibilityAtDay: 18
+    visibilityAtDark: 7
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    livingWeapon: true
+    loftempsSet: [ 3 ]

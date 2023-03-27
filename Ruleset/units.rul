@@ -152,3 +152,28 @@ units:
        - WAWKALAK_WEAPON
     livingWeapon: true
     isLeeroyJenkins: true
+
+# Haunebu
+  - type: STR_SCIENTIST
+    race: STR_PROJECT_HAUNEBU
+    stats:
+      tu: 45
+      stamina: 40
+      health: 40
+      bravery: 20
+      reactions: 45
+      firing: 40
+      throwing: 50
+      strength: 25
+      psiStrength: 60
+      psiSkill: 0
+      melee: 40
+    armor: SCIENTIST_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 5
+    deathSound: 44
+    canSurrender: true
+    intelligence: 8
+    aggression: 1
+    spotter: 2
