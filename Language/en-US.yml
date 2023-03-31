@@ -39,6 +39,7 @@ en-US:
   STR_RUSSIA: "U.S.S.R."
 
   STR_VAN: "VAN"
+  STR_KGB_SAFEHOUSE: "KGB SAFEHOUSE"
 
   STR_QD_SLOT: "QD"
 
@@ -119,7 +120,9 @@ en-US:
 
   STR_PTRD: "PTRS-41"
   STR_PTRD_CLIP: "14.5x114mm Clip (5x)"
-  STR_PTRD_UFOPEDIA: "The PTRS-41, shortened from Protivotankovoye Ruzhyo Simonova 1941, is a semi-auto anti-tank rifle that fires {ALT}14.5x114mm{ALT} rounds. The rifle was commissioned during the Great Patriotic War and is battle tested against Panzer armor. PTRS-41 is equipped with a deployable bipod that greatly increases {ALT}Accuracy{ALT} while {ALT}Kneeling{ALT}. {NEWLINE}> Not At All Concealable"
+  STR_PTRD_UFOPEDIA: "The PTRS-41, shortened from Protivotankovoye Ruzhyo Simonova 1941, is a semi-auto anti-tank rifle that fires {ALT}14.5x114mm{ALT} rounds. The rifle was commissioned during the Great Patriotic War and was designed in less than two weeks before being successfully battle tested against Panzer armor. The PTRS-41 is equipped with a deployable bipod that greatly increases {ALT}Accuracy{ALT} while {ALT}Kneeling{ALT}. {NEWLINE}> Not At All Concealable"
+
+  STR_ANTI_TANK_WEAPONS: "Heavy Support Weapons"
 
   STR_RPD: "RPD"
   STR_RPD_MAG: "7.62x39mm Drum (100x)"
@@ -134,7 +137,7 @@ en-US:
 
   STR_MAGNETESCHETTO: "Magneteschetto"
   STR_MAGNETESCHETTO_MAG: "Atomic Battery (10x)"
-  STR_MAGNETESCHETTO_UFOPEDIA: "The Magneteschetto was commissioned by Gabinetto RS/33 and constructed in secret by Beretta engineers in 1942. Fortunately, it never exited the prototype stages before the Nazi occupation of Italy. It uses electromagnets instead of chemical propulsion to fire ferromagnetic tungsten alloy balls at ludicrous speeds. The magnets and the mounted infrared scope are powered by an external {ALT}Atomic Battery{ALT} which can power 10 shots."
+  STR_MAGNETESCHETTO_UFOPEDIA: "The Magneteschetto was commissioned by Gabinetto RS/33 and constructed in secret by Beretta engineers in 1942. Fortunately, it never exited the prototype stages before the Nazi invasion of Italy. It uses electromagnets instead of combustion propulsion to fire ferromagnetic tungsten alloy balls at ludicrous speeds. The magnets and the mounted infrared scope are powered by an external {ALT}Atomic Battery{ALT} which can power 10 shots."
 
   STR_ALIEN_LASER_PISTOL: "Alien Ray Pistol"
   STR_ALIEN_LASER_PISTOL_BATTERY: "Ray Pistol Battery (20x)"
@@ -173,11 +176,15 @@ en-US:
   STR_WAWKALAK: "Wawkalak"
   STR_WAWKALAK_CORPSE: "Wawkalak Corpse"
   STR_PROJECT_HAUNEBU: "Project Haunebu"
-  STR_SCIENTIST: "Scientist"
+  STR_SCIENTIST: "Haunebu Scientist"
   STR_SCIENTIST_CORPSE: "Scientist Corpse"
+  STR_REPTOID: "Reptoid"
+  STR_REPTOID_CORPSE: "Reptoid Corpse"
+  STR_SPETSNAZ: "Spetsnaz"
+  STR_SPETSNAZ_CORPSE: "Spetsnaz Corpse"
 
   STR_HIDEOUTS: "Message From The Committee"
-  STR_HIDEOUTS_DESCRIPTION: "From: Chairman Ivan Serov {NEWLINE}To: Directorate Chief {NEWLINE}Comrade Commissar, congratulations on your new assignment as the Chief of Directorate 17. Your group will be tasked with investigating pheomena relating to the extraterrestrial visitors and other anomalous activity. You should begin expanding your reach immediately by building Hideouts, which will allow you to monitor activity in the local area. We wish you good luck, and expect that you will live up to your predecessor."
+  STR_HIDEOUTS_DESCRIPTION: "From: Chairman Ivan Serov {NEWLINE}To: Directorate Chief {NEWLINE}Oongratulations on your new assignment as the Chief of Directorate 17, Comrade PERSEUS. Your group will be tasked with investigating pheomena relating to the extraterrestrial visitors and other anomalous activity. You should begin expanding your reach immediately by building Hideouts, which will allow you to monitor activity in the local area. We wish you good luck, and expect that you will live up to your predecessor."
 
   STR_CHUCHUNYA_ANALYSIS: "Chuchunya Analysis"
   STR_CHUCHUNYA_ANALYSIS_UFOPEDIA: "Although invasive to the Russian wilderness, at first glance the subject appears merely be a mountain gorilla. Upon further examination, the brain of the creature is abnormally large, suggesting a high level of intelligence. It also lacks any sex organs, meaning it thankfully cannot reproduce naturally, but also brings up more questions as to thier origins. We believe this creature to be artificial in nature, the product of some bizarre alien science. Judging by the pattern of sightings, they appear to make long migrations in a straight path from a specific point. Perhaps we can utilize this information..."
@@ -186,10 +193,19 @@ en-US:
   STR_ALKONOST_ANALYSIS: "Alkonost Analysis"
   STR_ALKONOST_ANALYSIS_UFOPEDIA: "From what we can gather, this creature is an unnatural hybrid of a human and an avian species, most likely an owl. While it is unable to take flight due to its weight, the Alkonost is still extremely agile and extremely lethal. It also lacks any sex organs, meaning it thankfully cannot reproduce naturally, but also brings up more questions as to thier origins. We believe this creature to be artificial in nature, the product of some bizarre alien science. Judging by the pattern of sightings, they appear to make long migrations in a straight path from a specific point. Perhaps we can utilize this information..."
   STR_CRYPTID_MIGRATION_PATTERNS: "Cryptid Migration Patterns"
-  STR_CRYPTID_MIGRATION_PATTERNS_UFOPEDIA: "Placeholder"
+  STR_CRYPTID_MIGRATION_PATTERNS_UFOPEDIA: "The Chuchunya, Wawkalak, and Alkonost cryptid species are all impossible creatures that should not exist according to our current zoological paradigm, and with no reproductive organs, thier origins remain a mystery. We theorize they were somehow artificially created by the extraterrestrial visitors for an as of yet unknown purpose. While the crossbreeds appear to be acclimated to extremely cold climates, they do not originate within our borders. From thier migration patterns, we believe they have originated from a location in the European Alps. While it would be impractical to run a search in such a large environment inside foreign territory, it is a crucial lead for our investigation, Comrade Commissar."
+  STR_THIN_MAN_ANALYSIS: "Thin Man Analysis"
+  STR_THIN_MAN_ANALYSIS_UFOPEDIA: "The Thin Man at first glance appears to be a nondescript Caucasian male, albiet sickly gaunt and of above average height. However, closer inspection reveals more...alien features. The creature sports abnormalities such as eerily reptilian eyes (concealed by sunglasses) and spotted marks along the neck similar to scales. As demonstrated in the field, the Thin Man was highly intelligent, equipped with extremly advanced weaponry, and as unprofessional as it sounds, capable of exerting some kind of telepathic control over our officers. Given previous examples of the genetic engineering prowess of the aliens, we theorize this creature is some kind of deliberate attempt to integrate or perhaps even infiltrate human societies."
 
   STR_OPERATION_GLADIO_BRIEFING: "Operation Gladio Briefing"
   STR_OPERATION_GLADIO_BRIEFING_UFOPEDIA: "Our officers managed to recover the Station Chief of the Budapest safehouse, codenamed Orlan, who briefed us about the identity of the attackers. This 'Operation Gladio' is a paramilitary organization created to support insurgency efforts in the theoretical contingency of a Soviet-occupied Western Europe. This 'stay-behind' group, structured after the French and Polish partisans (an unfortunate comparison), has several clandestine 'sleeper' agents and secret stockpiles of weaponry provided to them by thier Western backers. While the organization is designed to support NATO, it is entirely independent of thier command structure. We cannot jump to conclusions too hastily; it is entirely possible Gladio's actions in Budapest weren't officially sanctioned. Though when it comes to deniable operations, the line becomes blurry."
+  STR_PROJECT_HAUNEBU_BRIEFING: "Project Haunebu Briefing"
+  STR_PROJECT_HAUNEBU_BRIEFING_UFOPEDIA: "The 1st Directorate has just uncovered more information about the targets we neutralized in Berlin. All three of the scientists we managed to catch were associated with 'Project Haunebu,' a secret Nazi weapons program intent on chasing the dream of an unstoppable 'Wunderwaffe.' While it obviously did not produce sufficient results, surviving records indicate that German leadership placed an unusual level of confidence in the project. It seems that thier retrieval by Gladio was not invoulintary; rather, it was a planned defection. When Station Chief Orlan began catching on to the plot, Gladio attacked the safehouse in Budapest to cover thier tracks. We still have no answer if the attack or smuggling operation were approved by any Western countries or if this was a rogue operation. While we have managed to eliminate three of them, two are still out there. We obviously cannot allow them to fall into enemy hands. Good hunting, Comrade Commissar."
+  STR_GLADIO_ORIGINS_BRIEFING: "Gladio Origins Briefing"
+  STR_GLADIO_ORIGINS_BRIEFING_UFOPEDIA: "After we interrogated the MI6 liaison and preformed an analysis on the 'Thin Man,' we have come to several shocking conclusions about the history of Operation Gladio. It is apparent we are not the first to discover the aliens; in 1933 a crashed UFO was discovered by the Italians, promting the creation of the Gabinetto Ricerca Speciali, or 'RS33.' When Hitler found out, he twisted Mussolini's arm into providing some of the alien technology for thier own Wunderwaffen program, 'Project Haunebu.' However, in the following decade Italy and Germany would be pushed to the brink. On the backfoot from both sides for well over a year, in 1944 a small enclave of Italian Facists reached out and managed to successfully make diplomatic contact with the aliens. The details from there are sketchy, but the small enclave would begin slowly amassing power under the guise of Operation Gladio in secret. It appears MI6 and the CIA were just as blind about Budapest. With so many questions still unanswered, we need to bring in the last Haunebu scientist. Alive."
+
+  STR_DIE_GLOCKE: "Die Glocke"
+  STR_DIE_GLOCKE_UFOPEDIA: ""
 
   STR_KAZAN: "Kazan"
   STR_KIEV: "Kiev"
@@ -232,4 +248,20 @@ en-US:
   STR_OPERATION_HUNTER_ALERT: "TARGETS LOCATED"
   STR_OPERATION_HUNTER_MARKER: "Targets Located"
   STR_OPERATION_HUNTER_DEPLOYMENT: "Operation HUNTER"
-  STR_OPERATION_HUNTER_DESCRIPTION: "Comrade Commissar, {NEWLINE}The safehouse in Budapest was crucial to Operation Osoaviakhim, and it appears Gladio retrieved several ex-Nazi scientists who worked for Directorate 17. The intel from the Gladio Stockpile points to Berlin. Needless to say, we must eliminate them before they can leak state secrets. They will be vulnerable when we arrive, but be advised, Gladio reinforcements will close in on our position shortly after. To abort the mission return all D17 Officers to the transport vehicle and click on the 'Abort Mission' icon. {NEWLINE}> Semi-Concealed Equipment Only!"
+  STR_OPERATION_HUNTER_DESCRIPTION: "Comrade Commissar, {NEWLINE}The safehouse in Budapest was crucial to Operation Osoaviakhim, and it appears Gladio retrieved several ex-Nazi scientists who worked for Directorate 17. The intel from the Gladio Stockpile points to Berlin. Needless to say, we must eliminate them before they can leak state secrets. They will be vulnerable when we arrive, but be advised, Gladio reinforcements will close in on our position shortly after. To abort the mission return all D17 Officers to the transport vehicle and click on the 'Abort Mission' icon."
+
+  STR_HAUNEBU_ASSASSINATION_ALERT: "TARGETS LOCATED"
+  STR_HAUNEBU_ASSASSINATION_MARKER_: "HAUNEBU ASSASSINATION-{0}"
+  STR_HAUNEBU_ASSASSINATION: "Haunebu Assassination"
+  STR_HAUNEBU_ASSASSINATION_DESCRIPTION: "Comrade Commissar, {NEWLINE}One of the ex-Nazi scientists slipped from our grasp in Berlin, but our hideout in the area has recieved reports that they have resurfaced in the area. We should send a squad of officers to eliminate the target as soon as possible before they can leak any more information; because of Operation HUNTER, Gladio will likely be on higher alert and reinforcements will close in faster. To abort the mission return all D17 Officers to the transport vehicle and click on the 'Abort Mission' icon. {NEWLINE}> Semi-Concealed Equipment Only!"
+  
+  STR_OPERATION_SERPENT_ALERT: "GLADIO HQ"
+  STR_OPERATION_SERPENT_MARKER: "Gladio HQ"
+  STR_OPERATION_SERPENT_DEPLOYMENT: "Operation SERPENT"
+  STR_OPERATION_SERPENT_DESCRIPTION: "Comrade Commissar, {NEWLINE}The 1st Directorate has just uncovered a major lead for our anti-Gladio operation, a regional headquarters for the organization. Thier HQ is based out of an abandoned Facist-era airfield in Milan, Italy. Destroying this location will be a major blow to Operation Gladio, and may potentially help us uncover the last Haunebu scientist. Eliminate all hostile targets and secure the site. To abort the mission return all D17 Officers to the transport vehicle and click on the 'Abort Mission' icon. {NEWLINE}> Semi-Concealed Equipment Only!"
+  STR_MI6_LIAISON: "MI6 Liaison"
+
+  STR_TARGET_EXTRACTION_ALERT: "TARGETS LOCATED"
+  STR_TARGET_EXTRACTION_MARKER_: "TARGET EXTRACTION-{0}"
+  STR_TARGET_EXTRACTION: "Target Extraction"
+  STR_TARGET_EXTRACTION_DESCRIPTION: "Comrade Commissar, {NEWLINE}It seems that military intelligence beat us to the punch and have apprehended the last Haunebu scientist that was taken from Budapest hiding in Austria. Unfortunately, we lost contact with the safehouse before we were able to make the exchange. Reports of an attack by 'Thin Men' with advanced weaponry are disconcerting, to say the least. GRU Spetsnaz reinforcements will assist us in retaking the safehouse from the alien infiltrators. To abort the mission return all D17 Officers to the transport vehicle and click on the 'Abort Mission' icon."
