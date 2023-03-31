@@ -53,6 +53,8 @@ extraSprites:
       1503: Resources/Units/Enemies/Cryptids/BIGOBS/bigob_WEREOWL_CORPSE.png
       1504: Resources/Units/Enemies/Cryptids/BIGOBS/bigob_WEREWOLF_CORPSE.png
       1505: Resources/Units/Enemies/Haunebu/BIGOBS/bigob_Scientist_corpse.png
+      1506: Resources/Units/Enemies/Reptoid/BIGOBS/bigobs_REPTOID_CORPSE.gif
+      1600: Resources/Units/Civilians/Spetsnaz/BIGOBS/BigSovietSoldierCorpse.png
       1900: Resources/Items/Misc/Medical_Bag/Gadget_Big.png
       2000: Resources/UI/Blanks/Null_Void_3x3.png
       2001: Resources/UI/Blanks/Null_Void_2x1.png
@@ -116,6 +118,8 @@ extraSprites:
       1503: Resources/Units/Enemies/Cryptids/FLOOROBS/floorob_WEREOWL_CORPSE.png
       1504: Resources/Units/Enemies/Cryptids/FLOOROBS/floorob_WEREWOLF_CORPSE.png
       1505: Resources/Units/Enemies/Haunebu/FLOOROBS/floorob_Scientist_corpse.png
+      1506: Resources/Units/Enemies/Reptoid/FLOOROBS/floorob_REPTOID_CORPSE.gif
+      1600: Resources/Units/Civilians/Spetsnaz/FLOOROBS/FloorSovietSoldierCorpse.png
       1900: Resources/Items/Misc/Medical_Bag/Gadget_Floor.png
   - type: HANDOB.PCK
     width: 256
@@ -369,6 +373,30 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/Units/Enemies/Haunebu/Inventory/inventory_SCIENTIST.png
+# Reptoid
+  - type: REPTOID.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Units/Enemies/Reptoid/REPTOID.png
+  - type: inventory_REPTOID
+    singleImage: true
+    files:
+      0: Resources/Units/Enemies/Reptoid/Inventory/inventory_REPTOID.png
+# Spetsnaz
+  - type: SPETSNAZ.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Units/Civilians/Spetsnaz/SovietSoldierSpritesheet.png
+  - type: inventory_REPTOID
+    singleImage: true
+    files:
+      0: Resources/Units/Civilians/Spetsnaz/Inventory/INV_SOVIET_SOLDIER.png
 
 # UI Indicators
   - type: BigBurnIndicator

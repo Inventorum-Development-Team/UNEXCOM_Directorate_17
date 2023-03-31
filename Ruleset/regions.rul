@@ -8,6 +8,10 @@ regions:
     missionZones:
       -
         - [13.375, 13.375, -52.5, -52.5, -2, STR_BERLIN]
+  - type: REGION_OPRERATION_SERPENT
+    missionZones:
+      -
+        - [9.125, 9.125, -45, -45, -105, STR_MILAN]
 
 ## Mission Regions End
 

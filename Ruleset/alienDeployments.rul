@@ -292,11 +292,11 @@ alienDeployments:
     unlockedResearch: STR_HUNTER_PREQ
 
   - type: STR_OPERATION_HUNTER_DEPLOYMENT
-    startingCondition: STR_SEMI_CONCEALED
     height: 10
     width: 60
     length: 60
     duration: [999, 999]
+    civilians: 3
     data:
       - alienRank: 0
         customUnitType: STR_SCIENTIST
@@ -354,4 +354,225 @@ alienDeployments:
     alert: STR_OPERATION_HUNTER_ALERT
     alertBackground: BACK13.SCR
     alertDescription: STR_OPERATION_HUNTER_DESCRIPTION
-//    unlockedResearch: STR_OPERATION_HUNTER_RESEARCH
+    unlockedResearch: STR_OPERATION_HUNTER_RESEARCH
+
+  - type: STR_HAUNEBU_ASSASSINATION
+    startingCondition: STR_SEMI_CONCEALED
+    height: 10
+    width: 50
+    length: 50
+    duration: [999, 999]
+    data:
+      - alienRank: 0
+        customUnitType: STR_SCIENTIST
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        itemSets:
+          -
+            []
+    reinforcements:
+      - type: gladio_ambush
+        turns: [2, 4, 6]
+        maxRuns: 3
+        mapBlockFilterType: 2
+        spawnBlocks: [EDGES]
+        useSpawnNodes: false
+        spawnZLevels: [0]
+        minDistanceFromXcomUnits: 10
+        maxDistanceFromBorders: 1
+        data:
+          - alienRank: 1
+            customUnitType: STR_GLADIO_OPERATIVE_M
+            lowQty: 1
+            highQty: 1
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+              -
+                - STR_WELROD
+                - STR_WELROD_MAG
+                - STR_WELROD_MAG
+          - alienRank: 2
+            customUnitType: STR_GLADIO_OPERATIVE_F
+            lowQty: 1
+            highQty: 1
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+              -
+                - STR_WELROD
+                - STR_WELROD_MAG
+                - STR_WELROD_MAG
+    terrains:
+      - URBAN
+    briefing:
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+      showCraft: true
+      desc: STR_HAUNEBU_ASSASSINATION_DESCRIPTION
+      palette: 2
+    markerIcon: 7
+    markerName: STR_HAUNEBU_ASSASSINATION_MARKER
+    alert: STR_HAUNEBU_ASSASSINATION_ALERT
+    alertBackground: BACK13.SCR
+    alertDescription: STR_HAUNEBU_ASSASSINATION_DESCRIPTION
+    unlockedResearch: STR_SERPENT_PREQ
+
+  - type: STR_OPERATION_SERPENT_DEPLOYMENT
+    startingCondition: STR_SEMI_CONCEALED
+    height: 10
+    width: 50
+    length: 50
+    duration: [999, 999]
+    data:
+      - alienRank: 5
+        lowQty: 3
+        highQty: 5
+        dQty: 3
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_DELISLE
+            - STR_DELISLE_MAG
+      - alienRank: 4
+        lowQty: 0
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_DELISLE
+            - STR_DELISLE_MAG
+            - STR_DELISLE_MAG
+      - alienRank: 3
+        lowQty: 0
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_DELISLE
+            - STR_DELISLE_MAG
+            - STR_DELISLE_MAG
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_WELROD
+            - STR_WELROD
+            - STR_WELROD_MAG
+            - STR_WELROD_MAG
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_MAGNETESCHETTO
+            - STR_MAGNETESCHETTO_MAG
+            - STR_MAGNETESCHETTO_MAG
+    terrains:
+      - IDT_AIRPORT
+    briefing:
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+      showCraft: true
+      desc: STR_OPERATION_SERPENT_DESCRIPTION
+      palette: 2
+    markerName: STR_OPERATION_SERPENT_MARKER
+    alert: STR_OPERATION_SERPENT_ALERT
+    alertBackground: BACK13.SCR
+    alertDescription: STR_OPERATION_SERPENT_DESCRIPTION
+    missionBountyItem: STR_MI6_LIAISON
+
+  - type: STR_TARGET_EXTRACTION
+    customUfo: STR_KGB_SAFEHOUSE
+    height: 10
+    width: 50
+    length: 50
+    duration: [999, 999]
+    data:
+      - alienRank: 1
+        customUnitType: STR_THIN_MAN
+        lowQty: 2
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_ALIEN_LASER_PISTOL
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+    reinforcements:
+      - type: spetsnaz_backup
+        turns: [0, 3, 6]
+        maxRuns: 3
+        mapBlockFilterType: 2
+        spawnBlocks: [EDGES]
+        useSpawnNodes: false
+        spawnZLevels: [0]
+        minDistanceFromXcomUnits: 10
+        maxDistanceFromBorders: 1
+        data:
+          - alienRank: 0
+            customUnitType: STR_SPETSNAZ
+            lowQty: 1
+            highQty: 1
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 100
+            itemSets:
+              -
+                - STR_RPG
+                - STR_RPG_MAG
+          - alienRank: 1
+            customUnitType: STR_SPETSNAZ
+            lowQty: 2
+            highQty: 2
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 100
+            itemSets:
+              -
+                - STR_RPD
+                - STR_RPD_MAG
+          - alienRank: 2
+            customUnitType: STR_SPETSNAZ
+            lowQty: 4
+            highQty: 4
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 100
+            itemSets:
+              -
+                - STR_AK_47
+                - STR_AK_47_MAG
+                - STR_AK_47_MAG
+                - STR_RGD_5
+                - STR_RGD_5
+    terrains:
+      - URBAN_UFO
+    briefing:
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+      showCraft: true
+      desc: STR_TARGET_EXTRACTION_DESCRIPTION
+      palette: 2
+    markerIcon: 7
+    markerName: STR_TARGET_EXTRACTION_MARKER
+    alert: STR_TARGET_EXTRACTION_ALERT
+    alertBackground: BACK13.SCR
+    alertDescription: STR_TARGET_EXTRACTION_DESCRIPTION
+    unlockedResearch: STR_CATACOMB_PREQ
+
+# Operation CATACOMB

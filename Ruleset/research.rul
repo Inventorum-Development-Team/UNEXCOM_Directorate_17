@@ -38,8 +38,10 @@ research:
     needItem: true
   - name: STR_MAGNETESCHETTO
     cost: 150
-    points: 100
+    points: 50
     needItem: true
+    dependencies:
+      - STR_GLADIO_ORIGINS_BRIEFING
   - name: STR_ALIEN_LASER_PISTOL
     cost: 100
     points: 20
@@ -128,11 +130,19 @@ research:
   - name: STR_GREAT_PATRIOTIC_WAR_SURPLUS
     cost: 100
     points: 20
-    dependencies:
-      - STR_GREAT_PATRIOTIC_WAR_SURPLUS_PREQ
     unlocks:
       - STR_PPSH
       - STR_PTRD
+    dependencies:
+      - STR_GREAT_PATRIOTIC_WAR_SURPLUS_PREQ
+  - name: STR_ANTI_TANK_WEAPONS
+    cost: 100
+    points: 20
+    dependencies:
+      - STR_CATACOMB_PREQ
+    unlocks:
+      - STR_RPG
+      - STR_RPD
   - name: STR_CRYPTID_MIGRATION_PATTERNS
     cost: 200
     points: 50
@@ -140,6 +150,24 @@ research:
       - STR_CHUCHUNYA_ANALYSIS
       - STR_WAWKALAK_ANALYSIS
       - STR_ALKONOST_ANALYSIS
+  - name: STR_THIN_MAN_ANALYSIS
+    cost: 0
+    points: 0
+    needItem: true
+  - name: STR_THIN_MAN
+    cost: 50
+    points: 10
+    lookup: STR_THIN_MAN_ANALYSIS
+    needItem: true
+  - name: STR_THIN_MAN_CORPSE
+    cost: 50
+    points: 10
+    lookup: STR_THIN_MAN_ANALYSIS
+    needItem: true
+  - name: STR_SCIENTIST
+    cost: 50
+    points: 10
+    needItem: true
 
   - name: STR_OPERATION_OMEN_RESEARCH
     cost: 0
@@ -150,8 +178,44 @@ research:
     points: 10
     dependencies:
       - STR_OPERATION_OMEN_RESEARCH
-
   - name: STR_HUNTER_PREQ
     cost: 0
     points: 0
     needItem: true
+  - name: STR_OPERATION_HUNTER_RESEARCH
+    cost: 0
+    points: 0
+    needItem: true
+  - name: STR_PROJECT_HAUNEBU_BRIEFING
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_OPERATION_HUNTER_RESEARCH
+  - name: STR_HAUNEBU_ASSASSINATION
+    cost: 0
+    points: 0
+    needItem: true
+  - name: STR_SERPENT_PREQ
+    cost: 0
+    points: 0
+    needItem: true
+  - name: STR_MI6_LIAISON
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_GLADIO_ORIGINS_BRIEFING
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_MI6_LIAISON
+      - STR_THIN_MAN_ANALYSIS
+  - name: STR_CATACOMB_PREQ
+    cost: 0
+    points: 0
+    needItem: true
+  - name: STR_DIE_GLOCKE
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_CATACOMB_PREQ
+      - STR_SCIENTIST

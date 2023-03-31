@@ -10,7 +10,7 @@ units:
       reactions: 55
       firing: 50
       throwing: 60
-      strength: 30
+      strength: 35
       psiStrength: 60
       psiSkill: 0
       melee: 55
@@ -33,7 +33,7 @@ units:
       reactions: 55
       firing: 50
       throwing: 60
-      strength: 30
+      strength: 35
       psiStrength: 60
       psiSkill: 0
       melee: 55
@@ -58,7 +58,7 @@ units:
       reactions: 70
       firing: 60
       throwing: 45
-      strength: 20
+      strength: 35
       psiStrength: 100
       psiSkill: 20
       melee: 45
@@ -177,3 +177,51 @@ units:
     intelligence: 8
     aggression: 1
     spotter: 2
+
+# Reptoid
+  - type: STR_REPTOID
+    race: STR_REPTOID
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 70
+      stamina: 100
+      health: 60
+      bravery: 80
+      reactions: 80
+      firing: 55
+      throwing: 65
+      strength: 60
+      psiStrength: 60
+      psiSkill: 0
+      melee: 80
+    armor: REPTOID_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 35
+    deathSound: 8
+    intelligence: 8
+    aggression: 0
+
+# Spetsnaz
+  - type: STR_SPETSNAZ
+    stats:
+      tu: 65
+      stamina: 60
+      health: 60
+      bravery: 50
+      reactions: 60
+      firing: 65
+      throwing: 60
+      strength: 50
+      psiStrength: 40
+      psiSkill: 0
+      melee: 70
+    armor: STR_SPETSNAZ_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    floatHeight: 2
+    value: 35
+    deathSound: 44
+    intelligence: 4
+    aggression: 8

@@ -88,3 +88,19 @@ ufos:
               - [5, 2, 1]
               - [5, 2, 1]
               - [5, 2, 1]
+  
+  - type: STR_KGB_SAFEHOUSE
+    battlescapeTerrainData:
+      name: KGB_HIDEOUT_UFO
+      mapDataSets:
+        - BLANKS
+        - IDT_OFFICE
+        - SOVIET_FLAG
+        - URBAN
+      mapBlocks:
+        - name: KGB_HIDEOUT01
+          width: 10
+          length: 10
+          items:
+            STR_SCIENTIST:
+              - [ 2, 4, 0]

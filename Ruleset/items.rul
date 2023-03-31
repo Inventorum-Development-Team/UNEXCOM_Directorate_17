@@ -361,7 +361,7 @@ items:
   - type: STR_PPSH
     categories: [STR_FIREARMS, STR_MACHINE_GUNS]
     requiresBuy:
-      - STR_GREAT_PATRIOTIC_WAR_SURPLUS
+      - STR_PPSH
     size: 0.2
     costBuy: 2500
     costSell: 2180
@@ -426,7 +426,7 @@ items:
   - type: STR_PTRD
     categories: [STR_FIREARMS, STR_RIFLES, STR_SNIPERS]
     requiresBuy:
-      - STR_GREAT_PATRIOTIC_WAR_SURPLUS
+      - STR_PTRD
     size: 0.2
     costBuy: 8000
     costSell: 6840
@@ -1163,14 +1163,54 @@ items:
     recoveryPoints: 15
     battleType: 11
     armor: 40
-    listOrder: 1500
+    listOrder: 1505
   - type: STR_SCIENTIST
     size: 0.0
     recover: true
     recoveryPoints: 30
     liveAlien: true
     costSell: 40000
-    listOrder: 1500
+    listOrder: 1505
+# MI6 Informant
+  - type: STR_MI6_LIAISON
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 0
+    listOrder: 1506
+# Reptoid
+  - type: STR_REPTOID_CORPSE
+    size: 0.4
+    costSell: 40000
+    weight: 60
+    bigSprite: 1506
+    floorSprite: 1506
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 30
+    battleType: 11
+    armor: 40
+    listOrder: 1506
+  - type: STR_REPTOID
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 55000
+    recoveryPoints: 40
+    listOrder: 1506
+# Reptoid
+  - type: STR_SPETSNAZ_CORPSE
+    size: 0.4
+    recover: true
+    costSell: -1000
+    weight: 60
+    bigSprite: 1600
+    floorSprite: 1600
+    invWidth: 2
+    invHeight: 2
+    battleType: 11
+    armor: 40
+    listOrder: 1600
 
 # Inventory Blanks
   - type: INV_NULL_HAND_L

@@ -9,6 +9,105 @@ terrains:
         - CADILLAC_BLUE
         - XBASE1
 
+  - name: IDT_AIRPORT # by IDT - Luke83 & efrenespartano
+    script: OLD_PORT_SCRIPT
+    mapDataSets:
+      - BLANKS
+      - IDT_PLANE_2
+      - IDT_PLANE_3
+      - PORT01_UFO
+      - PORT02_UFO
+      - PORT05_UFO
+      - IDT_AIRPORT_CRISTAL_WALLS
+      - MILITARY_BARRICADES
+      - MISSILES_1
+      - MISSILES_2
+    mapBlocks: &AIRPORT_MAPBLOCKS
+      - name: AIRBASE00
+        width: 10
+        length: 10
+        groups: 1
+      - name: AIRBASE01
+        width: 10
+        length: 10
+        groups: 1
+      - name: AIRBASE02
+        width: 20
+        length: 20
+      - name: AIRBASE03
+        width: 20
+        length: 20
+      - name: AIRBASE04
+        width: 20
+        length: 20
+      - name: AIRBASE05
+        width: 20
+        length: 10
+      - name: AIRBASE06
+        width: 20
+        length: 10
+      - name: AIRBASE07
+        width: 20
+        length: 10
+        groups: 3
+      - name: AIRBASE08
+        width: 20
+        length: 10
+      - name: AIRBASE09
+        width: 10
+        length: 10
+      - name: AIRBASE10
+        width: 10
+        length: 10
+      - name: AIRBASE11
+        width: 10
+        length: 10
+      - name: AIRBASE12
+        width: 10
+        length: 10
+      - name: AIRBASE13
+        width: 10
+        length: 10
+      - name: AIRBASE14
+        width: 10
+        length: 10
+      - name: AIRBASE15
+        width: 10
+        length: 10
+      - name: AIRBASE16
+        width: 10
+        length: 10
+      - name: AIRBASE17
+        width: 20
+        length: 20
+      #- name: AIRBASE18
+      #  width: 20
+      #  length: 20
+      - name: AIRBASE19
+        width: 20
+        length: 20
+      - name: AIRBASE20
+        width: 20
+        length: 20
+      - name: AIRBASE21
+        width: 20
+        length: 20
+      - name: AIRPORT_NS_ROAD
+        width: 10
+        length: 10
+        groups: 3
+      - name: AIRPORT_EW_ROAD
+        width: 10
+        length: 10
+        groups: 2
+      - name: AIRPORT_X_ROAD
+        width: 10
+        length: 10
+        groups: 4
+      - name: AIRBASE30
+        width: 10
+        length: 10
+
   - name: FOREST
     mapDataSets:
       - BLANKS

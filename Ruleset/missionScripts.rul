@@ -138,3 +138,54 @@ missionScripts:
     useTable: false
     firstMonth: 2
     maxRuns: 1
+
+  - type: spawnHaunebuAssassination
+    varName: spawnHaunebuAssassination
+    missionWeights:
+      0:
+        STR_HAUNEBU_ASSASSINATION_SPAWN: 100
+    regionWeights:
+      0:
+        STR_EUROPE: 100
+    executionOdds: 100
+    startDelay: 10080
+    randomDelay: 30240
+    researchTriggers:
+      STR_OPERATION_HUNTER_RESEARCH: true
+    useTable: false
+    firstMonth: 3
+    maxRuns: 1
+
+  - type: spawnOperationSerpent
+    varName: spawnOperationSerpent
+    missionWeights:
+      0:
+        STR_OPERATION_SERPENT_SPAWN: 100
+    regionWeights:
+      0:
+        REGION_OPRERATION_SERPENT: 100
+    researchTriggers:
+      STR_SERPENT_PREQ: true
+    executionOdds: 100
+    startDelay: 10080
+    randomDelay: 30240
+    useTable: false
+    firstMonth: 5
+    maxRuns: 1
+
+  - type: spawnTargetExtraction
+    varName: spawnTargetExtraction
+    missionWeights:
+      0:
+        STR_TARGET_EXTRACTION_SPAWN: 100
+    regionWeights:
+      0:
+        STR_SIBERIA: 100
+    executionOdds: 100
+    startDelay: 10080
+    randomDelay: 30240
+    researchTriggers:
+      STR_GLADIO_ORIGINS_BRIEFING: true
+    useTable: false
+    firstMonth: 7
+    maxRuns: 1
