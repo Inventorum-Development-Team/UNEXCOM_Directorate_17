@@ -299,7 +299,7 @@ alienDeployments:
     civilians: 3
     data:
       - alienRank: 0
-        customUnitType: STR_SCIENTIST
+        customUnitType: STR_HAUNEBU_SCIENTIST
         lowQty: 3
         highQty: 3
         dQty: 0
@@ -364,7 +364,7 @@ alienDeployments:
     duration: [999, 999]
     data:
       - alienRank: 0
-        customUnitType: STR_SCIENTIST
+        customUnitType: STR_HAUNEBU_SCIENTIST
         lowQty: 1
         highQty: 1
         dQty: 0
@@ -536,8 +536,8 @@ alienDeployments:
                 - STR_RPG_MAG
           - alienRank: 1
             customUnitType: STR_SPETSNAZ
-            lowQty: 2
-            highQty: 2
+            lowQty: 1
+            highQty: 1
             dQty: 0
             extraQty: 0
             percentageOutsideUfo: 100
@@ -547,8 +547,8 @@ alienDeployments:
                 - STR_RPD_MAG
           - alienRank: 2
             customUnitType: STR_SPETSNAZ
-            lowQty: 4
-            highQty: 4
+            lowQty: 2
+            highQty: 2
             dQty: 0
             extraQty: 0
             percentageOutsideUfo: 100
@@ -573,6 +573,130 @@ alienDeployments:
     alert: STR_TARGET_EXTRACTION_ALERT
     alertBackground: BACK13.SCR
     alertDescription: STR_TARGET_EXTRACTION_DESCRIPTION
-    unlockedResearch: STR_CATACOMB_PREQ
+    unlockedResearch: STR_OUROBOROS_PREQ
 
 # Operation CATACOMB
+  - type: STR_OPERATION_CATACOMB_DEPLOYMENT
+    height: 10
+    width: 60
+    length: 60
+    duration: [999, 999]
+    data:
+      - alienRank: 5
+        customUnitType: STR_CHUCHUNYA
+        lowQty: 1
+        highQty: 7
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        customUnitType: STR_WAWKALAK
+        lowQty: 1
+        highQty: 7
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        customUnitType: STR_ALKONOST
+        lowQty: 1
+        highQty: 7
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+    terrains:
+      - MOUNT
+    briefing:
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+      showCraft: true
+      desc: STR_OPERATION_CATACOMB_DESCRIPTION
+      palette: 2
+    markerName: STR_OPERATION_CATACOMB_MARKER
+    alert: STR_OPERATION_CATACOMB_ALERT
+    alertBackground: BACK13.SCR
+    alertDescription: STR_OPERATION_CATACOMB_DESCRIPTION
+    nextStage: STR_OPERATION_CATACOMB_SECOND_LAYER
+  - type: STR_OPERATION_CATACOMB_SECOND_LAYER
+    data:
+      - alienRank: 0
+        customUnitType: STR_REPTOID
+        lowQty: 0
+        highQty: 0
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_ALIEN_SIEGE_LAUNCHER
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+      - alienRank: 1
+        customUnitType: STR_REPTOID
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_ALIEN_HEAVY_LASER
+            - STR_ALIEN_HEAVY_LASER_BATTERY
+            - STR_ALIEN_HEAVY_LASER_BATTERY
+      - alienRank: 2
+        customUnitType: STR_THIN_MAN
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_ALIEN_LASER_RIFLE
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+      - alienRank: 5
+        customUnitType: STR_CHUCHUNYA
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        customUnitType: STR_WAWKALAK
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        customUnitType: STR_ALKONOST
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+    width: 40
+    length: 40
+    height: 2
+    terrains:
+      - UBASE
+    shade: 15
+    briefing:
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+      showCraft: true
+      desc: STR_OPERATION_CATACOMB_SECOND_LAYER_DESCRIPTION
+      palette: 2
+    script: ALIENBASE
+    unlockedResearch: STR_SOYUZ_PREQ

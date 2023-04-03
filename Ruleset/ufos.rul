@@ -102,5 +102,5 @@ ufos:
           width: 10
           length: 10
           items:
-            STR_SCIENTIST:
+            STR_HAUNEBU_SCIENTIST:
               - [ 2, 4, 0]

@@ -347,4 +347,11 @@ ufopaedia:
     requires:
       - STR_GLADIO_ORIGINS_BRIEFING
     text: STR_GLADIO_ORIGINS_BRIEFING_UFOPEDIA
-    listOrder: 505
+    listOrder: 506
+  - id: STR_HAUNEBU_ORIGINS_BRIEFING
+    type_id: 8
+    section: STR_REPORTS
+    requires:
+      - STR_HAUNEBU_ORIGINS_BRIEFING
+    text: STR_HAUNEBU_ORIGINS_BRIEFING_UFOPEDIA
+    listOrder: 507

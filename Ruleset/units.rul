@@ -154,7 +154,7 @@ units:
     isLeeroyJenkins: true
 
 # Haunebu
-  - type: STR_SCIENTIST
+  - type: STR_HAUNEBU_SCIENTIST
     race: STR_PROJECT_HAUNEBU
     stats:
       tu: 45

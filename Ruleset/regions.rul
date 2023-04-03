@@ -12,6 +12,10 @@ regions:
     missionZones:
       -
         - [9.125, 9.125, -45, -45, -105, STR_MILAN]
+  - type: REGION_OPRERATION_CATACOMB
+    missionZones:
+      -
+        - [8.4, 8.4, -46.2, -46.2]
 
 ## Mission Regions End
 

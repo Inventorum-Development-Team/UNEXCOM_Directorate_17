@@ -139,10 +139,11 @@ research:
     cost: 100
     points: 20
     dependencies:
-      - STR_CATACOMB_PREQ
+      - STR_OUROBOROS_PREQ
     unlocks:
       - STR_RPG
       - STR_RPD
+      - STR_RGD_5
   - name: STR_CRYPTID_MIGRATION_PATTERNS
     cost: 200
     points: 50
@@ -164,7 +165,7 @@ research:
     points: 10
     lookup: STR_THIN_MAN_ANALYSIS
     needItem: true
-  - name: STR_SCIENTIST
+  - name: STR_HAUNEBU_SCIENTIST
     cost: 50
     points: 10
     needItem: true
@@ -209,13 +210,17 @@ research:
     dependencies:
       - STR_MI6_LIAISON
       - STR_THIN_MAN_ANALYSIS
-  - name: STR_CATACOMB_PREQ
+  - name: STR_OUROBOROS_PREQ
     cost: 0
     points: 0
     needItem: true
-  - name: STR_DIE_GLOCKE
+  - name: STR_HAUNEBU_ORIGINS_BRIEFING
     cost: 100
     points: 50
     dependencies:
-      - STR_CATACOMB_PREQ
-      - STR_SCIENTIST
+      - STR_OUROBOROS_PREQ
+      - STR_HAUNEBU_SCIENTIST
+  - name: STR_SOYUZ_PREQ
+    cost: 0
+    points: 0
+    needItem: true

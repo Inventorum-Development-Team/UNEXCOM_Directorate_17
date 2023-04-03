@@ -190,7 +190,7 @@ items:
       name: STR_STEADY_SHOT
     aimRange: 20
     accuracyAimed: 120
-    tuAimed: 65
+    tuAimed: 45
     confSnap:
       shots: 1
       name: STR_HIP_FIRE
@@ -202,7 +202,7 @@ items:
       name: STR_FULL_AUTO_5
     autoRange: 10
     accuracyAuto: 35
-    tuAuto: 40
+    tuAuto: 60
     tuLoad: 10
     dropoff: 2
     kneelBonus: 150
@@ -265,8 +265,8 @@ items:
     confSnap:
       shots: 1
       name: STR_HIP_FIRE
-    snapRange: 2
-    accuracySnap: 65
+    snapRange: 5
+    accuracySnap: 70
     tuSnap: 20
     accuracyCloseQuarters: 150
     tuLoad: 5
@@ -411,6 +411,7 @@ items:
     bulletSpeed: 30
     hitAnimation: -1
     power: 23
+    damageType: 1
     damageAlter:
       RandomType: 2
     damageType: 1
@@ -474,6 +475,7 @@ items:
     damageAlter:
       RandomType: 6
       ArmorEffectiveness: 0.5
+    damageType: 1
     clipSize: 5
     battleType: 2
     invWidth: 1
@@ -704,7 +706,7 @@ items:
     power: 70
     damageType: 4
     damageAlter:
-      ToTile: 3.0
+      toTile: 3.0
       RandomType: 2
       ArmorEffectiveness: 0.5
     clipSize: 20
@@ -731,13 +733,13 @@ items:
       name: STR_STEADY_SHOT
     aimRange: 60
     accuracyAimed: 140
-    tuAimed: 60
+    tuAimed: 40
     confSnap:
       shots: 1
       name: STR_HIP_FIRE
     snapRange: 10
-    accuracySnap: 80
-    tuSnap: 20
+    accuracySnap: 60
+    tuSnap: 15
     powerRangeThreshold: 6
     powerRangeReduction: 2
     tuLoad: 10
@@ -762,7 +764,7 @@ items:
     power: 110
     damageType: 4
     damageAlter:
-      ToTile: 3.0
+      toTile: 3.0
       RandomType: 2
       ArmorEffectiveness: 0.5
     clipSize: 10
@@ -892,7 +894,7 @@ items:
       name: STR_STEADY_SHOT
     aimRange: 30
     accuracyAimed: 130
-    tuAimed: 60
+    tuAimed: 40
     confSnap:
       shots: 1
       name: STR_HIP_FIRE
@@ -904,7 +906,7 @@ items:
       name: STR_FULL_AUTO_5
     autoRange: 15
     accuracyAuto: 30
-    tuAuto: 40
+    tuAuto: 55
     tuLoad: 10
     dropoff: 2
     kneelBonus: 150
@@ -1149,7 +1151,7 @@ items:
     invHeight: 3
     recover: false
 # Haunebu
-  - type: STR_SCIENTIST_CORPSE
+  - type: STR_HAUNEBU_SCIENTIST_CORPSE
     name: STR_CORPSE
     size: 0.4
     costSell: -1000
@@ -1162,7 +1164,7 @@ items:
     battleType: 11
     armor: 40
     listOrder: 1505
-  - type: STR_SCIENTIST
+  - type: STR_HAUNEBU_SCIENTIST
     size: 0.0
     recover: true
     recoveryPoints: 30

@@ -251,7 +251,7 @@ armors:
     spriteSheet: SCIENTIST.PCK
     spriteInv: inventory_SCIENTIST
     corpseBattle:
-      - STR_SCIENTIST_CORPSE
+      - STR_HAUNEBU_SCIENTIST_CORPSE
     frontArmor: 1
     sideArmor: 1
     rearArmor: 1
@@ -305,7 +305,7 @@ armors:
     corpseBattle:
       - STR_SPETSNAZ_CORPSE
     loftempsSet: [ 3 ]
-    visibilityAtDay: 20
+    visibilityAtDay: 30
     frontArmor: 8
     sideArmor: 6
     rearArmor: 6
