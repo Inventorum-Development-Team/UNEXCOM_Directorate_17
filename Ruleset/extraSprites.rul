@@ -393,7 +393,7 @@ extraSprites:
     height: 720
     files:
       0: Resources/Units/Civilians/Spetsnaz/SovietSoldierSpritesheet.png
-  - type: inventory_REPTOID
+  - type: inventory_SPETSNAZ
     singleImage: true
     files:
       0: Resources/Units/Civilians/Spetsnaz/Inventory/INV_SOVIET_SOLDIER.png
@@ -613,3 +613,103 @@ extraSprites:
     height: 200
     files:
       0: Resources/Misc/Backgrounds/TACTICBACK03.PNG
+
+##########################################
+############ BACKGROUNDS #################
+##########################################
+  - type: AMERICAN_SPY_PLANE_SHOTDOWN_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/AMERICAN_SPY_PLANE_SHOTDOWN_EVENT_BACKGROUND.PNG
+  - type: ARMED_UPRISING_IN_TIBET_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/ARMED_UPRISING_IN_TIBET_EVENT_BACKGROUND.PNG
+  - type: CASTRO_BECOMES_PRIME_MINISTER_CUBA_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/CASTRO_BECOMES_PRIME_MINISTER_CUBA_EVENT_BACKGROUND.PNG
+  - type: DARK_SIDE_OF_THE_MOON_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/DARK_SIDE_OF_THE_MOON_EVENT_BACKGROUND.PNG
+  - type: DYATLOV_PASS_INCIDENT_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/DYATLOV_PASS_INCIDENT_EVENT_BACKGROUND.PNG
+  - type: EXPLORER_6_FIRST_IMAGE_OF_EARTH_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/EXPLORER_6_FIRST_IMAGE_OF_EARTH_EVENT_BACKGROUND.PNG
+  - type: LEE_HARVEY_OSWALD_DEFECTION_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/LEE_HARVEY_OSWALD_DEFECTION_EVENT_BACKGROUND.PNG
+  - type: LUMUMBA_CAPTURED_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/LUMUMBA_CAPTURED_EVENT_BACKGROUND.PNG
+  - type: LUMUMBA_PRESIDENT_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/LUMUMBA_PRESIDENT_EVENT_BACKGROUND.PNG
+  - type: LUNA_1_REACHES_HELIOCENTRIC_ORBIT_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/LUNA_1_REACHES_HELIOCENTRIC_ORBIT_EVENT_BACKGROUND.PNG
+  - type: LUNA_2_REACHES_SURFACE_OF_MOON
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/LUNA_2_REACHES_SURFACE_OF_MOON.PNG
+  - type: LUNA_3_LAUNCH_CATASTROPHIC_FAILURE_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/LUNA_3_LAUNCH_CATASTROPHIC_FAILURE_EVENT_BACKGROUND.PNG
+  - type: NASA_LAUNCHES_ABLE2_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/NASA_LAUNCHES_ABLE2_EVENT_BACKGROUND.PNG
+  - type: NSA_CRYPTOANALYSTS_DEFECTION_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/NSA_CRYPTOANALYSTS_DEFECTION_EVENT_BACKGROUND.PNG
+  - type: REVOLUTIONARIES_SEIZE_HAVANNA_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/REVOLUTIONARIES_SEIZE_HAVANNA_EVENT_BACKGROUND.PNG
+  - type: STEPAN_BANDERA_ASSASSINATED_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Events/STEPAN_BANDERA_ASSASSINATED_EVENT_BACKGROUND.PNG

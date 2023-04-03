@@ -411,7 +411,6 @@ items:
     bulletSpeed: 30
     hitAnimation: -1
     power: 23
-    damageType: 1
     damageAlter:
       RandomType: 2
     damageType: 1
@@ -475,7 +474,6 @@ items:
     damageAlter:
       RandomType: 6
       ArmorEffectiveness: 0.5
-    damageType: 1
     clipSize: 5
     battleType: 2
     invWidth: 1
@@ -706,7 +704,7 @@ items:
     power: 70
     damageType: 4
     damageAlter:
-      toTile: 3.0
+      ToTile: 3.0
       RandomType: 2
       ArmorEffectiveness: 0.5
     clipSize: 20
@@ -764,7 +762,7 @@ items:
     power: 110
     damageType: 4
     damageAlter:
-      toTile: 3.0
+      ToTile: 3.0
       RandomType: 2
       ArmorEffectiveness: 0.5
     clipSize: 10
