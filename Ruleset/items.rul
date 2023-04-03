@@ -361,7 +361,7 @@ items:
   - type: STR_PPSH
     categories: [STR_FIREARMS, STR_MACHINE_GUNS]
     requiresBuy:
-      - STR_PPSH
+      - STR_GREAT_PATRIOTIC_WAR_SURPLUS
     size: 0.2
     costBuy: 2500
     costSell: 2180
@@ -425,7 +425,7 @@ items:
   - type: STR_PTRD
     categories: [STR_FIREARMS, STR_RIFLES, STR_SNIPERS]
     requiresBuy:
-      - STR_PTRD
+      - STR_GREAT_PATRIOTIC_WAR_SURPLUS
     size: 0.2
     costBuy: 8000
     costSell: 6840
