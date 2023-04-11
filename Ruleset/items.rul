@@ -48,7 +48,6 @@ items:
   - delete: STR_BLASTER_LAUNCHER
   - delete: STR_BLASTER_BOMB
   - delete: STR_ALIEN_GRENADE
-  - delete: STR_MIND_PROBE
   - delete: STR_STINGRAY_LAUNCHER
   - delete: STR_STINGRAY_MISSILES
   - delete: STR_AVALANCHE_LAUNCHER
@@ -78,13 +77,13 @@ items:
     confSnap:
       shots: 1
       name: STR_HIP_FIRE
-    snapRange: 5
+    snapRange: 7
     accuracySnap: 80
     tuSnap: 10
     confAuto:
       shots: 2
       name: STR_DOUBLE_TAP
-    autoRange: 8
+    autoRange: 11
     accuracyAuto: 45
     tuAuto: 15
     accuracyCloseQuarters: 150
@@ -136,7 +135,7 @@ items:
     confSnap:
       shots: 1
       name: STR_HIP_FIRE
-    snapRange: 11
+    snapRange: 14
     accuracySnap: 75
     tuSnap: 20
     accuracyCloseQuarters: 150
@@ -165,6 +164,7 @@ items:
     damageType: 1
     damageAlter:
       RandomType: 2
+      ToArmorPre: 0.1
     clipSize: 8
     battleType: 2
     armor: 10
@@ -188,19 +188,19 @@ items:
     confAimed:
       shots: 1
       name: STR_STEADY_SHOT
-    aimRange: 20
+    aimRange: 30
     accuracyAimed: 120
     tuAimed: 45
     confSnap:
       shots: 1
       name: STR_HIP_FIRE
-    snapRange: 5
+    snapRange: 7
     accuracySnap: 50
     tuSnap: 15
     confAuto:
       shots: 5
       name: STR_FULL_AUTO_5
-    autoRange: 10
+    autoRange: 15
     accuracyAuto: 35
     tuAuto: 60
     tuLoad: 10
@@ -242,6 +242,7 @@ items:
     damageAlter:
       ToStun: 0.15
       ToTile: 0.2
+      ToArmorPre: 0.05
     damageType: 1
     clipSize: 30
     battleType: 2
@@ -265,7 +266,7 @@ items:
     confSnap:
       shots: 1
       name: STR_HIP_FIRE
-    snapRange: 5
+    snapRange: 9
     accuracySnap: 70
     tuSnap: 20
     accuracyCloseQuarters: 150
@@ -313,6 +314,7 @@ items:
     reloadSound: 209
     compatibleAmmo:
       - STR_DELISLE_MAG
+    minRange: 5
     confAimed:
       shots: 1
       name: STR_STEADY_SHOT
@@ -377,14 +379,14 @@ items:
     confSnap:
       shots: 2
       name: STR_DOUBLE_TAP
-    snapRange: 5
-    accuracySnap: 80
+    snapRange: 4
+    accuracySnap: 85
     tuSnap: 15
     confAuto:
       shots: 15
       name: STR_FULL_AUTO_15
     autoRange: 20
-    accuracyAuto: 35
+    accuracyAuto: 30
     tuAuto: 85
     tuLoad: 10
     dropoff: 4
@@ -414,6 +416,7 @@ items:
     damageType: 1
     damageAlter:
       RandomType: 2
+      ToArmorPre: 0.1
     damageType: 1
     clipSize: 71
     battleType: 2
@@ -473,7 +476,7 @@ items:
     power: 150
     damageType: 1
     damageAlter:
-      RandomType: 6
+      RandomType: 3
       ArmorEffectiveness: 0.5
     damageType: 1
     clipSize: 5
@@ -498,6 +501,7 @@ items:
     bulletSprite: 1
     fireSound: 214
     reloadSound: 215
+    minRange: 5
     compatibleAmmo:
       - STR_RPD_MAG
     confAuto:
@@ -534,6 +538,7 @@ items:
     damageAlter:
       ToStun: 0.2
       ToTile: 0.33
+      ToArmorPre: 0.05
     damageType: 1
     clipSize: 100
     battleType: 2
@@ -557,6 +562,7 @@ items:
     bulletSprite: 0
     fireSound: 216
     reloadSound: 217
+    minRange: 5
     compatibleAmmo:
       - STR_RPG_MAG
     confAimed:
@@ -589,10 +595,11 @@ items:
     bulletSpeed: 1
     hitSound: 0
     hitAnimation: 0
-    power: 200
+    power: 150
     damageAlter:
       RandomType: 7
       ToTile: 0.5
+      ToArmorPre: 0.1
     damageType: 3
     blastRadius: 6
     clipSize: 1
@@ -613,6 +620,7 @@ items:
     handSprite: 416
     fireSound: 218
     reloadSound: 219
+    minRange: 5
     compatibleAmmo:
       - STR_MAGNETESCHETTO_MAG
     confAimed:
@@ -649,7 +657,7 @@ items:
     bulletSpeed: 1
     bulletSprite: 31
     hitAnimation: 110
-    power: 180
+    power: 150
     damageAlter:
       RandomType: 7
       ArmorEffectiveness: 0.0
@@ -784,6 +792,7 @@ items:
     bulletSprite: 29
     bulletSpeed: 1
     fireSound: 11
+    minRange: 3
     compatibleAmmo:
       - STR_ALIEN_HEAVY_LASER_BATTERY
     confAimed:
@@ -813,7 +822,7 @@ items:
     handSprite: 504
     hitSound: 19
     hitAnimation: 120
-    power: 200
+    power: 170
     damageType: 4
     damageAlter:
       ToTile: 3.0
@@ -859,7 +868,7 @@ items:
     handSprite: 528
     hitSound: 0
     hitAnimation: 0
-    power: 300
+    power: 200
     damageType: 3
     damageAlter:
       RandomType: 7
@@ -898,13 +907,13 @@ items:
     confSnap:
       shots: 1
       name: STR_HIP_FIRE
-    snapRange: 10
+    snapRange: 15
     accuracySnap: 65
     tuSnap: 15
     confAuto:
       shots: 5
       name: STR_FULL_AUTO_5
-    autoRange: 15
+    autoRange: 20
     accuracyAuto: 30
     tuAuto: 55
     tuLoad: 10
@@ -917,6 +926,67 @@ items:
     invHeight: 3
     twoHanded: true
     listOrder: 204
+
+# Vikhr EMR
+  - type: STR_VIKHR_EMR
+    categories: [STR_FIREARMS, STR_RIFLES, STR_SNIPERS]
+    size: 0.2
+    costSell: 63200
+    weight: 26
+    bigSprite: 600
+    floorSprite: 600
+    handSprite: 600
+    fireSound: 226
+    reloadSound: 227
+    minRange: 5
+    compatibleAmmo:
+      - STR_VIKHR_EMR_MAG
+    confAimed:
+      shots: 1
+      name: STR_DEADEYE
+    aimRange: 30
+    accuracyAimed: 180
+    tuAimed: 70
+    confSnap:
+      shots: 1
+      name: STR_STEADY_SHOT
+    snapRange: 10
+    accuracySnap: 95
+    tuSnap: 30
+    tuLoad: 10
+    dropoff: 1
+    kneelBonus: 150
+    costThrow:
+      energy: 15
+    battleType: 1
+    invWidth: 2
+    invHeight: 3
+    twoHanded: true
+    armor: 999
+    listOrder: 218
+  - type: STR_VIKHR_EMR_MAG
+    categories: [STR_AMMUNITION, STR_RIFLES, STR_SNIPERS]
+    size: 0.2
+    costSell: 7000
+    weight: 4
+    bigSprite: 616
+    floorSprite: 616
+    handSprite: 616
+    bulletSpeed: 1
+    bulletSprite: 31
+    hitAnimation: 110
+    power: 180
+    damageAlter:
+      RandomType: 3
+      ArmorEffectiveness: 0.0
+    damageType: 1
+    clipSize: 10
+    battleType: 2
+    vaporColorSurface: 0
+    vaporDensitySurface: 3
+    vaporProbabilitySurface: 80
+    armor: 999
+    listOrder: 219
 
 # Medical Bag
   - type: STR_MEDICAL_BAG
@@ -1163,21 +1233,38 @@ items:
     recoveryPoints: 15
     battleType: 11
     armor: 40
-    listOrder: 1505
+    listOrder: 9999
   - type: STR_HAUNEBU_SCIENTIST
     size: 0.0
     recover: true
     recoveryPoints: 30
     liveAlien: true
     costSell: 40000
-    listOrder: 1505
-# MI6 Informant
+    listOrder: 9999
+# MI6 Liaison
   - type: STR_MI6_LIAISON
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 0
-    listOrder: 1506
+    listOrder: 9999
+# Die Glocke Informant
+  - type: STR_DIE_GLOCKE_INFORMANT
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 0
+    listOrder: 9999
+# Reptoid Officer
+  - type: STR_REPTOID_OFFICER
+    size: 0.0
+    bigSprite: 1506
+    floorSprite: 1506
+    recover: true
+    liveAlien: true
+    costSell: 0
+    recoveryPoints: 100
+    listOrder: 9999
 # Reptoid
   - type: STR_REPTOID_CORPSE
     size: 0.4

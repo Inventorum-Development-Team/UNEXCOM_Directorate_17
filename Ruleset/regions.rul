@@ -16,6 +16,14 @@ regions:
     missionZones:
       -
         - [8.4, 8.4, -46.2, -46.2]
+  - type: REGION_OPRERATION_OUROBOROS
+    missionZones:
+      -
+        - [47.7, 47.7, -48.44, -48.44, -105, STR_KASPUTIN_YAR]
+  - type: REGION_OPRERATION_SOYUZ
+    missionZones:
+      -
+        - [120.3, 120.3, -52.7, -52.7]
 
 ## Mission Regions End
 

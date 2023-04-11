@@ -23,3 +23,107 @@ manufacture:
   - delete: STR_MIND_PROBE
   - delete: STR_LIGHTNING
   - delete: STR_AVENGER
+  - delete: STR_ALIEN_ALLOYS
+  - delete: STR_UFO_POWER_SOURCE
+  - delete: STR_UFO_NAVIGATION
+
+  - name: STR_ALLOYS_PISTOL
+    category: STR_DISASSEMBLE
+    time: 25
+    requires:
+      - STR_ALIEN_LASER_PISTOL
+      - STR_ALIEN_ALLOYS
+    requiredItems:
+      STR_ALIEN_LASER_PISTOL: 1
+    producedItems:
+      STR_ALIEN_ALLOYS: 1
+  - name: STR_ALLOYS_RIFLE
+    category: STR_DISASSEMBLE
+    time: 25
+    requires:
+      - STR_ALIEN_LASER_RIFLE
+      - STR_ALIEN_ALLOYS
+    requiredItems:
+      STR_ALIEN_LASER_RIFLE: 1
+    producedItems:
+      STR_ALIEN_ALLOYS: 2 
+  - name: STR_ALLOYS_HEAVY
+    category: STR_DISASSEMBLE
+    time: 25
+    requires:
+      - STR_ALIEN_HEAVY_LASER
+      - STR_ALIEN_ALLOYS
+    requiredItems:
+      STR_ALIEN_HEAVY_LASER: 1
+    producedItems:
+      STR_ALIEN_ALLOYS: 3
+  - name: STR_ALLOYS_SHELL
+    category: STR_DISASSEMBLE
+    time: 25
+    requires:
+      - STR_ALIEN_SIEGE_LAUNCHER
+      - STR_ALIEN_ALLOYS
+    requiredItems:
+      STR_ALIEN_SIEGE_LAUNCHER: 1
+    producedItems:
+      STR_ALIEN_ALLOYS: 4
+
+  - name: STR_MAGNETESCHETTO_MAG_PISTOL
+    category: STR_CONVERSION
+    time: 50
+    requires:
+      - STR_MAGNETESCHETTO
+      - STR_ALIEN_LASER_PISTOL
+    requiredItems:
+      STR_ALIEN_LASER_PISTOL_BATTERY: 4
+    producedItems:
+      STR_MAGNETESCHETTO_MAG: 1
+  - name: STR_MAGNETESCHETTO_MAG_RIFLE
+    category: STR_CONVERSION
+    time: 50
+    requires:
+      - STR_MAGNETESCHETTO
+      - STR_ALIEN_LASER_RIFLE
+    requiredItems:
+      STR_ALIEN_LASER_RIFLE_BATTERY: 3
+    producedItems:
+      STR_MAGNETESCHETTO_MAG: 1
+  - name: STR_MAGNETESCHETTO_MAG_HEAVY
+    category: STR_CONVERSION
+    time: 50
+    requires:
+      - STR_MAGNETESCHETTO
+      - STR_ALIEN_HEAVY_LASER
+    requiredItems:
+      STR_ALIEN_HEAVY_LASER_BATTERY: 2
+    producedItems:
+      STR_MAGNETESCHETTO_MAG: 1
+  - name: STR_MAGNETESCHETTO_MAG_SHELL
+    category: STR_CONVERSION
+    time: 50
+    requires:
+      - STR_MAGNETESCHETTO
+      - STR_ALIEN_SIEGE_LAUNCHER
+    requiredItems:
+      STR_ALIEN_SIEGE_LAUNCHER_SHELL: 1
+    producedItems:
+      STR_MAGNETESCHETTO_MAG: 1
+
+  - name: STR_VIKHR_EMR
+    category: STR_MANUFACTURE
+    requires:
+      - STR_VIKHR_EMR
+    requiredItems:
+      STR_ALIEN_ALLOYS: 3
+    space: 5
+    time: 500
+    cost: 144200
+  - name: STR_VIKHR_EMR_MAG
+    category: STR_MANUFACTURE
+    requires:
+      - STR_VIKHR_EMR
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+    space: 2
+    time: 50
+    cost: 9400

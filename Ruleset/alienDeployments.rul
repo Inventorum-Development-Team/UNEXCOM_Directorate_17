@@ -700,3 +700,219 @@ alienDeployments:
       palette: 2
     script: ALIENBASE
     unlockedResearch: STR_SOYUZ_PREQ
+    missionBountyItem: STR_ALIEN_REPRODUCTION
+
+  - type: STR_OPERATION_OUROBOROS_DEPLOYMENT
+    height: 10
+    width: 50
+    length: 50
+    duration: [999, 999]
+    data:
+      - alienRank: 1
+        lowQty: 1
+        highQty: 5
+        dQty: 7
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_ALIEN_LASER_RIFLE
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+    civiliansByType:
+      STR_HAUNEBU_SCIENTIST: 10
+    reinforcements:
+      - type: spetsnaz_backup
+        turns: [0]
+        maxRuns: 1
+        mapBlockFilterType: 2
+        spawnBlocks: [EDGES]
+        useSpawnNodes: false
+        spawnZLevels: [0]
+        minDistanceFromXcomUnits: 10
+        maxDistanceFromBorders: 1
+        data:
+          - alienRank: 0
+            customUnitType: STR_SPETSNAZ
+            lowQty: 2
+            highQty: 2
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 100
+            itemSets:
+              -
+                - STR_RPG
+                - STR_RPG_MAG
+          - alienRank: 1
+            customUnitType: STR_SPETSNAZ
+            lowQty: 2
+            highQty: 2
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 100
+            itemSets:
+              -
+                - STR_RPD
+                - STR_RPD_MAG
+          - alienRank: 2
+            customUnitType: STR_SPETSNAZ
+            lowQty: 6
+            highQty: 6
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 100
+            itemSets:
+              -
+                - STR_AK_47
+                - STR_AK_47_MAG
+                - STR_AK_47_MAG
+                - STR_RGD_5
+                - STR_RGD_5
+    terrains:
+      - IDT_AIRPORT
+    briefing:
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+      showCraft: true
+      desc: STR_OPERATION_OUROBOROS_DESCRIPTION
+      palette: 2
+    markerName: STR_OPERATION_OUROBOROS_MARKER
+    alert: STR_OPERATION_OUROBOROS_ALERT
+    alertBackground: BACK13.SCR
+    alertDescription: STR_OPERATION_OUROBOROS_DESCRIPTION
+    missionBountyItem: STR_DIE_GLOCKE_INFORMANT
+
+  - type: STR_OPERATION_SOYUZ_DEPLOYMENT
+    customUfo: STR_OPERATION_SOYUZ_UFO
+    height: 10
+    width: 40
+    length: 40
+    duration: [999, 999]
+    data:
+      - alienRank: 0
+        customUnitType: STR_REPTOID
+        lowQty: 0
+        highQty: 0
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_ALIEN_SIEGE_LAUNCHER
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+      - alienRank: 1
+        customUnitType: STR_REPTOID
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_ALIEN_HEAVY_LASER
+            - STR_ALIEN_HEAVY_LASER_BATTERY
+            - STR_ALIEN_HEAVY_LASER_BATTERY
+      - alienRank: 2
+        customUnitType: STR_REPTOID
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_ALIEN_LASER_RIFLE
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+      - alienRank: 3
+        customUnitType: STR_REPTOID
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_ALIEN_LASER_RIFLE
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+      - alienRank: 4
+        customUnitType: STR_REPTOID
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_ALIEN_LASER_RIFLE
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+      - alienRank: 5
+        customUnitType: STR_REPTOID
+        lowQty: 2
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_ALIEN_LASER_RIFLE
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+    reinforcements:
+      - type: spetsnaz_backup
+        turns: [0]
+        maxRuns: 1
+        mapBlockFilterType: 2
+        spawnBlocks: [EDGES]
+        useSpawnNodes: false
+        spawnZLevels: [0]
+        minDistanceFromXcomUnits: 10
+        maxDistanceFromBorders: 1
+        data:
+          - alienRank: 0
+            customUnitType: STR_SPETSNAZ
+            lowQty: 2
+            highQty: 2
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 100
+            itemSets:
+              -
+                - STR_RPG
+                - STR_RPG_MAG
+          - alienRank: 1
+            customUnitType: STR_SPETSNAZ
+            lowQty: 3
+            highQty: 3
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 100
+            itemSets:
+              -
+                - STR_RPD
+                - STR_RPD_MAG
+          - alienRank: 2
+            customUnitType: STR_SPETSNAZ
+            lowQty: 8
+            highQty: 8
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 100
+            itemSets:
+              -
+                - STR_AK_47
+                - STR_AK_47_MAG
+                - STR_AK_47_MAG
+                - STR_RGD_5
+                - STR_RGD_5
+    terrains:
+      - MOUNT
+    briefing:
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+      showCraft: true
+      desc: STR_OPERATION_SOYUZ_DESCRIPTION
+      palette: 2
+    markerName: STR_OPERATION_SOYUZ_MARKER
+    alert: STR_OPERATION_SOYUZ_ALERT
+    alertBackground: BACK13.SCR
+    alertDescription: STR_OPERATION_SOYUZ_DESCRIPTION
+    missionBountyItem: STR_UFO_SOS_BEACON

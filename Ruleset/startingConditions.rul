@@ -8,6 +8,8 @@ startingConditions:
     allowedItemCategories:
       - STR_CONCEALED
       - STR_SEMI_CONCEALED
+    allowedCraft:
+      - STR_VAN
   - type: STR_CONCEALED
     defaultArmor:
       STR_KGB_OFFICER:
@@ -16,3 +18,5 @@ startingConditions:
       - STR_AGENT_COAT_UC
     allowedItemCategories:
       - STR_CONCEALED
+    allowedCraft:
+      - STR_VAN

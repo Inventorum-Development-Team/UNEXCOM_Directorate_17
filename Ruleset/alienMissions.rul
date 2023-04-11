@@ -138,3 +138,29 @@ alienMissions:
         trajectory: STATIC_TRAJECTORY
         timer: 0
         objective: true
+  - type: STR_OPERATION_OUROBOROS_SPAWN
+    objective: 3
+    siteType: STR_OPERATION_OUROBOROS_DEPLOYMENT
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_CRYPTID: 100
+    waves:
+      - ufo: REGION_OPRERATION_OUROBOROS
+        count: 1
+        trajectory: STATIC_TRAJECTORY
+        timer: 0
+        objective: true
+  - type: STR_OPERATION_SOYUZ_SPAWN
+    objective: 3
+    siteType: STR_OPERATION_SOYUZ_DEPLOYMENT
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_REPTOID: 100
+    waves:
+      - ufo: REGION_OPRERATION_SOYUZ
+        count: 1
+        trajectory: STATIC_TRAJECTORY
+        timer: 0
+        objective: true

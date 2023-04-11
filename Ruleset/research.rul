@@ -8,6 +8,35 @@ research:
   - delete: STR_MOTION_SCANNER
   - delete: STR_MEDI_KIT
 
+  - name: STR_ALIENS_ONLY
+    cost: 0
+    points: 0
+    needItem: true
+  - name: STR_ELERIUM_115
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_UFO_NAVIGATION
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_UFO_POWER_SOURCE
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_ALIENS_ONLY
+
+  - name: STR_ALIEN_ALLOYS
+    cost: 200
+    points: 50
+    needItem: true
+  - name: STR_ALIEN_REPRODUCTION
+    cost: 100
+    points: 50
+    needItem: true
+
   - name: STR_WELROD
     cost: 10
     points: 10
@@ -62,6 +91,12 @@ research:
     cost: 10
     points: 10
     needItem: true
+  - name: STR_VIKHR_EMR
+    cost: 300
+    points: 100
+    dependencies:
+      - STR_ALIEN_ALLOYS
+      - STR_MAGNETESCHETTO
 
   - name: STR_GREAT_PATRIOTIC_WAR_SURPLUS_PREQ
     cost: 0
@@ -165,6 +200,20 @@ research:
     points: 10
     lookup: STR_THIN_MAN_ANALYSIS
     needItem: true
+  - name: STR_REPTOID_ANALYSIS
+    cost: 0
+    points: 0
+    needItem: true
+  - name: STR_REPTOID
+    cost: 50
+    points: 10
+    lookup: STR_REPTOID_ANALYSIS
+    needItem: true
+  - name: STR_REPTOID_CORPSE
+    cost: 50
+    points: 10
+    lookup: STR_REPTOID_ANALYSIS
+    needItem: true
   - name: STR_HAUNEBU_SCIENTIST
     cost: 50
     points: 10
@@ -206,7 +255,7 @@ research:
     needItem: true
   - name: STR_GLADIO_ORIGINS_BRIEFING
     cost: 100
-    points: 50
+    points: 100
     dependencies:
       - STR_MI6_LIAISON
       - STR_THIN_MAN_ANALYSIS
@@ -216,7 +265,7 @@ research:
     needItem: true
   - name: STR_HAUNEBU_ORIGINS_BRIEFING
     cost: 100
-    points: 50
+    points: 200
     dependencies:
       - STR_OUROBOROS_PREQ
       - STR_HAUNEBU_SCIENTIST
@@ -224,3 +273,30 @@ research:
     cost: 0
     points: 0
     needItem: true
+  - name: STR_CRYPTID_ORIGINS_BRIEFING
+    cost: 100
+    points: 500
+    dependencies:
+      - STR_CRYPTID_MIGRATION_PATTERNS
+      - STR_REPTOID_ANALYSIS
+      - STR_HAUNEBU_ORIGINS_BRIEFING
+      - STR_ALIEN_REPRODUCTION
+  - name: STR_DIE_GLOCKE_INFORMANT
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_REPTOID_OFFICER
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_UFO_SOS_BEACON
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_DIE_GLOCKE_ORIGINS_BRIEFING
+    cost: 100
+    points: 500
+    dependencies:
+      - STR_DIE_GLOCKE_INFORMANT
+      - STR_REPTOID_OFFICER
+      - STR_UFO_SOS_BEACON

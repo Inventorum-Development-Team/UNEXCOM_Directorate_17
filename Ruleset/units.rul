@@ -4,8 +4,8 @@ units:
     race: STR_OPERATION_GLADIO
     stats:
       tu: 55
-      stamina: 60
-      health: 40
+      stamina: 50
+      health: 50
       bravery: 30
       reactions: 55
       firing: 50
@@ -27,8 +27,8 @@ units:
     race: STR_OPERATION_GLADIO
     stats:
       tu: 55
-      stamina: 60
-      health: 40
+      stamina: 50
+      health: 50
       bravery: 30
       reactions: 55
       firing: 50
@@ -78,7 +78,7 @@ units:
     stats:
       tu: 80
       stamina: 100
-      health: 120
+      health: 100
       bravery: 60
       reactions: 30
       firing: 30
@@ -104,7 +104,7 @@ units:
     stats:
       tu: 120
       stamina: 200
-      health: 100
+      health: 80
       bravery: 60
       reactions: 30
       firing: 30
@@ -131,7 +131,7 @@ units:
     stats:
       tu: 100
       stamina: 120
-      health: 150
+      health: 120
       bravery: 60
       reactions: 30
       firing: 30
@@ -158,7 +158,7 @@ units:
     race: STR_PROJECT_HAUNEBU
     stats:
       tu: 45
-      stamina: 50
+      stamina: 40
       health: 40
       bravery: 20
       reactions: 45
@@ -185,7 +185,7 @@ units:
     stats:
       tu: 70
       stamina: 100
-      health: 70
+      health: 60
       bravery: 80
       reactions: 80
       firing: 55
@@ -201,7 +201,7 @@ units:
     value: 35
     deathSound: 8
     intelligence: 8
-    aggression: 4
+    aggression: 0
 
 # Spetsnaz
   - type: STR_SPETSNAZ
@@ -213,7 +213,7 @@ units:
       reactions: 60
       firing: 65
       throwing: 60
-      strength: 45
+      strength: 50
       psiStrength: 40
       psiSkill: 0
       melee: 70

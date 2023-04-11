@@ -3,5 +3,79 @@ eventScripts:
     eventWeights:
       0:
         STR_HIDEOUTS: 100
+    firstMonth: 0
     lastMonth: 0
+    maxRuns: 1
+    executionOdds: 100
+  - type: STR_NASA_LAUNCHES_ABLE2_EVENT_SCRIPT
+    eventWeights:
+      0:
+        STR_NASA_LAUNCHES_ABLE2_EVENT: 100
+    firstMonth: 0
+    lastMonth: 0
+    maxRuns: 1
+    executionOdds: 100
+  - type: LUNA_1_REACHES_HELIOCENTRIC_ORBIT_EVENT_SCRIPT
+    eventWeights:
+      0:
+        LUNA_1_REACHES_HELIOCENTRIC_ORBIT_EVENT: 100
+    firstMonth: 3
+    lastMonth: 3
+    maxRuns: 1
+    executionOdds: 100
+  - type: REVOLUTIONARIES_SEIZE_HAVANNA_EVENT_SCRIPT
+    eventWeights:
+      0:
+        REVOLUTIONARIES_SEIZE_HAVANNA_EVENT: 100
+    firstMonth: 3
+    lastMonth: 3
+    maxRuns: 1
+    executionOdds: 100
+  - type: CASTRO_BECOMES_PRIME_MINISTER_CUBA_EVENT_SCRIPT
+    eventWeights:
+      0:
+        CASTRO_BECOMES_PRIME_MINISTER_CUBA_EVENT: 100
+    firstMonth: 3
+    lastMonth: 3
+    maxRuns: 1
+    executionOdds: 100
+  - type: ARMED_UPRISING_IN_TIBET_EVENT_SCRIPT
+    eventWeights:
+      0:
+        ARMED_UPRISING_IN_TIBET_EVENT: 100
+    firstMonth: 4
+    lastMonth: 4
+    maxRuns: 1
+    executionOdds: 100
+  - type: DYATLOV_PASS_INCIDENT_EVENT_SCRIPT
+    eventWeights:
+      0:
+        DYATLOV_PASS_INCIDENT_EVENT: 100
+    firstMonth: 5
+    lastMonth: 5
+    maxRuns: 1
+    executionOdds: 100
+  - type: EXPLORER_6_FIRST_IMAGE_OF_EARTH_EVENT_SCRIPT
+    eventWeights:
+      0:
+        EXPLORER_6_FIRST_IMAGE_OF_EARTH_EVENT: 100
+    firstMonth: 10
+    lastMonth: 10
+    maxRuns: 1
+    executionOdds: 100
+  - type: LUNA_2_REACHES_SURFACE_OF_MOON_EVENT_SCRIPT
+    eventWeights:
+      0:
+        LUNA_2_REACHES_SURFACE_OF_MOON_EVENT: 100
+    firstMonth: 11
+    lastMonth: 11
+    maxRuns: 1
+    executionOdds: 100
+  - type: STEPAN_BANDERA_ASSASSINATED_EVENT_SCRIPT
+    eventWeights:
+      0:
+        STEPAN_BANDERA_ASSASSINATED_EVENT: 100
+    firstMonth: 12
+    lastMonth: 12
+    maxRuns: 1
     executionOdds: 100

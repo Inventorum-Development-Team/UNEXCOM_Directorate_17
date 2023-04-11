@@ -179,9 +179,9 @@ armors:
     corpseBattle:
       - STR_CHUCHUNYA_CORPSE
     drawingRoutine: 4
-    frontArmor: 14
-    sideArmor: 14
-    rearArmor: 14
+    frontArmor: 28
+    sideArmor: 28
+    rearArmor: 28
     underArmor: 14
     visibilityAtDark: 20
     damageModifier:
@@ -203,9 +203,9 @@ armors:
     corpseBattle:
       - STR_ALKONOST_CORPSE
     drawingRoutine: 10
-    frontArmor: 12
-    sideArmor: 12
-    rearArmor: 12
+    frontArmor: 24
+    sideArmor: 24
+    rearArmor: 24
     underArmor: 12
     visibilityAtDark: 20
     damageModifier:
@@ -227,10 +227,10 @@ armors:
     corpseBattle:
       - STR_WAWKALAK_CORPSE
     drawingRoutine: 10
-    frontArmor: 18
-    sideArmor: 18
-    rearArmor: 18
-    underArmor: 18
+    frontArmor: 32
+    sideArmor: 32
+    rearArmor: 32
+    underArmor: 12
     visibilityAtDark: 20
     damageModifier:
       - 1.0

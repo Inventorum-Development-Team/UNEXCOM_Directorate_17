@@ -9,6 +9,16 @@ terrains:
         - CADILLAC_BLUE
         - XBASE1
 
+  - name: SOYUZ_LARGE_SCOUT
+    mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+        - CRASHED_UFO_TILES
+        - US_ARMY_BARRICADE_TILES
+        - GRAVLIFT_BEAM
+
   - name: IDT_AIRPORT # by IDT - Luke83 & efrenespartano
     script: OLD_PORT_SCRIPT
     mapDataSets:

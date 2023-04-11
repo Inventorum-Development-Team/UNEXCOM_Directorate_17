@@ -104,3 +104,22 @@ ufos:
           items:
             STR_HAUNEBU_SCIENTIST:
               - [ 2, 4, 0]
+
+  - type: STR_OPERATION_SOYUZ_UFO
+    battlescapeTerrainData:
+      name: SOYUZ_LARGE_SCOUT
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+        - CRASHED_UFO_TILES
+        - US_ARMY_BARRICADE_TILES
+        - GRAVLIFT_BEAM
+      mapBlocks:
+        - name: OPERATION_SOYUZ
+          width: 20
+          length: 20
+          items:
+            STR_REPTOID_OFFICER:
+              - [15, 8, 4]
