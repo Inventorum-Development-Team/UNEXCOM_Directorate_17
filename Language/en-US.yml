@@ -39,6 +39,7 @@ en-US:
   STR_RUSSIA: "U.S.S.R."
 
   STR_VAN: "VAN"
+  STR_VAN_2: "CONVOY"
   STR_KGB_SAFEHOUSE: "KGB SAFEHOUSE"
 
   STR_QD_SLOT: "QD"
@@ -155,11 +156,25 @@ en-US:
   STR_ALIEN_SIEGE_LAUNCHER_SHELL: "Siege Bomb (1x)"
   STR_ALIEN_SIEGE_LAUNCHER_UFOPEDIA: "The Alien Siege Launcher is essentially a man-portable launcher armed with a nuclear capable of completely atomizing anything within its blast radius. It is a very peculiar design, utilizing the most advanced technology we have yet observed, launching a self-propelled {ALT}Siege Bomb{ALT} capable of mid-flight course correction to hone in on its target, designated by the Siege Launcher's operator."
 
+  STR_VIKHR_EMR: "Vikhr EMV"
+  STR_VIKHR_EMR_MAG: "10mm 2K53C Mag (10x)"
+  STR_VIKHR_EMR_UFOPEDIA: "The Vikhr Elektromagnitnaya Vintovka is a refinement of the Magneteschetto design, drawing power from an internal generator constructed out of the alien materials rather than an external battery. The EMV fires custom machined {ALT}10mm 2K53C{ALT} slugs made of a specialized magnetic tungsten carbide/copper alloy, this heavy rifle delivers unrivalled penetrative power. While it has been designed to fulfill a number of practical purposes, it can tear through light armored vehicles wtih ease."
+
   STR_MEDICAL_BAG: "Medical Bag"
   STR_MEDICAL_BAG_UFOPEDIA: "First aid bag with various medical items as well as a crude surgery kit. Utilized by paramedics on the field, it may be unweildy but it can save a man's life. {NEWLINE}> Concealable"
 
   STR_RGD_5: "RGD-5 Grenade"
   STR_RGD_5_UFOPEDIA: "The Ruchnaya Granata Distantsionnaya 5, shortened to RGD-5, is an anti-personnel fragmentation grenade that was accepted into service in 1954. It is extremely inexpensive to manufacture. {NEWLINE}> Semi-Concealable"
+
+  STR_ALLOYS_PISTOL: "Alien Ray Pistol > Alien Alloys"
+  STR_ALLOYS_RIFLE: "Alien Ray Rifle > Alien Alloys"
+  STR_ALLOYS_HEAVY: "Alien Ray Cannon > Alien Alloys"
+  STR_ALLOYS_SHELL: "Alien Siege Launcher > Alien Alloys"
+
+  STR_MAGNETESCHETTO_MAG_PISTOL: "Ray Pistol Battery (20x) > Atomic Battery (10x)"
+  STR_MAGNETESCHETTO_MAG_RIFLE: "Ray Rifle Battery (10x) > Atomic Battery (10x)"
+  STR_MAGNETESCHETTO_MAG_HEAVY: "Ray Cannon Battery (5x) > Atomic Battery (10x)"
+  STR_MAGNETESCHETTO_MAG_SHELL: "Siege Bomb (1x) > Atomic Battery (10x)"
 
   STR_OPERATION_GLADIO: "Operation Gladio"
   STR_GLADIO_OPERATIVE_M: "Gladio Operative"
@@ -176,16 +191,34 @@ en-US:
   STR_WAWKALAK: "Wawkalak"
   STR_WAWKALAK_CORPSE: "Wawkalak Corpse"
   STR_PROJECT_HAUNEBU: "Project Haunebu"
-  STR_SCIENTIST: "Haunebu Scientist"
-  STR_SCIENTIST_CORPSE: "Scientist Corpse"
+  STR_HAUNEBU_SCIENTIST: "Haunebu Scientist"
+  STR_HAUNEBU_SCIENTIST_CORPSE: "Scientist Corpse"
   STR_REPTOID: "Reptoid"
   STR_REPTOID_CORPSE: "Reptoid Corpse"
   STR_SPETSNAZ: "Spetsnaz"
   STR_SPETSNAZ_CORPSE: "Spetsnaz Corpse"
 
   STR_HIDEOUTS: "Message From The Committee"
-  STR_HIDEOUTS_DESCRIPTION: "From: Chairman Ivan Serov {NEWLINE}To: Directorate Chief {NEWLINE}Oongratulations on your new assignment as the Chief of Directorate 17, Comrade PERSEUS. Your group will be tasked with investigating pheomena relating to the extraterrestrial visitors and other anomalous activity. You should begin expanding your reach immediately by building Hideouts, which will allow you to monitor activity in the local area. We wish you good luck, and expect that you will live up to your predecessor."
-
+  STR_HIDEOUTS_DESCRIPTION: "From: Chairman Alexander Shelepin {NEWLINE}To: Directorate Chief {NEWLINE}Oongratulations on your new assignment as the Chief of KGB Directorate 17, Comrade Perseus. Your group will be tasked with investigating pheomena relating to the extraterrestrial visitors and other anomalous activity. We suggest that you begin immediately expanding your reach by building Hideouts, which will allow you to monitor activity in the local area. We wish you good luck, and expect that you will live up to your predecessor."
+  STR_NASA_LAUNCHES_ABLE2_EVENT: "NASA Launches Able 2 Probe"
+  STR_NASA_LAUNCHES_ABLE2_EVENT_DESCRIPTION: "The American National Aeronautics & Space Agency (NASA) has just launched the space probe Pioneer 1, originally designated Able 2 and renamed after the failure of the Able 1 mission, from the Cape Canaveral facility. Our insiders in the US Space Program tell us that the probe managed to escape Earth but did not succeed in reaching its intended target, the Moon. The Americans are catching up, and fast too. It seems that this 'space race' is on, Comrade Commissar."
+  LUNA_1_REACHES_HELIOCENTRIC_ORBIT_EVENT: "Luna 1 Reaches Heliocentric Orbit"
+  LUNA_1_REACHES_HELIOCENTRIC_ORBIT_EVENT_DESCRIPTION: "After almost 15 years, it appears Operation Osoaviakhim has borne fruit. Our Mechta space probe program based out of Baikonur Cosmodrone in the Kazakh SSR has successfully entered heliocentric orbit, becoming the first artifical satellite to do so. Though we have lost contact with the Mechta probe, redesignated Luna 1, it was visible from the ground for a short period of time. Our space program has gleamed a treasure trove of telemetry data, which is sure to help our efforts in studying alien phenomena."
+  REVOLUTIONARIES_SEIZE_HAVANNA_EVENT: "Cuban Revolutionaries Seize Havanna"
+  REVOLUTIONARIES_SEIZE_HAVANNA_EVENT_DESCRIPTION: "Our comrades-in-arms have successfully overthrown Batista's regime in Cuba and chased him out of the country. After seven long years of fighting, the combined forces of Guevara, Cienfuegos, and Castro's rebels have seized the capital city of Cuba, Havanna. Manuel Urrutia Lleo has been appointed as President and Jose Miro Cardona has been appointed Prime Minister. We have secured a communist ally just 150 kilometers from the Southern coastline of the US."
+  CASTRO_BECOMES_PRIME_MINISTER_CUBA_EVENT: "Castro Becomes Prime Minister Of Cuba"
+  CASTRO_BECOMES_PRIME_MINISTER_CUBA_EVENT_DESCRIPTION: "The Prime Minister of Cuba Jose Miro Cardona has just unexpectedly resigned after only six weeks in office, and revolutionary commander Fidel Castro has taken his place. We expect Castro will steer the island nation in a more authoritarian direction. He assures the Kremlin that they will maintain our alliance, though with the political instability in the country we can't be sure of Castro's continued leadership."
+  ARMED_UPRISING_IN_TIBET_EVENT: "Armed Uprising Quelled In Tibet"
+  ARMED_UPRISING_IN_TIBET_EVENT_DESCRIPTION: "An armed uprising has taken place in Lhasa, the capital of Tibet. The Tibetan protestors believed the Chinese government would arrest the Dalai Lama and began to revolt. In order to quell the conflict, the People's Liberation Army use force. We have reason to believe the failed secession was covertly supported by the CIA. While the insurrection has been stopped, the 14th Dalai Lama Tenzin Gyatso, spiritual leader of the Tibetan government-in-exile was forced to flee to India."
+  DYATLOV_PASS_INCIDENT_EVENT: "Mysterious Dissapearences In The Urals"
+  DYATLOV_PASS_INCIDENT_EVENT_DESCRIPTION: "A party of nine hikers from the Ural Polytechnical Institute dissapeared two months ago, and only now has the search party uncovered all nine bodies buried in the snow. Evidence seems to indicate they exhibited erratic behavior such as paradoxically undressing in the middle of a snowstorm. Three of them died from blunt injuries from some kind of animal, not hypothermia. All the more, locals in the area sighted orange lights in the sky. It is very likely that this incident is related to the Cryptids or the aliens, or perhaps both."
+  EXPLORER_6_FIRST_IMAGE_OF_EARTH_EVENT: "Explorer 6 Takes Photo Of Earth"
+  EXPLORER_6_FIRST_IMAGE_OF_EARTH_EVENT_DESCRIPTION: "Our informants in NASA have just recieved some dire news. Explorer 6 probe launched from the Cape Canaveral facility on the 9th has just taken a photo of Earth from orbit. While blurry, it managed to capture a sunlit area of the Central Pacific Ocean and its cloud cover. While of little practical value, this first they claimed shows the Americans are catching up to us fast."
+  LUNA_2_REACHES_SURFACE_OF_MOON_EVENT: "Luna 2 Reaches Surface Of Moon"
+  LUNA_2_REACHES_SURFACE_OF_MOON_EVENT_DESCRIPTION: "The Luna 2 probe has officially become the first human-made object to land on the Moon. Launched from the Baikonur launch facility on the 12th, it successfully impacted near the Mare Imbrium region, east of the Archimedes crater. It will take time for the OKB-1 to collect and sort through the probe's scientific data, but the milestone alone will remain on the Lunar surface as testimony to the power of Socialism and the Soviet Union."
+  STEPAN_BANDERA_ASSASSINATED_EVENT: "Stepan Bandera Assassinated"
+  STEPAN_BANDERA_ASSASSINATED_EVENT_DESCRIPTION: "Today, Stepan Andriyovych Bandera was assassinated by the KGB asset Bohdan Stashynsky in Munich, West Germany. During the German occupation of Eastern Europe, Bandera's wing of the seperatist Organization of Ukranian Nationalists, OUN-B, willingly cooperated with the Nazis in carrying out pogroms with the hope of securing independence for the Ukraine. While of little political relevance in modern times, we believe Bandera was recieving support from Western intelligence agencies to detabilize the Soviet Union."
+  
   STR_CHUCHUNYA_ANALYSIS: "Chuchunya Analysis"
   STR_CHUCHUNYA_ANALYSIS_UFOPEDIA: "Although invasive to the Russian wilderness, at first glance the subject appears merely be a mountain gorilla. Upon further examination, the brain of the creature is abnormally large, suggesting a high level of intelligence. It also lacks any sex organs, meaning it thankfully cannot reproduce naturally, but also brings up more questions as to thier origins. We believe this creature to be artificial in nature, the product of some bizarre alien science. Judging by the pattern of sightings, they appear to make long migrations in a straight path from a specific point. Perhaps we can utilize this information..."
   STR_WAWKALAK_ANALYSIS: "Wawkalak Analysis"
@@ -196,6 +229,8 @@ en-US:
   STR_CRYPTID_MIGRATION_PATTERNS_UFOPEDIA: "The Chuchunya, Wawkalak, and Alkonost cryptid species are all impossible creatures that should not exist according to our current zoological paradigm, and with no reproductive organs, thier origins remain a mystery. We theorize they were somehow artificially created by the extraterrestrial visitors for an as of yet unknown purpose. While the crossbreeds appear to be acclimated to extremely cold climates, they do not originate within our borders. From thier migration patterns, we believe they have originated from a location in the European Alps. While it would be impractical to run a search in such a large environment inside foreign territory, it is a crucial lead for our investigation, Comrade Commissar."
   STR_THIN_MAN_ANALYSIS: "Thin Man Analysis"
   STR_THIN_MAN_ANALYSIS_UFOPEDIA: "The Thin Man at first glance appears to be a nondescript Caucasian male, albiet sickly gaunt and of above average height. However, closer inspection reveals more...alien features. The creature sports abnormalities such as eerily reptilian eyes (concealed by sunglasses) and spotted marks along the neck similar to scales. As demonstrated in the field, the Thin Man was highly intelligent, equipped with extremly advanced weaponry, and as unprofessional as it sounds, capable of exerting some kind of telepathic control over our officers. Given previous examples of the genetic engineering prowess of the aliens, we theorize this creature is some kind of deliberate attempt to integrate or perhaps even infiltrate human societies."
+  STR_REPTOID_ANALYSIS: "Reptoid Analysis"
+  STR_REPTOID_ANALYSIS_UFOPEDIA: "Despite very closely resembling various indigenous Earth reptiles, the origin of the moniker 'Reptoid,' the Reptoid is not a derivative creature such as the Cryptids or Thin Men. Its bizzare biology appears to be almost entirely alien, but we can gleam some understanding from thier deceased carcasses. The Reptoids have a large and very dense brain, enabling a high degree of intelligence, perhaps one surpassing our own, demonstrated by thier operation of advanced weaponry and exotic scientific equipment. They are very strong and high durable, proving to be very lethal combatants. These Reptoid aliens are never to be underestimated in the field."
 
   STR_OPERATION_GLADIO_BRIEFING: "Operation Gladio Briefing"
   STR_OPERATION_GLADIO_BRIEFING_UFOPEDIA: "Our officers managed to recover the Station Chief of the Budapest safehouse, codenamed Orlan, who briefed us about the identity of the attackers. This 'Operation Gladio' is a paramilitary organization created to support insurgency efforts in the theoretical contingency of a Soviet-occupied Western Europe. This 'stay-behind' group, structured after the French and Polish partisans (an unfortunate comparison), has several clandestine 'sleeper' agents and secret stockpiles of weaponry provided to them by thier Western backers. While the organization is designed to support NATO, it is entirely independent of thier command structure. We cannot jump to conclusions too hastily; it is entirely possible Gladio's actions in Budapest weren't officially sanctioned. Though when it comes to deniable operations, the line becomes blurry."
@@ -205,6 +240,10 @@ en-US:
   STR_GLADIO_ORIGINS_BRIEFING_UFOPEDIA: "After we interrogated the MI6 liaison and preformed an analysis on the 'Thin Man,' we have come to several shocking conclusions about the history of Operation Gladio. It is apparent we are not the first to discover the aliens; in 1933 a crashed UFO was discovered by the Italians, promting the creation of the Gabinetto Ricerca Speciali, or 'RS33.' When Hitler found out, he twisted Mussolini's arm into providing some of the alien technology for thier own Wunderwaffen program, 'Project Haunebu.' However, in the following decade Italy and Germany would be pushed to the brink. On the backfoot from both sides for well over a year, in 1944 a small enclave of Italian Facists reached out and managed to successfully make diplomatic contact with the aliens. The details from there are sketchy, but the small enclave would begin slowly amassing power under the guise of Operation Gladio in secret. It appears MI6 and the CIA were just as blind about Budapest. With so many questions still unanswered, we need to bring in the last Haunebu scientist. Alive."
   STR_HAUNEBU_ORIGINS_BRIEFING: "Haunebu Origins Briefing"
   STR_HAUNEBU_ORIGINS_BRIEFING_UFOPEDIA: "It took some...coercion, but we have finally managed to make the Haunebu scientist talk. It appears that Project Haunebu was not the only secret Nazi program incorporating alien technology, but rather one of two. Project Haunebu experimented with anti-gravity and free energy suspension technology to design an advanced delivery system capable of launching a payload designed by a second project, 'Die Glocke' or 'The Bell,' to high earth orbit. While he did not know much else about Die Glocke, he did list the names of several researchers who worked on the project. All of whom have been inducted into our own Space Program. Considering the alien infiltrators were willing to risk exposure in an open firefight to secure a single Haunebu scientist, we must find and secure the Die Glocke researchers fast before it is too late."
+  STR_CRYPTID_ORIGINS_BRIEFING: "Cryptid Origins Briefing"
+  STR_CRYPTID_ORIGINS_BRIEFING_UFOPEDIA: "After securing the Alien Base in the Tyrol region, Cryptid sightings have drastically reduced in number. Its vicinity to the Gladio HQ is no coincidence, especially considering recent revelations about Project Haunebu. The alien process to create the Cryptids is completely divorced from our own reproductive paradigm. Instead, they utilize advanced machinery to artifically print a Cryptid fetus and nurture it in a vat of nutrient-dense fluid of unknown composition. The process is capable of creating a fully-grown Cryptid in only a few weeks time. It appears that the Reptoid aliens were, for lack of a better term, engineering and manufacturing genetic hybrids (Cryptid and Thin Men) for some time now. We theorize the Cryptids were intended as shock troops, thier sheer durability and resemblance to horror folklore is certainly an intentional decision to instill terror. This would imply the aliens have an understanding of our culture enough to weaponize it which, if true, is disturbing."
+  STR_DIE_GLOCKE_ORIGINS_BRIEFING: "Die Glocke Origins Briefing"
+  STR_DIE_GLOCKE_ORIGINS_BRIEFING_UFOPEDIA: "Shockingly, the live Reptoid we recovered from the Manchurian UFO was able to speak Russian as well as several other human languages and was suprisingly cooperative, if condecending. Combined with the intelligence from Kasputin Yar, we have pieced together the sinister plan of the aliens. They are interstellar conquerors, seeking to claim Earth as thier own. However, the scouts sent to Earth were not properly equipped to stage an invasion of the planet. Rather, they have infiltrated our societies for decades preparing for an opportune moment. It appears that Die Glocke is actually an advanced communications buoy capable of relaying a message to the alien fleet in deep space. Station Chief Orlan has been reassigned to Berlin to study the UFO Rescue Beacon recovered during Operation SOYUZ. Assuming both communications devices operate on the same principles, understanding the Rescue Beacon could help us find Die Glocke. We must plan our next move carefully, and execute it swiftly. The entire planet is at stake."
 
   STR_KAZAN: "Kazan"
   STR_KIEV: "Kiev"
@@ -219,6 +258,8 @@ en-US:
   STR_VENICE: "Venice"
   STR_VIENNA: "Vienna"
   STR_BONN: "Bonn"
+  
+  STR_KASPUTIN_YAR: "Kasputin Yar"
 
   STR_BASE_DEFENSE: "HIDEOUT DEFENSE"
   STR_BASE_UC_: "HIDEOUT> {0}"
@@ -271,3 +312,16 @@ en-US:
   STR_OPERATION_CATACOMB_DESCRIPTION: "Comrade Commissar, {NEWLINE}We have triangulated the origin point of the Cryptid migration patterns. The position appears to be located in the Alps, specifically the South Tyrol region of Italy on the Swiss border. We should send a team of officers as soon as possible to investigate the area. There will most likely be an extremely heavy Cryptid presence in the area, so they should be equipped with the most potent ordinance we haev available. To abort the mission return all D17 Officers to the transport vehicle and click on the 'Abort Mission' icon."
   STR_OPERATION_CATACOMB_SECOND_LAYER: "Operation CATACOMB (Part 2)"
   STR_OPERATION_CATACOMB_SECOND_LAYER_DESCRIPTION: "Comrade Commissar, {NEWLINE}The high amount of Crytpids confirms that this location is likely what we are looking for. Our officers uncovered an entrance leading underground, into some kind of subterranean facility. {NEWLINE}Advise your officers to proceed with caution, as we have no idea what's down there..."
+
+  STR_OPERATION_OUROBOROS_ALERT: "EMERGENCY ALERT"
+  STR_OPERATION_OUROBOROS_MARKER: "Emergency Alert"
+  STR_OPERATION_OUROBOROS_DEPLOYMENT: "Operation OUROBOROS"
+  STR_OPERATION_OUROBOROS_DESCRIPTION: "Comrade Commissar, {NEWLINE}We've just recieved an emergency report from the Kasputin Yar rocket launch facility about 100 kilometers east of Stalingrad, they have come under attack by 'Sickly, Lanky Men' utilizing advanced weapons. It appears that the aliens are after the Gie Glocke personnel and have adopted our tactic of strategic denial, foregoing live recovery in favor of on-the-spot executions. We will be assisted by a GRU Spetsnaz team once our officers arrive on the scene. To abort the mission return all D17 Officers to the transport vehicle and click on the 'Abort Mission' icon."
+  STR_DIE_GLOCKE_INFORMANT: "Die Glocke Informant"
+
+  STR_OPERATION_SOYUZ_ALERT: "EMERGENCY ALERT"
+  STR_OPERATION_SOYUZ_MARKER: "Emergency Alert"
+  STR_OPERATION_SOYUZ_DEPLOYMENT: "Operation SOYUZ"
+  STR_OPERATION_SOYUZ_DESCRIPTION: "We've recieved reports that a flight of Chinese J-6 fighter jets engaged an unknown, hostile contact. They originally believed it was ours, but after compiling the reports we theorize the craft is alien in nature. The UFO was successfully shot down over Manchuria, near the border on the Amur Oblast of the RSFSR. A GRU Spetsnaz platoon was dispatched to the site, and we have been called in to assist in the operation. Be advised, it appears that a second, larger contact has been spotted in the area as well. To abort the mission return all D17 Officers to the transport vehicle and click on the 'Abort Mission' icon."
+  STR_UFO_SOS_BEACON: "UFO Rescue Beacon"
+  STR_REPTOID_OFFICER: "Reptoid Overseer"
