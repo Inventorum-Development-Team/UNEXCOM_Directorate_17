@@ -23,5 +23,12 @@ extraSounds:
       219: Resources/Items/Weapons/Magnestoschetto/reload.wav
       220: Resources/Items/Weapons/TKB-408/fire.wav
       221: Resources/Items/Weapons/TKB-408/reload.wav
-      226: Resources/Items/Weapons/Vikhr EMR/fire.wav
-      227: Resources/Items/Weapons/Vikhr EMR/reload.wav
+      223: Resources/Items/Weapons/Stechkin APS/fire.wav
+      224: Resources/Items/Weapons/Stechkin APS/reload.wav
+      225: Resources/Items/Weapons/Skorpion vz61/fire.wav
+      226: Resources/Items/Weapons/Skorpion vz61/reload.wav
+      228: Resources/Items/Weapons/Vikhr EMR/fire.wav
+      229: Resources/Items/Weapons/Vikhr EMR/reload.wav
+      230: Resources/Items/Weapons/Camera Rifle/fire.wav
+      231: Resources/Items/Weapons/Umbrella Mosin-Nagant/fire.wav
+      232: Resources/Items/Weapons/Umbrella Mosin-Nagant/reload.wav

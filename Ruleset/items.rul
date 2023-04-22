@@ -54,6 +54,7 @@ items:
   - delete: STR_AVALANCHE_MISSILES
   - delete: STR_CANNON
   - delete: STR_CANNON_ROUNDS_X50
+  - delete: STR_MIND_PROBE
 
 # Psionic LOS Required
   - type: ALIEN_PSI_WEAPON
@@ -491,7 +492,7 @@ items:
     categories: [STR_FIREARMS, STR_RIFLES, STR_MACHINE_GUNS]
     size: 0.2
     requiresBuy:
-      - STR_RPD
+      - STR_ANTI_TANK_WEAPONS
     costBuy: 5000
     costSell: 4680
     weight: 26
@@ -525,7 +526,7 @@ items:
     categories: [STR_AMMUNITION, STR_RIFLES, STR_MACHINE_GUNS]
     size: 0.1
     requiresBuy:
-      - STR_RPD
+      - STR_ANTI_TANK_WEAPONS
     costBuy: 800
     costSell: 720
     weight: 8
@@ -551,7 +552,7 @@ items:
   - type: STR_RPG
     categories: [STR_FIREARMS, STR_EXPLOSIVES]
     requiresBuy:
-      - STR_RPG
+      - STR_ANTI_TANK_WEAPONS
     size: 0.2
     costBuy: 5000
     costSell: 4860
@@ -585,7 +586,7 @@ items:
     categories: [STR_AMMUNITION, STR_EXPLOSIVES]
     size: 0.2
     requiresBuy:
-      - STR_RPG
+      - STR_ANTI_TANK_WEAPONS
     costBuy: 900
     costSell: 840
     weight: 6
@@ -657,7 +658,7 @@ items:
     bulletSpeed: 1
     bulletSprite: 31
     hitAnimation: 110
-    power: 150
+    power: 180
     damageAlter:
       RandomType: 7
       ArmorEffectiveness: 0.0
@@ -690,7 +691,7 @@ items:
     snapRange: 60
     accuracySnap: 95
     tuSnap: 15
-    powerRangeThreshold: 5
+    powerRangeThreshold: 1
     powerRangeReduction: 3
     tuLoad: 5
     dropoff: 1
@@ -711,7 +712,7 @@ items:
     handSprite: 456
     hitSound: 19
     hitAnimation: 120
-    power: 70
+    power: 60
     damageType: 4
     damageAlter:
       toTile: 3.0
@@ -748,7 +749,7 @@ items:
     snapRange: 10
     accuracySnap: 60
     tuSnap: 15
-    powerRangeThreshold: 6
+    powerRangeThreshold: 3
     powerRangeReduction: 2
     tuLoad: 10
     battleType: 1
@@ -801,7 +802,7 @@ items:
     aimRange: 60
     accuracyAimed: 75
     tuAimed: 80
-    powerRangeThreshold: 7
+    powerRangeThreshold: 4
     powerRangeReduction: 2
     tuLoad: 20
     battleType: 1
@@ -927,6 +928,108 @@ items:
     twoHanded: true
     listOrder: 204
 
+# APS
+  - type: STR_STECHKIN
+    categories: [STR_FIREARMS, STR_PISTOLS, STR_MACHINE_GUNS, STR_SEMI_CONCEALED]
+    requiresBuy:
+      - STR_CONCEALABLE_SMGS
+    size: 0.2
+    costBuy: 1500
+    costSell: 1180
+    weight: 5
+    bigSprite: 552
+    floorSprite: 552
+    handSprite: 552
+    bulletSprite: 1
+    fireSound: 225
+    reloadSound: 224
+    compatibleAmmo:
+      - STR_STECHKIN_MAG
+    confSnap:
+      shots: 2
+      name: STR_DOUBLE_TAP
+    snapRange: 5
+    accuracySnap: 70
+    tuSnap: 5
+    confAuto:
+      shots: 5
+      name: STR_FULL_AUTO_5
+    autoRange: 16
+    accuracyAuto: 45
+    tuAuto: 30
+    tuLoad: 10
+    dropoff: 4
+    kneelBonus: 115
+    costThrow:
+      energy: 10
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    listOrder: 218
+  - type: STR_STECHKIN_MAG
+    categories: [STR_AMMUNITION, STR_PISTOLS, STR_MACHINE_GUNS, STR_SEMI_CONCEALED]
+    size: 0.1
+    requiresBuy:
+      - STR_CONCEALABLE_SMGS
+    costBuy: 400
+    costSell: 320
+    weight: 2
+    bigSprite: 568
+    floorSprite: 568
+    handSprite: 568
+    bulletSpeed: 30
+    hitAnimation: -1
+    power: 26
+    damageType: 1
+    damageAlter:
+      RandomType: 2
+    damageType: 1
+    clipSize: 20
+    battleType: 2
+    invWidth: 1
+    invHeight: 1
+    armor: 20
+    listOrder: 220
+
+# APS
+  - type: STR_SKORPION
+    categories: [STR_FIREARMS, STR_PISTOLS, STR_MACHINE_GUNS, STR_SEMI_CONCEALED]
+    requiresBuy:
+      - STR_CONCEALABLE_SMGS
+    size: 0.2
+    costBuy: 1800
+    costSell: 1440
+    weight: 6
+    bigSprite: 576
+    floorSprite: 576
+    handSprite: 576
+    bulletSprite: 1
+    fireSound: 223
+    reloadSound: 226
+    compatibleAmmo:
+      - STR_STECHKIN_MAG
+    confSnap:
+      shots: 2
+      name: STR_DOUBLE_TAP
+    snapRange: 7
+    accuracySnap: 90
+    tuSnap: 10
+    confAuto:
+      shots: 8
+      name: STR_FULL_AUTO_8
+    autoRange: 20
+    accuracyAuto: 65
+    tuAuto: 40
+    tuLoad: 10
+    dropoff: 3
+    kneelBonus: 115
+    costThrow:
+      energy: 10
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    listOrder: 219
+
 # Vikhr EMR
   - type: STR_VIKHR_EMR
     categories: [STR_FIREARMS, STR_RIFLES, STR_SNIPERS]
@@ -936,8 +1039,8 @@ items:
     bigSprite: 600
     floorSprite: 600
     handSprite: 600
-    fireSound: 226
-    reloadSound: 227
+    fireSound: 228
+    reloadSound: 229
     minRange: 5
     compatibleAmmo:
       - STR_VIKHR_EMR_MAG
@@ -963,7 +1066,7 @@ items:
     invHeight: 3
     twoHanded: true
     armor: 999
-    listOrder: 218
+    listOrder: 223
   - type: STR_VIKHR_EMR_MAG
     categories: [STR_AMMUNITION, STR_RIFLES, STR_SNIPERS]
     size: 0.2
@@ -975,7 +1078,7 @@ items:
     bulletSpeed: 1
     bulletSprite: 31
     hitAnimation: 110
-    power: 180
+    power: 150
     damageAlter:
       RandomType: 3
       ArmorEffectiveness: 0.0
@@ -986,7 +1089,104 @@ items:
     vaporDensitySurface: 3
     vaporProbabilitySurface: 80
     armor: 999
-    listOrder: 219
+    listOrder: 224
+
+# Camera Rifle
+  - type: STR_CAMERA_RIFLE
+    categories: [STR_FIREARMS, STR_RIFLES, STR_SEMI_CONCEALED, STR_CONCEALED]
+    size: 0.1
+    costSell: 5400
+    weight: 9
+    bigSprite: 624
+    floorSprite: 624
+    handSprite: 624
+    bulletSprite: 1
+    fireSound: 230
+    clipSize: 3
+    power: 18
+    damageAlter:
+      ToWound: 2.00
+    damageType: 1
+    confAimed:
+      shots: 1
+      name: STR_SNAP_SHOT
+      ammoSlot: 0
+      arcing: false
+    accuracyAimed: 95
+    tuAimed: 10
+    aimRange: 1
+    dropoff: 4
+    accuracyCloseQuarters: 100
+    kneelBonus: 150
+    hitAnimation: -1
+    bulletSpeed: 30
+    battleType: 1
+    invWidth: 2
+    invHeight: 2
+    twoHanded: true
+    armor: 20
+    listOrder: 225
+
+# Umbrella Mosin-Nagant
+  - type: STR_UMBRELLA_MOSIN_NAGANT
+    categories: [STR_FIREARMS, STR_RIFLES, STR_SNIPERS, STR_SEMI_CONCEALED, STR_CONCEALED]
+    size: 0.2
+    costSell: 5000
+    weight: 15
+    bigSprite: 632
+    floorSprite: 632
+    handSprite: 632
+    bulletSprite: 1
+    fireSound: 231
+    reloadSound: 232
+    compatibleAmmo:
+      - STR_UMBRELLA_MOSIN_NAGANT_MAG
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+      ammoSlot: 0
+      arcing: false
+    aimRange: 20
+    accuracyAimed: 150
+    tuAimed: 80
+    confSnap:
+      shots: 1
+      name: STR_HIP_FIRE
+      ammoSlot: 0
+      arcing: false
+    snapRange: 12
+    accuracySnap: 65
+    tuSnap: 40
+    tuLoad: 30
+    kneelBonus: 200
+    costThrow:
+      energy: 15
+    battleType: 1
+    hitAnimation: -1
+    invWidth: 1
+    invHeight: 3
+    twoHanded: true
+    blockBothHands: true
+    listOrder: 226
+  - type: STR_UMBRELLA_MOSIN_NAGANT_MAG
+    categories: [STR_AMMUNITION, STR_RIFLES, STR_SNIPERS, STR_SEMI_CONCEALED, STR_CONCEALED]
+    size: 0.1
+    costSell: 400
+    weight: 2
+    bigSprite: 648
+    floorSprite: 648
+    handSprite: 648
+    hitSound: 22
+    bulletSpeed: 1
+    power: 75
+    hitAnimation: -1
+    damageAlter:
+      RandomType: 3
+    damageType: 1
+    clipSize: 5
+    battleType: 2
+    armor: 20
+    listOrder: 227
 
 # Medical Bag
   - type: STR_MEDICAL_BAG
@@ -1018,7 +1218,7 @@ items:
     categories: [STR_WEAPONS, STR_EXPLOSIVES, STR_SEMI_CONCEALED]
     size: 0.1
     requiresBuy:
-      - STR_RGD_5
+      - STR_ANTI_TANK_WEAPONS
     costBuy: 10
     costSell: 5
     weight: 2
@@ -1264,6 +1464,19 @@ items:
     liveAlien: true
     costSell: 0
     recoveryPoints: 100
+    listOrder: 9999
+# UFO Rescue Beacon
+  - type: STR_UFO_SOS_BEACON
+    size: 0.0
+    recover: true
+    costSell: 0
+    recoveryPoints: 200
+    listOrder: 9999
+# CIA Documents
+  - type: STR_CIA_DOCUMENTS
+    size: 0.0
+    costSell: 0
+    recoveryPoints: 200
     listOrder: 9999
 # Reptoid
   - type: STR_REPTOID_CORPSE

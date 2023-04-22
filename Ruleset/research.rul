@@ -12,6 +12,11 @@ research:
     cost: 0
     points: 0
     needItem: true
+  - name: STR_PERSONAL_ARMOR
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_ALIENS_ONLY
   - name: STR_ELERIUM_115
     cost: 100
     points: 50
@@ -23,6 +28,16 @@ research:
     dependencies:
       - STR_ALIENS_ONLY
   - name: STR_UFO_POWER_SOURCE
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_POWER_SUIT
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_UFO_CONSTRUCTION
     cost: 100
     points: 50
     dependencies:
@@ -86,6 +101,14 @@ research:
   - name: STR_ALIEN_SIEGE_LAUNCHER
     cost: 100
     points: 20
+    needItem: true
+  - name: STR_STECHKIN
+    cost: 10
+    points: 10
+    needItem: true
+  - name: STR_SKORPION
+    cost: 10
+    points: 10
     needItem: true
   - name: STR_TKB_408
     cost: 10
@@ -173,12 +196,12 @@ research:
   - name: STR_ANTI_TANK_WEAPONS
     cost: 100
     points: 20
-    dependencies:
-      - STR_OUROBOROS_PREQ
     unlocks:
       - STR_RPG
       - STR_RPD
       - STR_RGD_5
+    dependencies:
+      - STR_OUROBOROS_PREQ
   - name: STR_CRYPTID_MIGRATION_PATTERNS
     cost: 200
     points: 50
@@ -269,7 +292,7 @@ research:
     dependencies:
       - STR_OUROBOROS_PREQ
       - STR_HAUNEBU_SCIENTIST
-  - name: STR_SOYUZ_PREQ
+  - name: STR_KIKIMORA_PREQ
     cost: 0
     points: 0
     needItem: true
@@ -287,11 +310,11 @@ research:
     needItem: true
   - name: STR_REPTOID_OFFICER
     cost: 50
-    points: 10
+    points: 100
     needItem: true
   - name: STR_UFO_SOS_BEACON
     cost: 50
-    points: 10
+    points: 100
     needItem: true
   - name: STR_DIE_GLOCKE_ORIGINS_BRIEFING
     cost: 100
@@ -300,3 +323,26 @@ research:
       - STR_DIE_GLOCKE_INFORMANT
       - STR_REPTOID_OFFICER
       - STR_UFO_SOS_BEACON
+  - name: STR_CONCEALABLE_SMGS
+    cost: 100
+    points: 20
+    unlocks:
+      - STR_STECHKIN
+      - STR_SKORPION
+    dependencies:
+      - STR_DIE_GLOCKE_ORIGINS_BRIEFING
+  - name: STR_CIA_DOCUMENTS
+    cost: 50
+    points: 50
+    needItem: true
+  - name: STR_BUREAU_11_BRIEFING
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_DIE_GLOCKE_ORIGINS_BRIEFING
+      - STR_CIA_DOCUMENTS
+  - name: STR_DISGUISED_WEAPONRY
+    cost: 100
+    points: 20
+    dependencies:
+      - STR_BUREAU_11_BRIEFING

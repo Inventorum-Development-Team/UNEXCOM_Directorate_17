@@ -79,3 +79,27 @@ eventScripts:
     lastMonth: 12
     maxRuns: 1
     executionOdds: 100
+  - type: LUNA_3_LAUNCH_CATASTROPHIC_FAILURE_EVENT_SCRIPT
+    eventWeights:
+      0:
+        LUNA_3_LAUNCH_CATASTROPHIC_FAILURE_EVENT: 100
+    firstMonth: 18
+    lastMonth: 18
+    maxRuns: 1
+    executionOdds: 100
+  - type: LUNA_3_LAUNCH_CATASTROPHIC_FAILURE_EVENT_SCRIPT
+    eventWeights:
+      0:
+        LUNA_3_LAUNCH_CATASTROPHIC_FAILURE_EVENT: 100
+    firstMonth: 18
+    lastMonth: 18
+    maxRuns: 1
+    executionOdds: 100
+  - type: AMERICAN_SPY_PLANE_SHOTDOWN_EVENT_SCRIPT
+    eventWeights:
+      0:
+        AMERICAN_SPY_PLANE_SHOTDOWN_EVENT: 100
+    firstMonth: 19
+    lastMonth: 19
+    maxRuns: 1
+    executionOdds: 100

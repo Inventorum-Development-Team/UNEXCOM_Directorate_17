@@ -224,20 +224,38 @@ missionScripts:
     firstMonth: 10
     maxRuns: 1
 
-
-  - type: spawnOperationSoyuz
-    varName: spawnOperationSoyuz
+  - type: spawnOperationKikimora
+    varName: spawnOperationKikimora
     missionWeights:
       0:
-        STR_OPERATION_SOYUZ_SPAWN: 100
+        STR_OPERATION_KIKIMORA_SPAWN: 100
     regionWeights:
       0:
-        REGION_OPRERATION_SOYUZ: 100
+        REGION_OPRERATION_KIKIMORA: 100
     researchTriggers:
-      STR_SOYUZ_PREQ: true
+      STR_KIKIMORA_PREQ: true
     executionOdds: 100
     startDelay: 10080
     randomDelay: 30240
     useTable: false
     firstMonth: 14
     maxRuns: 1
+
+  - type: spawnOperationAscension
+    varName: spawnOperationAscension
+    missionWeights:
+      0:
+        STR_OPERATION_ASCENSION_SPAWN: 100
+    regionWeights:
+      0:
+        REGION_OPRERATION_ASCENSION: 100
+    researchTriggers:
+      STR_DIE_GLOCKE_ORIGINS_BRIEFING: true
+    executionOdds: 100
+    startDelay: 10080
+    randomDelay: 30240
+    useTable: false
+    firstMonth: 17
+    lastMonth: 17
+    maxRuns: 1
+

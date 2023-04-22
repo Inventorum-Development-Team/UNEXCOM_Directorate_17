@@ -127,3 +127,25 @@ manufacture:
     space: 2
     time: 50
     cost: 9400
+
+  - name: STR_CAMERA_RIFLE
+    category: STR_MANUFACTURE
+    requires:
+      - STR_DISGUISED_WEAPONRY
+    space: 2
+    time: 60
+    cost: 1500
+  - name: STR_UMBRELLA_MOSIN_NAGANT
+    category: STR_MANUFACTURE
+    requires:
+      - STR_DISGUISED_WEAPONRY
+    space: 2
+    time: 60
+    cost: 1800
+  - name: STR_UMBRELLA_MOSIN_NAGANT_MAG
+    category: STR_MANUFACTURE
+    requires:
+      - STR_DISGUISED_WEAPONRY
+    space: 1
+    time: 20
+    cost: 200

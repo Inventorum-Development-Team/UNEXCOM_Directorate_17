@@ -207,7 +207,7 @@ ufopaedia:
     section: STR_EQUIPMENT
     text: STR_RPD_UFOPEDIA
     requires:
-      - STR_RPD
+      - STR_ANTI_TANK_WEAPONS
     listOrder: 207
   - id: STR_RPD_MAG
     type_id: 4
@@ -217,7 +217,7 @@ ufopaedia:
     section: STR_EQUIPMENT
     text: STR_RPG_UFOPEDIA
     requires:
-      - STR_RPG
+      - STR_ANTI_TANK_WEAPONS
     listOrder: 208
   - id: STR_RPG_MAG
     type_id: 4
@@ -229,14 +229,48 @@ ufopaedia:
     requires:
       - STR_TKB_408
     listOrder: 209
+  - id: STR_STECHKIN
+    type_id: 4
+    section: STR_EQUIPMENT
+    text: STR_STECHKIN_UFOPEDIA
+    requires:
+      - STR_CONCEALABLE_SMGS
+    listOrder: 210
+  - id: STR_STECHKIN_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_SKORPION
+    type_id: 4
+    section: STR_EQUIPMENT
+    text: STR_SKORPION_UFOPEDIA
+    requires:
+      - STR_CONCEALABLE_SMGS
+    listOrder: 211
   - id: STR_VIKHR_EMR
     type_id: 4
     section: STR_EQUIPMENT
     text: STR_VIKHR_EMR_UFOPEDIA
     requires:
       - STR_VIKHR_EMR
-    listOrder: 210
+    listOrder: 212
   - id: STR_VIKHR_EMR_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_CAMERA_RIFLE
+    type_id: 4
+    section: STR_EQUIPMENT
+    text: STR_CAMERA_RIFLE_UFOPEDIA
+    requires:
+      - STR_DISGUISED_WEAPONRY
+    listOrder: 213
+  - id: STR_UMBRELLA_MOSIN_NAGANT
+    type_id: 4
+    section: STR_EQUIPMENT
+    text: STR_UMBRELLA_MOSIN_NAGANT_UFOPEDIA
+    requires:
+      - STR_DISGUISED_WEAPONRY
+    listOrder: 214
+  - id: STR_UMBRELLA_MOSIN_NAGANT_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_MAGNETESCHETTO
@@ -385,4 +419,11 @@ ufopaedia:
     requires:
       - STR_DIE_GLOCKE_ORIGINS_BRIEFING
     text: STR_DIE_GLOCKE_ORIGINS_BRIEFING_UFOPEDIA
+    listOrder: 508
+  - id: STR_BUREAU_11_BRIEFING
+    type_id: 8
+    section: STR_REPORTS
+    requires:
+      - STR_BUREAU_11_BRIEFING
+    text: STR_BUREAU_11_BRIEFING_UFOPEDIA
     listOrder: 508

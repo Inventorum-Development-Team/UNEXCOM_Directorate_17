@@ -150,6 +150,27 @@ items:
   - type: STR_TKB_408_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
+  - type: STR_STECHKIN # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+  - type: STR_STECHKIN_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_SKORPION # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+  - type: STR_VIKHR_EMR # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+  - type: STR_VIKHR_EMR_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_UMBRELLA_MOSIN_NAGANT # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+  - type: STR_UMBRELLA_MOSIN_NAGANT_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
 
 extended:
   tags:

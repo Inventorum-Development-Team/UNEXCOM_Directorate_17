@@ -164,6 +164,8 @@ alienDeployments:
     height: 10
     width: 50
     length: 50
+    loseCutscene: loseGame
+    abortCutscene: loseGame
     duration: [999, 999]
     data: 
       - alienRank: 6
@@ -296,6 +298,8 @@ alienDeployments:
     width: 60
     length: 60
     duration: [999, 999]
+    loseCutscene: loseGame
+    abortCutscene: loseGame
     civilians: 3
     data:
       - alienRank: 0
@@ -427,6 +431,8 @@ alienDeployments:
     height: 10
     width: 50
     length: 50
+    loseCutscene: loseGame
+    abortCutscene: loseGame
     duration: [999, 999]
     data:
       - alienRank: 5
@@ -580,6 +586,8 @@ alienDeployments:
     height: 10
     width: 60
     length: 60
+    loseCutscene: loseGame
+    abortCutscene: loseGame
     duration: [999, 999]
     data:
       - alienRank: 5
@@ -699,20 +707,22 @@ alienDeployments:
       desc: STR_OPERATION_CATACOMB_SECOND_LAYER_DESCRIPTION
       palette: 2
     script: ALIENBASE
-    unlockedResearch: STR_SOYUZ_PREQ
+    unlockedResearch: STR_KIKIMORA_PREQ
     missionBountyItem: STR_ALIEN_REPRODUCTION
 
   - type: STR_OPERATION_OUROBOROS_DEPLOYMENT
     height: 10
     width: 50
     length: 50
+    loseCutscene: loseGame
+    abortCutscene: loseGame
     duration: [999, 999]
     data:
       - alienRank: 1
         lowQty: 1
         highQty: 5
         dQty: 7
-        percentageOutsideUfo: 100
+        percentageOutsideUfo: 50
         itemSets:
           -
             - STR_ALIEN_LASER_RIFLE
@@ -782,24 +792,15 @@ alienDeployments:
     alertDescription: STR_OPERATION_OUROBOROS_DESCRIPTION
     missionBountyItem: STR_DIE_GLOCKE_INFORMANT
 
-  - type: STR_OPERATION_SOYUZ_DEPLOYMENT
-    customUfo: STR_OPERATION_SOYUZ_UFO
+  - type: STR_OPERATION_KIKIMORA_DEPLOYMENT
+    customUfo: STR_OPERATION_KIKIMORA_UFO
     height: 10
     width: 40
     length: 40
+    loseCutscene: loseGame
+    abortCutscene: loseGame
     duration: [999, 999]
     data:
-      - alienRank: 0
-        customUnitType: STR_REPTOID
-        lowQty: 0
-        highQty: 0
-        dQty: 1
-        percentageOutsideUfo: 0
-        itemSets:
-          -
-            - STR_ALIEN_SIEGE_LAUNCHER
-            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
-            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
       - alienRank: 1
         customUnitType: STR_REPTOID
         lowQty: 1
@@ -808,9 +809,9 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_ALIEN_HEAVY_LASER
-            - STR_ALIEN_HEAVY_LASER_BATTERY
-            - STR_ALIEN_HEAVY_LASER_BATTERY
+            - STR_ALIEN_SIEGE_LAUNCHER
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
       - alienRank: 2
         customUnitType: STR_REPTOID
         lowQty: 1
@@ -819,14 +820,14 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_ALIEN_LASER_RIFLE
-            - STR_ALIEN_LASER_RIFLE_BATTERY
-            - STR_ALIEN_LASER_RIFLE_BATTERY
+            - STR_ALIEN_HEAVY_LASER
+            - STR_ALIEN_HEAVY_LASER_BATTERY
+            - STR_ALIEN_HEAVY_LASER_BATTERY
       - alienRank: 3
         customUnitType: STR_REPTOID
         lowQty: 1
-        highQty: 1
-        dQty: 0
+        highQty: 2
+        dQty: 1
         percentageOutsideUfo: 0
         itemSets:
           -
@@ -909,10 +910,64 @@ alienDeployments:
       background: BACK01.SCR
       showTarget: false
       showCraft: true
-      desc: STR_OPERATION_SOYUZ_DESCRIPTION
+      desc: STR_OPERATION_KIKIMORA_DESCRIPTION
       palette: 2
-    markerName: STR_OPERATION_SOYUZ_MARKER
-    alert: STR_OPERATION_SOYUZ_ALERT
+    markerName: STR_OPERATION_KIKIMORA_MARKER
+    alert: STR_OPERATION_KIKIMORA_ALERT
     alertBackground: BACK13.SCR
-    alertDescription: STR_OPERATION_SOYUZ_DESCRIPTION
+    alertDescription: STR_OPERATION_KIKIMORA_DESCRIPTION
     missionBountyItem: STR_UFO_SOS_BEACON
+
+  - type: STR_OPERATION_ASCENSION_DEPLOYMENT
+    startingCondition: STR_SEMI_CONCEALED
+    height: 10
+    width: 60
+    length: 60
+    loseCutscene: loseGame
+    abortCutscene: loseGame
+    duration: [999, 999]
+    data:
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_ALIEN_LASER_PISTOL
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+      - alienRank: 4
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        customUnitType: STR_HAUNEBU_SCIENTIST
+        itemSets:
+          -
+            - STR_DELISLE
+            - STR_DELISLE_MAG
+      - alienRank: 5
+        lowQty: 5
+        highQty: 9
+        dQty: 4
+        percentageOutsideUfo: 50
+        customUnitType: STR_HAUNEBU_SCIENTIST
+        itemSets:
+          -
+            - STR_WELROD
+            - STR_WELROD_MAG
+            - STR_WELROD_MAG
+    terrains:
+      - IDT_AIRPORT
+    briefing:
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+      showCraft: true
+      desc: STR_OPERATION_ASCENSION_DESCRIPTION
+      palette: 2
+    markerName: STR_OPERATION_ASCENSION_MARKER
+    alert: STR_OPERATION_ASCENSION_ALERT
+    alertBackground: BACK12.SCR
+    alertDescription: STR_OPERATION_ASCENSION_DESCRIPTION

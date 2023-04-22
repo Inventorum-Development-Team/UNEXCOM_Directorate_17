@@ -45,9 +45,18 @@ extraSprites:
       528: Resources/Items/Weapons/Alien Siege Launcher/Mag_1_Big.png
       536: Resources/Items/Weapons/TKB-408/Unloaded_Big.png
       544: Resources/Items/Weapons/TKB-408/Loaded_30_Big.png
+      552: Resources/Items/Weapons/Stechkin APS/Unloaded_Big.png
+      560: Resources/Items/Weapons/Stechkin APS/Loaded_20_Big.png
+      568: Resources/Items/Weapons/Stechkin APS/Mag_20_Big.png
+      576: Resources/Items/Weapons/Skorpion vz61/Unloaded_Big.png
+      584: Resources/Items/Weapons/Skorpion vz61/Loaded_20_Big.png
       600: Resources/Items/Weapons/Vikhr EMR/Unloaded_Big.png
       608: Resources/Items/Weapons/Vikhr EMR/Loaded_10_Big.png
       616: Resources/Items/Weapons/Vikhr EMR/Mag_10_Big.png
+      624: Resources/Items/Weapons/Camera Rifle/Loaded_1_Big.png
+      632: Resources/Items/Weapons/Umbrella Mosin-Nagant/Unloaded_Big.png
+      640: Resources/Items/Weapons/Umbrella Mosin-Nagant/Loaded_5_Big.png
+      648: Resources/Items/Weapons/Umbrella Mosin-Nagant/Mag_5_Big.png
       1000: Resources/Armors/Officer_Coat/Corpse/Coat_Big.png
       1001: Resources/Armors/Agent_Coat/Corpse/bigob_coat_corpse.png
       1500: Resources/Units/Enemies/Gladio/BIGOBS/bigOb_Gladio_corpse.png
@@ -113,9 +122,18 @@ extraSprites:
       528: Resources/Items/Weapons/Alien Siege Launcher/Mag_1_Floor.png
       536: Resources/Items/Weapons/TKB-408/Unloaded_Floor.png
       544: Resources/Items/Weapons/TKB-408/Loaded_30_Floor.png
+      552: Resources/Items/Weapons/Stechkin APS/Unloaded_Floor.png
+      560: Resources/Items/Weapons/Stechkin APS/Loaded_20_Floor.png
+      568: Resources/Items/Weapons/Stechkin APS/Mag_20_Floor.png
+      576: Resources/Items/Weapons/Skorpion vz61/Unloaded_Floor.png
+      584: Resources/Items/Weapons/Skorpion vz61/Loaded_20_Floor.png
       600: Resources/Items/Weapons/Vikhr EMR/Unloaded_Floor.png
       608: Resources/Items/Weapons/Vikhr EMR/Loaded_10_Floor.png
       616: Resources/Items/Weapons/Vikhr EMR/Mag_10_Floor.png
+      624: Resources/Items/Weapons/Camera Rifle/Loaded_1_Floor.png
+      632: Resources/Items/Weapons/Umbrella Mosin-Nagant/Unloaded_Floor.png
+      640: Resources/Items/Weapons/Umbrella Mosin-Nagant/Loaded_5_Floor.png
+      648: Resources/Items/Weapons/Umbrella Mosin-Nagant/Mag_5_Floor.png
       1000: Resources/Armors/Officer_Coat/Corpse/Coat_Floor.png
       1001: Resources/Armors/Agent_Coat/Corpse/floorob_coat_corpse.png
       1500: Resources/Units/Enemies/Gladio/FLOOROBS/floorOb_Gladio_corpse.png
@@ -177,9 +195,18 @@ extraSprites:
       528: Resources/Items/Weapons/Alien Siege Launcher/Mag_1_Hand.png
       536: Resources/Items/Weapons/TKB-408/Unloaded_Hand.png
       544: Resources/Items/Weapons/TKB-408/Loaded_30_Hand.png
+      552: Resources/Items/Weapons/Stechkin APS/Unloaded_Hand.png
+      560: Resources/Items/Weapons/Stechkin APS/Loaded_20_Hand.png
+      568: Resources/Items/Weapons/Stechkin APS/Mag_20_Hand.png
+      576: Resources/Items/Weapons/Skorpion vz61/Unloaded_Hand.png
+      584: Resources/Items/Weapons/Skorpion vz61/Loaded_20_Hand.png
       600: Resources/Items/Weapons/Vikhr EMR/Unloaded_Hand.png
       608: Resources/Items/Weapons/Vikhr EMR/Loaded_10_Hand.png
       616: Resources/Items/Weapons/Vikhr EMR/Mag_10_Hand.png
+      624: Resources/Items/Weapons/Camera Rifle/Loaded_1_Hand.png
+      632: Resources/Items/Weapons/Umbrella Mosin-Nagant/Unloaded_Hand.png
+      640: Resources/Items/Weapons/Umbrella Mosin-Nagant/Loaded_5_Hand.png
+      648: Resources/Items/Weapons/Umbrella Mosin-Nagant/Mag_5_Hand.png
       1900: Resources/Items/Misc/Medical_Bag/Gadget_Hand.png
 
   - type: SMOKE.PCK

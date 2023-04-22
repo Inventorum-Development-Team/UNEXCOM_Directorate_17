@@ -105,9 +105,9 @@ ufos:
             STR_HAUNEBU_SCIENTIST:
               - [ 2, 4, 0]
 
-  - type: STR_OPERATION_SOYUZ_UFO
+  - type: STR_OPERATION_KIKIMORA_UFO
     battlescapeTerrainData:
-      name: SOYUZ_LARGE_SCOUT
+      name: KIKIMORA_LARGE_SCOUT
       mapDataSets:
         - BLANKS
         - U_EXT02
@@ -123,3 +123,16 @@ ufos:
           items:
             STR_REPTOID_OFFICER:
               - [15, 8, 4]
+
+  - type: STR_WHISPERS_SAFEHOUSE_UFO
+    battlescapeTerrainData:
+      name: WHISPERS_SAFEHOUSE_UFO
+      mapDataSets:
+        - BLANKS
+        - IDT_OFFICE
+        - URBAN
+        - Cadillac
+      mapBlocks:
+        - name: WHISPERS_SAFEHOUSE
+          width: 20
+          length: 10
