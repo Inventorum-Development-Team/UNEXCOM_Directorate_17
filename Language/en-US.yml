@@ -82,10 +82,12 @@ en-US:
   STR_AGENT_COAT_UC: "AGENT COAT"
   STR_AGENT_COAT_UC_UFOPEDIA: "The Agent Coat is used by our covert agents on stealth operations. It is slightly restrictive, limiting speed."
 
+  STR_SNAP_SHOT: "Close Up"
   STR_STEADY_SHOT: "Steady Shot"
   STR_HIP_FIRE: "Hip Fire"
   STR_DOUBLE_TAP: "Double Tap"
   STR_FULL_AUTO_5: "Full Auto (5x)"
+  STR_FULL_AUTO_8: "Full Auto (8x)"
   STR_FULL_AUTO_10: "Full Auto (10x)"
   STR_FULL_AUTO_15: "Full Auto (15x)"
   STR_DANGER_CLOSE: "Danger Close!"
@@ -123,7 +125,7 @@ en-US:
   STR_PTRD_CLIP: "14.5x114mm Clip (5x)"
   STR_PTRD_UFOPEDIA: "The PTRS-41, shortened from Protivotankovoye Ruzhyo Simonova 1941, is a semi-auto anti-tank rifle that fires {ALT}14.5x114mm{ALT} rounds. The rifle was commissioned during the Great Patriotic War and was designed in less than two weeks before being successfully battle tested against Panzer armor. The PTRS-41 is equipped with a deployable bipod that greatly increases {ALT}Accuracy{ALT} while {ALT}Kneeling{ALT}. {NEWLINE}> Not At All Concealable"
 
-  STR_ANTI_TANK_WEAPONS: "Heavy Support Weapons"
+  STR_ANTI_TANK_WEAPONS: "Heavy Support Ordinance"
 
   STR_RPD: "RPD"
   STR_RPD_MAG: "7.62x39mm Drum (100x)"
@@ -154,17 +156,35 @@ en-US:
 
   STR_ALIEN_SIEGE_LAUNCHER: "Alien Siege Launcher"
   STR_ALIEN_SIEGE_LAUNCHER_SHELL: "Siege Bomb (1x)"
-  STR_ALIEN_SIEGE_LAUNCHER_UFOPEDIA: "The Alien Siege Launcher is essentially a man-portable launcher armed with a nuclear capable of completely atomizing anything within its blast radius. It is a very peculiar design, utilizing the most advanced technology we have yet observed, launching a self-propelled {ALT}Siege Bomb{ALT} capable of mid-flight course correction to hone in on its target, designated by the Siege Launcher's operator."
+  STR_ALIEN_SIEGE_LAUNCHER_UFOPEDIA: "The Alien Siege Launcher is essentially a man-portable launcher armed with a small nuclear bomb capable of completely atomizing anything within its blast radius. It is a very peculiar design, utilizing the most advanced technology we have yet observed, launching a self-propelled {ALT}Siege Bomb{ALT} capable of mid-flight course correction to hone in on its target designated by the Siege Launcher's operator."
+
+  STR_CONCEALABLE_SMGS: "Concealable SMGs"
+
+  STR_STECHKIN: "APS"
+  STR_STECHKIN_MAG: "9x18mm Mag (20x)"
+  STR_STECHKIN_UFOPEDIA: "The Avtomaticheskiy Pistolet Stechkina, abbreviated as APS or simply the Stechkin, is a {ALT}9x18mm{ALT} machine pistol. While it was originally intended as a lightweight firepower upgrade for non-frontline personnel such as tank and artillery crews, it has become a favorite of Spetsnaz for its rate of fire. {NEWLINE}> Semi-Concealable"
+
+  STR_SKORPION: "VZ61"
+  STR_SKORPION_UFOPEDIA: "The Skorpion VZ61 is a modern sub machine gun developed by Czechslovak gunsmith Miroslav Rybar. While it was originally designed to feed .32 ACP, it has been modified to fire {ALT}9x18mm{ALT} at an extremely lethal rate of automatic fire, it has become a favorite of Spetsnaz for its small size and light weight. {NEWLINE}> Semi-Concealable"
+
+  STR_DISGUISED_WEAPONRY: "Disguised Weapon Prototypes"
 
   STR_VIKHR_EMR: "Vikhr EMV"
   STR_VIKHR_EMR_MAG: "10mm 2K53C Mag (10x)"
-  STR_VIKHR_EMR_UFOPEDIA: "The Vikhr Elektromagnitnaya Vintovka is a refinement of the Magneteschetto design, drawing power from an internal generator constructed out of the alien materials rather than an external battery. The EMV fires custom machined {ALT}10mm 2K53C{ALT} slugs made of a specialized magnetic tungsten carbide/copper alloy, this heavy rifle delivers unrivalled penetrative power. While it has been designed to fulfill a number of practical purposes, it can tear through light armored vehicles wtih ease."
+  STR_VIKHR_EMR_UFOPEDIA: "The Vikhr Elektromagnitnaya Vintovka is a refinement of the Magneteschetto design, drawing power from a rechargeable capacitor worn on-person rather than an detachable battery. The EMV fires custom machined {ALT}10mm 2K53C{ALT} slugs made of a specialized magnetic tungsten carbide/copper alloy, this heavy rifle delivers unrivalled penetrative power. While it has been designed to fulfill a number of practical purposes, it can tear through light armored vehicles wtih ease."
+
+  STR_CAMERA_RIFLE: "Camera Rifle"
+  STR_CAMERA_RIFLE_UFOPEDIA: "The Camera Rifle is designed to look and operate as a portable camera, however, it has a secret option that allows it to fire up to three {ALT}.22LR{ALT} rounds loaded inside the weapon. It is decently accurate at point blank range, but a combination of unfamiliar ergonomics and the crude firing mechanism causes it to be more unreliable the longer the distance. It also cannot be reloaded in the field, as the entire weapon must be disassembled at the base to reload the weapon. {NEWLINE}> Concealable"
+  
+  STR_UMBRELLA_MOSIN_NAGANT: "Umbrella Mosin"
+  STR_UMBRELLA_MOSIN_NAGANT_MAG: "7.62x54mmR Clip (5x)"
+  STR_UMBRELLA_MOSIN_NAGANT_UFOPEDIA: "When collapsed, this weapon appears to simply be an umbrella. However, the handle of the Umbrella Mosin has been replaced with a half-cannibalized firing mechaism of the Mosin-Nagant rifle modified to fire custom subsonic {ALT}7.62x54mmR{ALT} bullets. It is designed to be easily smugglable into foreign countries, specifically the United States, for use in deniable operations. {NEWLINE}>Concealable"
 
   STR_MEDICAL_BAG: "Medical Bag"
   STR_MEDICAL_BAG_UFOPEDIA: "First aid bag with various medical items as well as a crude surgery kit. Utilized by paramedics on the field, it may be unweildy but it can save a man's life. {NEWLINE}> Concealable"
 
   STR_RGD_5: "RGD-5 Grenade"
-  STR_RGD_5_UFOPEDIA: "The Ruchnaya Granata Distantsionnaya 5, shortened to RGD-5, is an anti-personnel fragmentation grenade that was accepted into service in 1954. It is extremely inexpensive to manufacture. {NEWLINE}> Semi-Concealable"
+  STR_RGD_5_UFOPEDIA: "The Ruchnaya Granata Distantsionnaya 5, shortened to RGD-5, is an anti-personnel fragmentation grenade that was accepted into service in 1954. It is extremely inexpensive to manufacture. The grenade has a timer that lasts {ALT}1 Turn{ALT} and detonates at the end of the enemy's turn. {NEWLINE}> Semi-Concealable"
 
   STR_ALLOYS_PISTOL: "Alien Ray Pistol > Alien Alloys"
   STR_ALLOYS_RIFLE: "Alien Ray Rifle > Alien Alloys"
@@ -218,6 +238,10 @@ en-US:
   LUNA_2_REACHES_SURFACE_OF_MOON_EVENT_DESCRIPTION: "The Luna 2 probe has officially become the first human-made object to land on the Moon. Launched from the Baikonur launch facility on the 12th, it successfully impacted near the Mare Imbrium region, east of the Archimedes crater. It will take time for the OKB-1 to collect and sort through the probe's scientific data, but the milestone alone will remain on the Lunar surface as testimony to the power of Socialism and the Soviet Union."
   STEPAN_BANDERA_ASSASSINATED_EVENT: "Stepan Bandera Assassinated"
   STEPAN_BANDERA_ASSASSINATED_EVENT_DESCRIPTION: "Today, Stepan Andriyovych Bandera was assassinated by the KGB asset Bohdan Stashynsky in Munich, West Germany. During the German occupation of Eastern Europe, Bandera's wing of the seperatist Organization of Ukranian Nationalists, OUN-B, willingly cooperated with the Nazis in carrying out pogroms with the hope of securing independence for the Ukraine. While of little political relevance in modern times, we believe Bandera was recieving support from Western intelligence agencies to detabilize the Soviet Union."
+  LUNA_3_LAUNCH_CATASTROPHIC_FAILURE_EVENT: "Luna E-3 Launch Suffers Catastrophic Failure"
+  LUNA_3_LAUNCH_CATASTROPHIC_FAILURE_EVENT_DESCRIPTION: "The Luna E-3 probes that were intended to be delivered via Luna 8K72 carrier rockets from the Baikonur Cosmodrome. The launch vehicle climbed to an altitude of about 200 meters before breaking off and scattering in random directions, resulting in a total failure of the launch and damage to the facility in a dramatic display that terrified the observers. We have done all we can to cover up the incident from the public. While this has been a signifigant setback for our space program, it was the only way to stop the aliens."
+  AMERICAN_SPY_PLANE_SHOTDOWN_EVENT: "American Spyplane Shot Down"
+  AMERICAN_SPY_PLANE_SHOTDOWN_EVENT_DESCRIPTION: "An unidentified contact flying at high altitude was shot down by a S-75 Dvina SAM rocket, near the town of Aramil in the Sverdlovsk Oblast. While we initally believed it to be another alien UFO, it was actually an American reconnissance stealth plane. We have apprehended the surviving pilot, identified as one Francis Gary Powers. While this has dashed any hope of an amicable resolution to the Four Powers Summit in Paris, we have not only obtained leverage over the Americans, but now have access to several CIA documents he had in his possession."
   
   STR_CHUCHUNYA_ANALYSIS: "Chuchunya Analysis"
   STR_CHUCHUNYA_ANALYSIS_UFOPEDIA: "Although invasive to the Russian wilderness, at first glance the subject appears merely be a mountain gorilla. Upon further examination, the brain of the creature is abnormally large, suggesting a high level of intelligence. It also lacks any sex organs, meaning it thankfully cannot reproduce naturally, but also brings up more questions as to thier origins. We believe this creature to be artificial in nature, the product of some bizarre alien science. Judging by the pattern of sightings, they appear to make long migrations in a straight path from a specific point. Perhaps we can utilize this information..."
@@ -243,7 +267,9 @@ en-US:
   STR_CRYPTID_ORIGINS_BRIEFING: "Cryptid Origins Briefing"
   STR_CRYPTID_ORIGINS_BRIEFING_UFOPEDIA: "After securing the Alien Base in the Tyrol region, Cryptid sightings have drastically reduced in number. Its vicinity to the Gladio HQ is no coincidence, especially considering recent revelations about Project Haunebu. The alien process to create the Cryptids is completely divorced from our own reproductive paradigm. Instead, they utilize advanced machinery to artifically print a Cryptid fetus and nurture it in a vat of nutrient-dense fluid of unknown composition. The process is capable of creating a fully-grown Cryptid in only a few weeks time. It appears that the Reptoid aliens were, for lack of a better term, engineering and manufacturing genetic hybrids (Cryptid and Thin Men) for some time now. We theorize the Cryptids were intended as shock troops, thier sheer durability and resemblance to horror folklore is certainly an intentional decision to instill terror. This would imply the aliens have an understanding of our culture enough to weaponize it which, if true, is disturbing."
   STR_DIE_GLOCKE_ORIGINS_BRIEFING: "Die Glocke Origins Briefing"
-  STR_DIE_GLOCKE_ORIGINS_BRIEFING_UFOPEDIA: "Shockingly, the live Reptoid we recovered from the Manchurian UFO was able to speak Russian as well as several other human languages and was suprisingly cooperative, if condecending. Combined with the intelligence from Kasputin Yar, we have pieced together the sinister plan of the aliens. They are interstellar conquerors, seeking to claim Earth as thier own. However, the scouts sent to Earth were not properly equipped to stage an invasion of the planet. Rather, they have infiltrated our societies for decades preparing for an opportune moment. It appears that Die Glocke is actually an advanced communications buoy capable of relaying a message to the alien fleet in deep space. Station Chief Orlan has been reassigned to Berlin to study the UFO Rescue Beacon recovered during Operation SOYUZ. Assuming both communications devices operate on the same principles, understanding the Rescue Beacon could help us find Die Glocke. We must plan our next move carefully, and execute it swiftly. The entire planet is at stake."
+  STR_DIE_GLOCKE_ORIGINS_BRIEFING_UFOPEDIA: "Shockingly, the live Reptoid we recovered from the Manchurian UFO was able to speak Russian as well as several other human languages. We managed to goad it into revealing much albiet through a lengthy, condecending diatribe, before we were forced to execute it. Combined with the intelligence from Kasputin Yar, the sinister plan of the aliens has been uncovered. The Reptoids are not even the masterminds, they are merely servants of a greater interstellar power as the Cryptids are to them. They seek to conquer Earth as thier own and have infiltrated our societies for decades, only temporarily halted by the Great Patriotic War. It appears that Die Glocke is actually an advanced communications buoy capable of relaying a message to a massive UFO fleet in deep space. Station Chief Orlan has been reassigned to Berlin to study the UFO Rescue Beacon recovered during Operation KIKIMORA. Assuming both communications devices operate on the same principles, understanding the Rescue Beacon could help us find Die Glocke. We must plan our next move carefully, and execute it swiftly."
+  STR_BUREAU_11_BRIEFING: "CIA Bureau 11 Briefing"
+  STR_BUREAU_11_BRIEFING_UFOPEDIA: "The documents we have recovered from the crashed American spyplane have confirmed our longheld suspicions: the US government is aware of the aliens. A clandestine sub-unit of the Central Intelligence Agency known as 'Bureau 11' has been tasked with dealing with the aliens since at least the 1950s. For how long and to what extent, we do not know. Considering the extent of Gladio and Haunebu infiltration within our own space program, we cannot rule out alien involvement in this 'Bureau 11' either. It is imperative we find out more as soon as possible and thankfully we have a lead. A specific place was referenced multiple times throughout the documents. We believe this to be a CIA safehouse related to Bureau 11. It is located in a major city in the United States, but we cannot decipher further without people on the ground. We should construct a Hideout in North America as soon as possible. Be careful, for all intents and purposes it is enemy territory. Our research and development division has begun designing prototypes for concealable weapons we could smuggle into the US for our deniable operations."
 
   STR_KAZAN: "Kazan"
   STR_KIEV: "Kiev"
@@ -260,6 +286,7 @@ en-US:
   STR_BONN: "Bonn"
   
   STR_KASPUTIN_YAR: "Kasputin Yar"
+  STR_BAIKONUR_COSMODROME: "Baikonur Cosmodrome"
 
   STR_BASE_DEFENSE: "HIDEOUT DEFENSE"
   STR_BASE_UC_: "HIDEOUT> {0}"
@@ -316,12 +343,19 @@ en-US:
   STR_OPERATION_OUROBOROS_ALERT: "EMERGENCY ALERT"
   STR_OPERATION_OUROBOROS_MARKER: "Emergency Alert"
   STR_OPERATION_OUROBOROS_DEPLOYMENT: "Operation OUROBOROS"
-  STR_OPERATION_OUROBOROS_DESCRIPTION: "Comrade Commissar, {NEWLINE}We've just recieved an emergency report from the Kasputin Yar rocket launch facility about 100 kilometers east of Stalingrad, they have come under attack by 'Sickly, Lanky Men' utilizing advanced weapons. It appears that the aliens are after the Gie Glocke personnel and have adopted our tactic of strategic denial, foregoing live recovery in favor of on-the-spot executions. We will be assisted by a GRU Spetsnaz team once our officers arrive on the scene. To abort the mission return all D17 Officers to the transport vehicle and click on the 'Abort Mission' icon."
+  STR_OPERATION_OUROBOROS_DESCRIPTION: "Comrade Commissar, {NEWLINE}We've just recieved an emergency report from the Kasputin Yar rocket launch facility about 100 kilometers east of Stalingrad, they have come under attack by 'Sickly, Lanky Men' utilizing advanced weapons. It appears that the aliens are after the Die Glocke personnel and have adopted our tactic of strategic denial, foregoing live recovery in favor of on-the-spot executions. We will be assisted by a GRU Spetsnaz team once our officers arrive on the scene. To abort the mission return all D17 Officers to the transport vehicle and click on the 'Abort Mission' icon."
   STR_DIE_GLOCKE_INFORMANT: "Die Glocke Informant"
 
-  STR_OPERATION_SOYUZ_ALERT: "EMERGENCY ALERT"
-  STR_OPERATION_SOYUZ_MARKER: "Emergency Alert"
-  STR_OPERATION_SOYUZ_DEPLOYMENT: "Operation SOYUZ"
-  STR_OPERATION_SOYUZ_DESCRIPTION: "We've recieved reports that a flight of Chinese J-6 fighter jets engaged an unknown, hostile contact. They originally believed it was ours, but after compiling the reports we theorize the craft is alien in nature. The UFO was successfully shot down over Manchuria, near the border on the Amur Oblast of the RSFSR. A GRU Spetsnaz platoon was dispatched to the site, and we have been called in to assist in the operation. Be advised, it appears that a second, larger contact has been spotted in the area as well. To abort the mission return all D17 Officers to the transport vehicle and click on the 'Abort Mission' icon."
+  STR_OPERATION_KIKIMORA_ALERT: "EMERGENCY ALERT"
+  STR_OPERATION_KIKIMORA_MARKER: "Emergency Alert"
+  STR_OPERATION_KIKIMORA_DEPLOYMENT: "Operation KIKIMORA"
+  STR_OPERATION_KIKIMORA_DESCRIPTION: "We've recieved reports that a flight of Chinese J-6 fighter jets engaged an unknown, hostile contact. Originally they thought it was ours, but after compiling the reports we believe the craft is alien in nature. The UFO was successfully shot down over Manchuria, near the border on the Amur Oblast of the RSFSR. A GRU Spetsnaz platoon was dispatched to the site, and we have been called in to assist in the operation. Be advised, it appears that a second, larger contact has been spotted in the area as well. To abort the mission return all D17 Officers to the transport vehicle and click on the 'Abort Mission' icon."
   STR_UFO_SOS_BEACON: "UFO Rescue Beacon"
   STR_REPTOID_OFFICER: "Reptoid Overseer"
+
+  STR_OPERATION_ASCENSION_ALERT: "EMERGENCY ALERT"
+  STR_OPERATION_ASCENSION_MARKER: "Emergency Alert"
+  STR_OPERATION_ASCENSION_DEPLOYMENT: "Operation ASCENSION"
+  STR_OPERATION_ASCENSION_DESCRIPTION: "Station Chief Orlan's work on the UFO Rescue Beacon has helped us to triangulate the location of Die Glocke. As it turns out, Die Glocke is actually the Luna E-3 probe scheduled to be launched next month from the Baikonur Cosmodrome. We must dispatch a team of officers to covertly sabotage the probe. Be advised, reports from the area tell us there has been some kind of...revolt, supported by what are likely Thin Man infiltrators. We must prevent this at all costs. To abort the mission return all D17 Officers to the transport vehicle and click on the 'Abort Mission' icon. {NEWLINE}> Semi-Concealed Equipment Only!"
+
+  STR_CIA_DOCUMENTS: "CIA Documents"
