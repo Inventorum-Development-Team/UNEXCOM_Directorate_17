@@ -219,7 +219,7 @@ en-US:
   STR_SPETSNAZ_CORPSE: "Spetsnaz Corpse"
 
   STR_HIDEOUTS: "Message From The Committee"
-  STR_HIDEOUTS_DESCRIPTION: "From: Chairman Alexander Shelepin {NEWLINE}To: Directorate Chief {NEWLINE}Oongratulations on your new assignment as the Chief of KGB Directorate 17, Comrade Perseus. Your group will be tasked with investigating pheomena relating to the extraterrestrial visitors and other anomalous activity. We suggest that you begin immediately expanding your reach by building Hideouts, which will allow you to monitor activity in the local area. We wish you good luck, and expect that you will live up to your predecessor."
+  STR_HIDEOUTS_DESCRIPTION: "From: Chairman Alexander Shelepin {NEWLINE}To: Directorate Chief {NEWLINE}Congratulations on your new assignment as the Chief of KGB Directorate 17, Comrade Perseus. Your group will be tasked with investigating pheomena relating to the extraterrestrial visitors and other anomalous activity. We suggest that you begin immediately expanding your reach by building Hideouts, which will allow you to monitor activity in the local area. We wish you good luck, and expect that you will live up to your predecessor."
   STR_NASA_LAUNCHES_ABLE2_EVENT: "NASA Launches Able 2 Probe"
   STR_NASA_LAUNCHES_ABLE2_EVENT_DESCRIPTION: "The American National Aeronautics & Space Agency (NASA) has just launched the space probe Pioneer 1, originally designated Able 2 and renamed after the failure of the Able 1 mission, from the Cape Canaveral facility. Our insiders in the US Space Program tell us that the probe managed to escape Earth but did not succeed in reaching its intended target, the Moon. The Americans are catching up, and fast too. It seems that this 'space race' is on, Comrade Commissar."
   LUNA_1_REACHES_HELIOCENTRIC_ORBIT_EVENT: "Luna 1 Reaches Heliocentric Orbit"
@@ -359,6 +359,10 @@ en-US:
   STR_OPERATION_ASCENSION_DESCRIPTION: "Station Chief Orlan's work on the UFO Rescue Beacon has helped us to triangulate the location of Die Glocke. As it turns out, Die Glocke is actually the Luna E-3 probe scheduled to be launched next month from the Baikonur Cosmodrome. We must dispatch a team of officers to covertly sabotage the probe. Be advised, reports from the area tell us there has been some kind of...revolt, supported by what are likely Thin Man infiltrators. We must prevent this at all costs. To abort the mission return all D17 Officers to the transport vehicle and click on the 'Abort Mission' icon. {NEWLINE}> Semi-Concealed Equipment Only!"
 
   STR_CIA_DOCUMENTS: "CIA Documents"
+  
+  STR_GOOD_ENDING_1: "Our quick response at the newly found alien threat granted us very important intel: the invasion is intensifying. The grey humanoids found today are weaker but considerably more intelligent."
+  STR_GOOD_ENDING_2: "Relaying our findings, plus several corpses and a couple of artifacts to our Hideouts scattered throughout Mexico, we have secured enough data to continue on the fight. "
+  STR_GOOD_ENDING_3: "Before our agents could evacuate, a red Cadillac appeared on the edge of the corn field. Five mysterious individuals in gray long coats unload the car. Soon, their identity is revealed... They're the Bureau 11."
   
   STR_BAD_ENDING_MID_1: "Hidden inside one of our own rockets, was a secret signal emitter planted by alien sympathizers. It went unchecked, as anyone able to notice it was quietly murdered and replaced with an imposter."
   STR_BAD_ENDING_MID_2: "As soon as the probe reached Lunar orbit, all contact was lost. Just a small failure in the otherwise highly successful Soviet space program. Our operatives couldn't detect any trace of the invaders. "
