@@ -99,7 +99,7 @@ alienDeployments:
       - MOUNT
     briefing:
       palette: 2
-      alertBackground: BACK03.SCR
+      background: BACK03.SCR
       showTarget: false
     objectiveType: 3
     alertDescription: STR_CRYPTID_HUNT_MOUNT_BRIEFING
@@ -125,7 +125,7 @@ alienDeployments:
       - FOREST
     briefing:
       palette: 2
-      alertBackground: BACK03.SCR
+      background: BACK03.SCR
       showTarget: false
     objectiveType: 3
     alertDescription: STR_CRYPTID_HUNT_FOREST_BRIEFING
@@ -151,7 +151,7 @@ alienDeployments:
       - POLAR
     briefing:
       palette: 2
-      alertBackground: BACK03.SCR
+      background: BACK03.SCR
       showTarget: false
     objectiveType: 3
     alertDescription: STR_CRYPTID_HUNT_POLAR_BRIEFING
@@ -712,8 +712,8 @@ alienDeployments:
 
   - type: STR_OPERATION_OUROBOROS_DEPLOYMENT
     height: 10
-    width: 50
-    length: 50
+    width: 60
+    length: 60
     loseCutscene: loseGame
     abortCutscene: loseGame
     duration: [999, 999]
@@ -778,7 +778,7 @@ alienDeployments:
                 - STR_RGD_5
                 - STR_RGD_5
     terrains:
-      - IDT_AIRPORT
+      - IDT_SOVIET_SPACEPORT
     briefing:
       textOffset: -16
       background: BACK01.SCR
@@ -959,7 +959,7 @@ alienDeployments:
             - STR_WELROD_MAG
             - STR_WELROD_MAG
     terrains:
-      - IDT_AIRPORT
+      - IDT_SOVIET_SPACEPORT
     briefing:
       textOffset: -16
       background: BACK01.SCR

@@ -96,9 +96,9 @@ terrains:
       - name: AIRBASE19
         width: 20
         length: 20
-      - name: AIRBASE20
-        width: 20
-        length: 20
+      #- name: AIRBASE20
+      #  width: 20
+      #  length: 20
       - name: AIRBASE21
         width: 20
         length: 20
@@ -224,3 +224,59 @@ terrains:
       - name: URBAN18
         width: 10
         length: 10
+
+  - name: IDT_SOVIET_SPACEPORT
+    mapDataSets:
+      - BLANKS
+      - SPACEPORT_SOVIET01
+      - SPACEPORT_SOVIET02
+      - SPACEPORT_SOVIET_ANTENNA
+      - SPACEPORT_SOVIET_ROCKET
+      - SOVIET_FLAG
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    script: IDT_SOVIET_SPACEPORT_SCRIPT
+    mapBlocks:
+      - name: IDT_SOVIET_SPACEPORT00
+        width: 10
+        length: 10
+        groups: 2
+      - name: IDT_SOVIET_SPACEPORT01
+        width: 10
+        length: 10
+        groups: 3
+      - name: IDT_SOVIET_SPACEPORT02
+        width: 10
+        length: 10
+        groups: 4
+      - name: IDT_SOVIET_SPACEPORT03
+        width: 20
+        length: 20
+        groups: 5
+      - name: IDT_SOVIET_SPACEPORT04
+        width: 20
+        length: 20
+      - name: IDT_SOVIET_SPACEPORT05
+        width: 20
+        length: 20
+        groups: 5
+      - name: IDT_SOVIET_SPACEPORT06
+        width: 20
+        length: 20
+        groups: 5
+      - name: IDT_SOVIET_SPACEPORT07
+        width: 20
+        length: 20
+      - name: IDT_SOVIET_SPACEPORT10
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: IDT_SOVIET_SPACEPORT11
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: IDT_SOVIET_SPACEPORT12
+        width: 10
+        length: 10
+        groups: [0, 1]
