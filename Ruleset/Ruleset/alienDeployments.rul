@@ -1,0 +1,973 @@
+alienDeployments:
+  - delete: STR_SMALL_SCOUT
+  - delete: STR_MEDIUM_SCOUT
+  - delete: STR_LARGE_SCOUT
+  - delete: STR_HARVESTER
+  - delete: STR_ABDUCTOR
+  - delete: STR_TERROR_SHIP
+  - delete: STR_BATTLESHIP
+  - delete: STR_SUPPLY_SHIP
+  - delete: STR_TERROR_MISSION
+  - delete: STR_ALIEN_BASE_ASSAULT
+  - delete: STR_MARS_CYDONIA_LANDING
+  - delete: STR_MARS_THE_FINAL_ASSAULT
+  - delete: STR_BASE_DEFENSE
+  - type: STR_BASE_DEFENSE
+    data:
+      - alienRank: 0
+        lowQty: 0
+        highQty: 0
+        dQty: 1
+        itemSets:
+          -
+            []
+      - alienRank: 1
+        lowQty: 0
+        highQty: 0
+        dQty: 1
+        itemSets:
+          -
+            []
+      - alienRank: 2
+        lowQty: 0
+        highQty: 0
+        dQty: 3
+        itemSets:
+          -
+            []
+      - alienRank: 3
+        lowQty: 0
+        highQty: 0
+        dQty: 3
+        itemSets:
+          -
+            []
+      - alienRank: 4
+        lowQty: 0
+        highQty: 0
+        dQty: 3
+        itemSets:
+          -
+            []
+      - alienRank: 5
+        lowQty: 0
+        highQty: 0
+        dQty: 10
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        lowQty: 0
+        highQty: 0
+        dQty: 2
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        lowQty: 0
+        highQty: 0
+        dQty: 2
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    terrains:
+      - XBASE
+    briefing:
+      palette: 0
+      background: BACK01.SCR
+      music: GMENBASE
+    height: 4
+
+  - type: STR_CRYPTID_HUNT_MOUNT
+    data:
+      - alienRank: 5
+        customUnitType: STR_CHUCHUNYA
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 4
+    alert: STR_CRYPTID_SIGHTED
+    terrains:
+      - MOUNT
+    briefing:
+      palette: 2
+      background: BACK03.SCR
+      showTarget: false
+    objectiveType: 3
+    alertDescription: STR_CRYPTID_HUNT_MOUNT_BRIEFING
+    markerName: STR_CRYPTID_HUNT
+    markerIcon: 7
+    alienBase: true
+  - type: STR_CRYPTID_HUNT_FOREST
+    data:
+      - alienRank: 5
+        customUnitType: STR_ALKONOST
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 4
+    alert: STR_CRYPTID_SIGHTED
+    terrains:
+      - FOREST
+    briefing:
+      palette: 2
+      background: BACK03.SCR
+      showTarget: false
+    objectiveType: 3
+    alertDescription: STR_CRYPTID_HUNT_FOREST_BRIEFING
+    markerName: STR_CRYPTID_HUNT
+    markerIcon: 7
+    alienBase: true
+  - type: STR_CRYPTID_HUNT_POLAR
+    data:
+      - alienRank: 5
+        customUnitType: STR_WAWKALAK
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+    width: 60
+    length: 60
+    height: 4
+    alert: STR_CRYPTID_SIGHTED
+    terrains:
+      - POLAR
+    briefing:
+      palette: 2
+      background: BACK03.SCR
+      showTarget: false
+    objectiveType: 3
+    alertDescription: STR_CRYPTID_HUNT_POLAR_BRIEFING
+    markerName: STR_CRYPTID_HUNT
+    markerIcon: 7
+    alienBase: true
+
+  - type: STR_OPERATION_OMEN_DEPLOYMENT
+    customUfo: STR_OPERATION_OMEN_UFO
+    height: 10
+    width: 50
+    length: 50
+    loseCutscene: loseGame
+    abortCutscene: loseGame
+    duration: [999, 999]
+    data: 
+      - alienRank: 6
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_DELISLE
+            - STR_DELISLE_MAG
+      - alienRank: 5
+        lowQty: 2
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 75
+        itemSets:
+          -
+            - STR_WELROD
+            - STR_WELROD_MAG
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_DELISLE
+            - STR_DELISLE_MAG
+      - alienRank: 3
+        lowQty: 0
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_DELISLE
+            - STR_DELISLE_MAG
+      - alienRank: 2
+        lowQty: 0
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_DELISLE
+            - STR_DELISLE_MAG
+    terrains:
+      - URBAN_UFO
+    briefing:
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+      showCraft: true
+      desc: STR_OPERATION_OMEN_DESCRIPTION
+      palette: 2
+    markerName: STR_OPERATION_OMEN_MARKER
+    alert: STR_OPERATION_OMEN_ALERT
+    alertBackground: BACK13.SCR
+    alertDescription: STR_OPERATION_OMEN_DESCRIPTION
+    unlockedResearch: STR_OPERATION_OMEN_RESEARCH
+
+  - type: STR_GLADIO_STOCKPILE
+    startingCondition: STR_SEMI_CONCEALED
+    customUfo: STR_GLADIO_STOCKPILE_UFO
+    height: 10
+    width: 30
+    length: 30
+    duration: [999, 999]
+    civilians: 3
+    data: 
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 3
+        percentageOutsideUfo: 75
+        itemSets:
+          -
+            - STR_WELROD
+            - STR_WELROD_MAG
+            - STR_WELROD_MAG
+      - alienRank: 4
+        lowQty: 0
+        highQty: 1
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_DELISLE
+            - STR_DELISLE_MAG
+            - STR_DELISLE_MAG
+      - alienRank: 3
+        lowQty: 0
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_DELISLE
+            - STR_DELISLE_MAG
+            - STR_DELISLE_MAG
+      - alienRank: 2
+        lowQty: 0
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_DELISLE
+            - STR_DELISLE_MAG
+            - STR_DELISLE_MAG
+    terrains:
+      - URBAN_UFO
+    briefing:
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+      showCraft: true
+      desc: STR_GLADIO_STOCKPILE_DESCRIPTION
+      palette: 2
+    markerIcon: 7
+    markerName: STR_GLADIO_STOCKPILE_MARKER
+    alert: STR_GLADIO_STOCKPILE_ALERT
+    alertBackground: BACK13.SCR
+    alertDescription: STR_GLADIO_STOCKPILE_DESCRIPTION
+    unlockedResearch: STR_HUNTER_PREQ
+
+  - type: STR_OPERATION_HUNTER_DEPLOYMENT
+    height: 10
+    width: 60
+    length: 60
+    duration: [999, 999]
+    loseCutscene: loseGame
+    abortCutscene: loseGame
+    civilians: 3
+    data:
+      - alienRank: 0
+        customUnitType: STR_HAUNEBU_SCIENTIST
+        lowQty: 3
+        highQty: 3
+        dQty: 0
+        itemSets:
+          -
+            []
+    reinforcements:
+      - type: gladio_ambush
+        turns: [3, 6, 9]
+        maxRuns: 3
+        mapBlockFilterType: 2
+        spawnBlocks: [EDGES]
+        useSpawnNodes: false
+        spawnZLevels: [0]
+        minDistanceFromXcomUnits: 10
+        maxDistanceFromBorders: 1
+        data:
+          - alienRank: 1
+            customUnitType: STR_GLADIO_OPERATIVE_M
+            lowQty: 1
+            highQty: 1
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+              -
+                - STR_WELROD
+                - STR_WELROD_MAG
+                - STR_WELROD_MAG
+          - alienRank: 2
+            customUnitType: STR_GLADIO_OPERATIVE_F
+            lowQty: 2
+            highQty: 2
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+              -
+                - STR_WELROD
+                - STR_WELROD_MAG
+                - STR_WELROD_MAG
+    terrains:
+      - URBAN
+    briefing:
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+      showCraft: true
+      desc: STR_OPERATION_HUNTER_DESCRIPTION
+      palette: 2
+    markerName: STR_OPERATION_HUNTER_MARKER
+    alert: STR_OPERATION_HUNTER_ALERT
+    alertBackground: BACK13.SCR
+    alertDescription: STR_OPERATION_HUNTER_DESCRIPTION
+    unlockedResearch: STR_OPERATION_HUNTER_RESEARCH
+
+  - type: STR_HAUNEBU_ASSASSINATION
+    startingCondition: STR_SEMI_CONCEALED
+    height: 10
+    width: 50
+    length: 50
+    duration: [999, 999]
+    data:
+      - alienRank: 0
+        customUnitType: STR_HAUNEBU_SCIENTIST
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        itemSets:
+          -
+            []
+    reinforcements:
+      - type: gladio_ambush
+        turns: [2, 4, 6]
+        maxRuns: 3
+        mapBlockFilterType: 2
+        spawnBlocks: [EDGES]
+        useSpawnNodes: false
+        spawnZLevels: [0]
+        minDistanceFromXcomUnits: 10
+        maxDistanceFromBorders: 1
+        data:
+          - alienRank: 1
+            customUnitType: STR_GLADIO_OPERATIVE_M
+            lowQty: 1
+            highQty: 1
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+              -
+                - STR_WELROD
+                - STR_WELROD_MAG
+                - STR_WELROD_MAG
+          - alienRank: 2
+            customUnitType: STR_GLADIO_OPERATIVE_F
+            lowQty: 1
+            highQty: 1
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+              -
+                - STR_WELROD
+                - STR_WELROD_MAG
+                - STR_WELROD_MAG
+    terrains:
+      - URBAN
+    briefing:
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+      showCraft: true
+      desc: STR_HAUNEBU_ASSASSINATION_DESCRIPTION
+      palette: 2
+    markerIcon: 7
+    markerName: STR_HAUNEBU_ASSASSINATION_MARKER
+    alert: STR_HAUNEBU_ASSASSINATION_ALERT
+    alertBackground: BACK13.SCR
+    alertDescription: STR_HAUNEBU_ASSASSINATION_DESCRIPTION
+    unlockedResearch: STR_SERPENT_PREQ
+
+  - type: STR_OPERATION_SERPENT_DEPLOYMENT
+    startingCondition: STR_SEMI_CONCEALED
+    height: 10
+    width: 50
+    length: 50
+    loseCutscene: loseGame
+    abortCutscene: loseGame
+    duration: [999, 999]
+    data:
+      - alienRank: 5
+        lowQty: 3
+        highQty: 5
+        dQty: 3
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_DELISLE
+            - STR_DELISLE_MAG
+      - alienRank: 4
+        lowQty: 0
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_DELISLE
+            - STR_DELISLE_MAG
+            - STR_DELISLE_MAG
+      - alienRank: 3
+        lowQty: 0
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_DELISLE
+            - STR_DELISLE_MAG
+            - STR_DELISLE_MAG
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_WELROD
+            - STR_WELROD
+            - STR_WELROD_MAG
+            - STR_WELROD_MAG
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_MAGNETESCHETTO
+            - STR_MAGNETESCHETTO_MAG
+            - STR_MAGNETESCHETTO_MAG
+    terrains:
+      - IDT_AIRPORT
+    briefing:
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+      showCraft: true
+      desc: STR_OPERATION_SERPENT_DESCRIPTION
+      palette: 2
+    markerName: STR_OPERATION_SERPENT_MARKER
+    alert: STR_OPERATION_SERPENT_ALERT
+    alertBackground: BACK13.SCR
+    alertDescription: STR_OPERATION_SERPENT_DESCRIPTION
+    missionBountyItem: STR_MI6_LIAISON
+
+  - type: STR_TARGET_EXTRACTION
+    customUfo: STR_KGB_SAFEHOUSE
+    height: 10
+    width: 50
+    length: 50
+    duration: [999, 999]
+    data:
+      - alienRank: 1
+        customUnitType: STR_THIN_MAN
+        lowQty: 2
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_ALIEN_LASER_PISTOL
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+    reinforcements:
+      - type: spetsnaz_backup
+        turns: [0, 3, 6]
+        maxRuns: 3
+        mapBlockFilterType: 2
+        spawnBlocks: [EDGES]
+        useSpawnNodes: false
+        spawnZLevels: [0]
+        minDistanceFromXcomUnits: 10
+        maxDistanceFromBorders: 1
+        data:
+          - alienRank: 0
+            customUnitType: STR_SPETSNAZ
+            lowQty: 1
+            highQty: 1
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 100
+            itemSets:
+              -
+                - STR_RPG
+                - STR_RPG_MAG
+          - alienRank: 1
+            customUnitType: STR_SPETSNAZ
+            lowQty: 1
+            highQty: 1
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 100
+            itemSets:
+              -
+                - STR_RPD
+                - STR_RPD_MAG
+          - alienRank: 2
+            customUnitType: STR_SPETSNAZ
+            lowQty: 2
+            highQty: 2
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 100
+            itemSets:
+              -
+                - STR_AK_47
+                - STR_AK_47_MAG
+                - STR_AK_47_MAG
+                - STR_RGD_5
+                - STR_RGD_5
+    terrains:
+      - URBAN_UFO
+    briefing:
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+      showCraft: true
+      desc: STR_TARGET_EXTRACTION_DESCRIPTION
+      palette: 2
+    markerIcon: 7
+    markerName: STR_TARGET_EXTRACTION_MARKER
+    alert: STR_TARGET_EXTRACTION_ALERT
+    alertBackground: BACK13.SCR
+    alertDescription: STR_TARGET_EXTRACTION_DESCRIPTION
+    unlockedResearch: STR_OUROBOROS_PREQ
+
+# Operation CATACOMB
+  - type: STR_OPERATION_CATACOMB_DEPLOYMENT
+    height: 10
+    width: 60
+    length: 60
+    loseCutscene: loseGame
+    abortCutscene: loseGame
+    duration: [999, 999]
+    data:
+      - alienRank: 5
+        customUnitType: STR_CHUCHUNYA
+        lowQty: 1
+        highQty: 7
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        customUnitType: STR_WAWKALAK
+        lowQty: 1
+        highQty: 7
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        customUnitType: STR_ALKONOST
+        lowQty: 1
+        highQty: 7
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+    terrains:
+      - MOUNT
+    briefing:
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+      showCraft: true
+      desc: STR_OPERATION_CATACOMB_DESCRIPTION
+      palette: 2
+    markerName: STR_OPERATION_CATACOMB_MARKER
+    alert: STR_OPERATION_CATACOMB_ALERT
+    alertBackground: BACK13.SCR
+    alertDescription: STR_OPERATION_CATACOMB_DESCRIPTION
+    nextStage: STR_OPERATION_CATACOMB_SECOND_LAYER
+  - type: STR_OPERATION_CATACOMB_SECOND_LAYER
+    data:
+      - alienRank: 0
+        customUnitType: STR_REPTOID
+        lowQty: 0
+        highQty: 0
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_ALIEN_SIEGE_LAUNCHER
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+      - alienRank: 1
+        customUnitType: STR_REPTOID
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_ALIEN_HEAVY_LASER
+            - STR_ALIEN_HEAVY_LASER_BATTERY
+            - STR_ALIEN_HEAVY_LASER_BATTERY
+      - alienRank: 2
+        customUnitType: STR_THIN_MAN
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_ALIEN_LASER_RIFLE
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+      - alienRank: 5
+        customUnitType: STR_CHUCHUNYA
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 6
+        customUnitType: STR_WAWKALAK
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+      - alienRank: 7
+        customUnitType: STR_ALKONOST
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+    width: 40
+    length: 40
+    height: 2
+    terrains:
+      - UBASE
+    shade: 15
+    briefing:
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+      showCraft: true
+      desc: STR_OPERATION_CATACOMB_SECOND_LAYER_DESCRIPTION
+      palette: 2
+    script: ALIENBASE
+    unlockedResearch: STR_KIKIMORA_PREQ
+    missionBountyItem: STR_ALIEN_REPRODUCTION
+
+  - type: STR_OPERATION_OUROBOROS_DEPLOYMENT
+    height: 10
+    width: 60
+    length: 60
+    loseCutscene: loseGame
+    abortCutscene: loseGame
+    duration: [999, 999]
+    data:
+      - alienRank: 1
+        lowQty: 1
+        highQty: 5
+        dQty: 7
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_ALIEN_LASER_RIFLE
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+    civiliansByType:
+      STR_HAUNEBU_SCIENTIST: 10
+    reinforcements:
+      - type: spetsnaz_backup
+        turns: [0]
+        maxRuns: 1
+        mapBlockFilterType: 2
+        spawnBlocks: [EDGES]
+        useSpawnNodes: false
+        spawnZLevels: [0]
+        minDistanceFromXcomUnits: 10
+        maxDistanceFromBorders: 1
+        data:
+          - alienRank: 0
+            customUnitType: STR_SPETSNAZ
+            lowQty: 2
+            highQty: 2
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 100
+            itemSets:
+              -
+                - STR_RPG
+                - STR_RPG_MAG
+          - alienRank: 1
+            customUnitType: STR_SPETSNAZ
+            lowQty: 2
+            highQty: 2
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 100
+            itemSets:
+              -
+                - STR_RPD
+                - STR_RPD_MAG
+          - alienRank: 2
+            customUnitType: STR_SPETSNAZ
+            lowQty: 6
+            highQty: 6
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 100
+            itemSets:
+              -
+                - STR_AK_47
+                - STR_AK_47_MAG
+                - STR_AK_47_MAG
+                - STR_RGD_5
+                - STR_RGD_5
+    terrains:
+      - IDT_SOVIET_SPACEPORT
+    briefing:
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+      showCraft: true
+      desc: STR_OPERATION_OUROBOROS_DESCRIPTION
+      palette: 2
+    markerName: STR_OPERATION_OUROBOROS_MARKER
+    alert: STR_OPERATION_OUROBOROS_ALERT
+    alertBackground: BACK13.SCR
+    alertDescription: STR_OPERATION_OUROBOROS_DESCRIPTION
+    missionBountyItem: STR_DIE_GLOCKE_INFORMANT
+
+  - type: STR_OPERATION_KIKIMORA_DEPLOYMENT
+    customUfo: STR_OPERATION_KIKIMORA_UFO
+    height: 10
+    width: 40
+    length: 40
+    loseCutscene: loseGame
+    abortCutscene: loseGame
+    duration: [999, 999]
+    data:
+      - alienRank: 1
+        customUnitType: STR_REPTOID
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_ALIEN_SIEGE_LAUNCHER
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+            - STR_ALIEN_SIEGE_LAUNCHER_SHELL
+      - alienRank: 2
+        customUnitType: STR_REPTOID
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_ALIEN_HEAVY_LASER
+            - STR_ALIEN_HEAVY_LASER_BATTERY
+            - STR_ALIEN_HEAVY_LASER_BATTERY
+      - alienRank: 3
+        customUnitType: STR_REPTOID
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_ALIEN_LASER_RIFLE
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+      - alienRank: 4
+        customUnitType: STR_REPTOID
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_ALIEN_LASER_RIFLE
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+      - alienRank: 5
+        customUnitType: STR_REPTOID
+        lowQty: 2
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_ALIEN_LASER_RIFLE
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+    reinforcements:
+      - type: spetsnaz_backup
+        turns: [0]
+        maxRuns: 1
+        mapBlockFilterType: 2
+        spawnBlocks: [EDGES]
+        useSpawnNodes: false
+        spawnZLevels: [0]
+        minDistanceFromXcomUnits: 10
+        maxDistanceFromBorders: 1
+        data:
+          - alienRank: 0
+            customUnitType: STR_SPETSNAZ
+            lowQty: 2
+            highQty: 2
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 100
+            itemSets:
+              -
+                - STR_RPG
+                - STR_RPG_MAG
+          - alienRank: 1
+            customUnitType: STR_SPETSNAZ
+            lowQty: 3
+            highQty: 3
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 100
+            itemSets:
+              -
+                - STR_RPD
+                - STR_RPD_MAG
+          - alienRank: 2
+            customUnitType: STR_SPETSNAZ
+            lowQty: 8
+            highQty: 8
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 100
+            itemSets:
+              -
+                - STR_AK_47
+                - STR_AK_47_MAG
+                - STR_AK_47_MAG
+                - STR_RGD_5
+                - STR_RGD_5
+    terrains:
+      - MOUNT
+    briefing:
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+      showCraft: true
+      desc: STR_OPERATION_KIKIMORA_DESCRIPTION
+      palette: 2
+    markerName: STR_OPERATION_KIKIMORA_MARKER
+    alert: STR_OPERATION_KIKIMORA_ALERT
+    alertBackground: BACK13.SCR
+    alertDescription: STR_OPERATION_KIKIMORA_DESCRIPTION
+    missionBountyItem: STR_UFO_SOS_BEACON
+
+  - type: STR_OPERATION_ASCENSION_DEPLOYMENT
+    startingCondition: STR_SEMI_CONCEALED
+    height: 10
+    width: 60
+    length: 60
+    loseCutscene: loseGame
+    abortCutscene: loseGame
+    duration: [999, 999]
+    data:
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_ALIEN_LASER_PISTOL
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+      - alienRank: 4
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        customUnitType: STR_HAUNEBU_SCIENTIST
+        itemSets:
+          -
+            - STR_DELISLE
+            - STR_DELISLE_MAG
+      - alienRank: 5
+        lowQty: 5
+        highQty: 9
+        dQty: 4
+        percentageOutsideUfo: 50
+        customUnitType: STR_HAUNEBU_SCIENTIST
+        itemSets:
+          -
+            - STR_WELROD
+            - STR_WELROD_MAG
+            - STR_WELROD_MAG
+    terrains:
+      - IDT_SOVIET_SPACEPORT
+    briefing:
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+      showCraft: true
+      desc: STR_OPERATION_ASCENSION_DESCRIPTION
+      palette: 2
+    markerName: STR_OPERATION_ASCENSION_MARKER
+    alert: STR_OPERATION_ASCENSION_ALERT
+    alertBackground: BACK12.SCR
+    alertDescription: STR_OPERATION_ASCENSION_DESCRIPTION

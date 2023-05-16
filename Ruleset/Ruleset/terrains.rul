@@ -1,0 +1,282 @@
+terrains:
+####### COMMNITY MAPS BELOW #####
+  - name: XBASE
+    mapDataSets:
+        - BLANKS
+        - IDT_OFFICE
+        - SOVIET_FLAG
+        - URBAN
+        - CADILLAC_BLUE
+        - XBASE1
+
+  - name: SOYUZ_LARGE_SCOUT
+    mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+        - CRASHED_UFO_TILES
+        - US_ARMY_BARRICADE_TILES
+        - GRAVLIFT_BEAM
+
+  - name: IDT_AIRPORT # by IDT - Luke83 & efrenespartano
+    script: OLD_PORT_SCRIPT
+    mapDataSets:
+      - BLANKS
+      - IDT_PLANE_2
+      - IDT_PLANE_3
+      - PORT01_UFO
+      - PORT02_UFO
+      - PORT05_UFO
+      - IDT_AIRPORT_CRISTAL_WALLS
+      - MILITARY_BARRICADES
+      - MISSILES_1
+      - MISSILES_2
+    mapBlocks: &AIRPORT_MAPBLOCKS
+      - name: AIRBASE00
+        width: 10
+        length: 10
+        groups: 1
+      - name: AIRBASE01
+        width: 10
+        length: 10
+        groups: 1
+      - name: AIRBASE02
+        width: 20
+        length: 20
+      - name: AIRBASE03
+        width: 20
+        length: 20
+      - name: AIRBASE04
+        width: 20
+        length: 20
+      - name: AIRBASE05
+        width: 20
+        length: 10
+      - name: AIRBASE06
+        width: 20
+        length: 10
+      - name: AIRBASE07
+        width: 20
+        length: 10
+        groups: 3
+      - name: AIRBASE08
+        width: 20
+        length: 10
+      - name: AIRBASE09
+        width: 10
+        length: 10
+      - name: AIRBASE10
+        width: 10
+        length: 10
+      - name: AIRBASE11
+        width: 10
+        length: 10
+      - name: AIRBASE12
+        width: 10
+        length: 10
+      - name: AIRBASE13
+        width: 10
+        length: 10
+      - name: AIRBASE14
+        width: 10
+        length: 10
+      - name: AIRBASE15
+        width: 10
+        length: 10
+      - name: AIRBASE16
+        width: 10
+        length: 10
+      - name: AIRBASE17
+        width: 20
+        length: 20
+      #- name: AIRBASE18
+      #  width: 20
+      #  length: 20
+      - name: AIRBASE19
+        width: 20
+        length: 20
+      #- name: AIRBASE20
+      #  width: 20
+      #  length: 20
+      - name: AIRBASE21
+        width: 20
+        length: 20
+      - name: AIRPORT_NS_ROAD
+        width: 10
+        length: 10
+        groups: 3
+      - name: AIRPORT_EW_ROAD
+        width: 10
+        length: 10
+        groups: 2
+      - name: AIRPORT_X_ROAD
+        width: 10
+        length: 10
+        groups: 4
+      - name: AIRBASE30
+        width: 10
+        length: 10
+
+  - name: FOREST
+    mapDataSets:
+      - BLANKS
+      - FOREST
+    mapBlocks:
+      - name: FOREST00
+        width: 10
+        length: 10
+        groups: 1
+      - name: FOREST01
+        width: 10
+        length: 10
+        groups: 1
+      - name: FOREST02
+        width: 10
+        length: 10
+      - name: FOREST03
+        width: 10
+        length: 10
+      - name: FOREST04
+        width: 10
+        length: 10
+      - name: FOREST05
+        width: 10
+        length: 10
+      - name: FOREST06
+        width: 10
+        length: 10
+      - name: FOREST07
+        width: 10
+        length: 10
+      - name: FOREST08
+        width: 10
+        length: 10
+      - name: FOREST09
+        width: 10
+        length: 10
+      - name: FOREST10
+        width: 20
+        length: 20
+      - name: FOREST11
+        width: 20
+        length: 20
+
+  - name: URBAN_UFO
+    mapDataSets:
+      - BLANKS
+      - ROADS
+      - URBITS
+      - URBAN
+      - FRNITURE
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    script: URBAN_UFO
+    mapBlocks:
+      - name: URBAN00
+        width: 10
+        length: 10
+        groups: 2
+      - name: URBAN01
+        width: 10
+        length: 10
+        groups: 3
+      - name: URBAN02
+        width: 10
+        length: 10
+        groups: 4
+      - name: URBAN03
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: URBAN04
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: URBAN05
+        width: 20
+        length: 20
+      - name: URBAN06
+        width: 20
+        length: 20
+      - name: URBAN07
+        width: 20
+        length: 20
+      - name: URBAN08
+        width: 20
+        length: 20
+      - name: URBAN09
+        width: 20
+        length: 20
+      - name: URBAN14
+        width: 10
+        length: 10
+      - name: URBAN15
+        width: 10
+        length: 10
+      - name: URBAN16
+        width: 10
+        length: 10
+      - name: URBAN17
+        width: 10
+        length: 10
+      - name: URBAN18
+        width: 10
+        length: 10
+
+  - name: IDT_SOVIET_SPACEPORT
+    mapDataSets:
+      - BLANKS
+      - SPACEPORT_SOVIET01
+      - SPACEPORT_SOVIET02
+      - SPACEPORT_SOVIET_ANTENNA
+      - SPACEPORT_SOVIET_ROCKET
+      - SOVIET_FLAG
+    civilianTypes:
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+    script: IDT_SOVIET_SPACEPORT_SCRIPT
+    mapBlocks:
+      - name: IDT_SOVIET_SPACEPORT00
+        width: 10
+        length: 10
+        groups: 2
+      - name: IDT_SOVIET_SPACEPORT01
+        width: 10
+        length: 10
+        groups: 3
+      - name: IDT_SOVIET_SPACEPORT02
+        width: 10
+        length: 10
+        groups: 4
+      - name: IDT_SOVIET_SPACEPORT03
+        width: 20
+        length: 20
+        groups: 5
+      - name: IDT_SOVIET_SPACEPORT04
+        width: 20
+        length: 20
+      - name: IDT_SOVIET_SPACEPORT05
+        width: 20
+        length: 20
+        groups: 5
+      - name: IDT_SOVIET_SPACEPORT06
+        width: 20
+        length: 20
+        groups: 5
+      - name: IDT_SOVIET_SPACEPORT07
+        width: 20
+        length: 20
+      - name: IDT_SOVIET_SPACEPORT10
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: IDT_SOVIET_SPACEPORT11
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: IDT_SOVIET_SPACEPORT12
+        width: 10
+        length: 10
+        groups: [0, 1]

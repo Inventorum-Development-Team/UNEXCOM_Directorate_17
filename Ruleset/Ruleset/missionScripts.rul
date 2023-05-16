@@ -1,0 +1,261 @@
+#  - type: example                       # the type/name is used for overwriting or deleting purposes.
+#    firstMonth: 0                       # months this command runs on, 0 runs on startup of a new game (default 0)
+#    lastMonth: 0                        # don't run after this month. in this context we mean "run once". -1 denotes no limit (default -1)
+#    label: 1                            # label, used for conditionals (default 0)
+#    conditionals: [1, -2]               # conditional list, just like mapscripts (default none)
+#    missionWeights:                     # the type of mission to spawn (omit to pick one from the mission table) (default none)
+#      0:                                # these are split into monthly chunks, and can contain multiple entries,
+#        STR_ALIEN_RESEARCH: 20          # including weighted odds, but there is a caveat here:
+#        STR_ALIEN_ABDUCTION: 30         # you cannot mix and match missions with mission site objectives (ie: terror) with regular missions,
+#        STR_ALIEN_CROP_CIRCLES: 30      # they are generated too differently. using executionOdds and conditionals instead can achieve
+#        STR_CATTLE_MUTILATION: 20       # exactly the same thing. similarly, terror missions should not appear in regional mission weights (regions.rul)
+#    executionOdds: 100                  # % chances of this command executing (default 100)
+#    targetBaseOdds: 75                  # % chances of this mission targeting a region containing an xcom base instead of random (default 0)
+#    startDelay: 120                     # number of minutes to delay the start of the mission (rounded down to the nearest 30, 0 to use the wave timer from the mission itself) (default 0)
+#    raceWeights:                        # can override established monthly race weights here if desired (default empty)
+#      0:
+#        STR_SECTOID: 100                # in this case we want a sectoid mission, so they get 100%
+#    regionWeights:                      # again, this can override the defined mission region weights (default empty)
+#      0:                                # this won't come into play here unless the mission doesn't target an xcom base, as described above.
+#        STR_SAMPLE_REGION1: 20          # IF OMITTED:
+#        STR_SAMPLE_REGION2: 30          # for a terror type mission, all regions that meet the criteria will be weighed equally.
+#        STR_SAMPLE_REGION3: 50          # for regular missions the normal regional distribution weights will be applied.
+#    minDifficulty: 0                    # this command only applies to difficulty levels of this or above (default 0)
+#    researchTriggers:                   # a list of research topics that can influence the execution of this mission (default empty)
+#      STR_THE_MARTIAN_SOLUTION: true    # in this case, the mission would only run if the player has the martian solution
+#      STR_CYDONIA_OR_BUST: false        # and does NOT have Cydonia or bust
+#    maxRuns: 12                         # this mission type can only execute this number of times, -1 for infinite (default -1)
+#    avoidRepeats: 12                    # this means "store an array of the 12 previous coordinates, and don't use them again" (default 0)
+#    varName: researching                # this is an internal variable name, used for tracking maxruns and avoidRepeats (default none)
+#    useTable: false                     # check this mission type appears in the mission tables, and remove it if it does? (default true)
+
+missionScripts:
+  - delete: gameStart
+  - delete: recurringTerror
+  - delete: recon
+  - delete: invasion
+  - delete: researchRetaliation
+  - delete: beginnerRetaliation
+  - delete: experiencedRetaliation
+  - delete: veteranRetaliation
+  - delete: geniusRetaliation
+  - delete: superhumanRetaliation
+
+  - type: cryptidHuntWawkalak
+    missionWeights:
+      0:
+        STR_WAWKALAK_HUNT_SPAWN: 100
+    regionWeights:
+      0:
+        STR_SIBERIA: 100
+    executionOdds: 100
+    startDelay: 1440
+    useTable: false
+    firstMonth: 0
+    lastMonth: 0
+  - type: cryptidHuntChuchunya
+    missionWeights:
+      0:
+        STR_CHUCHUNYA_HUNT_SPAWN: 100
+    regionWeights:
+      0:
+        STR_SIBERIA: 100
+    executionOdds: 100
+    startDelay: 1440
+    useTable: false
+    firstMonth: 1
+    lastMonth: 1
+  - type: cryptidHuntAlkonost
+    missionWeights:
+      0:
+        STR_ALKONOST_HUNT_SPAWN: 100
+    regionWeights:
+      0:
+        STR_SIBERIA: 100
+    executionOdds: 100
+    startDelay: 1440
+    useTable: false
+    firstMonth: 2
+    lastMonth: 2
+  - type: cryptidHuntRandom
+    missionWeights:
+      0:
+        STR_WAWKALAK_HUNT_SPAWN: 50
+        STR_CHUCHUNYA_HUNT_SPAWN: 50
+        STR_ALKONOST_HUNT_SPAWN: 30
+    regionWeights:
+      0:
+        STR_SIBERIA: 100
+    executionOdds: 80
+    startDelay: 1440
+    useTable: false
+    firstMonth: 3
+    lastMonth: 8
+
+  - type: spawnOperationOmen
+    varName: spawnOperationOmen
+    missionWeights:
+      0:
+        STR_OPERATION_OMEN_SPAWN: 100
+    regionWeights:
+      0:
+        REGION_OPRERATION_OMEN: 100
+    executionOdds: 100
+    startDelay: 10080
+    randomDelay: 30240
+    useTable: false
+    lastMonth: 0
+    maxRuns: 1
+
+  - type: spawnGladioStockpile
+    varName: spawnGladioStockpile
+    missionWeights:
+      0:
+        STR_GLADIO_STOCKPILE_SPAWN: 100
+    regionWeights:
+      0:
+        STR_EUROPE: 100
+    executionOdds: 100
+    startDelay: 10080
+    randomDelay: 30240
+    useTable: false
+    firstMonth: 1
+    lastMonth: 2
+
+  - type: spawnOperationHunter
+    varName: spawnOperationHunter
+    missionWeights:
+      0:
+        STR_OPERATION_HUNTER_SPAWN: 100
+    regionWeights:
+      0:
+        REGION_OPRERATION_HUNTER: 100
+    researchTriggers:
+      STR_HUNTER_PREQ: true
+    executionOdds: 100
+    startDelay: 10080
+    randomDelay: 30240
+    useTable: false
+    firstMonth: 2
+    maxRuns: 1
+
+  - type: spawnHaunebuAssassination
+    varName: spawnHaunebuAssassination
+    missionWeights:
+      0:
+        STR_HAUNEBU_ASSASSINATION_SPAWN: 100
+    regionWeights:
+      0:
+        STR_EUROPE: 100
+    executionOdds: 100
+    startDelay: 10080
+    randomDelay: 30240
+    researchTriggers:
+      STR_OPERATION_HUNTER_RESEARCH: true
+    useTable: false
+    firstMonth: 3
+    maxRuns: 1
+
+  - type: spawnOperationSerpent
+    varName: spawnOperationSerpent
+    missionWeights:
+      0:
+        STR_OPERATION_SERPENT_SPAWN: 100
+    regionWeights:
+      0:
+        REGION_OPRERATION_SERPENT: 100
+    researchTriggers:
+      STR_SERPENT_PREQ: true
+    executionOdds: 100
+    startDelay: 10080
+    randomDelay: 30240
+    useTable: false
+    firstMonth: 5
+    maxRuns: 1
+
+  - type: spawnTargetExtraction
+    varName: spawnTargetExtraction
+    missionWeights:
+      0:
+        STR_TARGET_EXTRACTION_SPAWN: 100
+    regionWeights:
+      0:
+        STR_SIBERIA: 100
+    executionOdds: 100
+    startDelay: 10080
+    randomDelay: 30240
+    researchTriggers:
+      STR_GLADIO_ORIGINS_BRIEFING: true
+    useTable: false
+    firstMonth: 7
+    maxRuns: 1
+
+  - type: spawnOperationCatacomb
+    varName: spawnOperationCatacomb
+    missionWeights:
+      0:
+        STR_OPERATION_CATACOMB_SPAWN: 100
+    regionWeights:
+      0:
+        REGION_OPRERATION_CATACOMB: 100
+    researchTriggers:
+      STR_CRYPTID_MIGRATION_PATTERNS: true
+    executionOdds: 100
+    startDelay: 10080
+    randomDelay: 30240
+    useTable: false
+    firstMonth: 9
+    maxRuns: 1
+
+  - type: spawnOperationOuroboros
+    varName: spawnOperationOuroboros
+    missionWeights:
+      0:
+        STR_OPERATION_OUROBOROS_SPAWN: 100
+    regionWeights:
+      0:
+        REGION_OPRERATION_OUROBOROS: 100
+    researchTriggers:
+      STR_OUROBOROS_PREQ: true
+    executionOdds: 100
+    startDelay: 10080
+    randomDelay: 30240
+    useTable: false
+    firstMonth: 10
+    maxRuns: 1
+
+  - type: spawnOperationKikimora
+    varName: spawnOperationKikimora
+    missionWeights:
+      0:
+        STR_OPERATION_KIKIMORA_SPAWN: 100
+    regionWeights:
+      0:
+        REGION_OPRERATION_KIKIMORA: 100
+    researchTriggers:
+      STR_KIKIMORA_PREQ: true
+    executionOdds: 100
+    startDelay: 10080
+    randomDelay: 30240
+    useTable: false
+    firstMonth: 14
+    maxRuns: 1
+
+  - type: spawnOperationAscension
+    varName: spawnOperationAscension
+    missionWeights:
+      0:
+        STR_OPERATION_ASCENSION_SPAWN: 100
+    regionWeights:
+      0:
+        REGION_OPRERATION_ASCENSION: 100
+    researchTriggers:
+      STR_DIE_GLOCKE_ORIGINS_BRIEFING: true
+    executionOdds: 100
+    startDelay: 10080
+    randomDelay: 30240
+    useTable: false
+    firstMonth: 17
+    lastMonth: 17
+    maxRuns: 1
+

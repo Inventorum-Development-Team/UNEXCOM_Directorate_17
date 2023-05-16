@@ -1,0 +1,61 @@
+soldiers:
+  - delete: STR_SOLDIER
+  - type: STR_KGB_OFFICER
+    costBuy: 60000
+    costSalary: 15000
+    minStats:
+      tu: 50
+      stamina: 45
+      health: 50
+      bravery: 20
+      reactions: 50
+      firing: 60
+      throwing: 50
+      strength: 25
+      psiStrength: 50
+      psiSkill: 0
+      melee: 40
+      mana: 0
+    maxStats:
+      tu: 60
+      stamina: 55
+      health: 50
+      bravery: 60
+      reactions: 65
+      firing: 75
+      throwing: 70
+      strength: 50
+      psiStrength: 100
+      psiSkill: 0
+      melee: 60
+      mana: 0
+    statCaps:
+      tu: 80
+      stamina: 90
+      health: 80
+      bravery: 80
+      reactions: 80
+      firing: 100
+      throwing: 100
+      strength: 60
+      psiStrength: 100
+      psiSkill: 100
+      melee: 100
+      mana: 0
+    armor: STR_OFFICER_COAT_UC
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 25
+    rankSprite: 800
+    rankBattleSprite: 800
+    soldierNames:
+      - delete/
+      - NamesKGB/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+    rankStrings:
+    - STR_LIEUTENANT
+    - STR_CAPTAIN
+    - STR_MAJOR
+    - STR_LT_COLONEL
+    - STR_COLONEL

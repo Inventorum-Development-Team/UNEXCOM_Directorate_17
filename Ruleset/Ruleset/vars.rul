@@ -1,0 +1,13 @@
+startingTime:
+  second: 0
+  minute: 0
+  hour: 12
+  weekday: 3
+  day: 1
+  month: 10
+  year: 1958
+initialFunding: 2600
+ai:
+  useDelayPsionic: 2
+maxViewDistance: 30
+difficultyDemigod: true

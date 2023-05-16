@@ -1,0 +1,111 @@
+mapScripts:
+  - type: XBASE
+    commands:
+    - type: digTunnel
+      executionChances: 0
+      direction: both
+      tunnelData:
+        level: 0
+        MCDReplacements:
+          - type: westWall
+            set: 1
+            entry: 13
+          - type: northWall
+            set: 1
+            entry: 14
+    - type: fillArea
+      blocks: 20
+  - type: URBAN_UFO
+    commands:
+    - type: addUFO
+    - type: addCraft
+    - type: addBlock
+      size: 2
+      executions: 3
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 50
+      rects:
+        - [1, 1, 4, 1]
+    - type: fillArea
+
+  - type: IDT_SOVIET_SPACEPORT_SCRIPT
+    commands:
+    - type: addCraft
+      groups: 1
+    - type: addLine  # Trying to add Roads to map
+      groups: 3
+      label: 1
+      direction: vertical
+      executionChances: 35
+      rects:
+        - [1, 1, 4, 1]
+    - type: addLine # Trying to add Roads to map
+      groups: 2
+      label: 2
+      conditionals: -1
+      executionChances: 35
+      direction: horizontal
+      rects:
+        - [1, 1, 1, 4]
+    - type: addLine # Trying to add Roads to map
+      groups: 4
+      executionChances: 55
+      conditionals: [-1, -2]
+      direction: both
+    - type: addBlock
+      label: 5
+      size: 2
+      executions: 1
+      groups: 5
+    - type: addBlock
+      size: 2
+      executions: 1
+    - type: fillArea
+
+
+  - type: OLD_PORT_SCRIPT
+    commands:
+    - type: addBlock
+      size: 2
+      executions: 1
+    - type: addCraft
+      executions: 1
+      groups: 1
+    - type: addLine  # Trying to add Roads to map
+      groups: 3
+      label: 1
+      direction: vertical
+      executionChances: 35
+      rects:
+        - [1, 1, 4, 1]
+    - type: addLine # Trying to add Roads to map
+      groups: 2
+      label: 2
+      conditionals: -1
+      executionChances: 35
+      direction: horizontal
+      rects:
+        - [1, 1, 1, 4]
+    - type: addLine # Trying to add Roads to map
+      groups: 4
+      executionChances: 55
+      conditionals: [-1, -2]
+      direction: both
+    - type: addBlock
+      executionChances: 50
+      size: [2, 1]
+      executions: 1
+    - type: addBlock
+      size: 2
+      executions: 1
+    - type: addBlock
+      executionChances: 50
+      size: [2, 1]
+      executions: 1
+    - type: addBlock
+      size: 2
+      executions: 1
+      executionChances: 85
+    - type: fillArea

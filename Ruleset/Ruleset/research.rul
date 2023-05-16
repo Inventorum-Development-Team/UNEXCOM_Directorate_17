@@ -1,0 +1,348 @@
+research:
+  - delete: STR_LASER_WEAPONS
+  - delete: STR_LASER_PISTOL
+  - delete: STR_LASER_RIFLE
+  - delete: STR_HEAVY_LASER
+  - delete: STR_LASER_CANNON
+  - delete: STR_LASER_DEFENSE
+  - delete: STR_MOTION_SCANNER
+  - delete: STR_MEDI_KIT
+
+  - name: STR_ALIENS_ONLY
+    cost: 0
+    points: 0
+    needItem: true
+  - name: STR_PERSONAL_ARMOR
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_ELERIUM_115
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_UFO_NAVIGATION
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_UFO_POWER_SOURCE
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_POWER_SUIT
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_ALIENS_ONLY
+  - name: STR_UFO_CONSTRUCTION
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_ALIENS_ONLY
+
+  - name: STR_ALIEN_ALLOYS
+    cost: 200
+    points: 50
+    needItem: true
+  - name: STR_ALIEN_REPRODUCTION
+    cost: 100
+    points: 50
+    needItem: true
+
+  - name: STR_WELROD
+    cost: 10
+    points: 10
+    needItem: true
+  - name: STR_DELISLE
+    cost: 10
+    points: 10
+    needItem: true
+  - name: STR_PPSH
+    cost: 10
+    points: 10
+    needItem: true
+  - name: STR_PTRD
+    cost: 10
+    points: 10
+    needItem: true
+  - name: STR_RPD
+    cost: 10
+    points: 10
+    needItem: true
+  - name: STR_RPG
+    cost: 10
+    points: 10
+    needItem: true
+  - name: STR_RGD_5
+    cost: 10
+    points: 10
+    needItem: true
+  - name: STR_MAGNETESCHETTO
+    cost: 150
+    points: 50
+    needItem: true
+    dependencies:
+      - STR_GLADIO_ORIGINS_BRIEFING
+  - name: STR_ALIEN_LASER_PISTOL
+    cost: 100
+    points: 20
+    needItem: true
+  - name: STR_ALIEN_LASER_RIFLE
+    cost: 100
+    points: 20
+    needItem: true
+  - name: STR_ALIEN_HEAVY_LASER
+    cost: 100
+    points: 20
+    needItem: true
+  - name: STR_ALIEN_SIEGE_LAUNCHER
+    cost: 100
+    points: 20
+    needItem: true
+  - name: STR_STECHKIN
+    cost: 10
+    points: 10
+    needItem: true
+  - name: STR_SKORPION
+    cost: 10
+    points: 10
+    needItem: true
+  - name: STR_TKB_408
+    cost: 10
+    points: 10
+    needItem: true
+  - name: STR_VIKHR_EMR
+    cost: 300
+    points: 100
+    dependencies:
+      - STR_ALIEN_ALLOYS
+      - STR_MAGNETESCHETTO
+
+  - name: STR_GREAT_PATRIOTIC_WAR_SURPLUS_PREQ
+    cost: 0
+    points: 0
+    dependencies:
+      - STR_CHUCHUNYA
+      - STR_CHUCHUNYA_CORPSE
+      - STR_WAWKALAK
+      - STR_WAWKALAK_CORPSE
+      - STR_ALKONOST
+      - STR_ALKONOST_CORPSE
+  - name: STR_CHUCHUNYA_ANALYSIS
+    cost: 0
+    points: 0
+    needItem: true
+  - name: STR_CHUCHUNYA
+    cost: 50
+    points: 10
+    lookup: STR_CHUCHUNYA_ANALYSIS
+    unlocks:
+      - STR_GREAT_PATRIOTIC_WAR_SURPLUS_PREQ
+    needItem: true
+  - name: STR_CHUCHUNYA_CORPSE
+    cost: 50
+    points: 10
+    lookup: STR_CHUCHUNYA_ANALYSIS
+    unlocks:
+      - STR_GREAT_PATRIOTIC_WAR_SURPLUS_PREQ
+    needItem: true
+  - name: STR_WAWKALAK_ANALYSIS
+    cost: 0
+    points: 0
+    needItem: true
+  - name: STR_WAWKALAK
+    cost: 50
+    points: 10
+    lookup: STR_WAWKALAK_ANALYSIS
+    unlocks:
+      - STR_GREAT_PATRIOTIC_WAR_SURPLUS_PREQ
+    needItem: true
+  - name: STR_WAWKALAK_CORPSE
+    cost: 50
+    points: 10
+    lookup: STR_WAWKALAK_ANALYSIS
+    unlocks:
+      - STR_GREAT_PATRIOTIC_WAR_SURPLUS_PREQ
+    needItem: true
+  - name: STR_ALKONOST_ANALYSIS
+    cost: 0
+    points: 0
+    needItem: true
+  - name: STR_ALKONOST
+    cost: 50
+    points: 10
+    lookup: STR_ALKONOST_ANALYSIS
+    unlocks:
+      - STR_GREAT_PATRIOTIC_WAR_SURPLUS_PREQ
+    needItem: true
+  - name: STR_ALKONOST_CORPSE
+    cost: 50
+    points: 10
+    lookup: STR_ALKONOST_ANALYSIS
+    unlocks:
+      - STR_GREAT_PATRIOTIC_WAR_SURPLUS_PREQ
+    needItem: true
+  - name: STR_GREAT_PATRIOTIC_WAR_SURPLUS
+    cost: 100
+    points: 20
+    unlocks:
+      - STR_PPSH
+      - STR_PTRD
+    dependencies:
+      - STR_GREAT_PATRIOTIC_WAR_SURPLUS_PREQ
+  - name: STR_ANTI_TANK_WEAPONS
+    cost: 100
+    points: 20
+    unlocks:
+      - STR_RPG
+      - STR_RPD
+      - STR_RGD_5
+    dependencies:
+      - STR_OUROBOROS_PREQ
+  - name: STR_CRYPTID_MIGRATION_PATTERNS
+    cost: 200
+    points: 50
+    dependencies:
+      - STR_CHUCHUNYA_ANALYSIS
+      - STR_WAWKALAK_ANALYSIS
+      - STR_ALKONOST_ANALYSIS
+  - name: STR_THIN_MAN_ANALYSIS
+    cost: 0
+    points: 0
+    needItem: true
+  - name: STR_THIN_MAN
+    cost: 50
+    points: 10
+    lookup: STR_THIN_MAN_ANALYSIS
+    needItem: true
+  - name: STR_THIN_MAN_CORPSE
+    cost: 50
+    points: 10
+    lookup: STR_THIN_MAN_ANALYSIS
+    needItem: true
+  - name: STR_REPTOID_ANALYSIS
+    cost: 0
+    points: 0
+    needItem: true
+  - name: STR_REPTOID
+    cost: 50
+    points: 10
+    lookup: STR_REPTOID_ANALYSIS
+    needItem: true
+  - name: STR_REPTOID_CORPSE
+    cost: 50
+    points: 10
+    lookup: STR_REPTOID_ANALYSIS
+    needItem: true
+  - name: STR_HAUNEBU_SCIENTIST
+    cost: 50
+    points: 10
+    needItem: true
+
+  - name: STR_OPERATION_OMEN_RESEARCH
+    cost: 0
+    points: 0
+    needItem: true
+  - name: STR_OPERATION_GLADIO_BRIEFING
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_OPERATION_OMEN_RESEARCH
+  - name: STR_HUNTER_PREQ
+    cost: 0
+    points: 0
+    needItem: true
+  - name: STR_OPERATION_HUNTER_RESEARCH
+    cost: 0
+    points: 0
+    needItem: true
+  - name: STR_PROJECT_HAUNEBU_BRIEFING
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_OPERATION_HUNTER_RESEARCH
+  - name: STR_HAUNEBU_ASSASSINATION
+    cost: 0
+    points: 0
+    needItem: true
+  - name: STR_SERPENT_PREQ
+    cost: 0
+    points: 0
+    needItem: true
+  - name: STR_MI6_LIAISON
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_GLADIO_ORIGINS_BRIEFING
+    cost: 100
+    points: 100
+    dependencies:
+      - STR_MI6_LIAISON
+      - STR_THIN_MAN_ANALYSIS
+  - name: STR_OUROBOROS_PREQ
+    cost: 0
+    points: 0
+    needItem: true
+  - name: STR_HAUNEBU_ORIGINS_BRIEFING
+    cost: 100
+    points: 200
+    dependencies:
+      - STR_OUROBOROS_PREQ
+      - STR_HAUNEBU_SCIENTIST
+  - name: STR_KIKIMORA_PREQ
+    cost: 0
+    points: 0
+    needItem: true
+  - name: STR_CRYPTID_ORIGINS_BRIEFING
+    cost: 100
+    points: 500
+    dependencies:
+      - STR_CRYPTID_MIGRATION_PATTERNS
+      - STR_REPTOID_ANALYSIS
+      - STR_HAUNEBU_ORIGINS_BRIEFING
+      - STR_ALIEN_REPRODUCTION
+  - name: STR_DIE_GLOCKE_INFORMANT
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_REPTOID_OFFICER
+    cost: 50
+    points: 100
+    needItem: true
+  - name: STR_UFO_SOS_BEACON
+    cost: 50
+    points: 100
+    needItem: true
+  - name: STR_DIE_GLOCKE_ORIGINS_BRIEFING
+    cost: 100
+    points: 500
+    dependencies:
+      - STR_DIE_GLOCKE_INFORMANT
+      - STR_REPTOID_OFFICER
+      - STR_UFO_SOS_BEACON
+  - name: STR_CONCEALABLE_SMGS
+    cost: 100
+    points: 20
+    unlocks:
+      - STR_STECHKIN
+      - STR_SKORPION
+    dependencies:
+      - STR_DIE_GLOCKE_ORIGINS_BRIEFING
+  - name: STR_CIA_DOCUMENTS
+    cost: 50
+    points: 50
+    needItem: true
+  - name: STR_BUREAU_11_BRIEFING
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_DIE_GLOCKE_ORIGINS_BRIEFING
+      - STR_CIA_DOCUMENTS
+  - name: STR_DISGUISED_WEAPONRY
+    cost: 100
+    points: 20
+    dependencies:
+      - STR_BUREAU_11_BRIEFING

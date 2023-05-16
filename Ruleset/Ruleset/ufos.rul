@@ -1,0 +1,138 @@
+ufos:
+  - delete: STR_HARVESTER
+  - delete: STR_ABDUCTOR
+  - delete: STR_TERROR_SHIP
+  - delete: STR_BATTLESHIP
+  - delete: STR_SUPPLY_SHIP
+  
+  - type: STR_OPERATION_OMEN_UFO
+    battlescapeTerrainData:
+      name: OPERATION_OMEN_UFO
+      mapDataSets:
+        - BLANKS
+        - IDT_OFFICE
+        - SOVIET_FLAG
+        - URBAN
+        - CADILLAC_BLUE
+        - XBASE1
+      mapBlocks:
+        - name: KGBLAB
+          width: 10
+          length: 10
+          items:
+            STR_CORPSE_KGBALT_DUMMY:
+              - [3, 2, 0]
+              - [4, 2, 1]
+              - [1, 7, 1]
+              - [6, 3, 1]
+  
+  - type: STR_GLADIO_STOCKPILE_UFO
+    battlescapeTerrainData:
+      name: GLADIO_STOCKPILE
+      mapDataSets:
+        - BLANKS
+        - IDT_OFFICE
+        - SOVIET_FLAG
+        - URBAN
+        - CADILLAC_BLUE
+        - XBASE1
+      mapBlocks:
+        - name: STOCKPILE
+          width: 10
+          length: 10
+          items:
+            STR_WELROD:
+              - [2, 2, 1]
+              - [2, 2, 1]
+              - [3, 4, 1]
+              - [4, 2, 1]
+              - [4, 2, 1]
+            STR_WELROD_MAG:
+              - [2, 2, 1]
+              - [2, 2, 1]
+              - [2, 2, 1]
+              - [2, 2, 1]
+              - [2, 2, 1]
+              - [2, 2, 1]
+              - [3, 4, 1]
+              - [3, 4, 1]
+              - [3, 4, 1]
+              - [4, 2, 1]
+              - [4, 2, 1]
+              - [4, 2, 1]
+              - [4, 2, 1]
+              - [4, 2, 1]
+              - [4, 2, 1]
+            STR_DELISLE:
+              - [1, 1, 1]
+              - [3, 2, 1]
+              - [2, 4, 1]
+              - [5, 2, 1]
+            STR_DELISLE_MAG:
+              - [1, 1, 1]
+              - [1, 1, 1]
+              - [1, 1, 1]
+              - [3, 2, 1]
+              - [3, 2, 1]
+              - [3, 2, 1]
+              - [3, 2, 1]
+              - [3, 2, 1]
+              - [3, 2, 1]
+              - [2, 4, 1]
+              - [2, 4, 1]
+              - [2, 4, 1]
+              - [2, 4, 1]
+              - [5, 2, 1]
+              - [5, 2, 1]
+              - [5, 2, 1]
+              - [5, 2, 1]
+              - [5, 2, 1]
+              - [5, 2, 1]
+  
+  - type: STR_KGB_SAFEHOUSE
+    battlescapeTerrainData:
+      name: KGB_HIDEOUT_UFO
+      mapDataSets:
+        - BLANKS
+        - IDT_OFFICE
+        - SOVIET_FLAG
+        - URBAN
+      mapBlocks:
+        - name: KGB_HIDEOUT01
+          width: 10
+          length: 10
+          items:
+            STR_HAUNEBU_SCIENTIST:
+              - [ 2, 4, 0]
+
+  - type: STR_OPERATION_KIKIMORA_UFO
+    battlescapeTerrainData:
+      name: KIKIMORA_LARGE_SCOUT
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+        - CRASHED_UFO_TILES
+        - US_ARMY_BARRICADE_TILES
+        - GRAVLIFT_BEAM
+      mapBlocks:
+        - name: OPERATION_SOYUZ
+          width: 20
+          length: 20
+          items:
+            STR_REPTOID_OFFICER:
+              - [15, 8, 4]
+
+  - type: STR_WHISPERS_SAFEHOUSE_UFO
+    battlescapeTerrainData:
+      name: WHISPERS_SAFEHOUSE_UFO
+      mapDataSets:
+        - BLANKS
+        - IDT_OFFICE
+        - URBAN
+        - Cadillac
+      mapBlocks:
+        - name: WHISPERS_SAFEHOUSE
+          width: 20
+          length: 10
