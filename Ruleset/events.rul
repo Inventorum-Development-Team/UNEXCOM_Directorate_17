@@ -60,3 +60,47 @@ events:
     points: 100
     timer: 720
     everyItemList: [STR_CIA_DOCUMENTS]
+  - name: LUMUMBA_PRESIDENT_EVENT
+    description: LUMUMBA_PRESIDENT_EVENT_DESCRIPTION
+    background: LUMUMBA_PRESIDENT_EVENT_BACKGROUND.SCR
+    points: 100
+    timer: 35280
+  - name: NSA_CRYPTOANALYSTS_DEFECTION_EVENT
+    description: NSA_CRYPTOANALYSTS_DEFECTION_EVENT_DESCRIPTION
+    background: NSA_CRYPTOANALYSTS_DEFECTION_EVENT_BACKGROUND.SCR
+    points: 200
+    timer: 9320
+  - name: LEE_HARVEY_OSWALD_DEFECTION_EVENT
+    description: LEE_HARVEY_OSWALD_DEFECTION_EVENT_DESCRIPTION
+    background: LEE_HARVEY_OSWALD_DEFECTION_EVENT_BACKGROUND.SCR
+    points: 100
+    timer: 44640
+    spawnedPersons: 1
+    spawnedPersonType: STR_KGB_OFFICER
+    spawnedPersonName: "Comrade Oswald"
+    spawnedSoldier:
+      nationality: 0
+      rank: 1
+      gender: 0
+      look: 0
+      lookVariant: 15
+      stuns: 0
+      armor: STR_OFFICER_COAT_UC
+      currentStats:
+        tu: 50
+        stamina: 60
+        health: 30
+        bravery: 60
+        reactions: 80
+        firing: 120
+        throwing: 75
+        strength: 30
+        psiStrength: 0
+        psiSkill: 0
+        melee: 55
+        mana: 0
+  - name: LUMUMBA_CAPTURED_EVENT
+    description: LUMUMBA_CAPTURED_EVENT_DESCIPRTION
+    background: LUMUMBA_CAPTURED_EVENT_BACKGROUND.SCR
+    points: -100
+    timer: 720

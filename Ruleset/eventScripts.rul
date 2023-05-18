@@ -103,3 +103,35 @@ eventScripts:
     lastMonth: 19
     maxRuns: 1
     executionOdds: 100
+  - type: LUMUMBA_PRESIDENT_EVENT_SCRIPT
+    eventWeights:
+      0:
+        LUMUMBA_PRESIDENT_EVENT: 100
+    firstMonth: 20
+    lastMonth: 20
+    maxRuns: 1
+    executionOdds: 100
+  - type: NSA_CRYPTOANALYSTS_DEFECTION_EVENT_SCRIPT
+    eventWeights:
+      0:
+        NSA_CRYPTOANALYSTS_DEFECTION_EVENT: 100
+    firstMonth: 23
+    lastMonth: 23
+    maxRuns: 1
+    executionOdds: 100
+  - type: LEE_HARVEY_OSWALD_DEFECTION_EVENT_SCRIPT
+    eventWeights:
+      0:
+        LEE_HARVEY_OSWALD_DEFECTION_EVENT: 100
+    firstMonth: 24
+    lastMonth: 24
+    maxRuns: 1
+    executionOdds: 100
+  - type: LUMUMBA_CAPTURED_EVENT_SCRIPT
+    eventWeights:
+      0:
+        LUMUMBA_CAPTURED_EVENT: 100
+    firstMonth: 26
+    lastMonth: 26
+    maxRuns: 1
+    executionOdds: 100
