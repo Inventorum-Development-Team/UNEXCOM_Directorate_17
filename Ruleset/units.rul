@@ -69,7 +69,7 @@ units:
     deathSound: 10
     sniper: 1
     intelligence: 8
-    aggression: 1
+    aggression: 2
 
 # Cryptids
   - type: STR_CHUCHUNYA
@@ -225,3 +225,28 @@ units:
     deathSound: 44
     intelligence: 4
     aggression: 8
+
+# CIA Agents
+  - type: STR_CIA_AGENT
+    race: STR_BUREAU_11
+    stats:
+      tu: 60
+      stamina: 60
+      health: 50
+      bravery: 50
+      reactions: 70
+      firing: 60
+      throwing: 70
+      strength: 35
+      psiStrength: 60
+      psiSkill: 0
+      melee: 55
+    armor: CIA_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 20
+    deathSound: 44
+    sniper: 1
+    spotter: 2
+    intelligence: 6
+    aggression: 3

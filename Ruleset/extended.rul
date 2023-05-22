@@ -171,6 +171,21 @@ items:
   - type: STR_UMBRELLA_MOSIN_NAGANT_MAG # ignoreDuplicate
     tags:
       AmmoNo: 1
+  - type: STR_COLT_M1911 # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+  - type: STR_UNITED_DEFENSE_M42 # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+  - type: STR_UNITED_DEFENSE_M42_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_SPRINGFIELD_M2 # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+  - type: STR_SPRINGFIELD_M2_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
 
 extended:
   tags:

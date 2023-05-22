@@ -305,10 +305,34 @@ armors:
     corpseBattle:
       - STR_SPETSNAZ_CORPSE
     loftempsSet: [ 3 ]
-    visibilityAtDay: 30
+    visibilityAtDay: 20
     frontArmor: 8
     sideArmor: 6
     rearArmor: 6
+    underArmor: 4
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+
+# Bureau 11
+  - type: CIA_ARMOR
+    spriteSheet: CIA.PCK
+    spriteInv: inventory_CIA
+    corpseBattle:
+      - STR_CIA_CORPSE
+    loftempsSet: [ 3 ]
+    visibilityAtDay: 20
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 8
     underArmor: 4
     damageModifier:
       - 1.0

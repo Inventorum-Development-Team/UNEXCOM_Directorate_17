@@ -294,7 +294,7 @@ items:
     power: 28
     damageType: 1
     damageAlter:
-      ToWound: 0.3
+      ToWound: 1.3
       RandomWound: false
     clipSize: 10
     battleType: 2
@@ -1188,6 +1188,166 @@ items:
     armor: 20
     listOrder: 227
 
+# Colt M1911
+  - type: STR_COLT_M1911
+    categories: [STR_FIREARMS, STR_HANDGUNS, STR_CONCEALED]
+    size: 0.1
+    costSell: 3400
+    weight: 6
+    bigSprite: 656
+    floorSprite: 656
+    handSprite: 656
+    bulletSprite: 1
+    fireSound: 233
+    reloadSound: 234
+    compatibleAmmo:
+      - STR_DELISLE_MAG
+    confSnap:
+      shots: 1
+      name: STR_HIP_FIRE
+    snapRange: 9
+    accuracySnap: 85
+    tuSnap: 10
+    confAuto:
+      shots: 2
+      name: STR_DOUBLE_TAP
+    autoRange: 14
+    accuracyAuto: 40
+    tuAuto: 15
+    accuracyCloseQuarters: 150
+    tuLoad: 5
+    kneelBonus: 115
+    costThrow:
+      energy: 12
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    listOrder: 208
+
+# United Defense M42
+  - type: STR_UNITED_DEFENSE_M42
+    categories: [STR_FIREARMS, STR_MACHINE_GUNS, STR_CONCEALED]
+    size: 0.2
+    costSell: 3540
+    weight: 16
+    bigSprite: 672
+    floorSprite: 672
+    handSprite: 672
+    bulletSprite: 1
+    fireSound: 235
+    reloadSound: 236
+    compatibleAmmo:
+      - STR_UNITED_DEFENSE_M42_MAG
+    confSnap:
+      shots: 2
+      name: STR_DOUBLE_TAP
+    snapRange: 8
+    accuracySnap: 80
+    tuSnap: 20
+    confAuto:
+      shots: 15
+      name: STR_FULL_AUTO_15
+    autoRange: 25
+    accuracyAuto: 35
+    tuAuto: 90
+    tuLoad: 15
+    dropoff: 4
+    kneelBonus: 150
+    costThrow:
+      energy: 15
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    sprayWaypoints: 2
+    twoHanded: true
+    listOrder: 228
+  - type: STR_UNITED_DEFENSE_M42_MAG
+    categories: [STR_AMMUNITION, STR_MACHINE_GUNS, STR_CONCEALED]
+    size: 0.2
+    costSell: 760
+    weight: 5
+    bigSprite: 688
+    floorSprite: 688
+    handSprite: 688
+    bulletSpeed: 30
+    hitAnimation: -1
+    power: 28
+    damageType: 1
+    damageAlter:
+      RandomType: 2
+      ToWound: 1.3
+      ToArmorPre: 0.1
+    damageType: 1
+    clipSize: 50
+    battleType: 2
+    invWidth: 1
+    invHeight: 2
+    armor: 20
+    listOrder: 229
+
+# Springfield M2
+  - type: STR_SPRINGFIELD_M2
+    categories: [STR_FIREARMS, STR_RIFLES, STR_MACHINE_GUNS, STR_CONCEALED]
+    size: 0.2
+    costSell: 2780
+    weight: 12
+    bigSprite: 696
+    floorSprite: 696
+    handSprite: 696
+    bulletSprite: 1
+    fireSound: 237
+    reloadSound: 238
+    compatibleAmmo:
+      - STR_SPRINGFIELD_M2_MAG
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+    aimRange: 30
+    accuracyAimed: 110
+    tuAimed: 35
+    confSnap:
+      shots: 1
+      name: STR_HIP_FIRE
+    snapRange: 4
+    accuracySnap: 30
+    tuSnap: 15
+    confAuto:
+      shots: 5
+      name: STR_FULL_AUTO_5
+    autoRange: 13
+    accuracyAuto: 45
+    tuAuto: 55
+    tuLoad: 10
+    dropoff: 2
+    kneelBonus: 150
+    costThrow:
+      energy: 15
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    twoHanded: true
+    listOrder: 230
+  - type: STR_SPRINGFIELD_M2_MAG
+    categories: [STR_AMMUNITION, STR_RIFLES, STR_MACHINE_GUNS, STR_CONCEALED]
+    size: 0.1
+    costSell: 320
+    weight: 2
+    bigSprite: 712
+    floorSprite: 712
+    handSprite: 712
+    bulletSpeed: 30
+    hitAnimation: -1
+    power: 42
+    damageAlter:
+      ToStun: 0.15
+      ToTile: 0.2
+      ToArmorPre: 0.05
+    damageType: 1
+    clipSize: 15
+    battleType: 2
+    armor: 20
+    listOrder: 231
+
 # Medical Bag
   - type: STR_MEDICAL_BAG
     categories: [STR_MEDICAL, STR_SEMI_CONCEALED, STR_CONCEALED]
@@ -1440,6 +1600,26 @@ items:
     recoveryPoints: 30
     liveAlien: true
     costSell: 40000
+    listOrder: 9999
+# Gladio
+  - type: STR_CIA_CORPSE
+    name: STR_CORPSE
+    size: 0.4
+    costSell: -1000
+    weight: 60
+    bigSprite: 1507
+    floorSprite: 1507
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 10
+    battleType: 11
+    armor: 40
+    listOrder: 9999
+  - type: STR_CIA_AGENT
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 20000
     listOrder: 9999
 # MI6 Liaison
   - type: STR_MI6_LIAISON

@@ -18,58 +18,76 @@ alienDeployments:
         lowQty: 0
         highQty: 0
         dQty: 1
+        percentageOutsideUfo: 0
         itemSets:
           -
-            []
+            - STR_COLT_M1911
+            - STR_DELISLE_MAG
       - alienRank: 1
         lowQty: 0
         highQty: 0
         dQty: 1
+        percentageOutsideUfo: 0
         itemSets:
           -
-            []
+            - STR_COLT_M1911
+            - STR_DELISLE_MAG
       - alienRank: 2
         lowQty: 0
         highQty: 0
         dQty: 3
+        percentageOutsideUfo: 0
         itemSets:
           -
-            []
+            - STR_SPRINGFIELD_M2
+            - STR_SPRINGFIELD_M2_MAG
       - alienRank: 3
         lowQty: 0
         highQty: 0
         dQty: 3
+        percentageOutsideUfo: 0
         itemSets:
           -
-            []
+            - STR_SPRINGFIELD_M2
+            - STR_SPRINGFIELD_M2_MAG
       - alienRank: 4
         lowQty: 0
         highQty: 0
         dQty: 3
+        percentageOutsideUfo: 0
         itemSets:
           -
-            []
+            - STR_SPRINGFIELD_M2
+            - STR_SPRINGFIELD_M2_MAG
       - alienRank: 5
         lowQty: 0
         highQty: 0
         dQty: 10
+        percentageOutsideUfo: 0
         itemSets:
           -
-            []
+            - STR_UNITED_DEFENSE_M42
+            - STR_UNITED_DEFENSE_M42_MAG
       - alienRank: 6
         lowQty: 0
         highQty: 0
         dQty: 2
+        percentageOutsideUfo: 0
         itemSets:
           -
-            []
+            - STR_WELROD
+            - STR_WELROD
+            - STR_WELROD_MAG
+            - STR_WELROD_MAG
       - alienRank: 7
         lowQty: 0
         highQty: 0
         dQty: 2
+        percentageOutsideUfo: 0
         itemSets:
           -
-            []
+            - STR_DELISLE
+            - STR_DELISLE_MAG
     width: 60
     length: 60
     terrains:

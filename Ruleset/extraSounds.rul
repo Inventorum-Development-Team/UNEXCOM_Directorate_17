@@ -32,3 +32,9 @@ extraSounds:
       230: Resources/Items/Weapons/Camera Rifle/fire.wav
       231: Resources/Items/Weapons/Umbrella Mosin-Nagant/fire.wav
       232: Resources/Items/Weapons/Umbrella Mosin-Nagant/reload.wav
+      233: Resources/Items/Weapons/Colt M1911/fire.wav
+      234: Resources/Items/Weapons/Colt M1911/reload.wav
+      235: Resources/Items/Weapons/United Defense M42/fire.wav
+      236: Resources/Items/Weapons/United Defense M42/reload.wav
+      237: Resources/Items/Weapons/Springfield M2/fire.wav
+      238: Resources/Items/Weapons/Springfield M2/reload.wav

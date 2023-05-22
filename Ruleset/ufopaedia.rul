@@ -323,6 +323,33 @@ ufopaedia:
   - id: STR_ALIEN_SIEGE_LAUNCHER_SHELL
     type_id: 4
     section: STR_NOT_AVAILABLE
+  - id: STR_COLT_M1911
+    type_id: 4
+    section: STR_EQUIPMENT
+    text: STR_COLT_M1911_UFOPEDIA
+    requires:
+      - STR_DISGUISED_WEAPONRY
+    listOrder: 215
+  - id: STR_UNITED_DEFENSE_M42
+    type_id: 4
+    section: STR_EQUIPMENT
+    text: STR_UNITED_DEFENSE_M42_UFOPEDIA
+    requires:
+      - STR_DISGUISED_WEAPONRY
+    listOrder: 216
+  - id: STR_UNITED_DEFENSE_M42_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_SPRINGFIELD_M2
+    type_id: 4
+    section: STR_EQUIPMENT
+    text: STR_SPRINGFIELD_M2_UFOPEDIA
+    requires:
+      - STR_DISGUISED_WEAPONRY
+    listOrder: 216
+  - id: STR_SPRINGFIELD_M2_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
   - id: STR_MEDICAL_BAG
     type_id: 4
     section: STR_EQUIPMENT
