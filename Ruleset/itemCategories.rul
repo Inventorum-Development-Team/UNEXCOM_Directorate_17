@@ -17,7 +17,7 @@ itemCategories:
     listOrder: 8
   - type: STR_MEDICAL
     listOrder: 9
-  - type: STR_SEMI_CONCEALED
+  - type: STR_SILENCED
     listOrder: 10
   - type: STR_CONCEALED
     listOrder: 11
@@ -29,3 +29,5 @@ itemCategories:
     listOrder: 14
   - type: STR_CIA
     listOrder: 15
+  - type: STR_GHOST
+    listOrder: 16

@@ -247,7 +247,7 @@ alienDeployments:
     unlockedResearch: STR_OPERATION_OMEN_RESEARCH
 
   - type: STR_GLADIO_STOCKPILE
-    startingCondition: STR_SEMI_CONCEALED
+    startingCondition: STR_CONCEALED
     customUfo: STR_GLADIO_STOCKPILE_UFO
     height: 10
     width: 30
@@ -379,7 +379,7 @@ alienDeployments:
     unlockedResearch: STR_OPERATION_HUNTER_RESEARCH
 
   - type: STR_HAUNEBU_ASSASSINATION
-    startingCondition: STR_SEMI_CONCEALED
+    startingCondition: STR_SILENCED
     height: 10
     width: 50
     length: 50
@@ -445,7 +445,7 @@ alienDeployments:
     unlockedResearch: STR_SERPENT_PREQ
 
   - type: STR_OPERATION_SERPENT_DEPLOYMENT
-    startingCondition: STR_SEMI_CONCEALED
+    startingCondition: STR_CONCEALED
     height: 10
     width: 50
     length: 50
@@ -937,7 +937,7 @@ alienDeployments:
     missionBountyItem: STR_UFO_SOS_BEACON
 
   - type: STR_OPERATION_ASCENSION_DEPLOYMENT
-    startingCondition: STR_SEMI_CONCEALED
+    startingCondition: STR_SILENCED
     height: 10
     width: 60
     length: 60
@@ -989,3 +989,60 @@ alienDeployments:
     alert: STR_OPERATION_ASCENSION_ALERT
     alertBackground: BACK12.SCR
     alertDescription: STR_OPERATION_ASCENSION_DESCRIPTION
+
+  - type: STR_CIA_SAFEHOUSE
+    startingCondition: STR_GHOST
+    customUfo: STR_WHISPERS_SAFEHOUSE_UFO
+    height: 10
+    width: 50
+    length: 50
+    duration: [999, 999]
+    data:
+      - alienRank: 3
+        customUnitType: STR_CIA_AGENT
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_SPRINGFIELD_M2
+            - STR_SPRINGFIELD_M2_MAG
+            - STR_SPRINGFIELD_M2_MAG
+      - alienRank: 4
+        customUnitType: STR_CIA_AGENT
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_UNITED_DEFENSE_M42
+            - STR_UNITED_DEFENSE_M42_MAG
+            - STR_UNITED_DEFENSE_M42_MAG
+      - alienRank: 5
+        customUnitType: STR_CIA_AGENT
+        lowQty: 2
+        highQty: 6
+        dQty: 2
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_COLT_M1911
+            - STR_DELISLE_MAG
+            - STR_DELISLE_MAG
+    terrains:
+      - URBAN_UFO
+    briefing:
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+      showCraft: true
+      desc: STR_CIA_SAFEHOUSE_DESCRIPTION
+      palette: 2
+    markerIcon: 7
+    markerName: STR_CIA_SAFEHOUSE_MARKER
+    alert: STR_CIA_SAFEHOUSE_ALERT
+    alertBackground: BACK13.SCR
+    alertDescription: STR_CIA_SAFEHOUSE_DESCRIPTION
+    unlockedResearch: STR_NEMESIS_PREQ

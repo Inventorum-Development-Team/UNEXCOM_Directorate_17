@@ -346,3 +346,12 @@ research:
     points: 20
     dependencies:
       - STR_BUREAU_11_BRIEFING
+  - name: STR_NEMESIS_PREQ
+    cost: 0
+    points: 0
+    needItem: true
+  - name: STR_BUREAU_11_ORIGINS_BRIEFING
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_NEMESIS_PREQ

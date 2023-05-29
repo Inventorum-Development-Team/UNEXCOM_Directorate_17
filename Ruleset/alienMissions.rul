@@ -177,3 +177,17 @@ alienMissions:
         trajectory: STATIC_TRAJECTORY
         timer: 0
         objective: true
+  - type: STR_CIA_SAFEHOUSE_SPAWN
+    points: 100
+    objective: 2
+    siteType: STR_CIA_SAFEHOUSE
+    spawnZone: 0
+    raceWeights:
+      0:
+        STR_CIA_BUREAU_11: 100
+    waves:
+      - ufo: dummy
+        count: 1
+        trajectory: P7
+        timer: 0
+        objective: true

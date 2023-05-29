@@ -28,6 +28,21 @@ regions:
     missionZones:
       -
         - [68.6, 68.6, -49.5, -49.5, -105, STR_BAIKONUR_COSMODROME]
+  - type: REGION_WHISPERS
+    missionZones:
+      -
+        - [286.125, 286.125, -40.75, -40.75, -1, STR_NEW_YORK]
+        - [282.875, 282.875, -38.75, -38.75, -1, STR_WASHINGTON]
+        - [241.75, 241.75, -34.125, -34.125, -1, STR_LOS_ANGELES]
+        - [284.25, 284.25, -45.5, -45.5, -1, STR_MONTREAL]
+        - [260.875, 260.875, -19.375, -19.375, -1, STR_MEXICO_CITY]
+        - [272.375, 272.375, -41.875, -41.875, -1, STR_CHICAGO]
+        - [236.75, 236.75, -49.375, -49.375, -1, STR_VANCOUVER]
+        - [263.375, 263.375, -32.75, -32.75, -1, STR_DALLAS]
+  - type: REGION_OPERATION_NEMESIS
+    missionZones:
+      -
+        - [245.277, 245.277, -32.7469, -32.7469, -100]
 
 ## Mission Regions End
 

@@ -62,7 +62,7 @@ items:
 
 # Makarov
   - type: STR_MAKAROV
-    categories: [STR_FIREARMS, STR_PISTOLS, STR_SEMI_CONCEALED]
+    categories: [STR_FIREARMS, STR_PISTOLS, STR_CONCEALED]
     size: 0.1
     costBuy: 900
     costSell: 800
@@ -99,7 +99,7 @@ items:
     armor: 35
     listOrder: 200
   - type: STR_MAKAROV_MAG
-    categories: [STR_AMMUNITION, STR_PISTOLS, STR_SEMI_CONCEALED]
+    categories: [STR_AMMUNITION, STR_PISTOLS, STR_CONCEALED]
     size: 0.1
     costBuy: 150
     costSell: 100
@@ -120,7 +120,7 @@ items:
 
 # Tokarev
   - type: STR_TOKAREV
-    categories: [STR_FIREARMS, STR_PISTOLS, STR_SEMI_CONCEALED, STR_CONCEALED]
+    categories: [STR_FIREARMS, STR_PISTOLS, STR_SILENCED, STR_CONCEALED, STR_GHOST]
     size: 0.1
     costBuy: 1100
     costSell: 950
@@ -151,7 +151,7 @@ items:
     armor: 35
     listOrder: 202
   - type: STR_TOKAREV_MAG
-    categories: [STR_AMMUNITION, STR_PISTOLS, STR_SEMI_CONCEALED, STR_CONCEALED]
+    categories: [STR_AMMUNITION, STR_PISTOLS, STR_SILENCED, STR_CONCEALED, STR_GHOST]
     size: 0.1
     costBuy: 100
     costSell: 50
@@ -252,7 +252,7 @@ items:
 
 # Welrod
   - type: STR_WELROD
-    categories: [STR_FIREARMS, STR_PISTOLS, STR_GLADIO, STR_SEMI_CONCEALED, STR_CONCEALED]
+    categories: [STR_FIREARMS, STR_PISTOLS, STR_GLADIO, STR_SILENCED, STR_CONCEALED, STR_GHOST]
     size: 0.1
     costSell: 940
     weight: 6
@@ -282,7 +282,7 @@ items:
     armor: 35
     listOrder: 206
   - type: STR_WELROD_MAG
-    categories: [STR_AMMUNITION, STR_PISTOLS, STR_GLADIO, STR_SEMI_CONCEALED, STR_CONCEALED]
+    categories: [STR_AMMUNITION, STR_PISTOLS, STR_GLADIO, STR_SILENCED, STR_CONCEALED, STR_GHOST]
     size: 0.1
     costSell: 150
     weight: 1
@@ -303,7 +303,7 @@ items:
 
 # DeLisle
   - type: STR_DELISLE
-    categories: [STR_FIREARMS, STR_CARBINES, STR_SNIPERS, STR_GLADIO, STR_SEMI_CONCEALED]
+    categories: [STR_FIREARMS, STR_CARBINES, STR_SNIPERS, STR_GLADIO, STR_SILENCED]
     size: 0.2
     costSell: 3400
     weight: 15
@@ -342,7 +342,7 @@ items:
     twoHanded: true
     listOrder: 208
   - type: STR_DELISLE_MAG
-    categories: [STR_AMMUNITION, STR_CARBINES, STR_SNIPERS, STR_GLADIO, STR_SEMI_CONCEALED]
+    categories: [STR_AMMUNITION, STR_CARBINES, STR_SNIPERS, STR_GLADIO, STR_SILENCED, STR_CONCEALED]
     size: 0.1
     costSell: 150
     weight: 1
@@ -673,7 +673,7 @@ items:
 
 # Alien Ray Pistol
   - type: STR_ALIEN_LASER_PISTOL
-    categories: [STR_WEAPONS, STR_PISTOLS, STR_ALIEN, STR_SEMI_CONCEALED]
+    categories: [STR_WEAPONS, STR_PISTOLS, STR_ALIEN, STR_CONCEALED]
     size: 0.1
     costSell: 21000
     weight: 4
@@ -703,7 +703,7 @@ items:
     armor: 45
     listOrder: 302
   - type: STR_ALIEN_LASER_PISTOL_BATTERY
-    categories: [STR_AMMUNITION, STR_PISTOLS, STR_ALIEN, STR_SEMI_CONCEALED]
+    categories: [STR_AMMUNITION, STR_PISTOLS, STR_ALIEN, STR_CONCEALED]
     size: 0.1
     costSell: 3510
     weight: 3
@@ -930,7 +930,7 @@ items:
 
 # APS
   - type: STR_STECHKIN
-    categories: [STR_FIREARMS, STR_PISTOLS, STR_MACHINE_GUNS, STR_SEMI_CONCEALED]
+    categories: [STR_FIREARMS, STR_PISTOLS, STR_MACHINE_GUNS, STR_CONCEALED]
     requiresBuy:
       - STR_CONCEALABLE_SMGS
     size: 0.2
@@ -967,7 +967,7 @@ items:
     invHeight: 2
     listOrder: 218
   - type: STR_STECHKIN_MAG
-    categories: [STR_AMMUNITION, STR_PISTOLS, STR_MACHINE_GUNS, STR_SEMI_CONCEALED]
+    categories: [STR_AMMUNITION, STR_PISTOLS, STR_MACHINE_GUNS, STR_CONCEALED]
     size: 0.1
     requiresBuy:
       - STR_CONCEALABLE_SMGS
@@ -993,7 +993,7 @@ items:
 
 # APS
   - type: STR_SKORPION
-    categories: [STR_FIREARMS, STR_PISTOLS, STR_MACHINE_GUNS, STR_SEMI_CONCEALED]
+    categories: [STR_FIREARMS, STR_PISTOLS, STR_MACHINE_GUNS, STR_CONCEALED]
     requiresBuy:
       - STR_CONCEALABLE_SMGS
     size: 0.2
@@ -1093,7 +1093,7 @@ items:
 
 # Camera Rifle
   - type: STR_CAMERA_RIFLE
-    categories: [STR_FIREARMS, STR_RIFLES, STR_SEMI_CONCEALED, STR_CONCEALED]
+    categories: [STR_FIREARMS, STR_RIFLES, STR_SILENCED, STR_CONCEALED, STR_GHOST]
     size: 0.1
     costSell: 5400
     weight: 9
@@ -1129,7 +1129,7 @@ items:
 
 # Umbrella Mosin-Nagant
   - type: STR_UMBRELLA_MOSIN_NAGANT
-    categories: [STR_FIREARMS, STR_RIFLES, STR_SNIPERS, STR_SEMI_CONCEALED, STR_CONCEALED]
+    categories: [STR_FIREARMS, STR_RIFLES, STR_SNIPERS, STR_SILENCED, STR_CONCEALED, STR_GHOST]
     size: 0.2
     costSell: 5000
     weight: 15
@@ -1169,7 +1169,7 @@ items:
     blockBothHands: true
     listOrder: 226
   - type: STR_UMBRELLA_MOSIN_NAGANT_MAG
-    categories: [STR_AMMUNITION, STR_RIFLES, STR_SNIPERS, STR_SEMI_CONCEALED, STR_CONCEALED]
+    categories: [STR_AMMUNITION, STR_RIFLES, STR_SNIPERS, STR_SILENCED, STR_CONCEALED, STR_GHOST]
     size: 0.1
     costSell: 400
     weight: 2
@@ -1350,7 +1350,7 @@ items:
 
 # Medical Bag
   - type: STR_MEDICAL_BAG
-    categories: [STR_MEDICAL, STR_SEMI_CONCEALED, STR_CONCEALED]
+    categories: [STR_MEDICAL, STR_SILENCED, STR_CONCEALED]
     size: 0.2
     costBuy: 1800
     costSell: 1500
@@ -1375,7 +1375,7 @@ items:
 
 # RGD-5 Grenade
   - type: STR_RGD_5
-    categories: [STR_WEAPONS, STR_EXPLOSIVES, STR_SEMI_CONCEALED]
+    categories: [STR_WEAPONS, STR_EXPLOSIVES, STR_CONCEALED]
     size: 0.1
     requiresBuy:
       - STR_ANTI_TANK_WEAPONS

@@ -1,15 +1,9 @@
 startingConditions:
-  - type: STR_SEMI_CONCEALED
-    defaultArmor:
-      STR_KGB_OFFICER:
-        STR_AGENT_COAT_UC: 100
+  - type: STR_SILENCED
     allowedArmors:
       - STR_AGENT_COAT_UC
     allowedItemCategories:
-      - STR_CONCEALED
-      - STR_SEMI_CONCEALED
-    allowedCraft:
-      - STR_VAN
+      - STR_SILENCED
   - type: STR_CONCEALED
     defaultArmor:
       STR_KGB_OFFICER:
@@ -18,5 +12,15 @@ startingConditions:
       - STR_AGENT_COAT_UC
     allowedItemCategories:
       - STR_CONCEALED
+    allowedCraft:
+      - STR_VAN
+  - type: STR_GHOST
+    defaultArmor:
+      STR_KGB_OFFICER:
+        STR_AGENT_COAT_UC: 100
+    allowedArmors:
+      - STR_AGENT_COAT_UC
+    allowedItemCategories:
+      - STR_GHOST
     allowedCraft:
       - STR_VAN
