@@ -1113,6 +1113,8 @@ alienDeployments:
             - STR_ALIEN_LASER_RIFLE
             - STR_ALIEN_LASER_RIFLE_BATTERY
             - STR_ALIEN_LASER_RIFLE_BATTERY
+    terrains:
+      - CULTA
     briefing:
       textOffset: -16
       background: BACK01.SCR
