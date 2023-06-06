@@ -937,7 +937,7 @@ alienDeployments:
     missionBountyItem: STR_UFO_SOS_BEACON
 
   - type: STR_OPERATION_ASCENSION_DEPLOYMENT
-    startingCondition: STR_SILENCED
+    startingCondition: STR_CONCEALED
     height: 10
     width: 60
     length: 60
