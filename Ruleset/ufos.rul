@@ -136,3 +136,20 @@ ufos:
         - name: WHISPERS_SAFEHOUSE
           width: 20
           length: 10
+
+  - type: STR_PROVING_GROUNDS_LARGE_SCOUT
+    battlescapeTerrainData:
+      name: PROVING_GROUNDS_LARGE_SCOUT
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+        - CRASHED_UFO_TILES
+      mapBlocks:
+        - name: UFO_CRASH_1_00
+          width: 20
+          length: 30
+        - name: UFO_CRASH_1_01
+          width: 30
+          length: 20

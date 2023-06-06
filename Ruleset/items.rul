@@ -78,13 +78,13 @@ items:
     confSnap:
       shots: 1
       name: STR_HIP_FIRE
-    snapRange: 7
+    snapRange: 11
     accuracySnap: 80
     tuSnap: 10
     confAuto:
       shots: 2
       name: STR_DOUBLE_TAP
-    autoRange: 11
+    autoRange: 15
     accuracyAuto: 45
     tuAuto: 15
     accuracyCloseQuarters: 150
@@ -243,7 +243,7 @@ items:
     damageAlter:
       ToStun: 0.15
       ToTile: 0.2
-      ToArmorPre: 0.05
+      ArmorEffectiveness: 1.3
     damageType: 1
     clipSize: 30
     battleType: 2
@@ -267,7 +267,7 @@ items:
     confSnap:
       shots: 1
       name: STR_HIP_FIRE
-    snapRange: 9
+    snapRange: 14
     accuracySnap: 70
     tuSnap: 20
     accuracyCloseQuarters: 150
@@ -948,7 +948,7 @@ items:
     confSnap:
       shots: 2
       name: STR_DOUBLE_TAP
-    snapRange: 5
+    snapRange: 9
     accuracySnap: 70
     tuSnap: 5
     confAuto:
@@ -1011,13 +1011,13 @@ items:
     confSnap:
       shots: 2
       name: STR_DOUBLE_TAP
-    snapRange: 7
+    snapRange: 13
     accuracySnap: 90
     tuSnap: 10
     confAuto:
       shots: 8
       name: STR_FULL_AUTO_8
-    autoRange: 20
+    autoRange: 25
     accuracyAuto: 65
     tuAuto: 40
     tuLoad: 10

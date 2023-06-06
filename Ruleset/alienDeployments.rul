@@ -117,7 +117,7 @@ alienDeployments:
       - MOUNT
     briefing:
       palette: 2
-      background: BACK03.SCR
+      background: BACK13.SCR
       showTarget: false
     objectiveType: 3
     alertDescription: STR_CRYPTID_HUNT_MOUNT_BRIEFING
@@ -143,7 +143,7 @@ alienDeployments:
       - FOREST
     briefing:
       palette: 2
-      background: BACK03.SCR
+      background: BACK13.SCR
       showTarget: false
     objectiveType: 3
     alertDescription: STR_CRYPTID_HUNT_FOREST_BRIEFING
@@ -169,7 +169,7 @@ alienDeployments:
       - POLAR
     briefing:
       palette: 2
-      background: BACK03.SCR
+      background: BACK13.SCR
       showTarget: false
     objectiveType: 3
     alertDescription: STR_CRYPTID_HUNT_POLAR_BRIEFING
@@ -1046,3 +1046,81 @@ alienDeployments:
     alertBackground: BACK13.SCR
     alertDescription: STR_CIA_SAFEHOUSE_DESCRIPTION
     unlockedResearch: STR_NEMESIS_PREQ
+
+  - type: STR_OPERATION_NEMESIS_DEPLOYMENT
+    startingCondition: STR_GHOST
+    customUfo: STR_PROVING_GROUNDS_LARGE_SCOUT
+    height: 10
+    width: 40
+    length: 40
+    loseCutscene: loseGame
+    abortCutscene: loseGame
+    winCutscene: winGame
+    duration: [999, 999]
+    data:
+      - alienRank: 1
+        customUnitType: STR_SECTOID_LEADER
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_ALIEN_LASER_PISTOL
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+      - alienRank: 2
+        customUnitType: STR_SECTOID_ENGINEER
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_ALIEN_LASER_PISTOL
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+      - alienRank: 3
+        customUnitType: STR_SECTOID_NAVIGATOR
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_ALIEN_LASER_PISTOL
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+      - alienRank: 4
+        customUnitType: STR_SECTOID_MEDIC
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_ALIEN_LASER_PISTOL
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+            - STR_ALIEN_LASER_PISTOL_BATTERY
+      - alienRank: 5
+        customUnitType: STR_SECTOID_SOLDIER
+        lowQty: 2
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_ALIEN_LASER_RIFLE
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+            - STR_ALIEN_LASER_RIFLE_BATTERY
+    briefing:
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+      showCraft: true
+      desc: STR_OPERATION_NEMESIS_DESCRIPTION
+      palette: 2
+    markerName: STR_OPERATION_NEMESIS_MARKER
+    alert: STR_OPERATION_NEMESIS_ALERT
+    alertBackground: BACK12.SCR
+    alertDescription: STR_OPERATION_NEMESIS_DESCRIPTION

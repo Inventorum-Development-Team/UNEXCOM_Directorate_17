@@ -275,3 +275,17 @@ missionScripts:
     useTable: false
     firstMonth: 20
     maxRuns: 2
+
+  - type: provingGrounds
+    varName: provingGrounds
+    missionWeights:
+      0:
+        STR_OPERATION_NEMESIS_SPAWN: 100
+    regionWeights:
+      0:
+        REGION_OPERATION_NEMESIS: 100
+    useTable: false
+    startDelay: 1440
+    executionOdds: 100
+    lastMonth: 24
+    maxRuns: 1
