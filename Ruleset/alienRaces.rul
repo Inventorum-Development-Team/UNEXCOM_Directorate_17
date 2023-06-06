@@ -46,7 +46,7 @@ alienRaces:
       - [STR_REPTOID]
       - [STR_CHUCHUNYA, STR_ALKONOST, STR_WAWKALAK]
       - [STR_CHUCHUNYA, STR_ALKONOST, STR_WAWKALAK]
-  - id: STR_BUREAU_11
+  - id: STR_CIA_BUREAU_11
     members:
       - STR_CIA_AGENT
       - STR_CIA_AGENT
