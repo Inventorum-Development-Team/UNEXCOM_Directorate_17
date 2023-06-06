@@ -287,5 +287,5 @@ missionScripts:
     useTable: false
     startDelay: 1440
     executionOdds: 100
-    firstMonth: 24
+    firstMonth: 27
     maxRuns: 1
