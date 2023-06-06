@@ -144,7 +144,7 @@ alienMissions:
     spawnZone: 0
     raceWeights:
       0:
-          STR_CRYPTID: 100
+          STR_HYBRID: 100
     waves:
       - ufo: REGION_OPRERATION_OUROBOROS
         count: 1
