@@ -690,7 +690,7 @@ items:
       name: STR_HIP_FIRE
     snapRange: 60
     accuracySnap: 95
-    tuSnap: 15
+    tuSnap: 25
     powerRangeThreshold: 1
     powerRangeReduction: 3
     tuLoad: 5
@@ -742,13 +742,13 @@ items:
       name: STR_STEADY_SHOT
     aimRange: 60
     accuracyAimed: 140
-    tuAimed: 40
+    tuAimed: 55
     confSnap:
       shots: 1
       name: STR_HIP_FIRE
     snapRange: 10
     accuracySnap: 60
-    tuSnap: 15
+    tuSnap: 30
     powerRangeThreshold: 3
     powerRangeReduction: 2
     tuLoad: 10
