@@ -23,7 +23,6 @@ cutscenes:
           captionSize: [254, 48]
           captionPos: [66, 152]
           captionColor: 244
-        - imagePath: Resources/Misc/Cutscenes/GoodEnding_4.png
 
   - type: loseGameFinal
     loseGame: true
