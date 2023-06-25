@@ -62,8 +62,63 @@ mapScripts:
     - type: addBlock
       size: 2
       executions: 1
+      terrain: IDT_AIRPORT
+    - type: addBlock
+      size: 1
+      executions: 3
+      terrain: IDT_AIRPORT
     - type: fillArea
 
+###############################
+# Operation Serpent terrain
+
+  - type: OPERATION_SERPENT_SCRIPT
+    commands:
+    - type: addBlock
+      size: 2
+      executions: 1
+      #terrain: PLAINSGRASS
+    - type: addCraft
+      executions: 1
+      groups: 1
+    - type: addLine  # Trying to add Roads to map
+      groups: 3
+      label: 1
+      direction: vertical
+      executionChances: 75
+      rects:
+        - [1, 1, 4, 1]
+    - type: addLine # Trying to add Roads to map
+      groups: 2
+      label: 2
+      conditionals: -1
+      executionChances: 75
+      direction: horizontal
+      rects:
+        - [1, 1, 1, 4]
+    - type: addLine # Trying to add Roads to map
+      groups: 4
+      executionChances: 95
+      conditionals: [-1, -2]
+      direction: both
+    - type: addBlock
+      executionChances: 50
+      size: [2, 1]
+      executions: 1
+    - type: addBlock
+      size: 2
+      executions: 1
+    - type: addBlock
+      executionChances: 50
+      size: [2, 1]
+      executions: 1
+    - type: addBlock
+      size: 2
+      executions: 1
+      terrain: MOUNTGRASS
+      executionChances: 85
+    - type: fillArea
+      terrain: PLAINSGRASS
 
   - type: OLD_PORT_SCRIPT
     commands:

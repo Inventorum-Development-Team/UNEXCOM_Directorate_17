@@ -224,6 +224,9 @@ mapScripts:
       executionChances: 85
     - type: fillArea
 
+
+###############################
+
 ### RICE FARM ###
   - type: RICE_FARM_SCRIPT
     commands:

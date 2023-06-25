@@ -19,8 +19,8 @@ terrains:
         - US_ARMY_BARRICADE_TILES
         - GRAVLIFT_BEAM
 
-  - name: IDT_AIRPORT # by IDT - Luke83 & efrenespartano
-    script: OLD_PORT_SCRIPT
+  - name: OPERATION_SERPENT_TERRAIN # by IDT - Luke83 & efrenespartano
+    script: OPERATION_SERPENT_SCRIPT
     mapDataSets:
       - BLANKS
       - IDT_PLANE_2

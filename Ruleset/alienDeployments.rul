@@ -115,6 +115,10 @@ alienDeployments:
     alert: STR_CRYPTID_SIGHTED
     terrains:
       - MOUNT
+      - MOUNTSNOW
+      - MOUNTGRASS
+      - MOUNTROCK
+      - BMOUNT
     briefing:
       palette: 2
       background: BACK13.SCR
@@ -141,6 +145,10 @@ alienDeployments:
     alert: STR_CRYPTID_SIGHTED
     terrains:
       - FOREST
+      - IDT_FOREST
+      - FORESTSWAMP
+      - PLAINSGRASS
+      - FMOUNT
     briefing:
       palette: 2
       background: BACK13.SCR
@@ -167,6 +175,11 @@ alienDeployments:
     alert: STR_CRYPTID_SIGHTED
     terrains:
       - POLAR
+      - FOREST_SNOW
+      - POLAR_BD
+      - MOUNTSNOW
+      - PLAINSSNOW
+      - ACULTASNOW
     briefing:
       palette: 2
       background: BACK13.SCR
@@ -182,8 +195,8 @@ alienDeployments:
     height: 10
     width: 50
     length: 50
-    loseCutscene: loseGame
-    abortCutscene: loseGame
+    loseCutscene: loseGameMidCampaign
+    abortCutscene: loseGameMidCampaign
     duration: [999, 999]
     data: 
       - alienRank: 6
@@ -316,8 +329,8 @@ alienDeployments:
     width: 60
     length: 60
     duration: [999, 999]
-    loseCutscene: loseGame
-    abortCutscene: loseGame
+    loseCutscene: loseGameMidCampaign
+    abortCutscene: loseGameMidCampaign
     civilians: 3
     data:
       - alienRank: 0
@@ -430,6 +443,10 @@ alienDeployments:
                 - STR_WELROD_MAG
     terrains:
       - URBAN
+      - EXPANDED_TERROR
+      - RURAL
+      - INDUSTRIALSLUM
+      - TURBAN
     briefing:
       textOffset: -16
       background: BACK01.SCR
@@ -449,8 +466,8 @@ alienDeployments:
     height: 10
     width: 50
     length: 50
-    loseCutscene: loseGame
-    abortCutscene: loseGame
+    loseCutscene: loseGameMidCampaign
+    abortCutscene: loseGameMidCampaign
     duration: [999, 999]
     data:
       - alienRank: 5
@@ -504,7 +521,7 @@ alienDeployments:
             - STR_MAGNETESCHETTO_MAG
             - STR_MAGNETESCHETTO_MAG
     terrains:
-      - IDT_AIRPORT
+      - OPERATION_SERPENT_TERRAIN
     briefing:
       textOffset: -16
       background: BACK01.SCR
@@ -585,6 +602,11 @@ alienDeployments:
                 - STR_RGD_5
     terrains:
       - URBAN_UFO
+      - DURBAN
+      - EXPANDED_TERROR
+      - RURAL
+      - INDUSTRIALSLUM
+      - MURBAN
     briefing:
       textOffset: -16
       background: BACK01.SCR
@@ -604,8 +626,8 @@ alienDeployments:
     height: 10
     width: 60
     length: 60
-    loseCutscene: loseGame
-    abortCutscene: loseGame
+    loseCutscene: loseGameMidCampaign
+    abortCutscene: loseGameMidCampaign
     duration: [999, 999]
     data:
       - alienRank: 5
@@ -637,6 +659,10 @@ alienDeployments:
             []
     terrains:
       - MOUNT
+      - MOUNTSNOW
+      - MOUNTGRASS
+      - MOUNTROCK
+      - FMOUNT
     briefing:
       textOffset: -16
       background: BACK01.SCR
@@ -732,8 +758,8 @@ alienDeployments:
     height: 10
     width: 60
     length: 60
-    loseCutscene: loseGame
-    abortCutscene: loseGame
+    loseCutscene: loseGameMidCampaign
+    abortCutscene: loseGameMidCampaign
     duration: [999, 999]
     data:
       - alienRank: 1
@@ -815,8 +841,8 @@ alienDeployments:
     height: 10
     width: 40
     length: 40
-    loseCutscene: loseGame
-    abortCutscene: loseGame
+    loseCutscene: loseGameMidCampaign
+    abortCutscene: loseGameMidCampaign
     duration: [999, 999]
     data:
       - alienRank: 1
@@ -923,6 +949,9 @@ alienDeployments:
                 - STR_RGD_5
     terrains:
       - MOUNT
+      - MOUNTGRASS
+      - MOUNTROCK
+      - FMOUNT
     briefing:
       textOffset: -16
       background: BACK01.SCR
@@ -941,8 +970,8 @@ alienDeployments:
     height: 10
     width: 60
     length: 60
-    loseCutscene: loseGame
-    abortCutscene: loseGame
+    loseCutscene: loseGameMidCampaign
+    abortCutscene: loseGameMidCampaign
     duration: [999, 999]
     data:
       - alienRank: 1
@@ -1033,6 +1062,7 @@ alienDeployments:
             - STR_DELISLE_MAG
     terrains:
       - URBAN_UFO
+      - INDUSTRIALSLUM
     briefing:
       textOffset: -16
       background: BACK01.SCR
@@ -1053,8 +1083,8 @@ alienDeployments:
     height: 10
     width: 40
     length: 40
-    loseCutscene: loseGame
-    abortCutscene: loseGame
+    loseCutscene: loseGameFinal
+    abortCutscene: loseGameFinal
     winCutscene: winGame
     duration: [999, 999]
     data:
@@ -1115,6 +1145,7 @@ alienDeployments:
             - STR_ALIEN_LASER_RIFLE_BATTERY
     terrains:
       - CULTA
+      - IDT_RED_FARM
     briefing:
       textOffset: -16
       background: BACK01.SCR
