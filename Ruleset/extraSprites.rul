@@ -612,6 +612,18 @@ extraSprites:
     height: 200
     files:
       0: Resources/Misc/Backgrounds/BACK05.PNG
+  - type: BACK08.SCR #Item reports
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/BACK08.PNG
+  - type: BACK10.SCR #General reports
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/BACK10.PNG
   - type: BACK12.SCR #Launch Interceptor
     singleImage: true
     width: 320
@@ -661,6 +673,102 @@ extraSprites:
     height: 200
     files:
       0: Resources/Misc/Backgrounds/COUNTER_INTELLIGENCE_BACKGROUND.PNG
+
+#####################################
+
+  - type: HAUNEBU_ASSASSINATION_BACKGROUND 
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/HAUNEBU_ASSASSINATION_BACKGROUND.PNG
+
+  - type: MONSTER_HUNTER_BACKGROUND 
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/MONSTER_HUNTER_BACKGROUND.PNG
+
+  - type: MONSTER_SIGHTGING_BACKGROUND 
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/MONSTER_SIGHTGING_BACKGROUND.PNG
+
+  - type: OPERATION_ASCENSION_BACKGROUND 
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/OPERATION_ASCENSION_BACKGROUND.PNG
+
+  - type: OPERATION_CATACOMB_BACKGROUND 
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/OPERATION_CATACOMB_BACKGROUND.PNG
+
+  - type: OPERATION_HUNTER_BACKGROUND 
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/OPERATION_HUNTER_BACKGROUND.PNG
+
+  - type: OPERATION_KIKIMORA_BACKGROUND 
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/OPERATION_KIKIMORA_BACKGROUND.PNG
+
+  - type: OPERATION_OMEN_BACKGROUND 
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/OPERATION_OMEN_BACKGROUND.PNG
+
+  - type: OPERATION_OUROBOROS_BACKGROUND 
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/OPERATION_OUROBOROS_BACKGROUND.PNG
+      
+  - type: OPERATION_SERPENT_BACKGROUND 
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/OPERATION_SERPENT_BACKGROUND.PNG
+
+  - type: SIDE_MISSION_ALERT_BACKGROUND 
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/SIDE_MISSION_ALERT_BACKGROUND.PNG
+
+  - type: STORY_MISSION_ALERT_BACKGROUND 
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/STORY_MISSION_ALERT_BACKGROUND.PNG
+
+  - type: TARGET_EXTRACTION_BACKGROUND 
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Misc/Backgrounds/TARGET_EXTRACTION_BACKGROUND.PNG
+
+
+####################################
 
 ### Turn Hidden movement background
   - type: TACTICBACK00.SCR #In-mission Hidden movement background

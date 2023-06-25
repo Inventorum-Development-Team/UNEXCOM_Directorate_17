@@ -94,9 +94,9 @@ alienDeployments:
       - XBASE
     briefing:
       palette: 0
-      background: BACK01.SCR
+      background: TARGET_EXTRACTION_BACKGROUND
       music: GMENBASE
-    height: 4
+    height: 9
 
   - type: STR_CRYPTID_HUNT_MOUNT
     data:
@@ -111,7 +111,7 @@ alienDeployments:
             []
     width: 60
     length: 60
-    height: 4
+    height: 9
     alert: STR_CRYPTID_SIGHTED
     terrains:
       - MOUNT
@@ -121,12 +121,13 @@ alienDeployments:
       - BMOUNT
     briefing:
       palette: 2
-      background: BACK13.SCR
+      background: OPERATION_ASCENSION_BACKGROUND
       showTarget: false
     objectiveType: 3
     alertDescription: STR_CRYPTID_HUNT_MOUNT_BRIEFING
     markerName: STR_CRYPTID_HUNT
     markerIcon: 7
+    alertBackground: SIDE_MISSION_ALERT_BACKGROUND
     alienBase: true
   - type: STR_CRYPTID_HUNT_FOREST
     data:
@@ -141,7 +142,7 @@ alienDeployments:
             []
     width: 60
     length: 60
-    height: 4
+    height: 9
     alert: STR_CRYPTID_SIGHTED
     terrains:
       - FOREST
@@ -151,11 +152,12 @@ alienDeployments:
       - FMOUNT
     briefing:
       palette: 2
-      background: BACK13.SCR
+      background: MONSTER_HUNTER_BACKGROUND
       showTarget: false
     objectiveType: 3
     alertDescription: STR_CRYPTID_HUNT_FOREST_BRIEFING
     markerName: STR_CRYPTID_HUNT
+    alertBackground: SIDE_MISSION_ALERT_BACKGROUND
     markerIcon: 7
     alienBase: true
   - type: STR_CRYPTID_HUNT_POLAR
@@ -171,7 +173,7 @@ alienDeployments:
             []
     width: 60
     length: 60
-    height: 4
+    height: 9
     alert: STR_CRYPTID_SIGHTED
     terrains:
       - POLAR
@@ -182,11 +184,12 @@ alienDeployments:
       - ACULTASNOW
     briefing:
       palette: 2
-      background: BACK13.SCR
+      background: MONSTER_HUNTER_BACKGROUND
       showTarget: false
     objectiveType: 3
     alertDescription: STR_CRYPTID_HUNT_POLAR_BRIEFING
     markerName: STR_CRYPTID_HUNT
+    alertBackground: SIDE_MISSION_ALERT_BACKGROUND
     markerIcon: 7
     alienBase: true
 
@@ -248,14 +251,14 @@ alienDeployments:
       - URBAN_UFO
     briefing:
       textOffset: -16
-      background: BACK01.SCR
+      background: OPERATION_OMEN_BACKGROUND
       showTarget: false
       showCraft: true
       desc: STR_OPERATION_OMEN_DESCRIPTION
       palette: 2
     markerName: STR_OPERATION_OMEN_MARKER
     alert: STR_OPERATION_OMEN_ALERT
-    alertBackground: BACK13.SCR
+    alertBackground: STORY_MISSION_ALERT_BACKGROUND
     alertDescription: STR_OPERATION_OMEN_DESCRIPTION
     unlockedResearch: STR_OPERATION_OMEN_RESEARCH
 
@@ -312,7 +315,7 @@ alienDeployments:
       - URBAN_UFO
     briefing:
       textOffset: -16
-      background: BACK01.SCR
+      background: HAUNEBU_ASSASSINATION_BACKGROUND
       showTarget: false
       showCraft: true
       desc: STR_GLADIO_STOCKPILE_DESCRIPTION
@@ -320,7 +323,7 @@ alienDeployments:
     markerIcon: 7
     markerName: STR_GLADIO_STOCKPILE_MARKER
     alert: STR_GLADIO_STOCKPILE_ALERT
-    alertBackground: BACK13.SCR
+    alertBackground: STORY_MISSION_ALERT_BACKGROUND
     alertDescription: STR_GLADIO_STOCKPILE_DESCRIPTION
     unlockedResearch: STR_HUNTER_PREQ
 
@@ -380,14 +383,14 @@ alienDeployments:
       - URBAN
     briefing:
       textOffset: -16
-      background: BACK01.SCR
+      background: OPERATION_HUNTER_BACKGROUND
       showTarget: false
       showCraft: true
       desc: STR_OPERATION_HUNTER_DESCRIPTION
       palette: 2
     markerName: STR_OPERATION_HUNTER_MARKER
     alert: STR_OPERATION_HUNTER_ALERT
-    alertBackground: BACK13.SCR
+    alertBackground: STORY_MISSION_ALERT_BACKGROUND
     alertDescription: STR_OPERATION_HUNTER_DESCRIPTION
     unlockedResearch: STR_OPERATION_HUNTER_RESEARCH
 
@@ -449,7 +452,7 @@ alienDeployments:
       - TURBAN
     briefing:
       textOffset: -16
-      background: BACK01.SCR
+      background: HAUNEBU_ASSASSINATION_BACKGROUND
       showTarget: false
       showCraft: true
       desc: STR_HAUNEBU_ASSASSINATION_DESCRIPTION
@@ -457,7 +460,7 @@ alienDeployments:
     markerIcon: 7
     markerName: STR_HAUNEBU_ASSASSINATION_MARKER
     alert: STR_HAUNEBU_ASSASSINATION_ALERT
-    alertBackground: BACK13.SCR
+    alertBackground: STORY_MISSION_ALERT_BACKGROUND
     alertDescription: STR_HAUNEBU_ASSASSINATION_DESCRIPTION
     unlockedResearch: STR_SERPENT_PREQ
 
@@ -524,14 +527,14 @@ alienDeployments:
       - OPERATION_SERPENT_TERRAIN
     briefing:
       textOffset: -16
-      background: BACK01.SCR
+      background: OPERATION_SERPENT_BACKGROUND
       showTarget: false
       showCraft: true
       desc: STR_OPERATION_SERPENT_DESCRIPTION
       palette: 2
     markerName: STR_OPERATION_SERPENT_MARKER
     alert: STR_OPERATION_SERPENT_ALERT
-    alertBackground: BACK13.SCR
+    alertBackground: STORY_MISSION_ALERT_BACKGROUND
     alertDescription: STR_OPERATION_SERPENT_DESCRIPTION
     missionBountyItem: STR_MI6_LIAISON
 
@@ -609,7 +612,7 @@ alienDeployments:
       - MURBAN
     briefing:
       textOffset: -16
-      background: BACK01.SCR
+      background: TARGET_EXTRACTION_BACKGROUND
       showTarget: false
       showCraft: true
       desc: STR_TARGET_EXTRACTION_DESCRIPTION
@@ -617,7 +620,7 @@ alienDeployments:
     markerIcon: 7
     markerName: STR_TARGET_EXTRACTION_MARKER
     alert: STR_TARGET_EXTRACTION_ALERT
-    alertBackground: BACK13.SCR
+    alertBackground: STORY_MISSION_ALERT_BACKGROUND
     alertDescription: STR_TARGET_EXTRACTION_DESCRIPTION
     unlockedResearch: STR_OUROBOROS_PREQ
 
@@ -665,14 +668,14 @@ alienDeployments:
       - FMOUNT
     briefing:
       textOffset: -16
-      background: BACK01.SCR
+      background: OPERATION_CATACOMB_BACKGROUND
       showTarget: false
       showCraft: true
       desc: STR_OPERATION_CATACOMB_DESCRIPTION
       palette: 2
     markerName: STR_OPERATION_CATACOMB_MARKER
     alert: STR_OPERATION_CATACOMB_ALERT
-    alertBackground: BACK13.SCR
+    alertBackground: STORY_MISSION_ALERT_BACKGROUND
     alertDescription: STR_OPERATION_CATACOMB_DESCRIPTION
     nextStage: STR_OPERATION_CATACOMB_SECOND_LAYER
   - type: STR_OPERATION_CATACOMB_SECOND_LAYER
@@ -825,14 +828,14 @@ alienDeployments:
       - IDT_SOVIET_SPACEPORT
     briefing:
       textOffset: -16
-      background: BACK01.SCR
+      background: OPERATION_OUROBOROS_BACKGROUND
       showTarget: false
       showCraft: true
       desc: STR_OPERATION_OUROBOROS_DESCRIPTION
       palette: 2
     markerName: STR_OPERATION_OUROBOROS_MARKER
     alert: STR_OPERATION_OUROBOROS_ALERT
-    alertBackground: BACK13.SCR
+    alertBackground: STORY_MISSION_ALERT_BACKGROUND
     alertDescription: STR_OPERATION_OUROBOROS_DESCRIPTION
     missionBountyItem: STR_DIE_GLOCKE_INFORMANT
 
@@ -954,14 +957,14 @@ alienDeployments:
       - FMOUNT
     briefing:
       textOffset: -16
-      background: BACK01.SCR
+      background: OPERATION_KIKIMORA_BACKGROUND
       showTarget: false
       showCraft: true
       desc: STR_OPERATION_KIKIMORA_DESCRIPTION
       palette: 2
     markerName: STR_OPERATION_KIKIMORA_MARKER
     alert: STR_OPERATION_KIKIMORA_ALERT
-    alertBackground: BACK13.SCR
+    alertBackground: STORY_MISSION_ALERT_BACKGROUND
     alertDescription: STR_OPERATION_KIKIMORA_DESCRIPTION
     missionBountyItem: STR_UFO_SOS_BEACON
 
@@ -1009,7 +1012,7 @@ alienDeployments:
       - IDT_SOVIET_SPACEPORT
     briefing:
       textOffset: -16
-      background: BACK01.SCR
+      background: OPERATION_ASCENSION_BACKGROUND
       showTarget: false
       showCraft: true
       desc: STR_OPERATION_ASCENSION_DESCRIPTION
@@ -1065,7 +1068,7 @@ alienDeployments:
       - INDUSTRIALSLUM
     briefing:
       textOffset: -16
-      background: BACK01.SCR
+      background: HAUNEBU_ASSASSINATION_BACKGROUND
       showTarget: false
       showCraft: true
       desc: STR_CIA_SAFEHOUSE_DESCRIPTION
@@ -1073,7 +1076,7 @@ alienDeployments:
     markerIcon: 7
     markerName: STR_CIA_SAFEHOUSE_MARKER
     alert: STR_CIA_SAFEHOUSE_ALERT
-    alertBackground: BACK13.SCR
+    alertBackground: STORY_MISSION_ALERT_BACKGROUND
     alertDescription: STR_CIA_SAFEHOUSE_DESCRIPTION
     unlockedResearch: STR_NEMESIS_PREQ
 
@@ -1148,7 +1151,7 @@ alienDeployments:
       - IDT_RED_FARM
     briefing:
       textOffset: -16
-      background: BACK01.SCR
+      background: OPERATION_HUNTER_BACKGROUND
       showTarget: false
       showCraft: true
       desc: STR_OPERATION_NEMESIS_DESCRIPTION
