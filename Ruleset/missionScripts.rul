@@ -86,11 +86,10 @@ missionScripts:
     regionWeights:
       0:
         STR_SIBERIA: 100
-    executionOdds: 80
+    executionOdds: 66
     startDelay: 1440
     useTable: false
     firstMonth: 3
-    lastMonth: 8
 
   - type: spawnOperationOmen
     varName: spawnOperationOmen
@@ -107,8 +106,8 @@ missionScripts:
     lastMonth: 0
     maxRuns: 1
 
-  - type: spawnGladioStockpile
-    varName: spawnGladioStockpile
+  - type: spawnGladioStockpile1
+    varName: spawnGladioStockpile1
     missionWeights:
       0:
         STR_GLADIO_STOCKPILE_SPAWN: 100
@@ -121,6 +120,19 @@ missionScripts:
     useTable: false
     firstMonth: 1
     lastMonth: 2
+  - type: spawnGladioStockpile2
+    varName: spawnGladioStockpile2
+    missionWeights:
+      0:
+        STR_GLADIO_STOCKPILE_SPAWN: 100
+    regionWeights:
+      0:
+        STR_EUROPE: 100
+    executionOdds: 60
+    startDelay: 10080
+    randomDelay: 30240
+    useTable: false
+    firstMonth: 3
 
   - type: spawnOperationHunter
     varName: spawnOperationHunter
@@ -259,6 +271,18 @@ missionScripts:
     lastMonth: 17
     maxRuns: 1
 
+  - type: ciacounterintelligence
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
+    startDelay: 150
+    targetBaseOdds: 100
+    useTable: false
+    executionOdds: 100
+    researchTriggers:
+      STR_CIA_DOCUMENTS: true
+    firstMonth: 0
+
   - type: spawnCIASafehouse
     varName: spawnCIASafehouse
     missionWeights:
@@ -271,9 +295,9 @@ missionScripts:
     startDelay: 10080
     randomDelay: 30240
     researchTriggers:
-      STR_BUREAU_11_BRIEFING: true
+      STR_CIA_DOCUMENTS: true
     useTable: false
-    firstMonth: 20
+    firstMonth: 0
     maxRuns: 2
 
   - type: provingGrounds

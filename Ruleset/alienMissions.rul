@@ -1,5 +1,17 @@
 alienMissions:
   - delete: STR_ALIEN_RETALIATION
+  - type: STR_ALIEN_RETALIATION
+    points: 0
+    objective: 6
+    spawnUfo: STR_LARGE_SCOUT
+    raceWeights:
+      0:
+        STR_CIA_BUREAU_11: 100
+    waves:
+      - ufo: dummy
+        count: 0
+        trajectory: P8
+        timer: 3000
 
   - type: STR_CHUCHUNYA_HUNT_SPAWN
     points: 100

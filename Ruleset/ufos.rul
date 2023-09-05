@@ -1,10 +1,8 @@
 ufos:
-  - delete: STR_HARVESTER
-  - delete: STR_ABDUCTOR
-  - delete: STR_TERROR_SHIP
-  - delete: STR_BATTLESHIP
-  - delete: STR_SUPPLY_SHIP
-  
+  - type: STR_LARGE_SCOUT
+    size: STR_SMALL
+    speedMax: 9999
+
   - type: STR_OPERATION_OMEN_UFO
     battlescapeTerrainData:
       name: OPERATION_OMEN_UFO

@@ -7,7 +7,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_KGB
     loftempsSet: [ 3 ]
-    visibilityAtDay: 20
+    visibilityAtDay: 40
     frontArmor: 12
     sideArmor: 8
     rearArmor: 8
@@ -54,7 +54,7 @@ armors:
     corpseBattle:
       - STR_CORPSE_KGBALT
     loftempsSet: [ 3 ]
-    visibilityAtDay: 20
+    visibilityAtDay: 40
     frontArmor: 8
     sideArmor: 6
     rearArmor: 6

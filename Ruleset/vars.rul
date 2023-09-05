@@ -9,5 +9,5 @@ startingTime:
 initialFunding: 2600
 ai:
   useDelayPsionic: 2
-maxViewDistance: 30
+maxViewDistance: 40
 difficultyDemigod: true

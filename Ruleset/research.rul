@@ -61,25 +61,21 @@ research:
     points: 10
     needItem: true
   - name: STR_PPSH
-    cost: 10
-    points: 10
-    needItem: true
+    cost: 0
+    points: 0
   - name: STR_PTRD
-    cost: 10
-    points: 10
-    needItem: true
+    cost: 0
+    points: 0
   - name: STR_RPD
-    cost: 10
-    points: 10
+    cost: 0
+    points: 0
     needItem: true
   - name: STR_RPG
-    cost: 10
-    points: 10
-    needItem: true
+    cost: 0
+    points: 0
   - name: STR_RGD_5
-    cost: 10
-    points: 10
-    needItem: true
+    cost: 0
+    points: 0
   - name: STR_MAGNETESCHETTO
     cost: 150
     points: 50
@@ -281,7 +277,6 @@ research:
     points: 100
     dependencies:
       - STR_MI6_LIAISON
-      - STR_THIN_MAN_ANALYSIS
   - name: STR_OUROBOROS_PREQ
     cost: 0
     points: 0
