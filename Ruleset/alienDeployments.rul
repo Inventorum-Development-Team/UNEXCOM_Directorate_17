@@ -598,7 +598,7 @@ alienDeployments:
             percentageOutsideUfo: 100
             itemSets:
               -
-                - STR_TKB_408
+                - STR_AK_47
                 - STR_AK_47_MAG
                 - STR_AK_47_MAG
                 - STR_RGD_5
@@ -955,7 +955,7 @@ alienDeployments:
             percentageOutsideUfo: 100
             itemSets:
               -
-                - STR_AK_47
+                - STR_TKB_408
                 - STR_AK_47_MAG
                 - STR_AK_47_MAG
                 - STR_RGD_5
