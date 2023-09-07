@@ -598,7 +598,7 @@ alienDeployments:
             percentageOutsideUfo: 100
             itemSets:
               -
-                - STR_AK_47
+                - STR_TKB_408
                 - STR_AK_47_MAG
                 - STR_AK_47_MAG
                 - STR_RGD_5
@@ -790,26 +790,36 @@ alienDeployments:
         data:
           - alienRank: 0
             customUnitType: STR_SPETSNAZ
-            lowQty: 2
+            lowQty: 1
             highQty: 2
             dQty: 0
             extraQty: 0
             percentageOutsideUfo: 100
             itemSets:
               -
-                - STR_RPG
-                - STR_RPG_MAG
+                - STR_STECHKIN
+                - STR_STECHKIN
+                - STR_STECHKIN_MAG
+                - STR_STECHKIN_MAG
+                - STR_STECHKIN_MAG
+                - STR_RGD_5
+                - STR_RGD_5
           - alienRank: 1
             customUnitType: STR_SPETSNAZ
-            lowQty: 2
-            highQty: 2
+            lowQty: 3
+            highQty: 3
             dQty: 0
             extraQty: 0
             percentageOutsideUfo: 100
             itemSets:
               -
-                - STR_RPD
-                - STR_RPD_MAG
+                - STR_SKORPION
+                - STR_SKORPION
+                - STR_STECHKIN_MAG
+                - STR_STECHKIN_MAG
+                - STR_STECHKIN_MAG
+                - STR_RGD_5
+                - STR_RGD_5
           - alienRank: 2
             customUnitType: STR_SPETSNAZ
             lowQty: 6
@@ -819,7 +829,7 @@ alienDeployments:
             percentageOutsideUfo: 100
             itemSets:
               -
-                - STR_AK_47
+                - STR_TKB_408
                 - STR_AK_47_MAG
                 - STR_AK_47_MAG
                 - STR_RGD_5
