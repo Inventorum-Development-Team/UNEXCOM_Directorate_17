@@ -172,7 +172,7 @@ en-US:
 
   STR_VIKHR_EMR: "Vikhr EMV"
   STR_VIKHR_EMR_MAG: "10mm 2K53C Mag (10x)"
-  STR_VIKHR_EMR_UFOPEDIA: "The Vikhr Elektromagnitnaya Vintovka is a refinement of the Magneteschetto design, drawing power from a rechargeable capacitor worn on-person rather than an detachable battery. The EMV fires custom machined {ALT}10mm 2K53C{ALT} slugs made of a specialized magnetic tungsten carbide/copper alloy, this heavy rifle delivers unrivalled penetrative power. While it has been designed to fulfill a number of practical purposes, it can tear through light armored vehicles wtih ease."
+  STR_VIKHR_EMR_UFOPEDIA: "The Vikhr Elektromagnitnaya Vintovka is a refinement of the Magneteschetto design, drawing power from a rechargeable capacitor worn on-person rather than an detachable battery. The EMV fires custom machined {ALT}10mm 2K53C{ALT} slugs made of a specialized magnetic tungsten carbide/copper alloy, this heavy rifle delivers unrivalled penetrative power. While it has been designed to fulfill a number of practical purposes, it can tear through light armored vehicles with ease."
 
   STR_CAMERA_RIFLE: "Camera Rifle"
   STR_CAMERA_RIFLE_UFOPEDIA: "The Camera Rifle is designed to look and operate as a portable camera, however, it has a secret option that allows it to fire up to three {ALT}.22LR{ALT} rounds loaded inside the weapon. It is decently accurate at point blank range, but a combination of unfamiliar ergonomics and the crude firing mechanism causes it to be more unreliable the longer the distance. It also cannot be reloaded in the field, as the entire weapon must be disassembled at the base to reload the weapon. {NEWLINE}> Silenced & Concealable"
