@@ -561,10 +561,11 @@ alienDeployments:
         turns: [0, 3, 6]
         maxRuns: 3
         mapBlockFilterType: 2
-        spawnBlocks: [EDGES]
+        spawnBlocks: [NE]
         useSpawnNodes: false
+        forceSpawnNearFriend: true
         spawnZLevels: [0]
-        minDistanceFromXcomUnits: 10
+        minDistanceFromXcomUnits: 5
         maxDistanceFromBorders: 1
         data:
           - alienRank: 0
@@ -580,8 +581,8 @@ alienDeployments:
                 - STR_RPG_MAG
           - alienRank: 1
             customUnitType: STR_SPETSNAZ
-            lowQty: 1
-            highQty: 1
+            lowQty: 2
+            highQty: 2
             dQty: 0
             extraQty: 0
             percentageOutsideUfo: 100
@@ -591,8 +592,8 @@ alienDeployments:
                 - STR_RPD_MAG
           - alienRank: 2
             customUnitType: STR_SPETSNAZ
-            lowQty: 2
-            highQty: 2
+            lowQty: 6
+            highQty: 6
             dQty: 0
             extraQty: 0
             percentageOutsideUfo: 100
@@ -782,10 +783,11 @@ alienDeployments:
         turns: [0]
         maxRuns: 1
         mapBlockFilterType: 2
-        spawnBlocks: [EDGES]
+        spawnBlocks: [NE]
         useSpawnNodes: false
+        forceSpawnNearFriend: true
         spawnZLevels: [0]
-        minDistanceFromXcomUnits: 10
+        minDistanceFromXcomUnits: 5
         maxDistanceFromBorders: 1
         data:
           - alienRank: 0
@@ -822,8 +824,8 @@ alienDeployments:
                 - STR_RGD_5
           - alienRank: 2
             customUnitType: STR_SPETSNAZ
-            lowQty: 6
-            highQty: 6
+            lowQty: 9
+            highQty: 9
             dQty: 0
             extraQty: 0
             percentageOutsideUfo: 100
@@ -918,7 +920,9 @@ alienDeployments:
         turns: [0]
         maxRuns: 1
         mapBlockFilterType: 2
-        spawnBlocks: [EDGES]
+        spawnBlocks: [NE]
+        useSpawnNodes: false
+        forceSpawnNearFriend: true
         useSpawnNodes: false
         spawnZLevels: [0]
         minDistanceFromXcomUnits: 10
@@ -937,8 +941,8 @@ alienDeployments:
                 - STR_RPG_MAG
           - alienRank: 1
             customUnitType: STR_SPETSNAZ
-            lowQty: 3
-            highQty: 3
+            lowQty: 4
+            highQty: 4
             dQty: 0
             extraQty: 0
             percentageOutsideUfo: 100
@@ -948,8 +952,8 @@ alienDeployments:
                 - STR_RPD_MAG
           - alienRank: 2
             customUnitType: STR_SPETSNAZ
-            lowQty: 8
-            highQty: 8
+            lowQty: 12
+            highQty: 12
             dQty: 0
             extraQty: 0
             percentageOutsideUfo: 100
@@ -1044,7 +1048,7 @@ alienDeployments:
         customUnitType: STR_CIA_AGENT
         lowQty: 0
         highQty: 2
-        dQty: 1
+        dQty: 0
         percentageOutsideUfo: 100
         itemSets:
           -
@@ -1055,7 +1059,7 @@ alienDeployments:
         customUnitType: STR_CIA_AGENT
         lowQty: 1
         highQty: 3
-        dQty: 1
+        dQty: 0
         percentageOutsideUfo: 100
         itemSets:
           -
@@ -1066,7 +1070,7 @@ alienDeployments:
         customUnitType: STR_CIA_AGENT
         lowQty: 2
         highQty: 6
-        dQty: 2
+        dQty: 0
         percentageOutsideUfo: 20
         itemSets:
           -

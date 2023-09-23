@@ -63,9 +63,11 @@ research:
   - name: STR_PPSH
     cost: 0
     points: 0
+    needItem: true
   - name: STR_PTRD
     cost: 0
     points: 0
+    needItem: true
   - name: STR_RPD
     cost: 0
     points: 0
@@ -73,9 +75,11 @@ research:
   - name: STR_RPG
     cost: 0
     points: 0
+    needItem: true
   - name: STR_RGD_5
     cost: 0
     points: 0
+    needItem: true
   - name: STR_MAGNETESCHETTO
     cost: 150
     points: 50

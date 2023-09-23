@@ -6,8 +6,10 @@ startingTime:
   day: 1
   month: 10
   year: 1958
-initialFunding: 2600
+initialFunding: 2200
 ai:
   useDelayPsionic: 2
 maxViewDistance: 40
 difficultyDemigod: true
+costScientist: 40000
+costEngineer: 30000

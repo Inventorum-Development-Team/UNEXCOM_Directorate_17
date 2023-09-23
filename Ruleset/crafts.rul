@@ -12,7 +12,7 @@ crafts:
     soldiers: 6
     vehicles: 0
     costBuy: 15000
-    costRent: 2500
+    costRent: 0
     costSell: 0
     maxItems: 80
     refuelRate: 9999
@@ -48,7 +48,7 @@ crafts:
     soldiers: 12
     vehicles: 0
     costBuy: 30000
-    costRent: 5000
+    costRent: 0
     costSell: 0
     maxItems: 120
     refuelRate: 9999

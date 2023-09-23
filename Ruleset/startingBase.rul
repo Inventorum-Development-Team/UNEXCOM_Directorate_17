@@ -1,7 +1,7 @@
 startingBase:
     lon: 1.021783860843777
     lat: -0.97113948869861921
-    name: "Yamantau"
+    name: "ЯМАНТАУ"
     scientists: 5
     engineers: 5
     facilities:
@@ -40,3 +40,14 @@ startingBase:
         fuel: 9999
         damage: 0
         status: STR_READY
+        items:
+          STR_MAKAROV: 6
+          STR_MAKAROV_MAG: 12
+          STR_TOKAREV: 4
+          STR_TOKAREV_MAG: 8
+    items:
+      STR_MAKAROV: 4
+      STR_MAKAROV_MAG: 12
+      STR_AK_47: 8
+      STR_AK_47_MAG: 24
+      STR_MEDICAL_BAG: 6

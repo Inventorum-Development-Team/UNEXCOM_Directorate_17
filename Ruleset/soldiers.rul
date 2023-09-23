@@ -1,8 +1,8 @@
 soldiers:
   - delete: STR_SOLDIER
   - type: STR_KGB_OFFICER
-    costBuy: 60000
-    costSalary: 15000
+    costBuy: 50000
+    costSalary: 30000
     minStats:
       tu: 50
       stamina: 45
