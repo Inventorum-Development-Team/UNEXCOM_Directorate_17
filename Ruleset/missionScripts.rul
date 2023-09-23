@@ -77,7 +77,7 @@ missionScripts:
     useTable: false
     firstMonth: 2
     lastMonth: 2
-  - type: cryptidHuntRandom
+  - type: cryptidHuntRandom1
     missionWeights:
       0:
         STR_WAWKALAK_HUNT_SPAWN: 50
@@ -85,8 +85,29 @@ missionScripts:
         STR_ALKONOST_HUNT_SPAWN: 30
     regionWeights:
       0:
+        STR_EUROPE: 20
         STR_SIBERIA: 100
-    executionOdds: 66
+        STR_ARCTIC: 50
+    executionOdds: 60
+    researchTriggers:
+      STR_KIKIMORA_PREQ: false
+    startDelay: 1440
+    useTable: false
+    firstMonth: 3
+  - type: cryptidHuntRandom2
+    missionWeights:
+      0:
+        STR_WAWKALAK_HUNT_SPAWN: 50
+        STR_CHUCHUNYA_HUNT_SPAWN: 50
+        STR_ALKONOST_HUNT_SPAWN: 30
+    regionWeights:
+      0:
+        STR_EUROPE: 20
+        STR_SIBERIA: 100
+        STR_ARCTIC: 50
+    executionOdds: 20
+    researchTriggers:
+      STR_KIKIMORA_PREQ: true
     startDelay: 1440
     useTable: false
     firstMonth: 3
@@ -128,7 +149,7 @@ missionScripts:
     regionWeights:
       0:
         STR_EUROPE: 100
-    executionOdds: 60
+    executionOdds: 40
     startDelay: 10080
     randomDelay: 30240
     useTable: false
@@ -278,7 +299,7 @@ missionScripts:
     startDelay: 150
     targetBaseOdds: 100
     useTable: false
-    executionOdds: 100
+    executionOdds: 30
     researchTriggers:
       STR_CIA_DOCUMENTS: true
     firstMonth: 0

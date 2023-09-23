@@ -33,45 +33,45 @@ alienDeployments:
             - STR_COLT_M1911
             - STR_DELISLE_MAG
       - alienRank: 2
-        lowQty: 0
+        lowQty: 1
         highQty: 0
-        dQty: 3
+        dQty: 1
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_SPRINGFIELD_M2
-            - STR_SPRINGFIELD_M2_MAG
+            - STR_COLT_M1911
+            - STR_DELISLE_MAG
       - alienRank: 3
         lowQty: 0
         highQty: 0
-        dQty: 3
+        dQty: 1
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_SPRINGFIELD_M2
-            - STR_SPRINGFIELD_M2_MAG
+            - STR_COLT_M1911
+            - STR_DELISLE_MAG
       - alienRank: 4
         lowQty: 0
         highQty: 0
-        dQty: 3
+        dQty: 1
         percentageOutsideUfo: 0
         itemSets:
           -
             - STR_SPRINGFIELD_M2
             - STR_SPRINGFIELD_M2_MAG
       - alienRank: 5
-        lowQty: 0
-        highQty: 0
-        dQty: 10
+        lowQty: 2
+        highQty: 4
+        dQty: 0
         percentageOutsideUfo: 0
         itemSets:
           -
             - STR_UNITED_DEFENSE_M42
             - STR_UNITED_DEFENSE_M42_MAG
       - alienRank: 6
-        lowQty: 0
-        highQty: 0
-        dQty: 2
+        lowQty: 1
+        highQty: 3
+        dQty: 0
         percentageOutsideUfo: 0
         itemSets:
           -
@@ -81,8 +81,8 @@ alienDeployments:
             - STR_WELROD_MAG
       - alienRank: 7
         lowQty: 0
-        highQty: 0
-        dQty: 2
+        highQty: 2
+        dQty: 1
         percentageOutsideUfo: 0
         itemSets:
           -
@@ -121,7 +121,7 @@ alienDeployments:
       - BMOUNT
     briefing:
       palette: 2
-      background: OPERATION_ASCENSION_BACKGROUND
+      background: MONSTER_HUNTER_BACKGROUND
       showTarget: false
     objectiveType: 3
     alertDescription: STR_CRYPTID_HUNT_MOUNT_BRIEFING
@@ -273,8 +273,8 @@ alienDeployments:
     data: 
       - alienRank: 5
         lowQty: 1
-        highQty: 3
-        dQty: 3
+        highQty: 2
+        dQty: 1
         percentageOutsideUfo: 75
         itemSets:
           -
@@ -284,7 +284,7 @@ alienDeployments:
       - alienRank: 4
         lowQty: 0
         highQty: 1
-        dQty: 2
+        dQty: 1
         percentageOutsideUfo: 50
         itemSets:
           -
