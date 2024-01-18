@@ -561,7 +561,7 @@ alienDeployments:
         turns: [0, 3, 6]
         maxRuns: 3
         mapBlockFilterType: 2
-        spawnBlocks: [NE]
+        spawnBlocks: [NE, NW]
         useSpawnNodes: false
         forceSpawnNearFriend: true
         spawnZLevels: [0]
@@ -783,7 +783,7 @@ alienDeployments:
         turns: [0]
         maxRuns: 1
         mapBlockFilterType: 2
-        spawnBlocks: [NE]
+        spawnBlocks: [SW, SE]
         useSpawnNodes: false
         forceSpawnNearFriend: true
         spawnZLevels: [0]
@@ -920,8 +920,8 @@ alienDeployments:
         turns: [0]
         maxRuns: 1
         mapBlockFilterType: 2
-        spawnBlocks: [NE]
-        useSpawnNodes: false
+        spawnBlocks: [EDGES]
+        useSpawnNodes: true
         forceSpawnNearFriend: true
         useSpawnNodes: false
         spawnZLevels: [0]
@@ -941,8 +941,8 @@ alienDeployments:
                 - STR_RPG_MAG
           - alienRank: 1
             customUnitType: STR_SPETSNAZ
-            lowQty: 4
-            highQty: 4
+            lowQty: 3
+            highQty: 3
             dQty: 0
             extraQty: 0
             percentageOutsideUfo: 100
@@ -952,8 +952,8 @@ alienDeployments:
                 - STR_RPD_MAG
           - alienRank: 2
             customUnitType: STR_SPETSNAZ
-            lowQty: 12
-            highQty: 12
+            lowQty: 9
+            highQty: 9
             dQty: 0
             extraQty: 0
             percentageOutsideUfo: 100
