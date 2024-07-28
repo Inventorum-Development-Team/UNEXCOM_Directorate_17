@@ -1443,10 +1443,9 @@ items:
     liveAlien: true
     costSell: 20000
     listOrder: 1500
-  - type: STR_GLADIO_OPERATIVE_M
+  - type: STR_GLADIO_OPERATIVE_F
     size: 0.0
     recover: true
-    recoveryPoints: 20
     liveAlien: true
     costSell: 20000
     listOrder: 1500
