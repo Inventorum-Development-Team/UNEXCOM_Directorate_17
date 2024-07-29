@@ -100,7 +100,7 @@ events:
         melee: 55
         mana: 0
   - name: LUMUMBA_CAPTURED_EVENT
-    description: LUMUMBA_CAPTURED_EVENT_DESCIPRTION
+    description: LUMUMBA_CAPTURED_EVENT_DESCRIPTION
     background: LUMUMBA_CAPTURED_EVENT_BACKGROUND.SCR
     points: -100
     timer: 720
