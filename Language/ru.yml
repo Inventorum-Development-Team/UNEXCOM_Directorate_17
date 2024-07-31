@@ -183,7 +183,7 @@ ru:
 
   STR_COLT_M1911: "Кольт М1911"
   STR_COLT_M1911_MAG: "Магазин .45 ACP (7)"
-  STR_COLT_M1911_UFOPEDIA: "The Colt M1911 is a semi-automatic handgun feeding {ALT}.45 ACP{ALT} from 7-rd magazines. It is a staple of the American Armed Forces, having seen use in both world wars, for good reason. It is a reliable sidearm with a good deal of stopping power. {NEWLINE}> Оружие скрытного ношения"
+  STR_COLT_M1911_UFOPEDIA: "Кольт М1911 - это полуавтоматический пистолет под патрон .45 ACP, имеющий 7-зарядный магазина. Он является основным оружием американских вооруженных сил и использовался в обеих мировых войнах. Это надежное оружие с хорошей убойной силой.. {NEWLINE}> Оружие скрытного ношения"
 
   STR_UNITED_DEFENSE_M42: "United Defense M42"
   STR_UNITED_DEFENSE_M42_MAG: "9x19mm Mag (50x)"
@@ -230,7 +230,7 @@ ru:
   STR_REPTOID_CORPSE: "Reptoid Corpse"
   STR_SPETSNAZ: "Spetsnaz"
   STR_SPETSNAZ_CORPSE: "Spetsnaz Corpse"
-  STR_BUREAU_11: "CIA Bureau 11"
+  STR_CIA_BUREAU_11: "CIA Bureau 11"
   STR_CIA_AGENT: "CIA Agent"
   STR_CIA_CORPSE: "CIA Agent Corpse"
 
