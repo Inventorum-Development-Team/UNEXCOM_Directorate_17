@@ -182,6 +182,7 @@ en-US:
   STR_UMBRELLA_MOSIN_NAGANT_UFOPEDIA: "When collapsed, this weapon appears to simply be an umbrella. However, the handle of the Umbrella Mosin has been replaced with a half-cannibalized firing mechaism of the Mosin-Nagant rifle modified to fire custom subsonic {ALT}7.62x54mmR{ALT} bullets. It is designed to be easily smugglable into foreign countries, specifically the United States, for use in deniable operations. {NEWLINE}> Silenced & Concealable"
 
   STR_COLT_M1911: "Colt M1911"
+  STR_COLT_M1911_MAG: ".45 ACP Mag (7x)"
   STR_COLT_M1911_UFOPEDIA: "The Colt M1911 is a semi-automatic handgun feeding {ALT}.45 ACP{ALT} from 7-rd magazines. It is a staple of the American Armed Forces, having seen use in both world wars, for good reason. It is a reliable sidearm with a good deal of stopping power. {NEWLINE}> Concealable"
 
   STR_UNITED_DEFENSE_M42: "United Defense M42"
@@ -229,7 +230,7 @@ en-US:
   STR_REPTOID_CORPSE: "Reptoid Corpse"
   STR_SPETSNAZ: "Spetsnaz"
   STR_SPETSNAZ_CORPSE: "Spetsnaz Corpse"
-  STR_BUREAU_11: "CIA Bureau 11"
+  STR_CIA_BUREAU_11: "CIA Bureau 11"
   STR_CIA_AGENT: "CIA Agent"
   STR_CIA_CORPSE: "CIA Agent Corpse"
 
