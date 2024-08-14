@@ -93,6 +93,9 @@ ru:
   STR_FULL_AUTO_15: "Очередью (15x)"
   STR_DANGER_CLOSE: "Опасная близость!"
   STR_DEADEYE: "Глаз смерти"
+  
+  STR_DISASSEMBLE: "РАЗБОР"
+  STR_CONVERSION: "ПРЕОБРАЗОВАНИЕ"
 
   STR_DAMAGE_ARMOR_PIERCING: "БАЛЛИСТИЧЕСКИЙ"
 
