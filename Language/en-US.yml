@@ -107,9 +107,9 @@ en-US:
   STR_TOKAREV_MAG: "7.62x25mm Mag (8x)"
   STR_TOKAREV_UFOPEDIA: "The TT-33, or Tula Tokarev 1933, is a great, if outdated semi-automatic chambered in {ALT}7.62x25mm{ALT}. The Besshumnyy variant has been equipped with a heavy suppressor, but requires the action to be manually cycled, limiting rate of fire. {NEWLINE}> Silenced & Concealable"
 
-  STR_AK_47: "AK-47"
+  STR_AK_47: "AK"
   STR_AK_47_MAG: "7.62x39mm Mag (30x)"
-  STR_AK_47_UFOPEDIA: "The Avtomat Kalashnikova 1947, abbreviated as the AK-47, is the mainstay of our armed forces and has seen widespread export to our allies. This {ALT}7.62x39mm{ALT} assault rifle is world renowned for being a robust and very reliable rifle. The affixed bayonet's effectiveness scales with the user's {ALT}Strength{ALT} and {ALT}Melee Accuracy{ALT}."
+  STR_AK_47_UFOPEDIA: "The Avtomat Kalashnikova, abbreviated as the AK, is the mainstay of our armed forces and has seen widespread export to our allies. This {ALT}7.62x39mm{ALT} assault rifle is world renowned for being a robust and very reliable rifle. The affixed bayonet's effectiveness scales with the user's {ALT}Strength{ALT} and {ALT}Melee Accuracy{ALT}."
 
   STR_WELROD: "Welrod"
   STR_WELROD_MAG: "9x19mm Mag (10x)"
