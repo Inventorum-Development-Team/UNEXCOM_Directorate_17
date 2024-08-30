@@ -97,7 +97,7 @@ es-419:
   STR_DISASSEMBLE: "DESMONTAR"
   STR_CONVERSION: "CONVERSIÓN"
 
-  STR_DACargadorE_ARMOR_PIERCING: "BALÍSTICA"
+  STR_DAMAGE_ARMOR_PIERCING: "BALÍSTICA"
 
   STR_MAKAROV: "PM"
   STR_MAKAROV_Cargador: "9x18mm Cargador (8x)"
@@ -332,7 +332,7 @@ es-419:
   STR_CRYPTID_HUNT_FOREST: "Cacería de Alkonost"
   STR_CRYPTID_HUNT_POLAR: "Cacería de Wawkalak"
   STR_CRYPTID_SIGHTED: "¡CRÍPTIDO AVISTADO!"
-  STR_CRYPTID_HUNT_: "¡CRÍPTIDO HUNT-{0}"
+  STR_CRYPTID_HUNT_: "¡CAZA DE CRÍPTIDO-{0}"
   STR_CRYPTID_HUNT_MOUNT_BRIEFING: "Camarada Comisario, {NEWLINE}Uno de nuestros escondites ha recopilado varios informes de agresivas criaturas blancas parecidas a simios que vagan por esta remota región montañosa. Deberíamos enviar algunos oficiales a la zona para investigar si estos informes tienen alguna validez. Para abortar la misión, devuelva a todos los oficiales D17 al vehículo de transporte y haga clic en el icono 'Abortar misión.'"
   STR_CRYPTID_HUNT_FOREST_BRIEFING: "Camarada Comisario, {NEWLINE}Uno de nuestros escondites ha recopilado varios informes de agresivos humanoides emplumados que vagan por esta remota región boscosa. Deberíamos enviar algunos oficiales a la zona para investigar si estos informes tienen alguna validez. Para abortar la misión, devuelva a todos los oficiales D17 al vehículo de transporte y haga clic en el icono 'Abortar misión'."
   STR_CRYPTID_HUNT_POLAR_BRIEFING: "Camarada comisario, {NEWLINE}Uno de nuestros escondites ha recopilado varios informes de criaturas agresivas que se parecen a los lobos que vagan por esta remota región polar. Deberíamos enviar algunos oficiales a la zona para investigar si estos informes tienen alguna validez. Para abortar la misión, devuelva a todos los oficiales D17 al vehículo de transporte y haga clic en el icono 'Abortar misión'."

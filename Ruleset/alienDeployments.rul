@@ -923,7 +923,7 @@ alienDeployments:
         spawnBlocks: [EDGES]
         useSpawnNodes: true
         forceSpawnNearFriend: true
-        useSpawnNodes: false
+        #useSpawnNodes: false
         spawnZLevels: [0]
         minDistanceFromXcomUnits: 10
         maxDistanceFromBorders: 1
