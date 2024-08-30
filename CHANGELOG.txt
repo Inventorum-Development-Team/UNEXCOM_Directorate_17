@@ -1,0 +1,33 @@
+September-2024 v1.3
+Changes made:
+* Added Latin American Spanish translation, by efrenespartano
+
+August-2024 v1.2
+Changes made:
+* Added Cyrillic names thanks to Kariamba
+* Changed AK-47 to AK for historical accuracy, pointed out by vlastsovetam
+* Fixed some map bugs
+
+July-2024 v1.1 Hotfix
+* Fixed gladio operative f bug pointed out by Kariamba on mod.io
+
+April-2024 v1.0	
+Changes made:
+* Various balance fixes
+* Changed version to 1.0 to avoid confusion; the mod is essentially feature complete
+* One map bug fix thanks to Lowtek
+
+October-2023 v0.2 "Выше нас только звёзды"	
+Changes made:
+* Various bugfixes (listed on github repo)
+* Reduced enemy count for realism and reduced difficulty
+* Added retaliation/hideout raid missions
+
+September-2023 v0.1.1 Hotfix
+Changes made:
+* At suggestion of Rclipse on discord, changed early plot details to make the story make more sense
+* Fixed some softlocks on Target Extraction and Operation Serpent
+
+June-2023 v0.1.0 "Верность Родине"	
+Changes made:
+* First release of the mod. Almost two years of hard work put into making this! Standalone release, UNEXCOM or UNEXCOM: Bureau 11 are not required.

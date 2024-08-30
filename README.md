@@ -4,7 +4,7 @@
 # Credits
 Brother^2: lead modder and lead ruleset designer
 
-efrenespartano: lead modder and lead sprite designer
+efrenespartano: lead modder and lead sprite designer, LATAM Spanish translation
 
 Dauntless1942: sprite creator
 
@@ -31,3 +31,5 @@ Nord: scripts
 MistarRed: scripts
 
 SolariusScorch: sprite creator
+
+Kariamba: Russian translation
