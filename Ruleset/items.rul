@@ -678,6 +678,8 @@ items:
     bigSprite: 440
     floorSprite: 440
     handSprite: 440
+    bulletSprite: 32
+    bulletSpeed: 1
     fireSound: 11
     compatibleAmmo:
       - STR_ALIEN_LASER_PISTOL_BATTERY
@@ -718,21 +720,6 @@ items:
     battleType: 2
     recoveryPoints: 1
     listOrder: 303
-    explosionSpeed: 100
-    bulletSpeed: 100
-    vaporColorSurface: 17
-    vaporDensitySurface: 10
-    vaporProbabilitySurface: 100
-    scripts:
-      vaporParticleWeapon: |
-          subvoxel_offset.setX 0;
-          subvoxel_offset.setY 0;
-          subvoxel_offset.setZ 0;
-          subvoxel_velocity.setZ 0;
-          set particle_density 100;
-          set subvoxel_drift 0;
-          set particle_lifetime 1;
-          return;
 
 # Alien Ray Rifle
   - type: STR_ALIEN_LASER_RIFLE
@@ -743,6 +730,8 @@ items:
     bigSprite: 464
     floorSprite: 464
     handSprite: 464
+    bulletSprite: 29
+    bulletSpeed: 1
     fireSound: 11
     compatibleAmmo:
       - STR_ALIEN_LASER_RIFLE_BATTERY
@@ -789,21 +778,6 @@ items:
     battleType: 2
     recoveryPoints: 1
     listOrder: 305
-    explosionSpeed: 100
-    bulletSpeed: 100
-    vaporColorSurface: 17
-    vaporDensitySurface: 10
-    vaporProbabilitySurface: 100
-    scripts:
-      vaporParticleWeapon: |
-          subvoxel_offset.setX 0;
-          subvoxel_offset.setY 0;
-          subvoxel_offset.setZ 0;
-          subvoxel_velocity.setZ 0;
-          set particle_density 100;
-          set subvoxel_drift 0;
-          set particle_lifetime 1;
-          return;
 
 # Alien Ray Cannon
   - type: STR_ALIEN_HEAVY_LASER
@@ -814,6 +788,8 @@ items:
     bigSprite: 488
     floorSprite: 488
     handSprite: 488
+    bulletSprite: 29
+    bulletSpeed: 1
     fireSound: 11
     minRange: 3
     compatibleAmmo:
@@ -855,21 +831,6 @@ items:
     battleType: 2
     recoveryPoints: 1
     listOrder: 307
-    explosionSpeed: 100
-    bulletSpeed: 100
-    vaporColorSurface: 17
-    vaporDensitySurface: 10
-    vaporProbabilitySurface: 100
-    scripts:
-      vaporParticleWeapon: |
-          subvoxel_offset.setX 0;
-          subvoxel_offset.setY 0;
-          subvoxel_offset.setZ 0;
-          subvoxel_velocity.setZ 0;
-          set particle_density 100;
-          set subvoxel_drift 0;
-          set particle_lifetime 1;
-          return;
 
 # Alien Blaster Launcher
   - type: STR_ALIEN_SIEGE_LAUNCHER
