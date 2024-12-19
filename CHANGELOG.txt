@@ -1,6 +1,7 @@
-September-2024 v1.3
+December-2024 v1.3
 Changes made:
 * Added Latin American Spanish translation, by efrenespartano
+* Removed vanilla maps for Cryptid Hunt missions causing crashes (reported by DragonRaccoon1216)
 
 August-2024 v1.2
 Changes made:

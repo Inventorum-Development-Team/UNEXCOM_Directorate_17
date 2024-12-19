@@ -114,7 +114,6 @@ alienDeployments:
     height: 9
     alert: STR_CRYPTID_SIGHTED
     terrains:
-      - MOUNT
       - MOUNTSNOW
       - MOUNTGRASS
       - MOUNTROCK
@@ -145,7 +144,6 @@ alienDeployments:
     height: 9
     alert: STR_CRYPTID_SIGHTED
     terrains:
-      - FOREST
       - IDT_FOREST
       - FORESTSWAMP
       - PLAINSGRASS
@@ -176,7 +174,6 @@ alienDeployments:
     height: 9
     alert: STR_CRYPTID_SIGHTED
     terrains:
-      - POLAR
       - FOREST_SNOW
       - POLAR_BD
       - MOUNTSNOW
