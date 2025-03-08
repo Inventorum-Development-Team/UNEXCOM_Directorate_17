@@ -117,7 +117,7 @@ en-US:
 
   STR_DELISLE: "DeLisle"
   STR_DELISLE_MAG: ".45 ACP Mag (7x)"
-  STR_DELISLE_UFOPEDIA: "The DeLisle is an integrally-suppressed carbine that fires sub-sonic {ALT}.45 ACP{ALT} rounds. It saw action in the Western Front of World War II, as it was utilized by British Commandoes on clandestine missions. Gladio cells stockpile these firearms, likely supplied by British intelligence, for use in anti-Soviet operations. {NEWLINE}> Silenced"
+  STR_DELISLE_UFOPEDIA: "The DeLisle is an integrally-suppressed carbine that fires sub-sonic {ALT}.45 ACP{ALT} rounds. It saw action in the Western Front of World War II, as it was utilized by British Commandos on clandestine missions. Gladio cells stockpile these firearms, likely supplied by British intelligence, for use in anti-Soviet operations. {NEWLINE}> Silenced"
 
   STR_GREAT_PATRIOTIC_WAR_SURPLUS: "Great Patriotic War Surplus"
  
@@ -197,7 +197,7 @@ en-US:
   STR_SPRINGFIELD_M2_UFOPEDIA: "The Springfield M2 is a fully automatic variant of the semi-automatic M1 chambered in {ALT}.30 Carbine{ALT}. It is a lighter weight alternative to the US Armed Forces standard issue Garand rifles, intended for non-frontline combat personnel that still the stopping power of a rifle over a pistol or sub machine gun."
 
   STR_MEDICAL_BAG: "Medical Bag"
-  STR_MEDICAL_BAG_UFOPEDIA: "First aid bag with various medical items as well as a crude surgery kit. Utilized by paramedics on the field, it may be unweildy but it can save a man's life. {NEWLINE}> Concealable"
+  STR_MEDICAL_BAG_UFOPEDIA: "First aid bag with various medical items as well as a crude surgery kit. Utilized by paramedics on the field, it may be unwieldy but it can save a man's life. {NEWLINE}> Concealable"
 
   STR_RGD_5: "RGD-5 Grenade"
   STR_RGD_5_UFOPEDIA: "The Ruchnaya Granata Distantsionnaya 5, shortened to RGD-5, is an anti-personnel fragmentation grenade that was accepted into service in 1954. It is extremely inexpensive to manufacture. The grenade has a timer that lasts {ALT}1 Turn{ALT} and detonates at the end of the enemy's turn. {NEWLINE}> Concealable"
@@ -238,7 +238,7 @@ en-US:
   STR_CIA_CORPSE: "CIA Agent Corpse"
 
   STR_HIDEOUTS: "Message From The Committee"
-  STR_HIDEOUTS_DESCRIPTION: "From: Chairman Alexander Shelepin {NEWLINE}To: Directorate Chief {NEWLINE}Congratulations on your new assignment as the Chief of KGB Directorate 17, Comrade Perseus. Your group will be tasked with investigating pheomena relating to the extraterrestrial visitors and other anomalous activity. We suggest that you begin immediately expanding your reach by building Hideouts, which will allow you to monitor activity in the local area. We wish you good luck, and expect that you will live up to your predecessor."
+  STR_HIDEOUTS_DESCRIPTION: "From: Chairman Alexander Shelepin {NEWLINE}To: Directorate Chief {NEWLINE}Congratulations on your new assignment as the Chief of KGB Directorate 17, Comrade Perseus. Your group will be tasked with investigating phenomena relating to the extraterrestrial visitors and other anomalous activity. We suggest that you begin immediately expanding your reach by building Hideouts, which will allow you to monitor activity in the local area. We wish you good luck, and expect that you will live up to your predecessor."
   STR_NASA_LAUNCHES_ABLE2_EVENT: "NASA Launches Able 2 Probe"
   STR_NASA_LAUNCHES_ABLE2_EVENT_DESCRIPTION: "The American National Aeronautics & Space Agency (NASA) has just launched the space probe Pioneer 1, originally designated Able 2 and renamed after the failure of the Able 1 mission, from the Cape Canaveral facility. Our insiders in the US Space Program tell us that the probe managed to escape Earth but did not succeed in reaching the Moon, its intended target. The Americans are catching up, and fast too. It would seem the 'space race' is on, Comrade Commissar."
   LUNA_1_REACHES_HELIOCENTRIC_ORBIT_EVENT: "Luna 1 Reaches Heliocentric Orbit"
@@ -273,7 +273,7 @@ en-US:
   STR_CHUCHUNYA_ANALYSIS: "Chuchunya Analysis"
   STR_CHUCHUNYA_ANALYSIS_UFOPEDIA: "Although invasive to the Russian wilderness, at first glance the subject appears merely be a mountain gorilla. Upon further examination, the brain of the creature is abnormally large, suggesting a high level of intelligence. It also lacks any sex organs, meaning it thankfully cannot reproduce naturally, but also brings up more questions as to their origins. We believe this creature to be artificial in nature, the product of some bizarre alien science. Judging by the pattern of sightings, they appear to make long migrations in a straight path from a specific point. Perhaps we can utilize this information..."
   STR_WAWKALAK_ANALYSIS: "Wawkalak Analysis"
-  STR_WAWKALAK_ANALYSIS_UFOPEDIA: "This perverse creature appears to be a cross-breed of a wolf and a human being, perhaps bringing credibility to old legends of monsters such as the Werewolf. There is no rational scientific origin of this apex preadator known to modern biology. It also lacks any sex organs, meaning it thankfully cannot reproduce naturally, but also brings up more questions as to their origins. We believe this creature to be artificial in nature, the product of some bizarre alien science. Judging by the pattern of sightings, they appear to make long migrations in a straight path from a specific point. Perhaps we can utilize this information..."
+  STR_WAWKALAK_ANALYSIS_UFOPEDIA: "This perverse creature appears to be a cross-breed of a wolf and a human being, perhaps bringing credibility to old legends of monsters such as the Werewolf. There is no rational scientific origin of this apex predator known to modern biology. It also lacks any sex organs, meaning it thankfully cannot reproduce naturally, but also brings up more questions as to their origins. We believe this creature to be artificial in nature, the product of some bizarre alien science. Judging by the pattern of sightings, they appear to make long migrations in a straight path from a specific point. Perhaps we can utilize this information..."
   STR_ALKONOST_ANALYSIS: "Alkonost Analysis"
   STR_ALKONOST_ANALYSIS_UFOPEDIA: "From what we can gather, this creature is an unnatural hybrid of a human and an avian species, most likely an owl. While it is unable to take flight due to its weight, the Alkonost is still extremely agile and extremely lethal. It also lacks any sex organs, meaning it thankfully cannot reproduce naturally, but also brings up more questions as to their origins. We believe this creature to be artificial in nature, the product of some bizarre alien science. Judging by the pattern of sightings, they appear to make long migrations in a straight path from a specific point. Perhaps we can utilize this information..."
   STR_CRYPTID_MIGRATION_PATTERNS: "Cryptid Migration Patterns"
