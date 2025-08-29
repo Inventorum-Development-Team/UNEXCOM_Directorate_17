@@ -56,6 +56,16 @@ items:
   - delete: STR_CANNON_ROUNDS_X50
   - delete: STR_MIND_PROBE
 
+  - type: STR_MAP_GRENADE
+    size: 0.1
+    weight: 3
+    bigSprite: 19
+    floorSprite: 19
+    power: 200
+    damageType: 3
+    battleType: 4
+    blastRadius: 2
+
 # Psionic LOS Required
   - type: ALIEN_PSI_WEAPON
     LOSRequired: true
@@ -1808,3 +1818,4 @@ items:
     fixedWeapon: true
     defaultInventorySlot: STR_LEFT_LEG
     recover: false
+
