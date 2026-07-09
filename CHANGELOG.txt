@@ -1,3 +1,7 @@
+July-2026 v1.3.2
+Changes made:
+* Pistols rebalanced (Added an aimed shot)
+
 December-2024 v1.3
 Changes made:
 * Added Latin American Spanish translation, by efrenespartano
