@@ -75,6 +75,12 @@ items:
     reloadSound: 201
     compatibleAmmo:
       - STR_MAKAROV_MAG
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+    aimRange: 15
+    accuracyAimed: 100
+    tuAimed: 25
     confSnap:
       shots: 1
       name: STR_HIP_FIRE
@@ -133,6 +139,12 @@ items:
     reloadSound: 203
     compatibleAmmo:
       - STR_TOKAREV_MAG
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+    aimRange: 19
+    accuracyAimed: 95
+    tuAimed: 30
     confSnap:
       shots: 1
       name: STR_HIP_FIRE
@@ -264,10 +276,16 @@ items:
     reloadSound: 207
     compatibleAmmo:
       - STR_WELROD_MAG
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+    aimRange: 13
+    accuracyAimed: 90
+    tuAimed: 35
     confSnap:
       shots: 1
       name: STR_HIP_FIRE
-    snapRange: 14
+    snapRange: 9
     accuracySnap: 70
     tuSnap: 20
     accuracyCloseQuarters: 150
@@ -683,6 +701,12 @@ items:
     fireSound: 11
     compatibleAmmo:
       - STR_ALIEN_LASER_PISTOL_BATTERY
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+    aimRange: 99
+    accuracyAimed: 110
+    tuAimed: 40
     confAimed:
       shots: 1
       name: STR_HIP_FIRE
@@ -1199,6 +1223,12 @@ items:
     reloadSound: 234
     compatibleAmmo:
       - STR_DELISLE_MAG
+    confAimed:
+      shots: 1
+      name: STR_STEADY_SHOT
+    aimRange: 12
+    accuracyAimed: 100
+    tuAimed: 20
     confSnap:
       shots: 1
       name: STR_HIP_FIRE
